@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-28",
+  "category": "gundelik",
+  "handle": "1daki.kadatarih",
+  "hook": "Ketçap bir zamanlar eczanelerde *ilaç* olarak satılıyordu.",
+  "hookImageQuery": "ketchup",
+  "scenes": [
+    {
+      "text": "1834'te Amerikalı doktor John Cook Bennett, domatesin *hazımsızlığa ve ishale* iyi geldiğini iddia etti.",
+      "imageQuery": "tomato botanical illustration"
+    },
+    {
+      "text": "Kısa sürede domates özü *hap* haline getirildi ve eczane raflarına dizildi.",
+      "imageQuery": "19th century apothecary pharmacy"
+    },
+    {
+      "text": "Rakip üreticiler arasında öyle bir rekabet çıktı ki tarihe *Domates Hapı Savaşı* olarak geçti.",
+      "imageQuery": "patent medicine advertisement 19th century"
+    },
+    {
+      "text": "Sonra hapların çoğunda *domates bile olmadığı* ortaya çıktı ve çılgınlık çöktü.",
+      "imageQuery": "patent medicine bottles"
+    },
+    {
+      "text": "Asıl sürpriz: ketçapın atası domates değil, Güneydoğu Asya'nın *fermente balık sosuydu*.",
+      "imageQuery": "fish sauce fermentation Vietnam"
+    }
+  ],
+  "question": "Sen bunu biliyor muydun?",
+  "caption": "Bugün buzdolabında duran o kırmızı sos, 1830'larda Amerika'da eczanelerde ilaç olarak satılıyordu. 🍅💊\n\nDoktor John Cook Bennett'in iddialarıyla başlayan \"domates hapı\" furyası, hapların içinde domates bile olmadığı anlaşılınca çöktü. Ve ketçapın asıl atası? Güneydoğu Asya'nın fermente balık sosu \"kê-tsiap\".\n\nBunu bilen bir arkadaşını etiketle 👇",
+  "hashtags": ["ketçap", "tarih", "ilginçbilgiler", "bunlarıbiliyormuydun", "gündelikhayat", "şaşırtıcıgerçekler", "bilgi", "keşfet", "reels"],
+  "sources": ["Andrew F. Smith, The Tomato in America (1994)", "Andrew F. Smith, Pure Ketchup (1996)"]
+}
