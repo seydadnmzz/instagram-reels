@@ -97,13 +97,24 @@ Uygun görsel bulunamayan sahnede `imageQuery` alanını tamamen kaldır (renkli
 
 ## 5b. Seslendirme (ElevenLabs)
 
-```bash
-node scripts/voiceover.mjs out/<id>.props.json
-```
+ElevenLabs, hesap sahibinin kendi hesabıyla Composio'ya bağlıdır (anahtar Composio'da durur).
 
-Betik kanca, sahneler ve kapanış için ses üretir ve sahne sürelerini sese göre ayarlar.
+1. Parçaları çıkar:
+   ```bash
+   node scripts/voiceover.mjs segments out/<id>.props.json
+   ```
+   Çıktıda `voice_id`, `model_id`, `voice_settings` ve her parça için `text` + `file` vardır.
+2. Her parça için `ELEVENLABS_TEXT_TO_SPEECH` çağır (`voice_id`, `model_id`, `voice_settings`,
+   `text`, `output_format: "mp3_44100_128"`). En fazla 3 paralel çağrı yap. Yanıttaki
+   `data.file.s3url` adresini parçanın `file` yoluna indir: `curl -sSL -o <file> "<s3url>"`.
+3. Süreleri ölçüp videoya bağla:
+   ```bash
+   node scripts/voiceover.mjs apply out/<id>.props.json
+   ```
+
 `fetch-images.mjs` her çalıştığında props dosyası yeniden yazılır; görselleri yeniden indirirsen
-bu adımı da tekrarla. Betik başarısız olursa (anahtar/ses kimliği yok, kota bitti vb.) videoyu
+yalnızca 3. adımı tekrarla (ses dosyaları yerinde kalır). Metni değiştirdiysen 1–3'ü tekrarla.
+`voice_id` boşsa, ElevenLabs bağlantısı yoksa ya da kota/yetki hatası alırsan videoyu
 seslendirmesiz üret, ama onay özetinin EN BAŞINA "⚠️ Seslendirme eklenemedi: <sebep>" yaz.
 
 ## 6. Render et ve kontrol et
