@@ -1,4 +1,9 @@
 {
   "onayGerekli": true,
-  "handle": "1daki.kadatarih"
+  "handle": "1daki.kadatarih",
+  "elevenlabs": {
+    "voiceId": "",
+    "modelId": "eleven_multilingual_v2",
+    "voiceSettings": { "stability": 0.45, "similarity_boost": 0.8, "style": 0.35 }
+  }
 }

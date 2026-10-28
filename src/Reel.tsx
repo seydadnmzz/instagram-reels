@@ -16,8 +16,8 @@ import type { ReelProps } from "./schema";
 import { FactScene } from "./scenes/FactScene";
 import { HookScene } from "./scenes/HookScene";
 import { OutroScene } from "./scenes/OutroScene";
-import { CATEGORY_THEME, fontFamily } from "./theme";
-import { sequenceStarts, TRANSITION_FRAMES } from "./timing";
+import { CATEGORY_THEME, fontFamily, resolveSrc } from "./theme";
+import { sequenceStarts, TRANSITION_FRAMES, VOICE_DELAY_FRAMES } from "./timing";
 
 export const calculateReelMetadata: CalculateMetadataFunction<ReelProps> = ({ props }) => ({
   durationInFrames: sequenceStarts(props).total,
@@ -27,9 +27,11 @@ export const Reel: React.FC<ReelProps> = (props) => {
   const { category, hook, hookImage, scenes, question, handle } = props;
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
-  const { durations, starts } = sequenceStarts(props);
+  const { durations, starts, voices } = sequenceStarts(props);
   const theme = CATEGORY_THEME[category];
   const outroIndex = scenes.length + 1;
+  // Seslendirme varken müzik konuşmayı bastırmasın
+  const musicLevel = voices.some(Boolean) ? 0.12 : 0.45;
 
   return (
     <AbsoluteFill style={{ backgroundColor: "black", fontFamily }}>
@@ -75,12 +77,19 @@ export const Reel: React.FC<ReelProps> = (props) => {
         loop
         loopVolumeCurveBehavior="extend"
         volume={(f) =>
-          interpolate(f, [0, 10, durationInFrames - 30, durationInFrames], [0, 0.45, 0.45, 0], {
+          interpolate(f, [0, 10, durationInFrames - 30, durationInFrames], [0, musicLevel, musicLevel, 0], {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
           })
         }
       />
+      {voices.map((voice, i) =>
+        voice ? (
+          <Sequence key={i} name={`Voice ${i + 1}`} from={starts[i] + VOICE_DELAY_FRAMES} layout="none">
+            <Audio src={resolveSrc(voice.src)} volume={1} />
+          </Sequence>
+        ) : null,
+      )}
       {starts.slice(1).map((start, i) => (
         <Sequence key={i} name={`Whoosh ${i + 1}`} from={start} layout="none">
           <Audio src={staticFile("sfx/whoosh.wav")} volume={0.35} />

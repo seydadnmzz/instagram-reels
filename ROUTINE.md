@@ -71,6 +71,8 @@ Kurallar:
 - 4–6 sahne. Hikâye akışı: kanca → bağlam → gelişme → **son sahnede ek bir sürpriz/twist**.
 - Kısa, akıcı, konuşma dili Türkçe; yazım ve Türkçe karakterler kusursuz olsun.
 - Her sahnede tam bir `*vurgu*` (1–3 kelime).
+- Metinler ElevenLabs ile **sesli okunacak**: kulağa doğal gelsin. Sembol ve kısaltma kullanma
+  (`%10` değil `yüzde 10`, `vb.` değil `ve benzeri`); okunuşu belirsiz yabancı adları az kullan.
 - `imageQuery`: Wikimedia Commons'ta arama yapılır; kısa (1–4 kelime) İngilizce terimler kullan.
   Belirli bir kişinin portresini ancak kişi çok ünlüyse ara (ör. "Napoleon Bonaparte portrait");
   aksi halde konuyu temsil eden genel bir görsel ara (nesne, mekân, dönem illüstrasyonu).
@@ -91,6 +93,17 @@ node scripts/fetch-images.mjs episodes/<id>.json
 - Çok düşük kalite
 
 Uygun görsel bulunamayan sahnede `imageQuery` alanını tamamen kaldır (renkli arka plan kullanılır).
+
+## 5b. Seslendirme (ElevenLabs)
+
+```bash
+node scripts/voiceover.mjs out/<id>.props.json
+```
+
+Betik kanca, sahneler ve kapanış için ses üretir ve sahne sürelerini sese göre ayarlar.
+`fetch-images.mjs` her çalıştığında props dosyası yeniden yazılır; görselleri yeniden indirirsen
+bu adımı da tekrarla. Betik başarısız olursa (anahtar/ses kimliği yok, kota bitti vb.) videoyu
+seslendirmesiz üret, ama onay özetinin EN BAŞINA "⚠️ Seslendirme eklenemedi: <sebep>" yaz.
 
 ## 6. Render et ve kontrol et
 
@@ -119,7 +132,7 @@ Betik, Instagram'ın çekeceği adresi yazdırır ve erişilebilir olduğunu (`H
 Paylaşmadan önce dur ve hesap sahibine şu özeti yaz, sonra cevabını bekle:
 
 - **İzleme bağlantısı:** `https://github.com/<OWNER>/<REPO>/blob/claude/media/<id>.mp4`
-- Konu, kategori, süre
+- Konu, kategori, süre, seslendirme var mı (ve harcanan karakter sayısı)
 - Sahne metinleri (kanca + sahneler + soru)
 - `out/<id>.caption.txt` içeriğinin tamamı
 - Doğrulama için kullandığın kaynaklar
