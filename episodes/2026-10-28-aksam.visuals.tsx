@@ -27,7 +27,7 @@ import {
 export type Visual = React.FC<{ durationInFrames: number }>;
 
 const OUTLINE = "#2b2b2b";
-const PAPER = "#f3ead8";
+const PAPER = "#f3efff";
 const SKIN = "#f2c79a";
 
 const Paper: React.FC = () => <rect width={900} height={560} fill={PAPER} />;

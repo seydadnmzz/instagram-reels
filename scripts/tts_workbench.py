@@ -10,8 +10,8 @@ import base64, json
 ID = "__ID__"
 TEXT = """__TEXT__"""
 VOICE_ID = "__VOICE_ID__"
-MODEL_ID = "eleven_multilingual_v2"
-VOICE_SETTINGS = {"stability": 0.45, "similarity_boost": 0.8, "style": 0.35}
+MODEL_ID = "eleven_v3"
+VOICE_SETTINGS = {"stability": 0.5, "similarity_boost": 0.8}
 
 res, err = proxy_execute(
     "POST",

@@ -3,7 +3,9 @@ import { AbsoluteFill, CalculateMetadataFunction, interpolate, Sequence, staticF
 import { visuals } from "../episodes/current";
 import { BigText } from "../kit/Objects";
 import { Background, Captions, Headline, Stage, Tag } from "./parts";
+import { PopBackground, PopCaptions, PopHeadline, PopStage, PopTag, ProgressBar } from "./pop";
 import type { ExplainerProps } from "./schema";
+import { isPop } from "./theme";
 
 export const calculateExplainerMetadata: CalculateMetadataFunction<ExplainerProps> = ({ props }) => ({
   durationInFrames: props.durationInFrames,
@@ -22,20 +24,32 @@ export const Explainer: React.FC<ExplainerProps> = ({ theme, scenes, words, narr
   const { durationInFrames } = useVideoConfig();
   return (
     <AbsoluteFill>
-      <Background theme={theme} />
+      {isPop(theme) ? <PopBackground theme={theme} /> : <Background theme={theme} />}
+      {isPop(theme) ? <ProgressBar theme={theme} /> : null}
       {scenes.map((scene, i) => {
         const Visual = visuals[scene.visual];
+        const drawing = Visual ? <Visual durationInFrames={scene.durationInFrames} /> : <MissingVisual name={scene.visual} />;
         return (
           <Sequence key={i} name={`Sahne ${i + 1}: ${scene.visual}`} from={scene.startFrame} durationInFrames={scene.durationInFrames}>
-            <Headline text={scene.headline} />
-            {scene.tag ? <Tag text={scene.tag} /> : null}
-            <Stage theme={theme} panel={scene.panel ?? true}>
-              {Visual ? <Visual durationInFrames={scene.durationInFrames} /> : <MissingVisual name={scene.visual} />}
-            </Stage>
+            {isPop(theme) ? (
+              <>
+                <PopStage panel={scene.panel ?? true}>{drawing}</PopStage>
+                <PopHeadline text={scene.headline} theme={theme} />
+                {scene.tag ? <PopTag text={scene.tag} theme={theme} /> : null}
+              </>
+            ) : (
+              <>
+                <Headline text={scene.headline} />
+                {scene.tag ? <Tag text={scene.tag} /> : null}
+                <Stage theme={theme} panel={scene.panel ?? true}>
+                  {drawing}
+                </Stage>
+              </>
+            )}
           </Sequence>
         );
       })}
-      <Captions words={words} />
+      {isPop(theme) ? <PopCaptions words={words} theme={theme} /> : <Captions words={words} />}
 
       {narration ? <Audio name="Seslendirme" src={staticFile(narration)} /> : null}
       <Audio

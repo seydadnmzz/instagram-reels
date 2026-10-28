@@ -1,50 +1,50 @@
 {
   "id": "2026-10-28-aksam",
   "category": "psikoloji",
-  "theme": "lab",
+  "theme": "mor",
   "scenes": [
     {
       "headline": "Dilimin *ucunda*!",
       "visual": "StuckWord",
-      "narration": "Kelime dilinin ucunda… ama *bir türlü* söyleyemiyorsun."
+      "narration": "Kelime dilinin ucunda… ama *bir türlü* söyleyemiyorsun!"
     },
     {
       "headline": "Bunun bir *adı* var",
       "visual": "NameReveal",
-      "narration": "Bunun bir adı var: *dilin ucunda olma* hali. Neredeyse herkes yaşıyor."
+      "narration": "Bunun bir adı var: *dilin ucunda olma* hali. Ve neredeyse herkes yaşıyor!"
     },
     {
       "headline": "*İlk harf* aklında",
       "tag": "HARVARD · 1966",
       "visual": "FirstLetter",
-      "narration": "Bir deneyde insanlar, bulamadıkları kelimenin *ilk harfini* bile tahmin edebildi."
+      "narration": "Bir deneyde insanlar, bulamadıkları kelimenin *ilk harfini* bile tahmin edebildi!"
     },
     {
       "headline": "Anlam var, *ses* yok",
       "visual": "MeaningSound",
-      "narration": "En güçlü açıklama: beyin *anlamı* buluyor, ama sesine giden bağlantı tekliyor."
+      "narration": "Peki neden? En güçlü açıklama: beyin *anlamı* buluyor, ama sesine giden bağlantı tekliyor."
     },
     {
       "headline": "Sonra *kendiliğinden* gelir",
       "visual": "AgePopUp",
-      "narration": "Yaşla artıyor, ama kelime çoğu zaman sonra *kendiliğinden* geliyor."
+      "narration": "Yaşla artıyor… ama iyi haber: kelime çoğu zaman sonra *kendiliğinden* geliyor."
     },
     {
       "headline": "Parmak *ucunda*",
       "tag": "İŞARET DİLİ · 2005",
       "visual": "FingerTip",
-      "narration": "İşaret dili kullananlar bile yaşıyor: kelime *parmak ucunda* kalıyor."
+      "narration": "Üstelik işaret dili kullananlar bile yaşıyor: kelime *parmak ucunda* kalıyor!"
     },
     {
       "headline": "Fazla *zorlama*",
       "tag": "MCMASTER ÜNİV. · 2008",
       "visual": "DontForce",
-      "narration": "Uzun süre zorlayınca, o kelimede yine takılma ihtimali *neredeyse iki katına* çıkıyor."
+      "narration": "Dikkat! Uzun süre zorlarsan, o kelimede yine takılma ihtimalin *neredeyse iki katına* çıkıyor."
     },
     {
       "headline": "Sende *ne zaman*?",
       "visual": "YourTurn",
-      "narration": "Sende en çok ne zaman oluyor? *Yorumlara* yaz."
+      "narration": "Peki sende en çok ne zaman oluyor? *Yorumlara* yaz!"
     }
   ],
   "caption": "O kelime dilinin ucunda ama bir türlü çıkmıyor… Sende de oluyor mu? 🤯 Bunun bir adı var ve en güçlü açıklamaya göre beyin kelimenin anlamını buluyor ama sesine ulaşamıyor. En çok hangi kelimelerde takılıyorsun? Yorumlara yaz, bunu sürekli yaşayan arkadaşını etiketle 👇",

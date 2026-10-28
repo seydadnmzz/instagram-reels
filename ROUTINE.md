@@ -65,7 +65,7 @@ Tam örnek: `ornekler/ahtapot.json` (o konu işlendi, tekrar seçme).
 {
   "id": "2026-10-29-sabah",
   "category": "ilginc",
-  "theme": "lab",
+  "theme": "pembe",
   "scenes": [
     { "headline": "Kapı eşiği *etkisi*", "tag": "NOTRE DAME ÜNİV. · 2011", "visual": "DoorwayRoom",
       "narration": "Notre Dame Üniversitesi'nde yapılan bir deneyde *kapıdan geçmek* unutmayı artırdı." }
@@ -78,8 +78,9 @@ Tam örnek: `ornekler/ahtapot.json` (o konu işlendi, tekrar seçme).
 ```
 
 Kurallar:
-- `theme`: `psikoloji`, `bilim`, `ilginc` → `"lab"` (lacivert ızgara); `gundelik`, `tarih` →
-  `"parchment"` (ahşap + parşömen).
+- `theme` (renkli görünüm; degrade zemin + beyaz kart): `psikoloji` → `"mor"`, `bilim` →
+  `"turkuaz"`, `gundelik` → `"turuncu"`, `ilginc` → `"pembe"`. Eski `"lab"`/`"parchment"`
+  görünümü (kapı eşiği videosuyla aynı) KULLANILMAZ.
 - 6–9 sahne; anlatımın toplamı **300–550 karakter** (≈ 25–40 sn). Her sahnede 1 cümle (ya da kısa
   iki cümle). Akış:
   1. **Tanıdık an (kanca):** izleyiciye doğrudan "sen" diye seslen, durumu canlandır
@@ -94,7 +95,9 @@ Kurallar:
   davet etsin.
 - `headline`: 1–4 kelimelik başlık, içinde bir `*vurgu*`. Anlatımı tekrar etmesin, özetlesin.
 - `tag` (isteğe bağlı): kurum · yıl, yer · dönem gibi kısa kırmızı etiket, BÜYÜK HARF.
-- `narration`: sesli okunacak; konuşma dili, kısa cümleler. Altyazıda sarı görünecek 1–2 kelimeyi
+- `narration`: sesli okunacak; konuşma dili, kısa cümleler. Tonlamalı okunsun diye noktalamayı
+  canlı kullan (`!`, `?`, `…`) ve geçiş sözcükleri ekle ("Peki neden?", "Üstelik", "İyi haber:",
+  "Dikkat!"). Altyazıda sarı görünecek 1–2 kelimeyi
   `*yıldız*` içine al. Sembol ve kısaltma kullanma (`%10` değil `yüzde 10`).
 - `visual`: o sahnenin çizim bileşeninin adı (PascalCase, ör. `DoorwayRoom`). `"panel": false`
   verirsen çizim çerçevesiz, koyu zemin üzerinde serbest durur (maskot/ikon sahneleri için).
@@ -108,8 +111,9 @@ Read ile bak (hesap sahibinin beğendiği iki video).
 Dosya `visuals` adında, her `visual` adını bir bileşene eşleyen bir nesne dışa aktarmalı.
 
 - Her çizim **900×560 birimlik SVG** sahnesine çizilir (`<g>` döndür, `<svg>` değil). Çerçeveli
-  sahnelerde önce bir zemin çiz (`<rect width={900} height={560} fill="#f3ead8" />`, ya da konuya
-  uygun bir ortam: oda, deniz, gökyüzü, laboratuvar…).
+  sahnelerde önce bir zemin çiz: temaya uyan açık bir ton (mor → `#f3efff`, turkuaz → `#e8f8f6`,
+  turuncu → `#fff1e6`, pembe → `#fff0f4`), ya da konuya uygun bir ortam (oda, deniz, gökyüzü…).
+  Krem/parşömen zemin (`#f3ead8`) kullanma. Örnek çizim dosyası: `episodes/2026-10-28-aksam.visuals.tsx`.
 - `src/kit` parçalarını kullan: `Person` (yürüyen/sunan karakter; şapka, bıyık, gözlük),
   `Room`/`Door`/`Table`/`Window`/`Picture`, `Brain` (maskot), `ThoughtBubble`, `QuestionMark`,
   `Heart`, `Bottle`, `Shelf`, `Note` (ilan/gazete), `NamePlate`, `Chip`, `Arrow`, `BigText`,
@@ -132,7 +136,9 @@ Dosya `visuals` adında, her `visual` adını bir bileşene eşleyen bir nesne d
 2. Seslendirme (ElevenLabs, hesap sahibinin Composio bağlantısı; anahtar Composio'da durur):
    `scripts/tts_workbench.py` içeriğini al; `__ID__` → bölüm kimliği, `__TEXT__` →
    `out/<id>.narration.txt` içeriği (AYNEN), `__VOICE_ID__` ve ayarlar → `ayarlar.json > elevenlabs`.
-   Bu kodu `COMPOSIO_REMOTE_WORKBENCH` ile çalıştır. Çıktıdaki iki adresi indir:
+   Bu kodu `COMPOSIO_REMOTE_WORKBENCH` ile çalıştır (model `eleven_v3`; hata verirse bir kez
+   `MODEL_ID = "eleven_multilingual_v2"`, `VOICE_SETTINGS = {"stability": 0.3, "similarity_boost": 0.8,
+   "style": 0.6}` ile dene). Çıktıdaki iki adresi indir:
    ```bash
    mkdir -p public/episodes/<id>
    curl -sSL -o public/episodes/<id>/narration.mp3 "<mp3 adresi>"

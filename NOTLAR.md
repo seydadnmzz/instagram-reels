@@ -35,6 +35,10 @@ Yalnızca o güne özel düzeltmeleri buraya yazma.
   - Beklerken zamanın hiç geçmemesi
   - Alarmdan birkaç dakika önce kendiliğinden uyanmak
   - Bir yeri ilk kez gördüğün hâlde daha önce yaşamış gibi hissetmek (déjà vu)
+- 2026-10-28 — **Tasarım ve ses:** Videolar kapı eşiği videosuyla aynı görünmemeli. Renkli görünüm
+  kullanılır (degrade zemin, beyaz kart, başlık etiketi, ilerleme çubuğu; tema kategoriye göre
+  mor/turkuaz/turuncu/pembe). Ses daha tonlamalı olmalı: ElevenLabs `eleven_v3` modeli ve canlı
+  noktalama (soru, ünlem, "Peki neden?", "Üstelik", "Dikkat!" gibi geçişler).
 - 2026-10-28: İlk 10 gün (2026-11-07 dahil) tarih içerikli video YOK. Bunun yerine insanların ilgisini
   çekecek, geniş kitleye hitap eden ilginç bilgiler seç. Hesap henüz yeni; amaç keşfete düşmek ve
   takipçi kazanmak. Konular niş değil, herkesin "bunu bilmiyordum" diyeceği türden olsun.

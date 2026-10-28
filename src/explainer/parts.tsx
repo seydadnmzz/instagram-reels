@@ -1,11 +1,11 @@
 import { AbsoluteFill, Easing, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { useAppear } from "../kit/anim";
-import type { CaptionWord, Theme } from "./schema";
+import type { CaptionWord } from "./schema";
 import { INK, RED, THEMES, uiFont, YELLOW } from "./theme";
 
 // "*vurgulu*" işaretlerini parçalara ayırır; vurgudan sonra gelen noktalama
 // ("*duruyor*?") ayrı bir parça olarak boşlukla ayrılmasın diye öncekine eklenir
-const splitHighlights = (text: string) => {
+export const splitHighlights = (text: string) => {
   const parts: { text: string; highlight: boolean; tail: string }[] = [];
   for (const m of text.matchAll(/\*([^*]+)\*|([^*]+)/g)) {
     const raw = m[1] ?? m[2];
@@ -21,7 +21,7 @@ const splitHighlights = (text: string) => {
   return parts;
 };
 
-export const Background: React.FC<{ theme: Theme }> = ({ theme }) => (
+export const Background: React.FC<{ theme: "lab" | "parchment" }> = ({ theme }) => (
   <AbsoluteFill style={{ backgroundColor: THEMES[theme].bg }}>
     {theme === "lab" ? (
       <AbsoluteFill
@@ -114,7 +114,7 @@ export const Tag: React.FC<{ text: string }> = ({ text }) => {
 export const STAGE = { top: 520, left: 60, width: 960, height: 598 };
 
 // Çizimin durduğu çerçeveli kart; panel=false ise yalnızca SVG alanı
-export const Stage: React.FC<{ theme: Theme; panel: boolean; children: React.ReactNode }> = ({ theme, panel, children }) => {
+export const Stage: React.FC<{ theme: "lab" | "parchment"; panel: boolean; children: React.ReactNode }> = ({ theme, panel, children }) => {
   const t = THEMES[theme];
   const appear = useAppear(0, 10);
   const svg = (
@@ -159,7 +159,7 @@ export const Stage: React.FC<{ theme: Theme; panel: boolean; children: React.Rea
 type Chunk = { words: CaptionWord[]; start: number; end: number };
 
 // Kelimeleri 1–3 kelimelik, noktalamada bölünen altyazı parçalarına ayırır
-const toChunks = (words: CaptionWord[]): Chunk[] => {
+export const toChunks = (words: CaptionWord[]): Chunk[] => {
   const chunks: Chunk[] = [];
   let current: CaptionWord[] = [];
   const flush = () => {
