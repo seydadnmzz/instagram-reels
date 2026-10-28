@@ -1,0 +1,49 @@
+{
+  "id": "2026-10-28",
+  "category": "tarih",
+  "handle": "1daki.kadatarih",
+  "hook": "1932'de Avustralya ordusu bir savaşı *kuşlara* kaybetti.",
+  "hookImageQuery": "emu",
+  "scenes": [
+    {
+      "text": "Batı Avustralya'da yaklaşık *20 bin emu* buğday tarlalarını talan ediyordu.",
+      "imageQuery": "wheat field Western Australia"
+    },
+    {
+      "text": "Çaresiz çiftçiler yardım istedi ve hükümet, iki *makineli tüfekle* askerleri gönderdi.",
+      "imageQuery": "Lewis gun"
+    },
+    {
+      "text": "Ama emular küçük gruplara bölünüp dağıldı, hatta tam pusu anında *silah tutukluk yaptı*.",
+      "imageQuery": "emus running"
+    },
+    {
+      "text": "Komutan Binbaşı Meredith, emuların kurşunlara *tank gibi* dayandığını söyledi.",
+      "imageQuery": "Dromaius novaehollandiae group"
+    },
+    {
+      "text": "Asıl sürpriz: Çiftçiler orduyu üç kez daha çağırdı, hükümet *her seferinde reddetti*.",
+      "imageQuery": "emu head Dromaius"
+    }
+  ],
+  "question": "Sence bu savaşı kim kazandı?",
+  "caption": "1932'de Avustralya ordusu, buğday tarlalarını talan eden binlerce emuya karşı makineli tüfeklerle sahaya indi. 🐦🪖\n\nYaklaşık 10 bin mermi atıldı ama emular küçük gruplara bölünerek askerleri çaresiz bıraktı. Tarihe \"Büyük Emu Savaşı\" olarak geçen operasyon birkaç hafta içinde sona erdi ve çiftçilerin sonraki yardım çağrıları hep reddedildi.\n\nSence bu savaşı kim kazandı? Yorumlara yaz 👇",
+  "hashtags": [
+    "emusavaşı",
+    "avustralya",
+    "tarih",
+    "ilginçtarih",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "şaşırtıcıgerçekler",
+    "hayvanlar",
+    "bilgi",
+    "keşfet",
+    "reels"
+  ],
+  "sources": [
+    "Murray Johnson, Journal of Australian Studies (2006)",
+    "BBC Wildlife (Discover Wildlife): The Emu War of 1932",
+    "Wikipedia: Emu War"
+  ]
+}
