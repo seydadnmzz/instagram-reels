@@ -4,6 +4,13 @@ Bu dosya, her gün çalışan bulut ajanının talimatıdır. Amaç: @1daki.kada
 her gün bir adet, merak uyandırıcı, **doğruluğu kontrol edilmiş** Türkçe Reels paylaşmak.
 Herhangi bir adım başarısız olursa yarım/hatalı içerik **paylaşma**; ne olduğunu raporla ve dur.
 
+## 0. Ayarlar ve yönlendirmeler
+
+- `ayarlar.json` dosyasını oku. `onayGerekli: true` ise 8. adıma geçmeden önce hesap sahibinin
+  onayını beklemek **zorunludur** (bkz. 7b). Bu kuralı hiçbir gerekçeyle atlama.
+- `NOTLAR.md` dosyasındaki hesap sahibi yönlendirmelerini oku; bu dosyadaki kurallarla
+  çelişirse `NOTLAR.md` geçerlidir.
+
 ## 1. Tarih ve kategori
 
 - Bölüm kimliği = bugünün tarihi, Europe/Istanbul saatine göre: `TZ=Europe/Istanbul date +%F`
@@ -96,6 +103,24 @@ bash scripts/publish-media.sh <id>
 
 Betik, Instagram'ın çekeceği adresi yazdırır ve erişilebilir olduğunu (`HTTP 200`) doğrular.
 
+## 7b. Onay (yalnızca `onayGerekli: true` ise)
+
+Paylaşmadan önce dur ve hesap sahibine şu özeti yaz, sonra cevabını bekle:
+
+- **İzleme bağlantısı:** `https://github.com/<OWNER>/<REPO>/blob/claude/media/<id>.mp4`
+- Konu, kategori, süre
+- Sahne metinleri (kanca + sahneler + soru)
+- `out/<id>.caption.txt` içeriğinin tamamı
+- Doğrulama için kullandığın kaynaklar
+- Son satır: "Paylaşmam için **paylaş** yaz; değişiklik istiyorsan ne değişsin yaz."
+
+Cevaba göre:
+- Açık bir onay ("paylaş", "onaylıyorum", "tamam paylaş" vb.) → 8. adıma geç.
+- Değişiklik isteği → bölüm dosyasını düzelt, gerekiyorsa görselleri yeniden indir, 6–7. adımları
+  tekrarla ve tekrar onay iste. İstek ileride de geçerli olacak genel bir yönlendirmeyse
+  `NOTLAR.md`'ye tarihiyle ekle.
+- Belirsiz cevap → paylaşma, netleştirmesini iste.
+
 ## 8. Instagram'da paylaş (Composio `connec` MCP)
 
 1. `INSTAGRAM_GET_USER_INFO` (`ig_user_id: "me"`) → `id` değerini al.
@@ -110,8 +135,9 @@ paylaşım yapma: başlamadan önce 2. adımdaki listede bugün tarihli bir Reel
 
 ## 9. Kayıt
 
-`episodes/<id>.json` dosyasını commit edip mevcut çalışma dalına push et
-(`git add episodes && git commit -m "Bölüm <id>" && git push`). Push başarısız olursa sorun değil.
+`episodes/<id>.json` ve değiştiyse `NOTLAR.md` dosyasını commit edip `main` dalına push et
+(`git add episodes NOTLAR.md && git commit -m "Bölüm <id>" && git push origin HEAD:main`).
+`main`'e push reddedilirse `claude/notlar-<id>` dalına push et ve özetinde bunu belirt.
 
 Son mesajında kısa bir özet ver: konu, kategori, video süresi, Instagram bağlantısı (permalink)
 ve varsa sorunlar.
