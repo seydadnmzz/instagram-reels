@@ -160,7 +160,11 @@ Dosya `visuals` adında, her `visual` adını bir bileşene eşleyen bir nesne d
    ```bash
    npx remotion render Explainer out/<id>.mp4 --props=out/<id>.props.json --codec=h264 --crf=22
    node scripts/caption.mjs episodes/<id>.json
+   npx remotion still Cover out/<id>.cover.jpg --props=out/<id>.cover.json --frame=80 --image-format=jpeg --jpeg-quality=90
    ```
+   Kapağı Read ile kontrol et. Kapak yazısı bölüm dosyasındaki isteğe bağlı `cover` alanından gelir:
+   `"cover": {"title": "Dilimin *ucunda* ama çıkmıyor!", "visual": "StuckWord"}` (en çok 2 satır;
+   `kicker` varsayılanı "BENDE DE OLUYOR!", `question` varsayılanı "NEDEN?").
    Video 15–60 sn ve 100 MB'tan küçük olmalı.
 
 ## 7. Videoyu herkese açık adrese yükle
@@ -192,14 +196,18 @@ Cevaba göre:
 
 ## 8. Instagram'da paylaş (Composio `connec` MCP)
 
-1. `INSTAGRAM_GET_USER_INFO` (`ig_user_id: "me"`) → `id` değerini al.
-2. `INSTAGRAM_POST_IG_USER_MEDIA`: `ig_user_id`, `video_url` (7. adımdaki adres),
-   `media_type: "REELS"`, `share_to_feed: true`, `thumb_offset: 1500`,
-   `caption`: `out/<id>.caption.txt` içeriği aynen.
-   `video_url` ile konteyner oluşmazsa ya da ERROR verirse `video_url` yerine 8b'deki
-   `video_file` nesnesiyle (aynı `s3key`) dene.
-3. `INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH`: `ig_user_id`, `creation_id`, `max_wait_seconds: 300`.
-4. `INSTAGRAM_GET_IG_MEDIA` ile `permalink` al.
+Konteyneri `COMPOSIO_REMOTE_WORKBENCH` içinde `proxy_execute` ile oluştur (açıklamadaki `#`
+işaretleri gövdede güvenle gider; denendi, çalışıyor). IG kullanıcı kimliği: `17841460821761232`.
+`<BASE>` = `https://raw.githubusercontent.com/<OWNER>/<REPO>/refs/heads/claude/media/<id>`
+
+1. `proxy_execute("POST", "/17841460821761232/media", "instagram", body={"media_type": "REELS",
+   "video_url": "<BASE>.mp4", "cover_url": "<BASE>.cover.jpg", "caption": <out/<id>.caption.txt içeriği>,
+   "share_to_feed": True})` → `id` (konteyner).
+2. `proxy_execute("GET", "/<konteyner>", "instagram", query_params={"fields": "status_code"})` ile
+   10 sn arayla `FINISHED` olana kadar bekle (en çok ~5 dk).
+3. `proxy_execute("POST", "/17841460821761232/media_publish", "instagram", body={"creation_id": "<konteyner>"})`
+   → yayınlanan medya `id`.
+4. `proxy_execute("GET", "/<medya id>", "instagram", query_params={"fields": "permalink"})`.
 
 Konteyner ERROR verirse yeni bir konteyner oluşturup **bir kez** yeniden dene. Bu oturumun
 bölümünü yalnızca bir kez paylaş. Paylaşmadan hemen önce son paylaşımlara bak: son 3 saat içinde
@@ -221,8 +229,13 @@ YouTube'u dene (ve tersi); sonuçların ikisini de özetle.
    - `privacyStatus`: `"public"`
    - `videoFile`: `{"name": "<id>.mp4", "mimetype": "video/mp4", "s3key": "<s3key>"}`
 3. Dönen video kimliğiyle bağlantıyı yaz: `https://youtube.com/shorts/<videoId>`.
+4. Kapak: `YOUTUBE_UPDATE_THUMBNAIL` (`videoId`, `thumbnailUrl`: `<BASE>.cover.jpg`). Başarısız olursa
+   (kanal doğrulanmamış vb.) önemli değil; özette belirt.
 
 YouTube bağlantısı aktif değilse ya da yükleme yetki/kota hatası verirse tekrar deneme; hatayı özetle.
+Not: Composio'nun ortak Google projesinin günlük yükleme kotası dolabiliyor (HTTP 429 "Video Uploads
+per day"); kota her gün 10:00 TR'de sıfırlanır. Bu hatada videonun YouTube'a yüklenemediğini ve
+hesap sahibinin ne zaman tekrar denenmesini istediğini sor.
 
 ## 9. Kayıt
 

@@ -27,12 +27,14 @@ TMP="$(mktemp -d)"
     git archive FETCH_HEAD | tar -x
   fi
   CUTOFF="$(date -u -d "-${KEEP_DAYS} days" +%F)"
-  for f in *.mp4; do
+  for f in *.mp4 *.jpg; do
     [ -e "$f" ] || continue
     if [[ "${f:0:10}" < "$CUTOFF" ]]; then rm -f "$f"; fi
   done
 )
 cp "$VIDEO" "$TMP/${ID}.mp4"
+# Kapak (varsa): Instagram cover_url ve YouTube küçük resmi için
+[ -f "out/${ID}.cover.jpg" ] && cp "out/${ID}.cover.jpg" "$TMP/${ID}.cover.jpg"
 (
   cd "$TMP"
   git add -A

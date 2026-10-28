@@ -96,6 +96,17 @@ const props = {
   durationInFrames: totalFrames,
 };
 await writeFile(path.join("out", `${id}.props.json`), JSON.stringify(props, null, 2));
+
+// Kapak (Cover kompozisyonu): episode.cover yoksa ilk sahnenin başlığı ve çizimi kullanılır
+const cover = episode.cover ?? {};
+const coverProps = {
+  theme: props.theme,
+  kicker: cover.kicker ?? "BENDE DE OLUYOR!",
+  title: cover.title ?? episode.scenes[0].headline,
+  question: cover.question ?? "NEDEN?",
+  visual: cover.visual ?? episode.scenes[0].visual,
+};
+await writeFile(path.join("out", `${id}.cover.json`), JSON.stringify(coverProps, null, 2));
 console.log(
   `Hazır: out/${id}.props.json — ${(totalFrames / FPS).toFixed(1)} sn, ${scenes.length} sahne, ` +
     `${props.narration ? "seslendirmeli" : "SESLENDİRMESİZ (tahmini zamanlama)"}, ${fullText.length} karakter`,

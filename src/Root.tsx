@@ -1,4 +1,5 @@
 import { Composition } from "remotion";
+import { Cover, coverSchema } from "./explainer/Cover";
 import { calculateExplainerMetadata, Explainer } from "./explainer/Explainer";
 import { explainerSchema } from "./explainer/schema";
 import { calculateReelMetadata, Reel } from "./Reel";
@@ -23,6 +24,17 @@ export const RemotionRoot: React.FC = () => {
           words: [],
           durationInFrames: 300,
         }}
+      />
+      {/* Reels/Shorts kapağı: npx remotion still Cover ... --frame=80 */}
+      <Composition
+        id="Cover"
+        component={Cover}
+        schema={coverSchema}
+        durationInFrames={90}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ theme: "mor", kicker: "BENDE DE OLUYOR!", title: "Dilimin *ucunda*!", question: "NEDEN?", visual: "StuckWord" }}
       />
       {/* İlk sürümdeki fotoğraflı şablon */}
       <Composition
