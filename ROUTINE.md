@@ -39,6 +39,8 @@ bir konuyu tekrar seçme. `episodes/` klasöründeki eski bölümlere de bak.
 
 ## 4. Bölüm dosyasını yaz: `episodes/<id>.json`
 
+Tamamlanmış bir örnek için `ornekler/ketcap.json` dosyasına bak (o konu zaten işlendi, tekrar seçme).
+
 ```json
 {
   "id": "2026-10-29",
