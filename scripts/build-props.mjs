@@ -10,7 +10,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const FPS = 30;
-const TAIL_SECONDS = 1.2;
+const TAIL_SECONDS = 0.8;
 const SCENE_LEAD_FRAMES = 3;
 
 const episodePath = process.argv[2];

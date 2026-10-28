@@ -143,6 +143,7 @@ Dosya `visuals` adında, her `visual` adını bir bileşene eşleyen bir nesne d
    mkdir -p public/episodes/<id>
    curl -sSL -o public/episodes/<id>/narration.mp3 "<mp3 adresi>"
    curl -sSL -o public/episodes/<id>/narration.json "<json adresi>"
+   node scripts/speed.mjs <id>                         # ayarlar.json > elevenlabs.speed kadar hızlandırır
    node scripts/build-props.mjs episodes/<id>.json   # çıktıda "seslendirmeli" yazmalı
    ```
    Seslendirme başarısız olursa videoyu seslendirmesiz (tahmini zamanlamayla) üret, ama onay

@@ -4,6 +4,7 @@
   "elevenlabs": {
     "voiceId": "dgeCtiGkvIwzoR09qzjl",
     "modelId": "eleven_v3",
+    "speed": 1.2,
     "voiceSettings": { "stability": 0.5, "similarity_boost": 0.8 }
   }
 }
