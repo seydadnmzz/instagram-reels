@@ -19,16 +19,20 @@ Herhangi bir adım başarısız olursa yarım/hatalı içerik **paylaşma**; ne 
   (`TZ=Europe/Istanbul date +%H`).
 - Bölüm kimliği = `<tarih>-<yuva>`, ör. `2026-10-29-sabah` (`TZ=Europe/Istanbul date +%F`).
 - Sıra numarası `n = 2 × (2026-10-28'den bu yana geçen gün) + (aksam ise 1, değilse 0)`.
-- Kategori `n`'nin 4'e göre kalanıyla sırayla döner:
-  - **2026-11-07 dahil o tarihe kadar:** `0 → ilginc`, `1 → psikoloji`, `2 → bilim`, `3 → gundelik`
-    (bu dönemde `tarih` kategorisi KULLANILMAZ)
-  - **2026-11-08'den itibaren:** `0 → tarih`, `1 → psikoloji`, `2 → bilim`, `3 → gundelik`
-  - ilginc: geniş kitleyi yakalayan "vay be" dedirten bilgiler (insan vücudu, hayvanlar, uzay,
-    doğa olayları, rekorlar); paylaşılmaya ve kaydedilmeye uygun olsun
-  - tarih: tarihten şaşırtıcı olaylar
-  - psikoloji: psikolojiden günlük hayatta karşılığı olan bilgiler
-  - bilim: bilim ve doğadan ilginç gerçekler
-  - gundelik: günlük hayatta kullandığımız eşyaların veya alışkanlıkların şaşırtıcı öyküleri
+- **Her video "Bende de oluyor! Neden?" formatındadır:** izleyicinin kendi hayatında yaşadığı,
+  çok yaygın bir deneyimi ele alır ve nedenini açıklar (bkz. `NOTLAR.md`). Kategori yalnızca
+  deneyimin türünü çeşitlendirmek içindir; `n`'nin 4'e göre kalanıyla sırayla döner:
+  `0 → ilginc`, `1 → psikoloji`, `2 → bilim`, `3 → gundelik`
+  - psikoloji: zihin, hafıza, dikkat, duygular (ör. kapı eşiği etkisi, dilinin ucunda olup
+    söyleyememe, bir şeyi öğrenince her yerde görmeye başlamak)
+  - bilim: bedenin tuhaf tepkileri (ör. beyin donması, uykuya dalarken düşme hissiyle sıçramak,
+    suda parmakların buruşması, güneşe bakınca hapşırmak)
+  - gundelik: günlük hayattaki anlar ve alışkanlıklar (ör. kayıttaki sesimizi tuhaf bulmak,
+    dönüş yolunun daha kısa gelmesi, duşta aklımıza iyi fikirlerin gelmesi)
+  - ilginc: sosyal ve davranışsal anlar (ör. esnemenin bulaşması, kalabalıkta adımızı duyunca
+    hemen fark etmek, açken sinirlenmek)
+  - `tarih` kategorisi KULLANILMAZ.
+- `NOTLAR.md`'deki **konu havuzundan** seçebilir ya da aynı formata uyan yeni bir konu bulabilirsin.
 
 ## 2. Tekrarı önle
 
@@ -38,6 +42,10 @@ bir konuyu tekrar seçme. `episodes/` ve `ornekler/` klasörlerindeki bölümler
 
 ## 3. Konu seç ve doğrula
 
+- Önce şu testi uygula: "İzleyicilerin çoğu bunu kendisi yaşamış mı ve nedenini merak eder mi?"
+  Cevap net bir evet değilse başka konu seç.
+- Nedeni bilim tarafından tam çözülmemişse bunu dürüstçe söyle ("bilim insanlarının en güçlü
+  açıklaması…", "tam olarak bilinmiyor ama…"); kesin bilinmeyeni kesinmiş gibi anlatma.
 - Gerçekten şaşırtıcı ama **iyi belgelenmiş** bir konu seç. Şehir efsanesi, "derler ki" türü
   bilgiler, tartışmalı ya da çürütülmüş bulgular (ör. güç pozu, ego tükenmesi, "beynimizin %10'u")
   YASAK — bunlar ancak "aslında yanlış" diye çürütülerek işlenebilir.
@@ -71,8 +79,17 @@ Kurallar:
 - `theme`: `psikoloji`, `bilim`, `ilginc` → `"lab"` (lacivert ızgara); `gundelik`, `tarih` →
   `"parchment"` (ahşap + parşömen).
 - 6–9 sahne; anlatımın toplamı **300–550 karakter** (≈ 25–40 sn). Her sahnede 1 cümle (ya da kısa
-  iki cümle). Akış: merak açan kanca (ilk sahne, ilk 2 saniye) → bağlam → gelişme → **sürpriz/twist**
-  → son sahnede izleyiciye soru ("Sence…? Yorumlara yaz.").
+  iki cümle). Akış:
+  1. **Tanıdık an (kanca):** izleyiciye doğrudan "sen" diye seslen, durumu canlandır
+     ("Odaya girdin… ve neden geldiğini unuttun." / "Hiç dondurma yerken başın zonkladı mı?").
+  2. **Adı/nedeni var:** "Bunun bir adı var: …" ya da "Suçlu aslında …".
+  3. **Araştırma/mekanizma:** ne oluyor, kim göstermiş (kurum · yıl etiketiyle).
+  4. **Şaşırtıcı ayrıntı/twist:** beklenmedik bir bulgu, ilginç bir karşılaştırma.
+  5. (İsteğe bağlı) **Pratik ipucu:** varsa, güvenli ve kanıta dayalı bir öneri.
+  6. **Kapanış sorusu:** izleyicinin kendi deneyimini yazmasını iste ("Sende en çok ne zaman
+     oluyor? Yorumlara yaz.").
+- `caption` da aynı duyguyu taşısın ("Sende de oluyor mu?") ve bunu yaşayan birini etiketlemeye
+  davet etsin.
 - `headline`: 1–4 kelimelik başlık, içinde bir `*vurgu*`. Anlatımı tekrar etmesin, özetlesin.
 - `tag` (isteğe bağlı): kurum · yıl, yer · dönem gibi kısa kırmızı etiket, BÜYÜK HARF.
 - `narration`: sesli okunacak; konuşma dili, kısa cümleler. Altyazıda sarı görünecek 1–2 kelimeyi
