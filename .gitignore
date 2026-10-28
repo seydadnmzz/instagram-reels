@@ -8,3 +8,6 @@ out
 
 # Her çalıştırmada Wikimedia Commons'tan yeniden indirilen görseller
 public/episodes
+
+# Referans videolar (yalnızca yerelde)
+ref/*.mp4

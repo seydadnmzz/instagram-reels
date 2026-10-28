@@ -84,6 +84,8 @@ Kurallar:
 ## 5. Sahne çizimlerini yaz: `src/episodes/current.tsx`
 
 Bu dosyayı bölüme göre **tamamen yeniden yaz**. Örnek: `ornekler/ahtapot-visuals.tsx`.
+Hedeflenen tarzı görmek için `ref/kapi-ig-sheet.jpg` ve `ref/ketcap-ig-sheet.jpg` dosyalarına
+Read ile bak (hesap sahibinin beğendiği iki video).
 Dosya `visuals` adında, her `visual` adını bir bileşene eşleyen bir nesne dışa aktarmalı.
 
 - Her çizim **900×560 birimlik SVG** sahnesine çizilir (`<g>` döndür, `<svg>` değil). Çerçeveli
