@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export const categorySchema = z.enum(["tarih", "psikoloji", "bilim", "gundelik"]);
+export const categorySchema = z.enum(["tarih", "psikoloji", "bilim", "gundelik", "ilginc"]);
 
 export const sceneSchema = z.object({
   // *yıldız* içindeki kelimeler vurgu rengiyle işaretlenir

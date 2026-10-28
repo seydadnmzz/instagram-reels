@@ -13,9 +13,18 @@ Herhangi bir adım başarısız olursa yarım/hatalı içerik **paylaşma**; ne 
 
 ## 1. Tarih ve kategori
 
-- Bölüm kimliği = bugünün tarihi, Europe/Istanbul saatine göre: `TZ=Europe/Istanbul date +%F`
-- Kategori, 2026-10-28'den bu yana geçen gün sayısının 4'e göre kalanıyla sırayla döner:
-  `0 → tarih`, `1 → psikoloji`, `2 → bilim`, `3 → gundelik`
+Rutin günde iki kez çalışır (sabah ve akşam).
+
+- Yuva (slot): Europe/Istanbul saatiyle 12:00'den önceyse `sabah`, sonrasıysa `aksam`
+  (`TZ=Europe/Istanbul date +%H`).
+- Bölüm kimliği = `<tarih>-<yuva>`, ör. `2026-10-29-sabah` (`TZ=Europe/Istanbul date +%F`).
+- Sıra numarası `n = 2 × (2026-10-28'den bu yana geçen gün) + (aksam ise 1, değilse 0)`.
+- Kategori `n`'nin 4'e göre kalanıyla sırayla döner:
+  - **2026-11-07 dahil o tarihe kadar:** `0 → ilginc`, `1 → psikoloji`, `2 → bilim`, `3 → gundelik`
+    (bu dönemde `tarih` kategorisi KULLANILMAZ)
+  - **2026-11-08'den itibaren:** `0 → tarih`, `1 → psikoloji`, `2 → bilim`, `3 → gundelik`
+  - ilginc: geniş kitleyi yakalayan "vay be" dedirten bilgiler (insan vücudu, hayvanlar, uzay,
+    doğa olayları, rekorlar); paylaşılmaya ve kaydedilmeye uygun olsun
   - tarih: tarihten şaşırtıcı olaylar
   - psikoloji: psikolojiden günlük hayatta karşılığı olan bilgiler
   - bilim: bilim ve doğadan ilginç gerçekler
@@ -43,8 +52,8 @@ Tamamlanmış bir örnek için `ornekler/ketcap.json` dosyasına bak (o konu zat
 
 ```json
 {
-  "id": "2026-10-29",
-  "category": "tarih",
+  "id": "2026-10-29-sabah",
+  "category": "ilginc",
   "handle": "1daki.kadatarih",
   "hook": "En fazla 12 kelime, merak boşluğu açan iddia. Bir kısmı *yıldızla* vurgulu.",
   "hookImageQuery": "İngilizce, genel Commons arama terimi",
@@ -132,8 +141,9 @@ Cevaba göre:
 3. `INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH`: `ig_user_id`, `creation_id`, `max_wait_seconds: 300`.
 4. `INSTAGRAM_GET_IG_MEDIA` ile `permalink` al.
 
-Konteyner ERROR verirse yeni bir konteyner oluşturup **bir kez** yeniden dene. Aynı gün iki kez
-paylaşım yapma: başlamadan önce 2. adımdaki listede bugün tarihli bir Reels varsa dur.
+Konteyner ERROR verirse yeni bir konteyner oluşturup **bir kez** yeniden dene. Bu oturumun
+bölümünü yalnızca bir kez paylaş. Paylaşmadan hemen önce son paylaşımlara bak: son 3 saat içinde
+paylaşılmış bir Reels varsa paylaşma, hesap sahibine bildir ve ne yapılacağını sor.
 
 ## 9. Kayıt
 
