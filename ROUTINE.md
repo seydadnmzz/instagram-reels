@@ -1,7 +1,8 @@
 # Günlük Reels rutini
 
-Bu dosya, her gün çalışan bulut ajanının talimatıdır. Amaç: @1daki.kadatarih hesabına
-her gün bir adet, merak uyandırıcı, **doğruluğu kontrol edilmiş** Türkçe Reels paylaşmak.
+Bu dosya, günde iki kez çalışan bulut ajanının talimatıdır. Amaç: @1daki.kadatarih Instagram
+hesabına ve YouTube kanalına, merak uyandırıcı, **doğruluğu kontrol edilmiş**, çizgi film tarzında
+**animasyonlu anlatım** videosu (Reels/Shorts) hazırlamak.
 Herhangi bir adım başarısız olursa yarım/hatalı içerik **paylaşma**; ne olduğunu raporla ve dur.
 
 ## 0. Ayarlar ve yönlendirmeler
@@ -10,10 +11,9 @@ Herhangi bir adım başarısız olursa yarım/hatalı içerik **paylaşma**; ne 
   onayını beklemek **zorunludur** (bkz. 7b). Bu kuralı hiçbir gerekçeyle atlama.
 - `NOTLAR.md` dosyasındaki hesap sahibi yönlendirmelerini oku; bu dosyadaki kurallarla
   çelişirse `NOTLAR.md` geçerlidir.
+- `npm ci` ile bağımlılıkları kur.
 
 ## 1. Tarih ve kategori
-
-Rutin günde iki kez çalışır (sabah ve akşam).
 
 - Yuva (slot): Europe/Istanbul saatiyle 12:00'den önceyse `sabah`, sonrasıysa `aksam`
   (`TZ=Europe/Istanbul date +%H`).
@@ -34,7 +34,7 @@ Rutin günde iki kez çalışır (sabah ve akşam).
 
 Composio (`connec` MCP) ile `INSTAGRAM_GET_IG_USER_MEDIA` (`ig_user_id: "me"`, `limit: 60`,
 `fields: "id,caption,timestamp"`) çağır ve son paylaşımların konularını çıkar. Aynı veya çok benzer
-bir konuyu tekrar seçme. `episodes/` klasöründeki eski bölümlere de bak.
+bir konuyu tekrar seçme. `episodes/` ve `ornekler/` klasörlerindeki bölümlere de bak.
 
 ## 3. Konu seç ve doğrula
 
@@ -44,94 +44,98 @@ bir konuyu tekrar seçme. `episodes/` klasöründeki eski bölümlere de bak.
 - Psikolojide tekrarlanabilirliği güçlü bulguları seç; tıbbi tavsiye verme.
 - Her iddiayı WebSearch/WebFetch ile en az bir güvenilir kaynaktan (ansiklopedi, üniversite,
   hakemli yayın, saygın müze/kurum) doğrula. Emin olmadığın tarih/sayıyı yazma, genelleştir.
+  `sources` alanına yalnızca gerçekten okuduğun kaynakları yaz.
 - Siyasi, dini, nefret içeren veya hassas konulardan (savaş vahşeti ayrıntısı, intihar vb.) kaçın.
 
 ## 4. Bölüm dosyasını yaz: `episodes/<id>.json`
 
-Tamamlanmış bir örnek için `ornekler/ketcap.json` dosyasına bak (o konu zaten işlendi, tekrar seçme).
+Tam örnek: `ornekler/ahtapot.json` (o konu işlendi, tekrar seçme).
 
 ```json
 {
   "id": "2026-10-29-sabah",
   "category": "ilginc",
-  "handle": "1daki.kadatarih",
-  "hook": "En fazla 12 kelime, merak boşluğu açan iddia. Bir kısmı *yıldızla* vurgulu.",
-  "hookImageQuery": "İngilizce, genel Commons arama terimi",
+  "theme": "lab",
   "scenes": [
-    { "text": "En fazla 18 kelime. Tek bir *vurgu*.", "imageQuery": "İngilizce arama terimi" }
+    { "headline": "Kapı eşiği *etkisi*", "tag": "NOTRE DAME ÜNİV. · 2011", "visual": "DoorwayRoom",
+      "narration": "Notre Dame Üniversitesi'nde yapılan bir deneyde *kapıdan geçmek* unutmayı artırdı." }
   ],
-  "question": "Yoruma davet eden kısa soru (ör. 'Sen bunu biliyor muydun?')",
   "caption": "2-4 cümlelik Türkçe açıklama, sonunda etkileşim çağrısı. Birkaç emoji olabilir.",
   "youtubeTitle": "En fazla 70 karakter, merak uyandıran başlık #shorts",
   "hashtags": ["konuyaÖzel", "kategoriEtiketi", "ilginçbilgiler", "bunlarıbiliyormuydun", "keşfet"],
-  "sources": ["Britannica: Başlık", "Smithsonian Magazine: Başlık"]
+  "sources": ["Kaynak adı: Başlık"]
 }
 ```
 
 Kurallar:
-- 4–6 sahne. Hikâye akışı: kanca → bağlam → gelişme → **son sahnede ek bir sürpriz/twist**.
-- Kısa, akıcı, konuşma dili Türkçe; yazım ve Türkçe karakterler kusursuz olsun.
-- Her sahnede tam bir `*vurgu*` (1–3 kelime).
-- Metinler ElevenLabs ile **sesli okunacak**: kulağa doğal gelsin. Sembol ve kısaltma kullanma
-  (`%10` değil `yüzde 10`, `vb.` değil `ve benzeri`); okunuşu belirsiz yabancı adları az kullan.
-- `imageQuery`: Wikimedia Commons'ta arama yapılır; kısa (1–4 kelime) İngilizce terimler kullan.
-  Belirli bir kişinin portresini ancak kişi çok ünlüyse ara (ör. "Napoleon Bonaparte portrait");
-  aksi halde konuyu temsil eden genel bir görsel ara (nesne, mekân, dönem illüstrasyonu).
+- `theme`: `psikoloji`, `bilim`, `ilginc` → `"lab"` (lacivert ızgara); `gundelik`, `tarih` →
+  `"parchment"` (ahşap + parşömen).
+- 6–9 sahne; anlatımın toplamı **300–550 karakter** (≈ 25–40 sn). Her sahnede 1 cümle (ya da kısa
+  iki cümle). Akış: merak açan kanca (ilk sahne, ilk 2 saniye) → bağlam → gelişme → **sürpriz/twist**
+  → son sahnede izleyiciye soru ("Sence…? Yorumlara yaz.").
+- `headline`: 1–4 kelimelik başlık, içinde bir `*vurgu*`. Anlatımı tekrar etmesin, özetlesin.
+- `tag` (isteğe bağlı): kurum · yıl, yer · dönem gibi kısa kırmızı etiket, BÜYÜK HARF.
+- `narration`: sesli okunacak; konuşma dili, kısa cümleler. Altyazıda sarı görünecek 1–2 kelimeyi
+  `*yıldız*` içine al. Sembol ve kısaltma kullanma (`%10` değil `yüzde 10`).
+- `visual`: o sahnenin çizim bileşeninin adı (PascalCase, ör. `DoorwayRoom`). `"panel": false`
+  verirsen çizim çerçevesiz, koyu zemin üzerinde serbest durur (maskot/ikon sahneleri için).
 - 8–15 hashtag.
 
-## 5. Görselleri indir ve TEK TEK KONTROL ET
+## 5. Sahne çizimlerini yaz: `src/episodes/current.tsx`
 
-```bash
-npm ci
-node scripts/fetch-images.mjs episodes/<id>.json
-```
+Bu dosyayı bölüme göre **tamamen yeniden yaz**. Örnek: `ornekler/ahtapot-visuals.tsx`.
+Dosya `visuals` adında, her `visual` adını bir bileşene eşleyen bir nesne dışa aktarmalı.
 
-`public/episodes/<id>/` içindeki her görseli Read ile aç ve bak. Şunlardan biri varsa
-`imageQuery`'yi değiştir, klasörü sil ve betiği tekrar çalıştır:
-- Konuyla ilgisiz ya da yanıltıcı (yanlış kişi, yanlış dönem, yanlış nesne)
-- Çıplaklık, şiddet, kan, ceset veya rahatsız edici içerik
-- Üzerinde büyük, okunaklı yazı/logo/filigran olması (ince eski reklam yazıları sorun değil)
-- Çok düşük kalite
+- Her çizim **900×560 birimlik SVG** sahnesine çizilir (`<g>` döndür, `<svg>` değil). Çerçeveli
+  sahnelerde önce bir zemin çiz (`<rect width={900} height={560} fill="#f3ead8" />`, ya da konuya
+  uygun bir ortam: oda, deniz, gökyüzü, laboratuvar…).
+- `src/kit` parçalarını kullan: `Person` (yürüyen/sunan karakter; şapka, bıyık, gözlük),
+  `Room`/`Door`/`Table`/`Window`/`Picture`, `Brain` (maskot), `ThoughtBubble`, `QuestionMark`,
+  `Heart`, `Bottle`, `Shelf`, `Note` (ilan/gazete), `NamePlate`, `Chip`, `Arrow`, `BigText`,
+  `Sparkles`; animasyon için `useAppear(gecikme)`, `useProgress(baş, son)`, `useWave(periyot, genlik)`,
+  `place(x, y, ölçek, açı)`. Gerekirse konuya özel yeni şekilleri SVG yollarıyla kendin çiz
+  (ör. ahtapot, damla, solungaç).
+- Stil: düz renkli çizgi film; koyu dış çizgi `#2b2b2b`, kalınlık 4–6; yumuşak, doygun renkler.
+  **Her sahnede hareket olsun** (öğeler sırayla belirsin, karakter yürüsün, oklar çizilsin,
+  bir şey sallansın/atsın). Sahne süresi `durationInFrames` prop'u ile gelir (30 fps).
+- Çizimdeki yazılar kısa, BÜYÜK HARF, Türkçe (`Chip`, `NamePlate`, `Note`). Gerçek kişileri
+  gerçekçi çizme: genel bir karakter + isim etiketi yeterli. Marka logosu çizme.
+- Anlatımla görsel uyumlu olsun: sahnede anlatılan şey gösterilsin.
 
-Uygun görsel bulunamayan sahnede `imageQuery` alanını tamamen kaldır (renkli arka plan kullanılır).
+## 6. Seslendir, render et, kontrol et
 
-## 5b. Seslendirme (ElevenLabs)
-
-ElevenLabs, hesap sahibinin kendi hesabıyla Composio'ya bağlıdır (anahtar Composio'da durur).
-
-1. Parçaları çıkar:
+1. Anlatım metnini ve tahmini zamanlamayı üret:
    ```bash
-   node scripts/voiceover.mjs segments out/<id>.props.json
+   node scripts/build-props.mjs episodes/<id>.json
    ```
-   Çıktıda `voice_id`, `model_id`, `voice_settings` ve her parça için `text` + `file` vardır.
-2. Her parça için `ELEVENLABS_TEXT_TO_SPEECH` çağır (`voice_id`, `model_id`, `voice_settings`,
-   `text`, `output_format: "mp3_44100_128"`). En fazla 3 paralel çağrı yap. Yanıttaki
-   `data.file.s3url` adresini parçanın `file` yoluna indir: `curl -sSL -o <file> "<s3url>"`.
-3. Süreleri ölçüp videoya bağla:
+2. Seslendirme (ElevenLabs, hesap sahibinin Composio bağlantısı; anahtar Composio'da durur):
+   `scripts/tts_workbench.py` içeriğini al; `__ID__` → bölüm kimliği, `__TEXT__` →
+   `out/<id>.narration.txt` içeriği (AYNEN), `__VOICE_ID__` ve ayarlar → `ayarlar.json > elevenlabs`.
+   Bu kodu `COMPOSIO_REMOTE_WORKBENCH` ile çalıştır. Çıktıdaki iki adresi indir:
    ```bash
-   node scripts/voiceover.mjs apply out/<id>.props.json
+   mkdir -p public/episodes/<id>
+   curl -sSL -o public/episodes/<id>/narration.mp3 "<mp3 adresi>"
+   curl -sSL -o public/episodes/<id>/narration.json "<json adresi>"
+   node scripts/build-props.mjs episodes/<id>.json   # çıktıda "seslendirmeli" yazmalı
    ```
-
-`fetch-images.mjs` her çalıştığında props dosyası yeniden yazılır; görselleri yeniden indirirsen
-yalnızca 3. adımı tekrarla (ses dosyaları yerinde kalır). Metni değiştirdiysen 1–3'ü tekrarla.
-`voice_id` boşsa, ElevenLabs bağlantısı yoksa ya da kota/yetki hatası alırsan videoyu
-seslendirmesiz üret, ama onay özetinin EN BAŞINA "⚠️ Seslendirme eklenemedi: <sebep>" yaz.
-
-## 6. Render et ve kontrol et
-
-```bash
-npx remotion still Reel out/check-hook.png --props=out/<id>.props.json --frame=45
-npx remotion still Reel out/check-mid.png --props=out/<id>.props.json --frame=300
-npx remotion render Reel out/<id>.mp4 --props=out/<id>.props.json --codec=h264 --crf=23
-node scripts/caption.mjs episodes/<id>.json
-```
-
-İki kontrol karesini Read ile aç: metin okunaklı mı, taşma var mı, Türkçe karakterler doğru mu?
-Video 15–60 sn arasında ve 100 MB'tan küçük olmalı.
+   Seslendirme başarısız olursa videoyu seslendirmesiz (tahmini zamanlamayla) üret, ama onay
+   özetinin EN BAŞINA "⚠️ Seslendirme eklenemedi: <sebep>" yaz. Anlatımı değiştirirsen 1–2'yi tekrarla.
+3. Tür denetimi ve kontrol kareleri:
+   ```bash
+   npx tsc --noEmit
+   # her sahnenin ortası: startFrame + durationInFrames/2 (out/<id>.props.json'dan)
+   npx remotion still Explainer out/check-<n>.png --props=out/<id>.props.json --frame=<kare> --scale=0.5
+   ```
+   **Her sahnenin** karesini Read ile aç: çizim anlaşılır mı, öğeler üst üste binmiş/taşmış mı,
+   boş sahne var mı, yazılar okunaklı ve Türkçe karakterler doğru mu? Sorun varsa düzelt, tekrar bak.
+4. Render ve açıklama:
+   ```bash
+   npx remotion render Explainer out/<id>.mp4 --props=out/<id>.props.json --codec=h264 --crf=22
+   node scripts/caption.mjs episodes/<id>.json
+   ```
+   Video 15–60 sn ve 100 MB'tan küçük olmalı.
 
 ## 7. Videoyu herkese açık adrese yükle
-
-Video, sadece o günün dosyasını içeren `claude/media` dalına zorla gönderilir (geçmiş birikmesin diye):
 
 ```bash
 bash scripts/publish-media.sh <id>
@@ -145,7 +149,7 @@ Paylaşmadan önce dur ve hesap sahibine şu özeti yaz, sonra cevabını bekle:
 
 - **İzleme bağlantısı:** `https://github.com/<OWNER>/<REPO>/blob/claude/media/<id>.mp4`
 - Konu, kategori, süre, seslendirme var mı (ve harcanan karakter sayısı)
-- Sahne metinleri (kanca + sahneler + soru)
+- Sahneler: başlık + anlatım
 - `out/<id>.caption.txt` içeriğinin tamamı
 - YouTube Shorts başlığı (`youtubeTitle`)
 - Doğrulama için kullandığın kaynaklar
@@ -154,9 +158,8 @@ Paylaşmadan önce dur ve hesap sahibine şu özeti yaz, sonra cevabını bekle:
 
 Cevaba göre:
 - Açık bir onay ("paylaş", "onaylıyorum", "tamam paylaş" vb.) → 8. adıma geç.
-- Değişiklik isteği → bölüm dosyasını düzelt, gerekiyorsa görselleri yeniden indir, 6–7. adımları
-  tekrarla ve tekrar onay iste. İstek ileride de geçerli olacak genel bir yönlendirmeyse
-  `NOTLAR.md`'ye tarihiyle ekle.
+- Değişiklik isteği → bölüm dosyasını / çizimleri düzelt, 6–7. adımları tekrarla ve tekrar onay
+  iste. İstek ileride de geçerli olacak genel bir yönlendirmeyse `NOTLAR.md`'ye tarihiyle ekle.
 - Belirsiz cevap → paylaşma, netleştirmesini iste.
 
 ## 8. Instagram'da paylaş (Composio `connec` MCP)
@@ -195,9 +198,16 @@ YouTube bağlantısı aktif değilse ya da yükleme yetki/kota hatası verirse t
 
 ## 9. Kayıt
 
-`episodes/<id>.json` ve değiştiyse `NOTLAR.md` dosyasını commit edip `main` dalına push et
-(`git add episodes NOTLAR.md && git commit -m "Bölüm <id>" && git push origin HEAD:main`).
-`main`'e push reddedilirse `claude/notlar-<id>` dalına push et ve özetinde bunu belirt.
+Bölümü arşivle ve `main` dalına push et:
+
+```bash
+cp src/episodes/current.tsx episodes/<id>.visuals.tsx
+git add episodes NOTLAR.md && git commit -m "Bölüm <id>" && git push origin HEAD:main
+```
+
+`src/episodes/current.tsx`'i commit etme (bir sonraki bölüm yeniden yazar):
+`git checkout -- src/episodes/current.tsx`. `main`'e push reddedilirse `claude/notlar-<id>` dalına
+push et ve özetinde bunu belirt.
 
 Son mesajında kısa bir özet ver: konu, kategori, video süresi, Instagram bağlantısı (permalink),
 YouTube Shorts bağlantısı ve varsa sorunlar.

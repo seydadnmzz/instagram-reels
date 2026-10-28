@@ -1,0 +1,47 @@
+{
+  "id": "ornek-ahtapot",
+  "category": "bilim",
+  "theme": "lab",
+  "scenes": [
+    {
+      "headline": "Üç *kalp*",
+      "visual": "OctopusHearts",
+      "narration": "Ahtapotun bir değil, tam *üç kalbi* var."
+    },
+    {
+      "headline": "İkisi *solungaçlara*",
+      "visual": "GillHearts",
+      "narration": "Bunlardan ikisi kanı yalnızca *solungaçlara* pompalıyor."
+    },
+    {
+      "headline": "Biri *tüm vücuda*",
+      "visual": "BodyHeart",
+      "narration": "Üçüncüsü ise kanı *tüm vücuda* gönderiyor."
+    },
+    {
+      "headline": "Yüzerken *duruyor*",
+      "tag": "SİSTEMİK KALP",
+      "visual": "HeartStops",
+      "narration": "İşin tuhafı, ahtapot yüzerken bu kalp *duruyor*."
+    },
+    {
+      "headline": "Bu yüzden *sürünüyor*",
+      "visual": "Crawling",
+      "narration": "Bu yüzden çoğu zaman yüzmek yerine deniz tabanında *sürünmeyi* tercih ediyor."
+    },
+    {
+      "headline": "Kanı *mavi*",
+      "visual": "BlueBlood",
+      "narration": "Üstelik kanı *mavi*, çünkü oksijeni demir yerine *bakırla* taşıyor."
+    },
+    {
+      "headline": "Sence *hangisi*?",
+      "visual": "WhichOne",
+      "narration": "Sence en tuhafı hangisi? *Yorumlara* yaz."
+    }
+  ],
+  "caption": "Ahtapotun bir değil üç kalbi var 🐙❤️❤️❤️ Üstelik biri yüzerken duruyor, kanı da mavi! Sence en tuhafı hangisi? Yorumlara yaz 👇",
+  "youtubeTitle": "Ahtapotun 3 kalbi var ve biri yüzerken duruyor! #shorts",
+  "hashtags": ["ahtapot", "bilim", "hayvanlar", "ilginçbilgiler", "bunlarıbiliyormuydun", "doğa", "denizcanlıları", "keşfet", "reels"],
+  "sources": ["Encyclopaedia Britannica: Octopus", "Wikipedia: Octopus (Circulatory system)"]
+}
