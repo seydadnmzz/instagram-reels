@@ -205,7 +205,7 @@ export const Chip: React.FC<{ x: number; y: number; text: string; dark?: boolean
   delay = 0,
 }) => {
   const appear = useAppear(delay);
-  const w = text.length * 19 + 44;
+  const w = text.length * 22 + 48;
   return (
     <g transform={place(x, y, appear)}>
       <rect x={-w / 2} y={-28} width={w} height={56} rx={12} fill={dark ? INK : YELLOW} stroke={OUTLINE} strokeWidth={4} />

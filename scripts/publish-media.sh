@@ -29,7 +29,7 @@ TMP="$(mktemp -d)"
   CUTOFF="$(date -u -d "-${KEEP_DAYS} days" +%F)"
   for f in *.mp4; do
     [ -e "$f" ] || continue
-    [[ "${f:0:10}" < "$CUTOFF" ]] && rm -f "$f"
+    if [[ "${f:0:10}" < "$CUTOFF" ]]; then rm -f "$f"; fi
   done
 )
 cp "$VIDEO" "$TMP/${ID}.mp4"

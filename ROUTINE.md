@@ -18,6 +18,8 @@ Herhangi bir adım başarısız olursa yarım/hatalı içerik **paylaşma**; ne 
 - Yuva (slot): Europe/Istanbul saatiyle 12:00'den önceyse `sabah`, sonrasıysa `aksam`
   (`TZ=Europe/Istanbul date +%H`).
 - Bölüm kimliği = `<tarih>-<yuva>`, ör. `2026-10-29-sabah` (`TZ=Europe/Istanbul date +%F`).
+- `episodes/<id>.json` zaten varsa bu yuvanın videosu başka bir oturumda hazırlanmıştır: yeni video
+  üretme, paylaşma; "Bu yuvanın videosu (<id>) zaten hazırlanmış, yeni video üretilmedi." yazıp dur.
 - Sıra numarası `n = 2 × (2026-10-28'den bu yana geçen gün) + (aksam ise 1, değilse 0)`.
 - **Her video "Bende de oluyor! Neden?" formatındadır:** izleyicinin kendi hayatında yaşadığı,
   çok yaygın bir deneyimi ele alır ve nedenini açıklar (bkz. `NOTLAR.md`). Kategori yalnızca
