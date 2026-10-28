@@ -62,6 +62,7 @@ Tamamlanmış bir örnek için `ornekler/ketcap.json` dosyasına bak (o konu zat
   ],
   "question": "Yoruma davet eden kısa soru (ör. 'Sen bunu biliyor muydun?')",
   "caption": "2-4 cümlelik Türkçe açıklama, sonunda etkileşim çağrısı. Birkaç emoji olabilir.",
+  "youtubeTitle": "En fazla 70 karakter, merak uyandıran başlık #shorts",
   "hashtags": ["konuyaÖzel", "kategoriEtiketi", "ilginçbilgiler", "bunlarıbiliyormuydun", "keşfet"],
   "sources": ["Britannica: Başlık", "Smithsonian Magazine: Başlık"]
 }
@@ -135,7 +136,9 @@ Paylaşmadan önce dur ve hesap sahibine şu özeti yaz, sonra cevabını bekle:
 - Konu, kategori, süre, seslendirme var mı (ve harcanan karakter sayısı)
 - Sahne metinleri (kanca + sahneler + soru)
 - `out/<id>.caption.txt` içeriğinin tamamı
+- YouTube Shorts başlığı (`youtubeTitle`)
 - Doğrulama için kullandığın kaynaklar
+- Onayın hem Instagram hem YouTube paylaşımını kapsadığını belirt
 - Son satır: "Paylaşmam için **paylaş** yaz; değişiklik istiyorsan ne değişsin yaz."
 
 Cevaba göre:
@@ -151,6 +154,8 @@ Cevaba göre:
 2. `INSTAGRAM_POST_IG_USER_MEDIA`: `ig_user_id`, `video_url` (7. adımdaki adres),
    `media_type: "REELS"`, `share_to_feed: true`, `thumb_offset: 1500`,
    `caption`: `out/<id>.caption.txt` içeriği aynen.
+   `video_url` ile konteyner oluşmazsa ya da ERROR verirse `video_url` yerine 8b'deki
+   `video_file` nesnesiyle (aynı `s3key`) dene.
 3. `INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH`: `ig_user_id`, `creation_id`, `max_wait_seconds: 300`.
 4. `INSTAGRAM_GET_IG_MEDIA` ile `permalink` al.
 
@@ -158,11 +163,30 @@ Konteyner ERROR verirse yeni bir konteyner oluşturup **bir kez** yeniden dene. 
 bölümünü yalnızca bir kez paylaş. Paylaşmadan hemen önce son paylaşımlara bak: son 3 saat içinde
 paylaşılmış bir Reels varsa paylaşma, hesap sahibine bildir ve ne yapılacağını sor.
 
+## 8b. YouTube Shorts'ta paylaş (Composio `connec` MCP)
+
+Instagram ile aynı onaya bağlıdır; onay yoksa YouTube'a da yükleme. Instagram başarısız olsa bile
+YouTube'u dene (ve tersi); sonuçların ikisini de özetle.
+
+1. Videoyu Composio deposuna aktar: `COMPOSIO_REMOTE_WORKBENCH` içinde 7. adımdaki adresi
+   `requests.get` ile indir, dosyaya yaz, `upload_local_file(yol)` çağır ve dönen `s3key`'i al.
+2. `YOUTUBE_MULTIPART_UPLOAD_VIDEO` (**yalnızca bir kez** çağır; tekrar çağırmak ikinci video oluşturur):
+   - `title`: `youtubeTitle` (100 karakteri geçmesin, `#shorts` içersin)
+   - `description`: `out/<id>.caption.txt` içeriği
+   - `tags`: `hashtags` listesi (# işaretsiz) + `shorts`
+   - `categoryId`: `"27"` (Eğitim); reddedilirse `YOUTUBE_LIST_VIDEO_CATEGORIES` (`regionCode: "TR"`)
+     ile atanabilir bir kategori seç
+   - `privacyStatus`: `"public"`
+   - `videoFile`: `{"name": "<id>.mp4", "mimetype": "video/mp4", "s3key": "<s3key>"}`
+3. Dönen video kimliğiyle bağlantıyı yaz: `https://youtube.com/shorts/<videoId>`.
+
+YouTube bağlantısı aktif değilse ya da yükleme yetki/kota hatası verirse tekrar deneme; hatayı özetle.
+
 ## 9. Kayıt
 
 `episodes/<id>.json` ve değiştiyse `NOTLAR.md` dosyasını commit edip `main` dalına push et
 (`git add episodes NOTLAR.md && git commit -m "Bölüm <id>" && git push origin HEAD:main`).
 `main`'e push reddedilirse `claude/notlar-<id>` dalına push et ve özetinde bunu belirt.
 
-Son mesajında kısa bir özet ver: konu, kategori, video süresi, Instagram bağlantısı (permalink)
-ve varsa sorunlar.
+Son mesajında kısa bir özet ver: konu, kategori, video süresi, Instagram bağlantısı (permalink),
+YouTube Shorts bağlantısı ve varsa sorunlar.
