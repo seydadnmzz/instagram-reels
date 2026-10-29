@@ -1,0 +1,78 @@
+{
+  "id": "2026-10-29-ogle",
+  "category": "ilginc",
+  "theme": "pembe",
+  "scenes": [
+    {
+      "headline": "Biri esnedi…",
+      "visual": "YawnChain",
+      "narration": "Biri esnedi… ve sen de *esnedin*! Belki şu an bile esniyorsun?"
+    },
+    {
+      "headline": "Bunun bir *adı* var",
+      "visual": "NameReveal",
+      "narration": "Bunun bir adı var: *bulaşıcı esneme*!"
+    },
+    {
+      "headline": "Videoyla *bulaşıyor*",
+      "tag": "LABORATUVAR DENEYLERİ",
+      "visual": "VideoLab",
+      "narration": "Deneylerde esneyen birini izleyenlerin kabaca *üçte biri ile yarısı* da esniyor."
+    },
+    {
+      "headline": "Oksijen *değil*",
+      "tag": "MARYLAND ÜNİV. · 1987",
+      "visual": "OxygenMyth",
+      "narration": "Oksijen eksikliği mi? *Hayır!* Saf oksijen soluyanlar da aynı sıklıkta esnedi."
+    },
+    {
+      "headline": "En çok *sevdiklerinden*",
+      "tag": "PİSA ÜNİV. · 2011",
+      "visual": "CloseOnes",
+      "narration": "Üstelik bir araştırmada esneme en çok *aileden* bulaştı, en az da yabancılardan."
+    },
+    {
+      "headline": "Bebekler *kapmıyor*",
+      "tag": "CONNECTICUT ÜNİV. · 2010",
+      "visual": "KidsImmune",
+      "narration": "Şaşırtıcı ayrıntı: çocukların çoğu *dört yaşına* kadar esnemeyi kapmıyor!"
+    },
+    {
+      "headline": "Hâlâ bir *gizem*",
+      "visual": "StillMystery",
+      "narration": "Tam nedeni bilinmiyor; bir fikre göre grubu *aynı anda* uyanık tutuyor."
+    },
+    {
+      "headline": "Sen de *esnedin* mi?",
+      "visual": "YourTurn",
+      "narration": "İzlerken sen de esnedin mi? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Biri esneyince *sen de*!",
+    "visual": "YawnChain"
+  },
+  "caption": "Biri esneyince bir anda sen de esniyorsun… Sende de oluyor mu? 🥱 Adı bulaşıcı esneme! Oksijen eksikliğiyle ilgisi yok; bir araştırmada en çok sevdiklerimizden bulaştı, 4 yaşından küçük çocukların çoğu ise hiç kapmıyor. Bu videoyu izlerken kaç kez esnedin? Yorumlara yaz, en çok esneten arkadaşını etiketle 👇",
+  "youtubeTitle": "Biri esneyince neden sen de esniyorsun? 🥱 #shorts",
+  "hashtags": [
+    "esneme",
+    "bulaşıcıesneme",
+    "ilginç",
+    "davranış",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Gallup ve ark. (2019), Scientific Reports — Contagious yawning in virtual reality is affected by actual, but not simulated, social presence (PMC6342947)",
+    "Norscia & Palagi (2011), PLoS ONE 6(12): e28472 — Yawn Contagion and Empathy in Homo sapiens, Pisa Üniversitesi",
+    "Helt ve ark. (2010), Child Development — Connecticut Üniversitesi, ScienceDaily haberi",
+    "Washington Üniversitesi (Neuroscience for Kids): Yawning — Provine 1987 oksijen/karbondioksit deneyi",
+    "Bartholomew & Cirulli (2014), PLoS ONE — Duke Üniversitesi, HealthDay haberi"
+  ]
+}
