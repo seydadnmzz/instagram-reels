@@ -1,0 +1,76 @@
+{
+  "id": "2026-10-29-aksam",
+  "category": "gundelik",
+  "theme": "turuncu",
+  "scenes": [
+    {
+      "headline": "Bu ben *miyim*?",
+      "visual": "PlaybackShock",
+      "narration": "Kendi ses kaydını dinledin… ve dedin ki: *Bu ben miyim?*"
+    },
+    {
+      "headline": "*İki yoldan* duyuyorsun",
+      "visual": "TwoPaths",
+      "narration": "Peki neden? Çünkü sesini *iki yoldan* duyuyorsun."
+    },
+    {
+      "headline": "Kafatası *titriyor*",
+      "visual": "SkullVibes",
+      "narration": "Biri havadan kulağına gelir… diğeri *kemiklerinden*, titreşimle!"
+    },
+    {
+      "headline": "Daha *kalın* gelir",
+      "tag": "IMPERIAL COLLEGE · 2014",
+      "visual": "DeepVoice",
+      "narration": "Kemik yolu kalın sesleri iyi taşır. O yüzden sesin sana *daha kalın* gelir!"
+    },
+    {
+      "headline": "Mikrofon *havayı* duyar",
+      "visual": "MicHearsAir",
+      "narration": "Kayıt ise sadece havadaki sesi yakalar. Başkaları seni *buna yakın* duyuyor!"
+    },
+    {
+      "headline": "*Tanımadan* sevdiler",
+      "tag": "ALBRIGHT KOLEJİ · 2013",
+      "visual": "BlindTest",
+      "narration": "Üstelik bir deneyde insanlar, *fark etmeden* dinledikleri kendi seslerini daha çekici buldu!"
+    },
+    {
+      "headline": "Sadece *alışık değilsin*",
+      "visual": "JustUnfamiliar",
+      "narration": "Yani sorun muhtemelen sesinde değil… sadece *alışık değilsin*!"
+    },
+    {
+      "headline": "Sen *dinleyebiliyor* musun?",
+      "visual": "YourTurn",
+      "narration": "Sen kendi sesini dinleyebiliyor musun? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Kayıtta sesim *tuhaf*!",
+    "visual": "PlaybackShock"
+  },
+  "caption": "Kendi ses kaydını dinleyince \"Bu ben miyim?\" diyorsun… Sende de oluyor mu? 🎙️😳 Konuşurken sesini hem havadan hem de kafatasındaki titreşimlerle duyuyorsun; bu yüzden sesin sana daha kalın geliyor. Kayıt ise başkalarının duyduğu sese çok daha yakın! Sen kendi sesini dinleyebiliyor musun? Yorumlara yaz, sesli mesajını hiç dinlemeyen arkadaşını etiketle 👇",
+  "youtubeTitle": "Kayıtta kendi sesin neden tuhaf geliyor? 🎙️ #shorts",
+  "hashtags": [
+    "sesim",
+    "seskaydı",
+    "gündelik",
+    "kemikiletimi",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Imperial College London (2014): Scientists explain in more detail how we hear via bones in the skull — Dr Tobias Reichenbach",
+    "Popular Science (2009): Why does my voice sound different when I hear it on a recording? — Vanderbilt Üniv. odyoloji profesörü Ben Hornsby",
+    "Acoustical Society of America, 165. toplantı basın metni: Namkeun Kim (Stanford) — kemik iletimi ve kendi sesimiz",
+    "Hughes & Harrison (2013), Perception 42(9) — Albright College, ScienceDaily haberi",
+    "Wikipedia: Voice confrontation"
+  ]
+}
