@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-29-sabah",
+  "category": "bilim",
+  "theme": "turkuaz",
+  "scenes": [
+    {
+      "headline": "Beynim *dondu*!",
+      "visual": "IceCreamOuch",
+      "narration": "Dondurmayı hızlı yedin… ve alnına *bıçak gibi* bir ağrı saplandı!"
+    },
+    {
+      "headline": "Bunun bir *adı* var",
+      "visual": "NameReveal",
+      "narration": "Bunun bir adı var: *beyin donması*!"
+    },
+    {
+      "headline": "Suçlu: *damak*",
+      "visual": "PalateVessels",
+      "narration": "Peki neden? En güçlü açıklama: soğuk *damağa* değince damarlar büzülüp hızla genişliyor."
+    },
+    {
+      "headline": "Ağrı *alnında*",
+      "visual": "ReferredPain",
+      "narration": "Bu sinyali taşıyan sinir yüzü de algılıyor; o yüzden ağrıyı *alnında* hissediyorsun!"
+    },
+    {
+      "headline": "Beyne *kan* hücumu",
+      "tag": "HARVARD TIP · 2012",
+      "visual": "BloodRush",
+      "narration": "Bir deneyde, ağrı anında beyne giden *kan akışı* da arttı."
+    },
+    {
+      "headline": "Deneyi bir *öğrenci* yaptı",
+      "tag": "KANADA · 2002",
+      "visual": "KidScience",
+      "narration": "Üstelik ünlü bir deneyi *sekizinci sınıf* bir öğrenci yaptı: hızlı yiyenlerde ağrı iki kat fazlaydı!"
+    },
+    {
+      "headline": "*Yavaş* ye",
+      "visual": "SlowDown",
+      "narration": "İyi haber: genelde saniyeler içinde geçer. *Yavaş* ye!"
+    },
+    {
+      "headline": "Sende *neyle*?",
+      "visual": "YourTurn",
+      "narration": "Sende en çok neyle oluyor? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Dondurma yerken *beynin* donuyor!",
+    "visual": "IceCreamOuch"
+  },
+  "caption": "Dondurmayı hızlı yiyince alnına saplanan o ağrı… Sende de oluyor mu? 🍦🥶 Adı beyin donması! Soğuk damağa değince damarlar ani tepki veriyor, ağrıyı ise alnında hissediyorsun. Sende en çok neyle oluyor? Yorumlara yaz, buzlu içeceği tek dikişte içen arkadaşını etiketle 👇",
+  "youtubeTitle": "Dondurma yerken neden beynin donuyor? 🥶 #shorts",
+  "hashtags": [
+    "beyindonması",
+    "dondurma",
+    "bilim",
+    "beden",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Kaczorowski & Kaczorowski (2002), BMJ 325:1445 — Ice cream evoked headaches (ICE-H) study, McMaster Üniversitesi",
+    "Serrador ve ark. (2012), Experimental Biology / FASEB — Harvard Tıp Fakültesi, ScienceDaily haberi",
+    "Wikipedia: Cold-stimulus headache"
+  ]
+}
