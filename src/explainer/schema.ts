@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 // lab/parchment: klasik koyu zemin + çerçeveli kart; diğerleri: renkli degrade görünüm
-export const themeSchema = z.enum(["lab", "parchment", "mor", "turkuaz", "turuncu", "pembe", "gece"]);
+export const themeSchema = z.enum(["lab", "parchment", "mor", "turkuaz", "turuncu", "pembe", "gece", "gri"]);
 
 export const explainerSceneSchema = z.object({
   // Üst başlık; *yıldız* içindeki kısım sarı kutuyla vurgulanır
