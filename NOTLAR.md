@@ -42,3 +42,20 @@ Yalnızca o güne özel düzeltmeleri buraya yazma.
 - 2026-10-28: İlk 10 gün (2026-11-07 dahil) tarih içerikli video YOK. Bunun yerine insanların ilgisini
   çekecek, geniş kitleye hitap eden ilginç bilgiler seç. Hesap henüz yeni; amaç keşfete düşmek ve
   takipçi kazanmak. Konular niş değil, herkesin "bunu bilmiyordum" diyeceği türden olsun.
+- 2026-10-30 — **TEK SEFERLİK, yalnızca 2026-10-30 akşam yuvası (`2026-10-30-aksam`) için:** Bu yuvada
+  yeni video ÜRETME. Hesap sahibi `2026-10-30-ogle` (hafıza sarayı, gri tema) bölümünü 2026-10-30
+  öğle oturumunda açıkça onayladı ("paylaş") ve akşam yuvasında **kendisinden onay beklenmeden**
+  paylaşılmasını istedi. Bu yüzden bu yuvada 7b atlanır; onay bu bölüm için verilmiş sayılır.
+  Adımlar:
+  1. `npm ci`, sonra `node scripts/caption.mjs episodes/2026-10-30-ogle.json` (açıklama:
+     `out/2026-10-30-ogle.caption.txt`; `youtubeTitle` ve `hashtags` bölüm dosyasından).
+  2. `https://raw.githubusercontent.com/<OWNER>/<REPO>/refs/heads/claude/media/2026-10-30-ogle.mp4`
+     ve `.cover.jpg` adresleri HTTP 200 dönmüyorsa: `episodes/2026-10-30-ogle.visuals.tsx` dosyasını
+     `src/episodes/current.tsx`'e kopyala, 6. adımdaki gibi render et (seslendirme
+     `public/episodes/2026-10-30-ogle/` altında yoksa yeniden alma, seslendirmesiz render etme; dur ve
+     bildir), sonra `bash scripts/publish-media.sh 2026-10-30-ogle`.
+  3. 8. adımı (Instagram; son 3 saat kontrolü dahil) ve 8b'yi (YouTube) `2026-10-30-ogle` kimliğiyle
+     uygula. Son paylaşımlarda hafıza sarayı Reels'i zaten varsa Instagram'a tekrar paylaşma; YouTube
+     kanalında zaten varsa tekrar yükleme. YouTube 429 (kota) verirse tekrar deneme, bildir.
+  4. Bitince bu maddeyi `NOTLAR.md`'den sil, sonucu (bağlantılar/hatalar) commit mesajına yaz ve
+     `main`'e push et. Sonucu hesap sahibine bildirimle gönder.
