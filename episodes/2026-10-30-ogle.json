@@ -1,0 +1,78 @@
+{
+  "id": "2026-10-30-ogle",
+  "category": "psikoloji",
+  "theme": "mor",
+  "scenes": [
+    {
+      "headline": "Liste yine *unutuldu*",
+      "visual": "ForgotList",
+      "narration": "Market listesini hep mi unutuyorsun? Bunun bir hilesi var… *evinin içinde*!"
+    },
+    {
+      "headline": "Hafıza *sarayı*",
+      "visual": "PalaceReveal",
+      "narration": "Adı *hafıza sarayı*, üstelik iki bin yıldan eski!"
+    },
+    {
+      "headline": "Odalara *yerleştir*",
+      "visual": "PlaceItems",
+      "narration": "Nasıl mı? Hatırlayacaklarını odalara, *tuhaf resimlerle* yerleştir."
+    },
+    {
+      "headline": "Zihninde *dolaş*",
+      "visual": "WalkThrough",
+      "narration": "Sonra zihninde evi dolaş ve her şeyi *sırayla* topla!"
+    },
+    {
+      "headline": "Bir *efsane*",
+      "tag": "ANTİK YUNAN · EFSANE",
+      "visual": "Banquet",
+      "narration": "Efsaneye göre şair Simonides, çöken bir salonda herkesin *yerini* hatırlayıp kurbanları tanıdı."
+    },
+    {
+      "headline": "26'dan *62'ye*",
+      "tag": "NEURON · 2017",
+      "visual": "WordJump",
+      "narration": "Bir deneyde altı haftalık eğitimle insanlar, yirmi altı kelimeden *altmış ikiye* çıktı!"
+    },
+    {
+      "headline": "Dahi *değiller*",
+      "tag": "LONDRA · 2003",
+      "visual": "Champions",
+      "narration": "Üstelik hafıza şampiyonlarının beyni *farklı değil*; çoğu bu yöntemi kullanıyor!"
+    },
+    {
+      "headline": "İlk neyi *koyardın*?",
+      "visual": "YourTurn",
+      "narration": "Sen sarayına ilk neyi koyardın? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Ezberin *sırrı* evinde!",
+    "visual": "PalaceReveal",
+    "kicker": "HAFIZA HİLESİ",
+    "question": "NASIL?"
+  },
+  "caption": "Market listesini hep unutuyor musun? Sende de oluyor mu? 🛒🧠 Hafıza sarayını dene: hatırlayacaklarını evinin odalarına tuhaf resimlerle yerleştir, sonra zihninde dolaş! Bir deneyde altı haftalık eğitimle insanlar 72 kelimeden ortalama 26 yerine 62'sini hatırladı. Sen hafıza sarayına ilk neyi koyardın? Yorumlara yaz, sürekli bir şey unutan arkadaşını etiketle 👇",
+  "youtubeTitle": "Hafıza sarayı: Her şeyi evinde sakla! 🧠 #shorts",
+  "hashtags": [
+    "hafızasarayı",
+    "hafıza",
+    "ezber",
+    "psikoloji",
+    "beyin",
+    "hafızateknikleri",
+    "bendedeoluyor",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Dresler ve ark. (2017), Neuron 93(5):1227–1235 — Mnemonic Training Reshapes Brain Networks to Support Superior Memory (PubMed özeti; ScienceDaily haberi: 26 → 62 kelime, 40 gün × 30 dk, dört ay sonra hâlâ 22+ kelime fazla)",
+    "Maguire, Valentine, Wilding & Kapur (2003), Nature Neuroscience 6(1):90–95 — Routes to remembering: the brains behind superior memory (PubMed özeti)",
+    "Wikipedia: Method of loci — Simonides efsanesi, Cicero, De Oratore"
+  ]
+}
