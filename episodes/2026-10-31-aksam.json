@@ -1,0 +1,80 @@
+{
+  "id": "2026-10-31-aksam",
+  "category": "gundelik",
+  "theme": "turuncu",
+  "scenes": [
+    {
+      "headline": "Dönüş *hep kısa*!",
+      "visual": "RoadTrip",
+      "narration": "Giderken yol bitmek bilmedi… ama dönüş *bir anda* bitti!"
+    },
+    {
+      "headline": "Dönüş yolu *etkisi*",
+      "visual": "SameRoad",
+      "narration": "Aynı yol, aynı mesafe! Peki neden? Adı: *dönüş yolu etkisi*."
+    },
+    {
+      "headline": "Dönüş *daha kısa* sanıldı",
+      "tag": "TILBURG ÜNİV. · 2011",
+      "visual": "BikeStudy",
+      "narration": "Bir deneyde bisikletliler dönüşü *yüzde 17* daha kısa sandı."
+    },
+    {
+      "headline": "Suçlu: *beklentin*",
+      "visual": "Expectation",
+      "narration": "Suçlu, *beklentin*! Gidişi kısa sanıp uzayınca şaşırıyorsun."
+    },
+    {
+      "headline": "Dönüşe *hazırlıklısın*",
+      "visual": "Ready",
+      "narration": "Dönüşü ise uzun bekliyorsun… o da *kısa* geliyor!"
+    },
+    {
+      "headline": "Tanıdık yol *değil*",
+      "visual": "OtherRoute",
+      "narration": "Üstelik *başka yoldan* dönenlerde de etki sürdü!"
+    },
+    {
+      "headline": "Uzun bekleyince *yok*",
+      "visual": "ToldLong",
+      "narration": "Yolun uzun olacağı önceden söylenince ise etki *kayboldu*."
+    },
+    {
+      "headline": "Sonradan *kısalıyor*",
+      "tag": "KYOTO ÜNİV. · 2015",
+      "visual": "Hindsight",
+      "narration": "Bir başka deneyde dönüş, yolda değil, *sonradan* kısa geldi!"
+    },
+    {
+      "headline": "Sende *hangi yol*?",
+      "visual": "YourTurn",
+      "narration": "Sende en çok hangi yolculukta oluyor? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Dönüş yolu *hep kısa*!",
+    "visual": "RoadTrip"
+  },
+  "caption": "Giderken yol bitmek bilmiyor, dönüşte ise bir anda evdesin… Sende de oluyor mu? 🚗⏱️ Adı dönüş yolu etkisi! Araştırmalara göre suçlu yolun kendisi değil, beklentin: gidişi kısa sanıp şaşırıyorsun, dönüşü uzun bekleyince de kısa geliyor. Sende en çok hangi yolculukta oluyor? Yorumlara yaz, yolculukta hep \"daha varmadık mı?\" diyen arkadaşını etiketle 👇",
+  "youtubeTitle": "Dönüş yolu neden hep daha kısa gelir? 🚗 #shorts",
+  "hashtags": [
+    "dönüşyolu",
+    "dönüşyoluetkisi",
+    "yolculuk",
+    "zamanalgısı",
+    "psikoloji",
+    "gündelik",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "van de Ven, van Rijswijk & Roy (2011), Psychonomic Bulletin & Review 18(5):827–832 — The return trip effect: Why the return trip often seems to take less time, Tilburg Üniversitesi (PMC3179583: bisiklet deneyi 44,3 → 36,9 dk ≈ yüzde 17; farklı eşit uzunlukta dönüş yolunda da etki; uzun yol beklentisi verilince etki kayboldu)",
+    "Ozawa, Fujii & Kouzaki (2015), PLoS ONE 10(6): e0127779 — The Return Trip Is Felt Shorter Only Postdictively, Kyoto Üniversitesi (EurekAlert basın bülteni: 20 katılımcı, yürüyüş videoları, etki yalnızca sonradan yapılan tahminlerde)"
+  ]
+}
