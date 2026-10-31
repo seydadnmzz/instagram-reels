@@ -1,0 +1,78 @@
+{
+  "id": "2026-10-31-sabah",
+  "category": "bilim",
+  "theme": "turkuaz",
+  "scenes": [
+    {
+      "headline": "Parmaklar *buruştu*!",
+      "visual": "BathFingers",
+      "narration": "Banyoda uzun kaldın… ve parmakların *kuru üzüm* gibi buruştu!"
+    },
+    {
+      "headline": "Su emdi *sanma*",
+      "visual": "SpongeMyth",
+      "narration": "Deri suyu emip şişti mi sanıyorsun? *Değil!*"
+    },
+    {
+      "headline": "Suçlu: *sinirler*",
+      "visual": "VesselsShrink",
+      "narration": "Aslında *sinir sistemin* parmak uçlarındaki damarları büzüyor, deri içe çöküyor."
+    },
+    {
+      "headline": "Sinir yoksa *buruşma* yok",
+      "tag": "LONDRA · 1936",
+      "visual": "NerveTest",
+      "narration": "Dikkat! Siniri hasar görmüş bir parmak *hiç buruşmuyor*. Doktorlar bunu test olarak kullandı!"
+    },
+    {
+      "headline": "Lastik *dişleri* gibi",
+      "visual": "TireTread",
+      "narration": "Peki neden? Bir fikre göre kırışıklar, *lastik dişleri* gibi suyu dışarı akıtıyor."
+    },
+    {
+      "headline": "Islak *bilye* deneyi",
+      "tag": "NEWCASTLE ÜNİV. · 2013",
+      "visual": "Marbles",
+      "narration": "Bir deneyde buruşuk parmaklar, ıslak bilyeleri *daha hızlı* taşıdı."
+    },
+    {
+      "headline": "Tartışma *sürüyor*",
+      "tag": "BERLİN · 2014",
+      "visual": "Debate",
+      "narration": "Ama başka bir ekip bunu tekrarlayamadı. Yani tartışma *hâlâ sürüyor*!"
+    },
+    {
+      "headline": "Sende *nerede*?",
+      "visual": "YourTurn",
+      "narration": "Senin parmakların en çok nerede buruşuyor? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Parmakların *buruşuyor*!",
+    "visual": "BathFingers"
+  },
+  "caption": "Banyoda ya da havuzda uzun kalınca parmakların kuru üzüm gibi buruşuyor… Sende de oluyor mu? 🛁🖐️ Bunu deri suyu emdiği için değil, sinir sistemin damarları büzdüğü için yaşıyorsun; siniri hasarlı parmak hiç buruşmuyor! Neden böyle olduğu ise hâlâ tartışılıyor. Sen en çok nerede buruşuyorsun? Yorumlara yaz, banyodan çıkmayan arkadaşını etiketle 👇",
+  "youtubeTitle": "Suda parmakların neden buruşuyor? 🖐️💧 #shorts",
+  "hashtags": [
+    "parmaklar",
+    "buruşukparmak",
+    "suyunetkisi",
+    "bilim",
+    "sinirsistemi",
+    "beden",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Newcastle University basın bülteni (2013): Get a grip — why we get wrinkly fingers and toes (Kareklas, Nettle & Smulders, Biology Letters; 30 dk ılık su, ıslak bilyeler, otonom sinir sistemi/damar büzülmesi)",
+    "Haseleu, Omerbašić, Frenzel, Gross & Lewin (2014), PLoS ONE 9(1): e84949 — Water-induced finger wrinkles do not affect touch acuity or dexterity in handling wet objects, MDC Berlin (PubMed/arama özeti)",
+    "Wilder-Smith & Chow (2003), Microvascular Research — Water immersion and EMLA cause similar digit skin wrinkling and vasoconstriction (PubMed özeti)",
+    "Popular Science: Why do fingers wrinkle in water? — Pickering & Lewis (1936) sinir hasarlı hastalar, median sinir, sıcak su testi"
+  ]
+}
