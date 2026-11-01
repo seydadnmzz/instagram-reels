@@ -234,7 +234,7 @@ YouTube'u dene (ve tersi); sonuçların ikisini de özetle.
 
 YouTube bağlantısı aktif değilse ya da yükleme yetki/kota hatası verirse tekrar deneme; hatayı özetle.
 Not: Composio'nun ortak Google projesinin günlük yükleme kotası dolabiliyor (HTTP 429 "Video Uploads
-per day"); kota her gün 10:00 TR'de sıfırlanır. Bu hatada videonun YouTube'a yüklenemediğini ve
+per day"); kota her gün Pasifik gece yarısı sıfırlanır (ABD yaz saatinde 10:00 TR, kışın 11:00 TR). Bu hatada videonun YouTube'a yüklenemediğini ve
 hesap sahibinin ne zaman tekrar denenmesini istediğini sor.
 
 ## 9. Kayıt
