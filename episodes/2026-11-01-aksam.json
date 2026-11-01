@@ -4,80 +4,78 @@
   "theme": "mor",
   "scenes": [
     {
-      "headline": "Ezberledim… *uçtu*!",
-      "visual": "CramNight",
-      "narration": "Sınavdan önceki gece *her şeyi* ezberledin… Bir hafta sonra? Hepsi uçtu!"
+      "headline": "Bunu *yaşadım*!",
+      "visual": "DejaRoom",
+      "narration": "Yeni bir yere girdin… ve birden: *Bunu daha önce yaşadım!* Ama nasıl?"
     },
     {
-      "headline": "Unutma *eğrisi*",
-      "visual": "ForgettingCurve",
-      "narration": "Bunun bir adı var: *unutma eğrisi*! En hızlı, ilk saatlerde unutuyoruz."
+      "headline": "Déjà *vu*",
+      "tag": "FRANSA · 1876",
+      "visual": "NameReveal",
+      "narration": "Bunun bir adı var: *dejavu*! Fransızcada \"zaten görülmüş\" demek."
     },
     {
-      "headline": "Kendi üstünde *deney*",
-      "tag": "ALMANYA · 1885",
-      "visual": "Ebbinghaus",
-      "narration": "Bunu ilk ölçen Ebbinghaus'tu. Kendine aylarca *anlamsız heceler* ezberletti!"
+      "headline": "Yalnız *değilsin*",
+      "visual": "TwoThirds",
+      "narration": "Yalnız değilsin! İnsanların yaklaşık *üçte ikisi* bunu yaşamış."
     },
     {
-      "headline": "Eğri *yine* çıktı",
-      "tag": "AMSTERDAM ÜNİV. · 2015",
-      "visual": "Replication",
-      "narration": "Yüz otuz yıl sonra deney tekrarlandı… eğri *yine* çıktı!"
+      "headline": "Yorgunken *daha sık*",
+      "visual": "TiredYoung",
+      "narration": "Üstelik gençlerde daha sık; *yorgun* ya da stresliyken de daha çok görülüyor."
     },
     {
-      "headline": "Çözüm: *ara ver*",
-      "visual": "SpacedCalendar",
-      "narration": "Peki çözüm ne? *Aralıklı tekrar*! Tekrarı tek güne değil, günlere yay."
+      "headline": "Sanal *odalar*",
+      "tag": "COLORADO STATE ÜNİV. · 2012",
+      "visual": "VrRooms",
+      "narration": "Peki neden? Bir deneyde insanlar, sanal gerçeklikte *yeni odalarda* dolaştı."
     },
     {
-      "headline": "68'e karşı *38*",
-      "tag": "EBBINGHAUS · 1885",
-      "visual": "RepCompare",
-      "narration": "Üç güne yayılan *38* tekrar, tek gündeki *68* tekrar kadar işe yaradı!"
+      "headline": "Aynı *düzen*",
+      "visual": "SameLayout",
+      "narration": "Yeni oda, eski bir odayla *aynı düzendeyse* dejavu arttı! Eskisini hatırlamasalar bile."
     },
     {
-      "headline": "Yüzlerce deney *aynı* diyor",
-      "tag": "317 DENEY · 2006",
-      "visual": "MetaStack",
-      "narration": "Üstelik, üç yüzü aşkın deneyi inceleyen dev bir analiz de bunu *doğruladı*!"
+      "headline": "Tanıdık ama *nereden*?",
+      "visual": "Familiar",
+      "narration": "Güçlü bir açıklama: Beyin tanıdık bir *düzen* yakalıyor, ama nereden bildiğini bulamıyor."
     },
     {
-      "headline": "Hisler *yanıltıyor*",
-      "tag": "UCLA · 2008",
-      "visual": "Illusion",
-      "narration": "İşin tuhafı! Bir deneyde öğrencilerin çoğu aralıklı çalışınca daha iyi öğrendi… ama yüzde 78'i *yığmayı* en az o kadar iyi sandı!"
+      "headline": "Geleceği *görmek*?",
+      "tag": "COLORADO STATE ÜNİV. · 2018",
+      "visual": "NoFuture",
+      "narration": "Dejavu geleceği gösterir mi? Hayır! Sıradaki dönüşü bildiklerini *sandılar*, ama tahminleri yazı turadan iyi değildi."
     },
     {
-      "headline": "Akıcı *ama* kalıcı değil",
-      "visual": "FluencyTrap",
-      "narration": "Peki neden? Arka arkaya tekrar *akıcı* gelir ama yanıltır. Uzmanlara göre biraz unutup yeniden hatırlamak, bilgiyi güçlendiriyor."
+      "headline": "Beyin *taraması*",
+      "tag": "ST ANDREWS ÜNİV. · İSKOÇYA",
+      "visual": "BrainScan",
+      "narration": "İskoçya'da bir beyin taramasında, hafıza merkezi değil, *karar veren* ön bölgeler çalıştı."
     },
     {
-      "headline": "Araları *aç*",
-      "visual": "TipSchedule",
-      "narration": "İpucu: Ertesi gün tekrar et, sonra araları aç. Sınav uzaksa, aralık da *uzun* olsun!"
+      "headline": "Hata *yakalandı*",
+      "visual": "FactCheck",
+      "narration": "Araştırmacılara göre dejavu, beynin hafızasını *kontrol etmesi* olabilir: \"Bu his yanlış!\" diye uyarıyor."
     },
     {
-      "headline": "Sen nasıl *çalışıyorsun*?",
+      "headline": "Sen nerede *yaşadın*?",
       "visual": "YourTurn",
-      "narration": "Sen son geceye mi bırakırsın, günlere mi yayarsın? *Yorumlara* yaz!"
+      "narration": "Sen en son nerede dejavu yaşadın? *Yorumlara* yaz!"
     }
   ],
   "cover": {
-    "title": "Ezberledin ama *uçup* gitti!",
-    "visual": "CramNight"
+    "title": "Bunu *daha önce* yaşadım!",
+    "visual": "DejaRoom"
   },
-  "caption": "Sınavdan önceki gece her şeyi ezberledin, bir hafta sonra neredeyse hiçbir şey kalmadı… Sende de oluyor mu? 📚💨 Adı unutma eğrisi! Ebbinghaus'un deneyinde üç güne yayılan 38 tekrar, tek günde yapılan 68 tekrar kadar işe yaradı. Yüzlerce deney aynı şeyi söylüyor: tekrarı günlere yay, araları aç! Sen son geceye mi bırakırsın, günlere mi yayarsın? Yorumlara yaz, hep son gece çalışan arkadaşını etiketle 👇",
-  "youtubeTitle": "Ezberlediğini neden bir haftada unutuyorsun? 📚 #shorts",
+  "caption": "Yeni bir yere giriyorsun ve bir anda \"Ben bunu daha önce yaşadım!\" diyorsun… Sende de oluyor mu? 🤯🔁 Adı dejavu! İnsanların yaklaşık üçte ikisi yaşıyor. Bir deneyde yeni oda, hatırlanmayan eski bir odayla aynı düzende olunca dejavu arttı. Geleceği gösterdiğini sanma ama: tahminler tesadüften iyi değildi! Sen en son nerede yaşadın? Yorumlara yaz, en çok dejavu yaşayan arkadaşını etiketle 👇",
+  "youtubeTitle": "Dejavu neden olur? Bunu daha önce yaşadım! 🤯 #shorts",
   "hashtags": [
-    "unutmaeğrisi",
-    "aralıklıtekrar",
+    "dejavu",
+    "déjàvu",
     "hafıza",
-    "dersçalışma",
-    "öğrenme",
-    "sınav",
+    "beyin",
     "psikoloji",
+    "tanıdıklık",
     "bendedeoluyor",
     "neden",
     "ilginçbilgiler",
@@ -88,10 +86,10 @@
     "shorts"
   ],
   "sources": [
-    "Murre & Dros (2015), PLoS ONE 10(7): e0120644 — Replication and Analysis of Ebbinghaus' Forgetting Curve, Amsterdam Üniversitesi (Ebbinghaus 1880 el yazması ve 1885 kitabı; tek denek, anlamsız heceler, yaklaşık yedi ay; Dros ile 70 saatlik tekrar; 20 dk–31 gün aralıkları; replikasyon başarılı, eğri Ebbinghaus'unkine çok benziyor)",
-    "Ebbinghaus (1885), Über das Gedächtnis / Memory, §34 — alıntı SuperMemo Guru 'Hermann Ebbinghaus (1885) and spaced repetition (1985)': 12 heceli dizide üç güne dağılmış 38 tekrar, bir önceki gün yapılan 68 tekrar kadar etkili",
-    "Cepeda, Pashler, Vul, Wixted & Rohrer (2006), Psychological Bulletin 132(3):354–380 — Distributed practice in verbal recall tasks: A review and quantitative synthesis (PubMed/USF kaydı: 184 makalede 317 deney, 839 ölçüm)",
-    "Cepeda, Vul, Rohrer, Wixted & Pashler (2008), Psychological Science 19(11):1095–1102 — Spacing effects in learning: a temporal ridgeline of optimal retention (PubMed özeti: 1350'den fazla katılımcı; sınav ne kadar uzaksa en iyi aralık o kadar uzun)",
-    "Kornell & Bjork (2008), Psychological Science 19(6) — Learning concepts and categories: Is spacing the 'enemy of induction'?, UCLA (tam metin: katılımcıların yüzde 78'i aralıklı sunumla daha iyi, ama yüzde 78'i yığmanın eşit ya da daha iyi olduğunu söyledi; yığma akıcılık hissi yaratıyor)"
+    "Brown (2003), Psychological Bulletin 129(3):394–413 — A review of the déjà vu experience (PubMed özeti: insanların yaklaşık yüzde 60'ı yaşamış, yaşla azalıyor, stres ve yorgunlukla ilişkili; Wikipedia 'Déjà vu': araştırılan toplulukların yaklaşık üçte ikisi)",
+    "Colorado State University basın bülteni (23 Mayıs 2012): Spatial configuration can spark déjà vu — Cleary ve ark., Consciousness and Cognition; sanal gerçeklik gözlüğüyle 3 boyutlu sahneler, aynı yerleşim düzeni hatırlanmasa bile tanıdıklık ve déjà vu hissini artırdı",
+    "Association for Psychological Science (7 Mart 2018): One of déjà vu's most striking features is just an illusion — Cleary & Claxton, Psychological Science; önsezi hissi yanıltıcı, déjà vu geleceği tahmin ettirmedi (CSU haberine göre tahminler rastgele tahminden iyi değildi)",
+    "O'Connor ve ark., St Andrews Üniversitesi (2016 sunumu; Urquhart ve ark., Memory) — fMRI evidence supporting the role of memory conflict in the déjà vu experience: 'sleep' kelimesi olmayan uyku listeleri, hipokampüs değil ön (frontal) karar bölgeleri etkin; yorum: beynin hafıza hatasını kontrol etmesi (Bustle/New Scientist özeti)",
+    "Wikipedia: Déjà vu ve Émile Boirac — terim Fransızca 'zaten görülmüş', Boirac'ın 1876'da Revue philosophique'e yazdığı mektup"
   ]
 }

@@ -1,19 +1,20 @@
 // Günün bölümüne özel çizimler. Rutin bu dosyayı her bölüm için yeniden yazar.
 // Her çizim 900×560 birimlik SVG sahnesine çizilir; sahne süresi prop olarak gelir.
-// Bölüm: Unutma eğrisi ve aralıklı tekrar (2026-11-01-aksam)
+// Bölüm: Déjà vu neden olur? (2026-11-01-aksam)
 import { useCurrentFrame } from "remotion";
 import {
-  Arrow,
   BigText,
   Brain,
   Chip,
   INK,
-  NamePlate,
+  Note,
   Person,
   place,
   QuestionMark,
   RED,
+  Room,
   Sparkles,
+  ThoughtBubble,
   uiFont,
   useAppear,
   useProgress,
@@ -30,11 +31,11 @@ const MINT = "#3fcf9f";
 const GREY = "#c9c4d8";
 const PINK = "#f59ab0";
 
-const Paper: React.FC<{ night?: boolean }> = ({ night = false }) => (
+const Paper: React.FC = () => (
   <g>
-    <rect width={900} height={560} fill={night ? "#2e2a5c" : PAPER} />
-    <rect y={470} width={900} height={90} fill={night ? "#463f86" : "#e4dcff"} />
-    <line x1={0} y1={470} x2={900} y2={470} stroke={night ? "#5b52a8" : "#cbbcff"} strokeWidth={4} />
+    <rect width={900} height={560} fill={PAPER} />
+    <rect y={470} width={900} height={90} fill="#e4dcff" />
+    <line x1={0} y1={470} x2={900} y2={470} stroke="#cbbcff" strokeWidth={4} />
   </g>
 );
 
@@ -44,11 +45,12 @@ const Head: React.FC<{
   y: number;
   scale?: number;
   talk?: boolean;
-  sad?: boolean;
+  sleepy?: boolean;
+  goggles?: boolean;
   shirt?: string;
   hair?: string;
   delay?: number;
-}> = ({ x, y, scale = 1, talk = false, sad = false, shirt = MINT, hair = "#4a2f1d", delay = 0 }) => {
+}> = ({ x, y, scale = 1, talk = false, sleepy = false, goggles = false, shirt = MINT, hair = "#4a2f1d", delay = 0 }) => {
   const frame = useCurrentFrame();
   const appear = useAppear(delay);
   const blink = frame % 80 > 75 ? 0.15 : 1;
@@ -69,22 +71,29 @@ const Head: React.FC<{
           strokeWidth={4}
           strokeLinejoin="round"
         />
-        <g transform={`translate(0 ${-8 * (1 - blink)}) scale(1 ${blink})`}>
-          <circle cx={-24} cy={-8} r={8} fill={OUTLINE} />
-          <circle cx={24} cy={-8} r={8} fill={OUTLINE} />
-        </g>
-        {sad ? (
-          <g stroke={OUTLINE} strokeWidth={4} strokeLinecap="round">
-            <line x1={-36} y1={-30} x2={-14} y2={-24} />
-            <line x1={36} y1={-30} x2={14} y2={-24} />
+        {goggles ? (
+          <g>
+            <rect x={-78} y={-6} width={156} height={12} fill={OUTLINE} />
+            <rect x={-60} y={-34} width={120} height={56} rx={16} fill={PURPLE} stroke={OUTLINE} strokeWidth={5} />
+            <rect x={-48} y={-24} width={96} height={14} rx={7} fill="#9b86ff" />
           </g>
-        ) : null}
+        ) : sleepy ? (
+          <g stroke={OUTLINE} strokeWidth={6} strokeLinecap="round" fill="none">
+            <path d="M -34 -6 Q -24 2 -14 -6" />
+            <path d="M 14 -6 Q 24 2 34 -6" />
+          </g>
+        ) : (
+          <g transform={`translate(0 ${-8 * (1 - blink)}) scale(1 ${blink})`}>
+            <circle cx={-24} cy={-8} r={8} fill={OUTLINE} />
+            <circle cx={24} cy={-8} r={8} fill={OUTLINE} />
+          </g>
+        )}
         <circle cx={-44} cy={20} r={10} fill={PINK} opacity={0.7} />
         <circle cx={44} cy={20} r={10} fill={PINK} opacity={0.7} />
         {talk ? (
           <ellipse cx={0} cy={32} rx={16} ry={4 + 14 * mouth} fill="#7a2335" stroke={OUTLINE} strokeWidth={4} />
-        ) : sad ? (
-          <path d="M -16 38 Q 0 26 16 38" fill="none" stroke={OUTLINE} strokeWidth={5} strokeLinecap="round" />
+        ) : sleepy ? (
+          <ellipse cx={0} cy={34} rx={10} ry={8} fill="#7a2335" stroke={OUTLINE} strokeWidth={4} />
         ) : (
           <path d="M -14 28 Q 0 40 14 28" fill="none" stroke={OUTLINE} strokeWidth={5} strokeLinecap="round" />
         )}
@@ -93,84 +102,73 @@ const Head: React.FC<{
   );
 };
 
-// Küçük bilgi kartı
-const Card: React.FC<{ x: number; y: number; text: string; scale?: number; color?: string; opacity?: number; rotate?: number }> = ({
-  x,
-  y,
-  text,
-  scale = 1,
-  color = "#fff",
-  opacity = 1,
-  rotate = 0,
-}) => (
-  <g transform={place(x, y, scale, rotate)} opacity={opacity}>
-    <rect x={-70} y={-28} width={140} height={56} rx={12} fill={color} stroke={OUTLINE} strokeWidth={4} />
-    <text x={0} y={10} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={26} fill={INK}>
-      {text}
-    </text>
-  </g>
-);
-
-// Açık kitap; (0,0) kitabın alt ortası
-const Book: React.FC<{ x: number; y: number; scale?: number }> = ({ x, y, scale = 1 }) => (
+// Bitki (saksıda)
+const Plant: React.FC<{ x: number; y: number; scale?: number; color?: string }> = ({ x, y, scale = 1, color = MINT }) => (
   <g transform={place(x, y, scale)}>
-    <path d="M 0 -10 L -150 -30 L -150 -150 L 0 -130 Z" fill="#fff" stroke={OUTLINE} strokeWidth={5} strokeLinejoin="round" />
-    <path d="M 0 -10 L 150 -30 L 150 -150 L 0 -130 Z" fill="#fff" stroke={OUTLINE} strokeWidth={5} strokeLinejoin="round" />
-    {[0, 1, 2, 3].map((i) => (
-      <g key={i} stroke="#b8b2c8" strokeWidth={5} strokeLinecap="round">
-        <line x1={-130} y1={-120 + i * 24} x2={-20} y2={-106 + i * 24} />
-        <line x1={20} y1={-106 + i * 24} x2={130} y2={-120 + i * 24} />
-      </g>
-    ))}
+    <path d="M -26 0 L -20 -44 L 20 -44 L 26 0 Z" fill="#d9774e" stroke={OUTLINE} strokeWidth={4} strokeLinejoin="round" />
+    <circle cx={0} cy={-80} r={34} fill={color} stroke={OUTLINE} strokeWidth={4} />
+    <circle cx={-26} cy={-62} r={20} fill={color} stroke={OUTLINE} strokeWidth={4} />
+    <circle cx={26} cy={-62} r={20} fill={color} stroke={OUTLINE} strokeWidth={4} />
   </g>
 );
 
-// Unutma eğrisi yolu: (x0,y0) sol üst, w genişlik, h yükseklik
-const curvePath = (x0: number, y0: number, w: number, h: number) => {
-  const pts: string[] = [];
-  for (let i = 0; i <= 40; i++) {
-    const t = i / 40;
-    const v = 0.22 + 0.78 * Math.pow(1 + 18 * t, -0.55);
-    pts.push(`${(x0 + t * w).toFixed(1)} ${(y0 + (1 - v) * h).toFixed(1)}`);
-  }
-  return `M ${pts.join(" L ")}`;
-};
-
-// Kendini çizen eğri
-const DrawnCurve: React.FC<{ d: string; progress: number; color?: string; width?: number }> = ({ d, progress, color = RED, width = 9 }) => (
-  <path
-    d={d}
-    fill="none"
-    stroke={color}
-    strokeWidth={width}
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    pathLength={1}
-    strokeDasharray="1 1"
-    strokeDashoffset={1 - progress}
-    opacity={progress > 0 ? 1 : 0}
-  />
+// Heykel
+const Statue: React.FC<{ x: number; y: number; scale?: number }> = ({ x, y, scale = 1 }) => (
+  <g transform={place(x, y, scale)}>
+    <rect x={-30} y={-30} width={60} height={30} fill="#d8d2e8" stroke={OUTLINE} strokeWidth={4} />
+    <rect x={-14} y={-90} width={28} height={60} rx={10} fill="#eceaf3" stroke={OUTLINE} strokeWidth={4} />
+    <circle cx={0} cy={-104} r={18} fill="#eceaf3" stroke={OUTLINE} strokeWidth={4} />
+  </g>
 );
 
-// Mini grafik kartı (iki deneyi karşılaştırmak için)
-const MiniGraph: React.FC<{ x: number; y: number; label: string; progress: number; scale?: number; delay?: number }> = ({
+// Çalı / bank
+const Bush: React.FC<{ x: number; y: number; scale?: number }> = ({ x, y, scale = 1 }) => (
+  <g transform={place(x, y, scale)}>
+    <ellipse cx={0} cy={-22} rx={44} ry={26} fill="#2fa57e" stroke={OUTLINE} strokeWidth={4} />
+  </g>
+);
+const Bench: React.FC<{ x: number; y: number; scale?: number }> = ({ x, y, scale = 1 }) => (
+  <g transform={place(x, y, scale)}>
+    <rect x={-44} y={-30} width={88} height={14} rx={4} fill="#a77a4d" stroke={OUTLINE} strokeWidth={4} />
+    <rect x={-38} y={-16} width={10} height={16} fill={OUTLINE} />
+    <rect x={28} y={-16} width={10} height={16} fill={OUTLINE} />
+  </g>
+);
+
+// Küçük oda çerçevesi (sahne kartı)
+const RoomCard: React.FC<{ x: number; y: number; w?: number; h?: number; label: string; kind: "avlu" | "muze"; scale?: number; faded?: boolean; delay?: number }> = ({
   x,
   y,
+  w = 340,
+  h = 260,
   label,
-  progress,
+  kind,
   scale = 1,
+  faded = false,
   delay = 0,
 }) => {
   const appear = useAppear(delay);
+  const floorY = h / 2 - 30;
   return (
-    <g transform={place(x, y, scale * appear)}>
-      <rect x={-160} y={-150} width={320} height={300} rx={22} fill="#fff" stroke={OUTLINE} strokeWidth={6} />
-      <line x1={-120} y1={-110} x2={-120} y2={100} stroke={OUTLINE} strokeWidth={5} strokeLinecap="round" />
-      <line x1={-120} y1={100} x2={130} y2={100} stroke={OUTLINE} strokeWidth={5} strokeLinecap="round" />
-      <DrawnCurve d={curvePath(-115, -100, 240, 190)} progress={progress} width={8} />
-      <g transform="translate(0 -185)">
-        <rect x={-80} y={-28} width={160} height={56} rx={14} fill={INK} />
-        <text x={0} y={11} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={32} fill="#fff">
+    <g transform={place(x, y, scale * appear)} opacity={faded ? 0.55 : 1}>
+      <rect x={-w / 2} y={-h / 2} width={w} height={h} rx={18} fill={kind === "avlu" ? "#dff3ff" : "#fff6e8"} stroke={OUTLINE} strokeWidth={5} />
+      <rect x={-w / 2 + 3} y={floorY} width={w - 6} height={h / 2 - floorY - 3} fill={kind === "avlu" ? "#bfe6b0" : "#e8cfae"} />
+      {kind === "avlu" ? (
+        <g>
+          <Bush x={-110} y={floorY + 10} />
+          <Plant x={0} y={floorY + 10} scale={0.9} />
+          <Bush x={110} y={floorY + 10} />
+        </g>
+      ) : (
+        <g>
+          <Bench x={-110} y={floorY + 10} />
+          <Statue x={0} y={floorY + 10} scale={0.95} />
+          <Bench x={110} y={floorY + 10} />
+        </g>
+      )}
+      <g transform={`translate(0 ${-h / 2 - 4})`}>
+        <rect x={-label.length * 9 - 20} y={-22} width={label.length * 18 + 40} height={44} rx={12} fill={INK} />
+        <text x={0} y={9} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={26} fill="#fff">
           {label}
         </text>
       </g>
@@ -180,375 +178,273 @@ const MiniGraph: React.FC<{ x: number; y: number; label: string; progress: numbe
 
 // ---------------------------------------------------------------------------
 
-const CramNight: Visual = ({ durationInFrames }) => {
+const DejaRoom: Visual = ({ durationInFrames }) => {
   const frame = useCurrentFrame();
   const at = (f: number) => Math.round(durationInFrames * f);
-  const fly = useProgress(at(0.45), at(0.9));
-  const words = ["TARİH", "FORMÜL", "ŞİİR", "KELİME", "TANIM"];
-  const lamp = 0.8 + 0.2 * Math.abs(Math.sin(frame / 9));
+  const stop = Math.min(frame, at(0.4));
+  const px = 150 + stop * (260 / Math.max(1, at(0.4)));
+  const ghost = useProgress(at(0.4), at(0.6));
+  const shake = frame > at(0.45) ? Math.sin(frame / 2) * 3 : 0;
   return (
     <g>
-      <Paper night />
-      {/* Pencere ve ay */}
-      <g transform="translate(640 60)">
-        <rect width={200} height={150} rx={10} fill="#1d1a3d" stroke={OUTLINE} strokeWidth={6} />
-        <circle cx={130} cy={60} r={30} fill="#fff6c8" />
-        <circle cx={145} cy={50} r={26} fill="#1d1a3d" />
-        <line x1={100} y1={0} x2={100} y2={150} stroke={OUTLINE} strokeWidth={5} />
-        <circle cx={40} cy={110} r={4} fill="#fff" />
-        <circle cx={60} cy={30} r={3} fill="#fff" />
+      <Room wall="#ece6ff" stripe="#e2d9ff" floor="#b9a6f0" window="day" windowX={0.62} pictureX={0.12} />
+      {/* "Önceki" hayalet görüntü */}
+      <g opacity={0.35 * ghost} transform={`translate(${-18 * ghost} ${-10 * ghost})`}>
+        <Person x={px} y={520} scale={1.25} shirt="#9b86ff" pants="#7d74b8" />
       </g>
-      {/* Lamba ışığı */}
-      <path d="M 120 140 L 30 470 L 420 470 Z" fill={YELLOW} opacity={0.18 * lamp} />
-      <Head x={280} y={500} sad={fly > 0.3} shirt={MINT} />
-      <rect x={100} y={470} width={420} height={26} rx={8} fill="#a77a4d" stroke={OUTLINE} strokeWidth={5} />
-      <Book x={280} y={500} scale={0.7} />
-      {/* Kafadaki bilgiler: önce birikiyor, sonra uçup gidiyor */}
-      {words.map((w, i) => {
-        const a = useAppear(4 + i * 5);
-        const start: [number, number] = [150 + (i % 3) * 130, 70 + Math.floor(i / 3) * 70];
-        const f = Math.max(0, Math.min(1, fly * 1.6 - i * 0.15));
-        const x = start[0] + f * (620 - start[0]) + f * 120;
-        const y = start[1] + f * 260 - f * f * 120;
-        return <Card key={i} x={x} y={y} text={w} scale={0.8 * a * (1 - 0.4 * f)} opacity={1 - f} rotate={f * 40} />;
-      })}
-      <g opacity={fly > 0.05 ? 1 : 0}>
-        <Chip x={690} y={330} text="1 HAFTA SONRA" delay={at(0.45)} />
-      </g>
-      <QuestionMark x={700} y={430} size={56} delay={at(0.7)} color={YELLOW} />
+      <Person x={px} y={520} scale={1.25} shirt={PURPLE} walking={frame < at(0.4)} />
+      <ThoughtBubble x={px + 150} y={170 + shake} r={70} delay={at(0.45)}>
+        <text x={0} y={22} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={64} fill={INK}>
+          !?
+        </text>
+      </ThoughtBubble>
+      <Chip x={700} y={380} text="BUNU YAŞADIM!" delay={at(0.55)} />
     </g>
   );
 };
 
-const ForgettingCurve: Visual = ({ durationInFrames }) => {
-  const at = (f: number) => Math.round(durationInFrames * f);
-  const draw = useProgress(at(0.12), at(0.7));
-  const ticks: [number, string][] = [
-    [0.04, "20 DK"],
-    [0.12, "1 SAAT"],
-    [0.4, "1 GÜN"],
-    [0.95, "1 AY"],
-  ];
-  const X0 = 150;
-  const W = 600;
+const NameReveal: Visual = () => {
   return (
     <g>
       <Paper />
-      <rect x={70} y={30} width={760} height={480} rx={24} fill="#fff" stroke={OUTLINE} strokeWidth={6} />
-      <line x1={X0} y1={70} x2={X0} y2={420} stroke={OUTLINE} strokeWidth={6} strokeLinecap="round" />
-      <line x1={X0} y1={420} x2={X0 + W + 30} y2={420} stroke={OUTLINE} strokeWidth={6} strokeLinecap="round" />
-      <text x={X0 + 14} y={70} fontFamily={uiFont} fontWeight={800} fontSize={24} fill={PURPLE}>
-        AKILDA KALAN
-      </text>
-      <text x={X0 + W + 30} y={400} textAnchor="end" fontFamily={uiFont} fontWeight={800} fontSize={24} fill={PURPLE}>
-        ZAMAN →
-      </text>
-      <DrawnCurve d={curvePath(X0 + 4, 90, W, 320)} progress={draw} width={11} />
-      {ticks.map(([t, label], i) => (
-        <g key={label} opacity={draw >= t ? 1 : 0}>
-          <line x1={X0 + t * W} y1={412} x2={X0 + t * W} y2={428} stroke={OUTLINE} strokeWidth={4} />
+      <Note x={450} y={170} width={560} title="DÉJÀ VU" text="= ZATEN GÖRÜLMÜŞ" rotate={-2} delay={2} />
+      <Brain x={450} y={400} scale={0.7} mood="happy" delay={12} />
+      <Chip x={180} y={420} text="FRANSIZCA" dark delay={18} />
+      <Sparkles points={[[160, 80], [760, 90], [740, 330]]} />
+    </g>
+  );
+};
+
+const TwoThirds: Visual = ({ durationInFrames }) => {
+  const at = (f: number) => Math.round(durationInFrames * f);
+  const shirts = [PURPLE, MINT, "#f08a5d"];
+  return (
+    <g>
+      <Paper />
+      {shirts.map((s, i) => (
+        <g key={i}>
+          <Person x={200 + i * 250} y={470} scale={1.25} shirt={s} delay={2 + i * 4} facing={i === 2 ? "left" : "right"} />
+          {i < 2 ? (
+            <ThoughtBubble x={240 + i * 250} y={110} r={44} delay={at(0.3) + i * 6}>
+              <text x={0} y={16} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={44} fill={INK}>
+                !?
+              </text>
+            </ThoughtBubble>
+          ) : null}
+        </g>
+      ))}
+      <BigText x={700} y={110} text="3'TE 2" size={70} color={YELLOW} delay={at(0.55)} />
+      <Chip x={450} y={515} text="ÇOĞUMUZ YAŞIYOR" delay={at(0.65)} />
+    </g>
+  );
+};
+
+const TiredYoung: Visual = ({ durationInFrames }) => {
+  const frame = useCurrentFrame();
+  const at = (f: number) => Math.round(durationInFrames * f);
+  return (
+    <g>
+      <Paper />
+      <Head x={260} y={520} sleepy shirt={MINT} />
+      {[0, 1, 2].map((i) => {
+        const t = ((frame + i * 14) % 42) / 42;
+        return (
           <text
-            x={X0 + t * W}
-            y={i % 2 ? 488 : 456}
-            textAnchor="middle"
+            key={i}
+            x={360 + i * 30 + t * 30}
+            y={200 - i * 34 - t * 40}
             fontFamily={uiFont}
             fontWeight={800}
-            fontSize={22}
-            fill={INK}
+            fontSize={34 + i * 8}
+            fill={PURPLE}
+            opacity={1 - t * 0.6}
           >
-            {label}
+            Z
           </text>
-        </g>
-      ))}
-      <Chip x={420} y={170} text="EN HIZLI DÜŞÜŞ" delay={at(0.35)} />
-      <Arrow from={[330, 190]} to={[215, 245]} progress={useProgress(at(0.4), at(0.55))} color={RED} />
-      <Brain x={700} y={190} scale={0.6} mood="confused" delay={at(0.6)} />
-    </g>
-  );
-};
-
-const Ebbinghaus: Visual = ({ durationInFrames }) => {
-  const frame = useCurrentFrame();
-  const at = (f: number) => Math.round(durationInFrames * f);
-  const syll = ["ZEP", "KUV", "LÖF", "DAB", "MİK", "TOS"];
-  const page = Math.floor(frame / 20) % 3;
-  return (
-    <g>
-      <Paper />
-      <Person x={230} y={470} scale={1.45} mustache glasses shirt="#4b6fd1" pants="#2f3f63" hair="#6b4a2e" presenting delay={2} />
-      <NamePlate x={230} y={515} text="HERMANN EBBINGHAUS" delay={10} />
-      {/* Hece kartları */}
-      {syll.map((s, i) => {
-        const a = useAppear(at(0.18) + i * 4);
-        const bob = Math.sin((frame + i * 11) / 8) * 4;
-        return (
-          <g key={s} transform={place(500 + (i % 3) * 140, 120 + Math.floor(i / 3) * 90 + bob, a)}>
-            <rect x={-58} y={-32} width={116} height={64} rx={12} fill={i % 2 ? "#fff" : "#efe9ff"} stroke={OUTLINE} strokeWidth={4} />
-            <text x={0} y={12} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={32} fill={PURPLE}>
-              {s}
-            </text>
-          </g>
         );
       })}
-      <Chip x={640} y={330} text="ANLAMSIZ HECE" dark delay={at(0.4)} />
-      {/* Takvim yaprakları */}
-      <g transform={place(640, 430, useAppear(at(0.55)))}>
-        {[2, 1, 0].map((k) => (
-          <rect key={k} x={-70 + k * 10} y={-44 - k * 6} width={140} height={90} rx={10} fill="#fff" stroke={OUTLINE} strokeWidth={4} />
-        ))}
-        <rect x={-70} y={-44} width={140} height={26} rx={8} fill={RED} stroke={OUTLINE} strokeWidth={4} />
-        <text x={0} y={30} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={34} fill={INK}>
-          {["OCAK", "MART", "MAYIS"][page]}
-        </text>
+      {/* Stres çizgileri */}
+      <g stroke={RED} strokeWidth={6} strokeLinecap="round" opacity={useAppear(at(0.3))}>
+        <line x1={150} y1={150} x2={120} y2={120} />
+        <line x1={140} y1={190} x2={100} y2={180} />
+        <line x1={180} y1={120} x2={170} y2={84} />
       </g>
-      <Chip x={800} y={500} text="AYLARCA" delay={at(0.65)} />
+      <Chip x={660} y={150} text="YORGUN" dark delay={at(0.4)} />
+      <Chip x={660} y={250} text="STRESLİ" dark delay={at(0.5)} />
+      <Chip x={660} y={360} text="GENÇLERDE SIK" delay={at(0.15)} />
     </g>
   );
 };
 
-const Replication: Visual = ({ durationInFrames }) => {
-  const at = (f: number) => Math.round(durationInFrames * f);
-  const p1 = useProgress(at(0.08), at(0.4));
-  const p2 = useProgress(at(0.4), at(0.72));
-  return (
-    <g>
-      <Paper />
-      <MiniGraph x={230} y={300} label="1885" progress={p1} scale={1.05} delay={2} />
-      <MiniGraph x={670} y={300} label="2015" progress={p2} scale={1.05} delay={at(0.35)} />
-      <BigText x={450} y={300} text="=" size={110} color={YELLOW} delay={at(0.72)} />
-      <Sparkles points={[[450, 180], [380, 420], [520, 430]]} />
-    </g>
-  );
-};
-
-const SpacedCalendar: Visual = ({ durationInFrames }) => {
+const VrRooms: Visual = ({ durationInFrames }) => {
   const frame = useCurrentFrame();
   const at = (f: number) => Math.round(durationInFrames * f);
-  const days = ["PZT", "SAL", "ÇAR", "PER", "CUM", "CMT", "PAZ"];
-  const study = [0, 1, 3, 6];
+  const turn = useWave(70, 8);
   return (
     <g>
       <Paper />
-      <rect x={60} y={80} width={780} height={300} rx={24} fill="#fff" stroke={OUTLINE} strokeWidth={6} />
-      <rect x={60} y={80} width={780} height={60} rx={24} fill={PURPLE} stroke={OUTLINE} strokeWidth={6} />
-      <rect x={63} y={118} width={774} height={22} fill={PURPLE} />
-      {days.map((d, i) => {
-        const x = 115 + i * 112;
-        const k = study.indexOf(i);
-        const pop = k >= 0 ? useAppear(at(0.2) + k * at(0.13)) : 0;
-        return (
-          <g key={d}>
-            <text x={x} y={122} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={26} fill="#fff">
-              {d}
-            </text>
-            <rect x={x - 46} y={165} width={92} height={180} rx={14} fill={k >= 0 ? "#efe9ff" : "#f7f6fb"} stroke="#cbbcff" strokeWidth={4} />
-            {k >= 0 ? (
-              <g transform={place(x, 250 + Math.sin((frame + i * 7) / 7) * 3, pop)}>
-                <rect x={-30} y={-40} width={60} height={80} rx={8} fill={MINT} stroke={OUTLINE} strokeWidth={4} />
-                <rect x={-30} y={-40} width={14} height={80} rx={6} fill="#2fa57e" stroke={OUTLINE} strokeWidth={4} />
-                <path d="M -8 0 L 4 14 L 22 -14" fill="none" stroke="#fff" strokeWidth={7} strokeLinecap="round" strokeLinejoin="round" />
-              </g>
-            ) : null}
-          </g>
-        );
-      })}
-      <Chip x={450} y={440} text="GÜNLERE YAY" delay={at(0.7)} />
+      <g transform={`rotate(${turn} 450 470)`}>
+        <Head x={450} y={540} goggles shirt={PURPLE} />
+      </g>
+      <RoomCard x={170} y={200} w={260} h={190} label="AVLU" kind="avlu" scale={0.85 + 0.03 * Math.sin(frame / 9)} delay={at(0.2)} />
+      <RoomCard x={730} y={200} w={260} h={190} label="MÜZE" kind="muze" scale={0.85 + 0.03 * Math.cos(frame / 9)} delay={at(0.35)} />
+      <Chip x={450} y={60} text="SANAL GERÇEKLİK" delay={at(0.1)} />
     </g>
   );
 };
 
-const RepCompare: Visual = ({ durationInFrames }) => {
+const SameLayout: Visual = ({ durationInFrames }) => {
   const at = (f: number) => Math.round(durationInFrames * f);
-  const left = useProgress(at(0.05), at(0.45));
-  const right = useProgress(at(0.35), at(0.7));
-  const dot = (key: string, x: number, y: number, on: boolean, color: string) => (
-    <circle key={key} cx={x} cy={y} r={on ? 11 : 0} fill={color} stroke={OUTLINE} strokeWidth={3} />
-  );
-  // 68 tekrar: 9 sütun × 8 satır (son satır kısmi)
-  const leftDots = Array.from({ length: 68 }).map((_, i) =>
-    dot(`l${i}`, 110 + (i % 9) * 30, 150 + Math.floor(i / 9) * 30, i < left * 68, GREY),
-  );
-  // 38 tekrar: üç güne bölünmüş (13 + 13 + 12)
-  const groups = [13, 13, 12];
-  let n = 0;
-  const rightDots: React.ReactNode[] = [];
-  groups.forEach((g, gi) => {
-    for (let j = 0; j < g; j++) {
-      rightDots.push(dot(`r${n}`, 560 + gi * 105 + (j % 3) * 26, 150 + Math.floor(j / 3) * 30, n < right * 38, MINT));
-      n++;
-    }
-  });
+  const link = useProgress(at(0.35), at(0.6));
+  const floorY = 300 - 30 + 10; // RoomCard içindeki zemin (h=300)
+  const pairs = [-110, 0, 110];
   return (
     <g>
       <Paper />
-      <rect x={80} y={95} width={300} height={290} rx={20} fill="#fff" stroke={OUTLINE} strokeWidth={5} />
-      <rect x={520} y={95} width={330} height={290} rx={20} fill="#fff" stroke={OUTLINE} strokeWidth={5} />
-      {leftDots}
-      {rightDots}
-      {[0, 1].map((k) => (
-        <line key={k} x1={640 + k * 105} y1={130} x2={640 + k * 105} y2={300} stroke="#cbbcff" strokeWidth={4} strokeDasharray="8 8" />
+      <RoomCard x={225} y={270} w={340} h={300} label="ESKİ ODA" kind="avlu" faded delay={2} />
+      <RoomCard x={675} y={270} w={340} h={300} label="YENİ ODA" kind="muze" delay={at(0.15)} />
+      <QuestionMark x={225} y={200} size={60} delay={at(0.25)} color={GREY} />
+      {pairs.map((dx) => (
+        <line
+          key={dx}
+          x1={225 + dx}
+          y1={270 - 150 + floorY - 40}
+          x2={225 + dx + 450 * link}
+          y2={270 - 150 + floorY - 40}
+          stroke={RED}
+          strokeWidth={5}
+          strokeDasharray="12 10"
+          opacity={link > 0 ? 1 : 0}
+        />
       ))}
-      <BigText x={230} y={430} text="68" size={70} color="#a59fbd" delay={at(0.4)} />
-      <BigText x={685} y={430} text="38" size={70} color={MINT} delay={at(0.68)} />
-      <Chip x={230} y={45} text="TEK GÜN" dark delay={2} />
-      <Chip x={685} y={45} text="3 GÜN" delay={at(0.35)} />
-      <BigText x={450} y={240} text="=" size={100} color={YELLOW} delay={at(0.75)} />
-      <Chip x={450} y={510} text="AYNI ETKİ" delay={at(0.8)} />
+      <Chip x={450} y={510} text="AYNI DÜZEN" delay={at(0.6)} />
     </g>
   );
 };
 
-const MetaStack: Visual = ({ durationInFrames }) => {
+const Familiar: Visual = ({ durationInFrames }) => {
   const frame = useCurrentFrame();
   const at = (f: number) => Math.round(durationInFrames * f);
-  const grow = useProgress(4, at(0.55));
-  const sheets = Math.round(grow * 14);
-  const lens = useAppear(at(0.45));
-  const wob = Math.sin(frame / 8) * 6;
-  return (
-    <g>
-      <Paper />
-      {/* Makale yığınları */}
-      {[180, 330].map((cx, s) =>
-        Array.from({ length: sheets }).map((_, i) => (
-          <g key={`${s}-${i}`} transform={`translate(${cx + ((i * 17 + s * 5) % 11) - 5} ${460 - i * 22})`}>
-            <rect x={-90} y={-18} width={180} height={22} rx={4} fill={i % 2 ? "#fff" : "#f4f0ff"} stroke={OUTLINE} strokeWidth={3} />
-          </g>
-        )),
-      )}
-      {/* Büyüteç */}
-      <g transform={place(260 + wob, 150, lens, -20)}>
-        <circle r={62} fill="#dff5ff" fillOpacity={0.7} stroke={OUTLINE} strokeWidth={8} />
-        <rect x={56} y={-12} width={90} height={24} rx={10} fill="#a77a4d" stroke={OUTLINE} strokeWidth={5} />
-      </g>
-      <BigText x={650} y={170} text="317" size={150} color={YELLOW} delay={at(0.3)} />
-      <Chip x={650} y={290} text="DENEY" dark delay={at(0.38)} />
-      <Chip x={650} y={400} text="ARALIK KAZANIR" delay={at(0.65)} />
-      <Sparkles points={[[540, 90], [780, 110], [790, 250]]} />
-    </g>
-  );
-};
-
-const Illusion: Visual = ({ durationInFrames }) => {
-  const at = (f: number) => Math.round(durationInFrames * f);
-  const g = useProgress(at(0.08), at(0.35));
-  const bubble = useAppear(at(0.5));
-  return (
-    <g>
-      <Paper />
-      {/* Gerçek sonuç */}
-      <rect x={50} y={40} width={380} height={420} rx={22} fill="#fff" stroke={OUTLINE} strokeWidth={5} />
-      <Chip x={240} y={40} text="GERÇEK" dark delay={2} />
-      <line x1={90} y1={380} x2={390} y2={380} stroke={OUTLINE} strokeWidth={5} strokeLinecap="round" />
-      <rect x={110} y={380 - 230 * g} width={110} height={230 * g} rx={10} fill={MINT} stroke={OUTLINE} strokeWidth={4} />
-      <rect x={260} y={380 - 130 * g} width={110} height={130 * g} rx={10} fill={GREY} stroke={OUTLINE} strokeWidth={4} />
-      <text x={165} y={420} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={24} fill={INK}>
-        ARALIKLI
-      </text>
-      <text x={315} y={420} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={24} fill={INK}>
-        YIĞARAK
-      </text>
-      <BigText x={165} y={110} text="%78" size={52} color={MINT} delay={at(0.3)} />
-      {/* Sanılan */}
-      <Head x={680} y={560} scale={0.75} shirt={PURPLE} delay={at(0.42)} />
-      <g transform={place(670, 170, bubble)}>
-        <circle cx={-60} cy={160} r={12} fill="#fff" stroke={OUTLINE} strokeWidth={4} />
-        <circle cx={-40} cy={130} r={18} fill="#fff" stroke={OUTLINE} strokeWidth={4} />
-        <ellipse rx={190} ry={110} fill="#fff" stroke={OUTLINE} strokeWidth={5} />
-        <text x={0} y={-30} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={30} fill={INK}>
-          YIĞARAK ÇALIŞMAK
-        </text>
-        <text x={0} y={14} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={30} fill={INK}>
-          DAHA İYİ!
-        </text>
-        <BigText x={0} y={66} text="%78" size={46} color={RED} delay={at(0.6)} />
-      </g>
-      <Chip x={470} y={500} text="SANILAN" dark delay={at(0.55)} />
-      <QuestionMark x={850} y={420} size={60} delay={at(0.7)} />
-    </g>
-  );
-};
-
-const FluencyTrap: Visual = ({ durationInFrames }) => {
-  const frame = useCurrentFrame();
-  const at = (f: number) => Math.round(durationInFrames * f);
-  const fade = useProgress(at(0.25), at(0.45));
-  const right = useAppear(at(0.5));
-  const lift = Math.abs(useWave(24, 1));
-  return (
-    <g>
-      <Paper />
-      {/* Sol: arka arkaya aynı kart, kolay ama siliniyor */}
-      <rect x={40} y={40} width={390} height={400} rx={22} fill="#fff" stroke={OUTLINE} strokeWidth={5} />
-      {[0, 1, 2, 3].map((i) => (
-        <Card key={i} x={235} y={110 + i * 70 + Math.sin((frame + i * 5) / 5) * 2} text="TEKRAR" scale={1.1} color="#efe9ff" opacity={1 - fade * 0.75} />
-      ))}
-      <Chip x={235} y={400} text="KOLAY HİS" dark delay={4} />
-      <g opacity={fade} stroke={RED} strokeWidth={14} strokeLinecap="round">
-        <line x1={130} y1={110} x2={340} y2={330} />
-        <line x1={340} y1={110} x2={130} y2={330} />
-      </g>
-      {/* Sağ: biraz unut, yeniden hatırla → güçlen */}
-      <g opacity={right}>
-        <rect x={470} y={40} width={390} height={400} rx={22} fill="#fff" stroke={OUTLINE} strokeWidth={5} />
-        <g transform={`translate(0 ${-20 * lift})`}>
-          <rect x={540} y={110} width={250} height={16} rx={8} fill="#8c869a" stroke={OUTLINE} strokeWidth={4} />
-          <rect x={520} y={88} width={30} height={60} rx={8} fill={INK} />
-          <rect x={780} y={88} width={30} height={60} rx={8} fill={INK} />
-        </g>
-        <Brain x={665} y={270} scale={0.85} mood="happy" />
-      </g>
-      <Chip x={665} y={400} text="UNUT · HATIRLA" delay={at(0.55)} />
-      <Chip x={450} y={500} text="DAHA KALICI" delay={at(0.75)} />
-    </g>
-  );
-};
-
-const TipSchedule: Visual = ({ durationInFrames }) => {
-  const at = (f: number) => Math.round(durationInFrames * f);
-  const stops: [number, string][] = [
-    [110, "BUGÜN"],
-    [230, "YARIN"],
-    [430, "3 GÜN"],
-    [780, "1 HAFTA"],
+  const dots: [number, number][] = [
+    [-50, 20],
+    [0, -10],
+    [50, 20],
   ];
-  const Y = 360;
   return (
     <g>
       <Paper />
-      <line x1={70} y1={Y} x2={840} y2={Y} stroke={OUTLINE} strokeWidth={8} strokeLinecap="round" />
-      {stops.map(([x, label], i) => {
-        const a = useAppear(at(0.05) + i * at(0.15));
-        return (
-          <g key={label}>
-            <circle cx={x} cy={Y} r={22 * a} fill={i === 0 ? PURPLE : MINT} stroke={OUTLINE} strokeWidth={5} />
-            <text x={x} y={Y + 62} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={28} fill={INK} opacity={a}>
-              {label}
-            </text>
-          </g>
-        );
-      })}
-      {/* Gittikçe büyüyen sıçrama yayları */}
-      {stops.slice(1).map(([x], i) => {
-        const x0 = stops[i][0];
-        const p = useProgress(at(0.12) + i * at(0.15), at(0.25) + i * at(0.15));
-        const hgt = 70 + i * 70;
-        return (
-          <path
-            key={x}
-            d={`M ${x0} ${Y - 26} Q ${(x0 + x) / 2} ${Y - 26 - hgt * 2} ${x} ${Y - 26}`}
-            fill="none"
-            stroke={RED}
-            strokeWidth={7}
-            strokeLinecap="round"
-            strokeDasharray="1 1"
-            pathLength={1}
-            strokeDashoffset={1 - p}
-            opacity={p > 0 ? 1 : 0}
-          />
-        );
-      })}
-      <Chip x={250} y={80} text="ARALARI AÇ" delay={at(0.65)} />
+      <Brain x={280} y={340} scale={1.1} mood="confused" delay={2} />
+      <ThoughtBubble x={560} y={170} r={110} delay={at(0.15)}>
+        <rect x={-80} y={-50} width={160} height={100} rx={12} fill="#fff" stroke={OUTLINE} strokeWidth={4} />
+        {dots.map(([x, y], i) => (
+          <circle key={i} cx={x} cy={y} r={i === 1 ? 18 : 14} fill={i === 1 ? MINT : "#2fa57e"} stroke={OUTLINE} strokeWidth={3} />
+        ))}
+      </ThoughtBubble>
+      <Chip x={600} y={360} text="TANIDIK…" delay={at(0.35)} />
+      <g transform={`translate(0 ${Math.sin(frame / 6) * 4})`}>
+        <Chip x={640} y={450} text="AMA NEREDEN?" dark delay={at(0.55)} />
+      </g>
+      <QuestionMark x={810} y={300} size={60} delay={at(0.6)} />
+    </g>
+  );
+};
+
+const NoFuture: Visual = ({ durationInFrames }) => {
+  const frame = useCurrentFrame();
+  const at = (f: number) => Math.round(durationInFrames * f);
+  const coin = useAppear(at(0.5));
+  const spin = Math.cos(frame / 3);
+  return (
+    <g>
+      <Paper />
+      {/* Labirent yolu: çatal */}
+      <path d="M 120 470 L 120 300 L 300 300" fill="none" stroke="#b9a6f0" strokeWidth={70} strokeLinejoin="round" />
+      <path d="M 300 300 L 300 120 M 300 300 L 470 300" fill="none" stroke="#b9a6f0" strokeWidth={70} strokeLinecap="round" />
+      <Person x={250} y={330} scale={0.8} shirt={PURPLE} delay={2} />
+      <ThoughtBubble x={440} y={140} r={72} delay={at(0.15)}>
+        <text x={0} y={12} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={32} fill={INK}>
+          SAĞA!
+        </text>
+      </ThoughtBubble>
+      <Chip x={250} y={520} text="BİLDİĞİNİ SANDI" dark delay={at(0.25)} />
+      {/* Yazı tura */}
+      <g transform={place(700, 250, coin)}>
+        <ellipse rx={90 * Math.abs(spin) + 6} ry={90} fill={YELLOW} stroke={OUTLINE} strokeWidth={6} />
+        <text
+          x={0}
+          y={14}
+          textAnchor="middle"
+          fontFamily={uiFont}
+          fontWeight={800}
+          fontSize={40}
+          fill={INK}
+          transform={`scale(${Math.max(0.05, Math.abs(spin))} 1)`}
+        >
+          {spin > 0 ? "YAZI" : "TURA"}
+        </text>
+      </g>
+      <Chip x={700} y={430} text="= TESADÜF" delay={at(0.6)} />
+    </g>
+  );
+};
+
+const BrainScan: Visual = ({ durationInFrames }) => {
+  const frame = useCurrentFrame();
+  const at = (f: number) => Math.round(durationInFrames * f);
+  const glow = useProgress(at(0.2), at(0.45));
+  const pulse = 0.7 + 0.3 * Math.abs(Math.sin(frame / 6));
+  return (
+    <g>
+      <Paper />
+      {/* Yandan beyin silueti; ön taraf solda */}
+      <g transform="translate(450 270)">
+        <path
+          d="M -230 30 C -250 -80 -150 -170 -20 -170 C 120 -170 230 -110 230 0 C 230 80 170 120 90 120 L 60 170 L 10 170 L 10 120 C -100 130 -215 110 -230 30 Z"
+          fill="#f8c6dc"
+          stroke={OUTLINE}
+          strokeWidth={6}
+          strokeLinejoin="round"
+        />
+        <path d="M -150 -80 Q -110 -60 -130 -20 M -40 -140 Q -60 -100 -20 -80 M 60 -130 Q 40 -90 80 -70 M 140 -60 Q 110 -30 150 0 M -60 20 Q -20 0 0 40" fill="none" stroke="#d96b98" strokeWidth={6} strokeLinecap="round" />
+        {/* Ön bölge parlıyor */}
+        <ellipse cx={-150} cy={-40} rx={80} ry={70} fill={YELLOW} opacity={0.75 * glow * pulse} />
+        {/* Hafıza merkezi sönük */}
+        <ellipse cx={20} cy={50} rx={40} ry={22} fill={GREY} stroke={OUTLINE} strokeWidth={4} opacity={useAppear(at(0.35))} />
+      </g>
+      <Chip x={190} y={80} text="ÖN BÖLGE" delay={at(0.3)} />
+      <line x1={470} y1={330} x2={560} y2={470} stroke={OUTLINE} strokeWidth={4} strokeDasharray="8 8" opacity={useAppear(at(0.45))} />
+      <Chip x={600} y={500} text="HAFIZA MERKEZİ" dark delay={at(0.45)} />
+      <Sparkles points={[[120, 160], [260, 150], [180, 310]]} />
+    </g>
+  );
+};
+
+const FactCheck: Visual = ({ durationInFrames }) => {
+  const at = (f: number) => Math.round(durationInFrames * f);
+  const stamp = useAppear(at(0.45), 12);
+  return (
+    <g>
+      <Paper />
+      <Brain x={230} y={330} scale={1} mood="happy" delay={2} />
+      {/* Kontrol kartı */}
+      <g transform={place(600, 230, useAppear(at(0.15)))}>
+        <rect x={-190} y={-130} width={380} height={260} rx={20} fill="#fff" stroke={OUTLINE} strokeWidth={6} />
+        <text x={0} y={-70} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={34} fill={INK}>
+          TANIDIK HİS
+        </text>
+        <line x1={-150} y1={-45} x2={150} y2={-45} stroke={GREY} strokeWidth={5} />
+        <rect x={-120} y={-14} width={32} height={32} rx={6} fill="none" stroke={OUTLINE} strokeWidth={4} />
+        <text x={-60} y={10} fontFamily={uiFont} fontWeight={800} fontSize={28} fill={INK}>
+          GERÇEK Mİ?
+        </text>
+      </g>
+      <g transform={place(660, 335, 1.6 - 0.6 * stamp, -10)} opacity={stamp > 0.05 ? 1 : 0}>
+        <rect x={-120} y={-40} width={240} height={80} rx={12} fill="none" stroke={RED} strokeWidth={8} />
+        <text x={0} y={18} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={50} fill={RED}>
+          YANLIŞ!
+        </text>
+      </g>
+      <Chip x={600} y={470} text="BEYİN KONTROL EDİYOR" delay={at(0.65)} />
     </g>
   );
 };
@@ -566,10 +462,10 @@ const YourTurn: Visual = () => {
         <path d="M -170 96 L -210 150 L -120 96 Z" fill="#fff" stroke={OUTLINE} strokeWidth={6} strokeLinejoin="round" />
         <rect x={-165} y={90} width={44} height={12} fill="#fff" />
         <text x={0} y={-12} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={42} fill={PURPLE}>
-          SON GECE Mİ?
+          EN SON NEREDE
         </text>
         <text x={0} y={46} textAnchor="middle" fontFamily={uiFont} fontWeight={800} fontSize={42} fill={INK}>
-          GÜNLERE Mİ?
+          YAŞADIN?
         </text>
       </g>
       <g transform={place(610, 430, pulse)}>
@@ -580,15 +476,15 @@ const YourTurn: Visual = () => {
 };
 
 export const visuals: Record<string, Visual> = {
-  CramNight,
-  ForgettingCurve,
-  Ebbinghaus,
-  Replication,
-  SpacedCalendar,
-  RepCompare,
-  MetaStack,
-  Illusion,
-  FluencyTrap,
-  TipSchedule,
+  DejaRoom,
+  NameReveal,
+  TwoThirds,
+  TiredYoung,
+  VrRooms,
+  SameLayout,
+  Familiar,
+  NoFuture,
+  BrainScan,
+  FactCheck,
   YourTurn,
 };

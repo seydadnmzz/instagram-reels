@@ -49,3 +49,5 @@ Yalnızca o güne özel düzeltmeleri buraya yazma.
   etkisi" 2026-11-01'de işlendi. Açken sinirlenmek (hangry) hazırlandı ama paylaşılmadı; havuzda kalabilir.
 - 2026-11-01 — **Uzunluk:** ~35 sn'lik videolar çok kısa bulundu. Hedef 50–58 sn (60 sn'yi geçme):
   10–11 sahne, anlatım toplamı ≈ 800–870 karakter (ROUTINE.md'deki 300–550 sınırı yerine bu geçerli).
+- 2026-11-01: Akşam bölümü için önce "unutma eğrisi / aralıklı tekrar" hazırlandı; hesap sahibi konuyu déjà vu olarak
+  değiştirdi. Unutma eğrisi bölümü paylaşılmadı (taslağı git geçmişinde, commit 798d488); havuzda kalabilir.
