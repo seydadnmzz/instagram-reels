@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-01-sabah",
+  "category": "ilginc",
+  "theme": "pembe",
+  "scenes": [
+    {
+      "headline": "Açım, *sinirliyim*!",
+      "visual": "LateLunch",
+      "narration": "Yemek gecikti… ve birden *herkese* sinir olmaya başladın!"
+    },
+    {
+      "headline": "Adı: *hangry*",
+      "visual": "HangryWord",
+      "narration": "Bunun bir adı bile var: *hangry*! Yani hem aç, hem kızgın."
+    },
+    {
+      "headline": "Üç hafta *takip*",
+      "tag": "ANGLIA RUSKIN ÜNİV. · 2022",
+      "visual": "PhoneSurvey",
+      "narration": "Bilim insanları 64 kişiye üç hafta boyunca, günde beş kez *ne kadar açsın* diye sordu."
+    },
+    {
+      "headline": "Aç olan *huysuz*",
+      "visual": "MoodMeter",
+      "narration": "Sonuç? Açlık arttıkça *öfke* ve huysuzluk da arttı, keyif düştü!"
+    },
+    {
+      "headline": "Beyin *karıştırıyor*",
+      "visual": "Misread",
+      "narration": "Peki neden? Güçlü bir açıklama şu: Beyin, açlığın verdiği kötü hissi *etrafına* kızgınlık sanıyor."
+    },
+    {
+      "headline": "Fark eden *sakin*",
+      "tag": "UNC CHAPEL HILL · 2018",
+      "visual": "AwareCalm",
+      "narration": "Üstelik bir deneyde, önce duygularını düşünen aç kişiler *huysuzlaşmadı*!"
+    },
+    {
+      "headline": "Önce *kendine sor*",
+      "visual": "AskSelf",
+      "narration": "İyi haber: Sinirlendiğinde kendine sor… Yoksa sadece *aç mıyım*?"
+    },
+    {
+      "headline": "Sen de *hangry* misin?",
+      "visual": "YourTurn",
+      "narration": "Sen açken en çok kime *sinirleniyorsun*? Yorumlara yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Açken neden *sinirleniyorsun*?",
+    "visual": "LateLunch"
+  },
+  "caption": "Yemek gecikince birden herkese sinir oluyorsun… Sende de oluyor mu? 🍽️😤 Adı hangry, yani aç ve kızgın! Üç haftalık bir araştırmada açlık arttıkça öfke ve huysuzluk da arttı; başka bir deneyde ise duygularını fark eden aç kişiler huysuzlaşmadı. Sen açken en çok kime sinirleniyorsun? Yorumlara yaz, acıkınca çekilmez olan arkadaşını etiketle 👇",
+  "youtubeTitle": "Açken neden herkese sinirleniyorsun? 😤 #shorts",
+  "hashtags": [
+    "hangry",
+    "açlık",
+    "sinir",
+    "öfke",
+    "ruhhali",
+    "ilginç",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Swami, Hochstöger, Kargl & Stieger (2022), PLOS ONE 17(7): e0269629 — Hangry in the field: An experience sampling study on the impact of hunger on anger, irritability, and affect, Anglia Ruskin Üniversitesi & Karl Landsteiner Üniversitesi (64 katılımcı, 21 gün, günde 5 ölçüm, 9.142 yanıt; açlık daha fazla öfke/huysuzluk ve daha az keyifle ilişkili; ilişkisel tasarım, glikoz/hormon ölçülmedi)",
+    "MacCormack & Lindquist (2018), Emotion — Feeling hangry? When hunger is conceptualized as emotion, UNC Chapel Hill (UNC basın metni: 400+ kişilik iki çevrim içi deney, olumsuz bağlamda aç kişiler belirsiz resimleri daha olumsuz değerlendirdi; 200+ öğrencilik laboratuvar deneyinde önce duygularını yazan aç katılımcılarda stres/düşmanlık artışı görülmedi; 'kan şekerinden daha karmaşık')"
+  ]
+}
