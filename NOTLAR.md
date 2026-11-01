@@ -42,3 +42,8 @@ Yalnızca o güne özel düzeltmeleri buraya yazma.
 - 2026-10-28: İlk 10 gün (2026-11-07 dahil) tarih içerikli video YOK. Bunun yerine insanların ilgisini
   çekecek, geniş kitleye hitap eden ilginç bilgiler seç. Hesap henüz yeni; amaç keşfete düşmek ve
   takipçi kazanmak. Konular niş değil, herkesin "bunu bilmiyordum" diyeceği türden olsun.
+- 2026-11-01: Hafıza sarayı bölümü daha çok ilgi çekti. Bu tarz, izleyicinin hemen deneyebileceği,
+  kanıta dayalı pratik zihin/hafıza/öğrenme tekniklerine ("beynini daha iyi kullan" türü) öncelik ver.
+  Konu havuzuna ek fikirler: aralıklı tekrar (unutma eğrisi), sesli okuyunca daha iyi hatırlamak
+  (üretim etkisi), uykunun öğrendiklerini pekiştirmesi, birine anlatarak öğrenmek. "Kendini sınama
+  etkisi" 2026-11-01'de işlendi. Açken sinirlenmek (hangry) hazırlandı ama paylaşılmadı; havuzda kalabilir.

@@ -1,64 +1,63 @@
 {
   "id": "2026-11-01-sabah",
-  "category": "ilginc",
-  "theme": "pembe",
+  "category": "psikoloji",
+  "theme": "mor",
   "scenes": [
     {
-      "headline": "Açım, *sinirliyim*!",
-      "visual": "LateLunch",
-      "narration": "Yemek gecikti… ve birden *herkese* sinir olmaya başladın!"
+      "headline": "Okudum ama *yok*!",
+      "visual": "ReadAgain",
+      "narration": "Notlarını defalarca okudun… ama sınavda kafan *bomboş*!"
     },
     {
-      "headline": "Adı: *hangry*",
-      "visual": "HangryWord",
-      "narration": "Bunun bir adı bile var: *hangry*! Yani hem aç, hem kızgın."
+      "headline": "Suçlu: *tekrar okumak*",
+      "visual": "FamiliarTrap",
+      "narration": "Suçlu, tekrar okumak! Tanıdık gelmesi, *bildiğin* anlamına gelmiyor."
     },
     {
-      "headline": "Üç hafta *takip*",
-      "tag": "ANGLIA RUSKIN ÜNİV. · 2022",
-      "visual": "PhoneSurvey",
-      "narration": "Bilim insanları 64 kişiye üç hafta boyunca, günde beş kez *ne kadar açsın* diye sordu."
+      "headline": "Oku ya da *sına*",
+      "tag": "WASHINGTON ÜNİV. · 2006",
+      "visual": "TwoGroups",
+      "narration": "Bir deneyde öğrenciler bir metni ya tekrar tekrar okudu, ya da kendini *sınadı*."
     },
     {
-      "headline": "Aç olan *huysuz*",
-      "visual": "MoodMeter",
-      "narration": "Sonuç? Açlık arttıkça *öfke* ve huysuzluk da arttı, keyif düştü!"
+      "headline": "Bir hafta *sonra*",
+      "visual": "WeekLater",
+      "narration": "Bir hafta sonra? Okuyanlar yüzde 40, kendini sınayanlar *yüzde 61* hatırladı!"
     },
     {
-      "headline": "Beyin *karıştırıyor*",
-      "visual": "Misread",
-      "narration": "Peki neden? Güçlü bir açıklama şu: Beyin, açlığın verdiği kötü hissi *etrafına* kızgınlık sanıyor."
+      "headline": "Üstelik *az okudular*",
+      "visual": "ReadCount",
+      "narration": "Üstelik okuyanlar metni yaklaşık *14 kez* okumuştu, sınayanlar sadece üç kez kadar!"
     },
     {
-      "headline": "Fark eden *sakin*",
-      "tag": "UNC CHAPEL HILL · 2018",
-      "visual": "AwareCalm",
-      "narration": "Üstelik bir deneyde, önce duygularını düşünen aç kişiler *huysuzlaşmadı*!"
+      "headline": "En *emin* olanlar",
+      "visual": "Overconfident",
+      "narration": "En tuhafı: Sadece okuyanlar, öğrendiklerinden *daha emindi*!"
     },
     {
-      "headline": "Önce *kendine sor*",
-      "visual": "AskSelf",
-      "narration": "İyi haber: Sinirlendiğinde kendine sor… Yoksa sadece *aç mıyım*?"
+      "headline": "Kitabı *kapat*",
+      "visual": "CloseBook",
+      "narration": "İpucu: Kitabı kapat, hatırladıklarını yaz… sonra *kontrol et*!"
     },
     {
-      "headline": "Sen de *hangry* misin?",
+      "headline": "Sen nasıl *çalışıyorsun*?",
       "visual": "YourTurn",
-      "narration": "Sen açken en çok kime *sinirleniyorsun*? Yorumlara yaz!"
+      "narration": "Sen nasıl çalışıyorsun? Okuyarak mı, sınayarak mı? *Yorumlara* yaz!"
     }
   ],
   "cover": {
-    "title": "Açken neden *sinirleniyorsun*?",
-    "visual": "LateLunch"
+    "title": "Okudun ama *aklında yok*?",
+    "visual": "ReadAgain"
   },
-  "caption": "Yemek gecikince birden herkese sinir oluyorsun… Sende de oluyor mu? 🍽️😤 Adı hangry, yani aç ve kızgın! Üç haftalık bir araştırmada açlık arttıkça öfke ve huysuzluk da arttı; başka bir deneyde ise duygularını fark eden aç kişiler huysuzlaşmadı. Sen açken en çok kime sinirleniyorsun? Yorumlara yaz, acıkınca çekilmez olan arkadaşını etiketle 👇",
-  "youtubeTitle": "Açken neden herkese sinirleniyorsun? 😤 #shorts",
+  "caption": "Notlarını defalarca okudun ama sınavda kafan bomboş… Sende de oluyor mu? 📚😵 Bir deneyde kendini sınayan öğrenciler, bir hafta sonra metnin yüzde 61'ini hatırladı; sadece tekrar okuyanlar ise yüzde 40'ını! Üstelik okuyanlar çok daha fazla okumuş ve kendinden daha emindi. Bir dahakine kitabı kapat, hatırladıklarını yaz, sonra kontrol et. Sen nasıl çalışıyorsun? Yorumlara yaz, sınav haftasındaki arkadaşını etiketle 👇",
+  "youtubeTitle": "Defalarca okudun ama hatırlamıyor musun? 📚 #shorts",
   "hashtags": [
-    "hangry",
-    "açlık",
-    "sinir",
-    "öfke",
-    "ruhhali",
-    "ilginç",
+    "dersçalışma",
+    "hafıza",
+    "sınav",
+    "öğrenme",
+    "verimliçalışma",
+    "psikoloji",
     "bendedeoluyor",
     "neden",
     "ilginçbilgiler",
@@ -69,7 +68,6 @@
     "shorts"
   ],
   "sources": [
-    "Swami, Hochstöger, Kargl & Stieger (2022), PLOS ONE 17(7): e0269629 — Hangry in the field: An experience sampling study on the impact of hunger on anger, irritability, and affect, Anglia Ruskin Üniversitesi & Karl Landsteiner Üniversitesi (64 katılımcı, 21 gün, günde 5 ölçüm, 9.142 yanıt; açlık daha fazla öfke/huysuzluk ve daha az keyifle ilişkili; ilişkisel tasarım, glikoz/hormon ölçülmedi)",
-    "MacCormack & Lindquist (2018), Emotion — Feeling hangry? When hunger is conceptualized as emotion, UNC Chapel Hill (UNC basın metni: 400+ kişilik iki çevrim içi deney, olumsuz bağlamda aç kişiler belirsiz resimleri daha olumsuz değerlendirdi; 200+ öğrencilik laboratuvar deneyinde önce duygularını yazan aç katılımcılarda stres/düşmanlık artışı görülmedi; 'kan şekerinden daha karmaşık')"
+    "Roediger & Karpicke (2006), Psychological Science 17(3):249–255 — Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention, Washington University in St. Louis (WashU basın metni 'Repeated test-taking better for retention than repeated studying': 5 dk sonra yalnız okuyan grup yüzde 81, sınanan grup yüzde 75; 1 hafta sonra sınanan grup yüzde 61, yalnız okuyan grup yüzde 40; okuyanlar metni yaklaşık 14 kez, sınananlar ortalama 3,4 kez okudu; yalnız okuyanların öğrendiklerine güveni daha yüksekti)"
   ]
 }
