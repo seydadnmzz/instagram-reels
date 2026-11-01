@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-01-ogle",
+  "category": "psikoloji",
+  "theme": "mor",
+  "scenes": [
+    {
+      "headline": "Sesli söyle, *aklında* kalsın",
+      "visual": "StudyAloud",
+      "narration": "Bir şeyi kendine *sesli* söyleyince daha iyi aklında kalıyor mu? Boşuna değil!"
+    },
+    {
+      "headline": "Bunun bir *adı* var",
+      "visual": "NameReveal",
+      "narration": "Bunun bir adı var: *üretim etkisi*!"
+    },
+    {
+      "headline": "Sesli mi, *sessiz* mi?",
+      "tag": "WATERLOO ÜNİV. · 2010",
+      "visual": "WordCards",
+      "narration": "Deneylerde sesli okunan kelimeler, sessiz okunanlardan *daha iyi* hatırlandı."
+    },
+    {
+      "headline": "Bilgi *öne çıkıyor*",
+      "visual": "StandOut",
+      "narration": "Peki neden? Söyleyip *kendi sesini* duymak, o bilgiyi öne çıkarıyor."
+    },
+    {
+      "headline": "Kendi sesin *kazanıyor*",
+      "tag": "WATERLOO ÜNİV. · 2017",
+      "visual": "VoiceRanking",
+      "narration": "En iyisi sesli okumaktı; kendi ses kaydını dinlemek bile *başkasını* dinlemekten iyiydi!"
+    },
+    {
+      "headline": "Hepsi sesliyse *olmuyor*",
+      "visual": "AllAloud",
+      "narration": "Dikkat! Her şey sesli okununca fark *kayboldu*."
+    },
+    {
+      "headline": "Sadece *önemlisini* oku",
+      "visual": "HighlightTip",
+      "narration": "İpucu: Sadece *önemli* yerleri sesli oku. Kütüphanede dudak oynatmak bile işe yarayabilir!"
+    },
+    {
+      "headline": "Sen nasıl *okuyorsun*?",
+      "visual": "YourTurn",
+      "narration": "Sen sesli mi çalışırsın, sessiz mi? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Sesli okuyunca *aklında* kalıyor!",
+    "visual": "StudyAloud"
+  },
+  "caption": "Bir şeyi kendi kendine sesli söyleyince daha iyi aklında kalıyor… Sende de oluyor mu? 🗣️📖 Adı üretim etkisi! Deneylerde sesli okunan kelimeler sessiz okunanlardan daha iyi hatırlandı; çünkü kendi sesin o bilgiyi öne çıkarıyor. Ama dikkat: her şeyi sesli okursan fark kayboluyor, sadece önemli yerleri sesli oku. Sen sesli mi çalışırsın, sessiz mi? Yorumlara yaz, sınava hazırlanan arkadaşını etiketle 👇",
+  "youtubeTitle": "Sesli okuyunca neden daha iyi hatırlıyorsun? 🗣️ #shorts",
+  "hashtags": [
+    "üretimetkisi",
+    "sesliokuma",
+    "hafıza",
+    "dersçalışma",
+    "öğrenme",
+    "psikoloji",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "MacLeod, Gopie, Hourihan, Neary & Ozubko (2010), J. Exp. Psychol.: Learning, Memory, and Cognition 36(3):671–685 — The Production Effect: Delineation of a Phenomenon, Waterloo Üniversitesi (tam metin: 8 deney; etki yalnızca bazı kelimelerin sesli okunduğu karışık listelerde, tümü sesli/tümü sessiz karşılaştırmasında görülmedi; dudak oynatmak da etki yarattı; açıklama: ayırt edicilik)",
+    "Forrin & MacLeod (2018), Memory 26(4):574–579 — This time it's personal: the memory benefit of hearing oneself, Waterloo Üniversitesi (PubMed özeti: sesli okumak > kendi kaydını dinlemek > başkasını dinlemek)",
+    "University of Waterloo haberi (1 Aralık 2017): Study finds reading information aloud to yourself improves memory — 95 katılımcı, dört yöntem"
+  ]
+}
