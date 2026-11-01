@@ -11,46 +11,62 @@
     {
       "headline": "Bunun bir *adı* var",
       "visual": "NameReveal",
-      "narration": "Bunun bir adı var: *üretim etkisi*!"
+      "narration": "Bunun bir adı var: *üretim etkisi*! Yıllardır inceleniyor."
     },
     {
       "headline": "Sesli mi, *sessiz* mi?",
       "tag": "WATERLOO ÜNİV. · 2010",
       "visual": "WordCards",
-      "narration": "Deneylerde sesli okunan kelimeler, sessiz okunanlardan *daha iyi* hatırlandı."
+      "narration": "Deneylerde, sesli okunan kelimeler sessiz okunanlardan *daha iyi* hatırlandı."
+    },
+    {
+      "headline": "Fark *küçük değil*",
+      "tag": "ESKİ DENEYLER · 1987",
+      "visual": "PercentGap",
+      "narration": "Daha önceki bazı deneylerde fark *yüzde 15 ile 25* arasındaydı!"
     },
     {
       "headline": "Bilgi *öne çıkıyor*",
       "visual": "StandOut",
-      "narration": "Peki neden? Söyleyip *kendi sesini* duymak, o bilgiyi öne çıkarıyor."
+      "narration": "Peki neden? Sesli söylediğin bilgi, sessiz okuduklarının arasından *sıyrılıp* öne çıkıyor."
+    },
+    {
+      "headline": "*Uydurma* kelimeler bile",
+      "visual": "Nonsense",
+      "narration": "Üstelik anlamı olmayan, *uydurma* kelimelerde bile işe yaradı!"
     },
     {
       "headline": "Kendi sesin *kazanıyor*",
       "tag": "WATERLOO ÜNİV. · 2017",
       "visual": "VoiceRanking",
-      "narration": "En iyisi sesli okumaktı; kendi ses kaydını dinlemek bile *başkasını* dinlemekten iyiydi!"
+      "narration": "Başka bir deneyde en iyisi sesli okumaktı; kendi ses kaydını dinlemek bile *başkasını* dinlemekten iyiydi!"
+    },
+    {
+      "headline": "İki *gizli* güç",
+      "visual": "TwoPowers",
+      "narration": "Araştırmacılara göre iki şey işe yarıyor: konuşma *hareketi* ve sana ait, tanıdık bir ses."
     },
     {
       "headline": "Hepsi sesliyse *olmuyor*",
       "visual": "AllAloud",
-      "narration": "Dikkat! Her şey sesli okununca fark *kayboldu*."
+      "narration": "Dikkat! Her şeyi sesli okuyunca fark *kayboldu*; hiçbir şey öne çıkmadı."
     },
     {
       "headline": "Sadece *önemlisini* oku",
       "visual": "HighlightTip",
-      "narration": "İpucu: Sadece *önemli* yerleri sesli oku. Kütüphanede dudak oynatmak bile işe yarayabilir!"
+      "narration": "İpucu: Sadece *önemli* yerleri sesli oku. Kütüphanedeysen dudaklarını oynatmak bile işe yarayabilir!"
     },
     {
       "headline": "Sen nasıl *okuyorsun*?",
       "visual": "YourTurn",
-      "narration": "Sen sesli mi çalışırsın, sessiz mi? *Yorumlara* yaz!"
+      "narration": "Sen ders çalışırken sesli mi okursun, sessiz mi? *Yorumlara* yaz!"
     }
   ],
   "cover": {
     "title": "Sesli okuyunca *aklında* kalıyor!",
     "visual": "StudyAloud"
   },
-  "caption": "Bir şeyi kendi kendine sesli söyleyince daha iyi aklında kalıyor… Sende de oluyor mu? 🗣️📖 Adı üretim etkisi! Deneylerde sesli okunan kelimeler sessiz okunanlardan daha iyi hatırlandı; çünkü kendi sesin o bilgiyi öne çıkarıyor. Ama dikkat: her şeyi sesli okursan fark kayboluyor, sadece önemli yerleri sesli oku. Sen sesli mi çalışırsın, sessiz mi? Yorumlara yaz, sınava hazırlanan arkadaşını etiketle 👇",
+  "caption": "Bir şeyi kendi kendine sesli söyleyince daha iyi aklında kalıyor… Sende de oluyor mu? 🗣️📖 Adı üretim etkisi! Deneylerde sesli okunan kelimeler sessiz okunanlardan daha iyi hatırlandı, hatta uydurma kelimelerde bile! Çünkü kendi sesin o bilgiyi öne çıkarıyor. Ama dikkat: her şeyi sesli okursan fark kayboluyor, sadece önemli yerleri sesli oku. Sen sesli mi çalışırsın, sessiz mi? Yorumlara yaz, sınava hazırlanan arkadaşını etiketle 👇",
   "youtubeTitle": "Sesli okuyunca neden daha iyi hatırlıyorsun? 🗣️ #shorts",
   "hashtags": [
     "üretimetkisi",
@@ -69,7 +85,7 @@
     "shorts"
   ],
   "sources": [
-    "MacLeod, Gopie, Hourihan, Neary & Ozubko (2010), J. Exp. Psychol.: Learning, Memory, and Cognition 36(3):671–685 — The Production Effect: Delineation of a Phenomenon, Waterloo Üniversitesi (tam metin: 8 deney; etki yalnızca bazı kelimelerin sesli okunduğu karışık listelerde, tümü sesli/tümü sessiz karşılaştırmasında görülmedi; dudak oynatmak da etki yarattı; açıklama: ayırt edicilik)",
+    "MacLeod, Gopie, Hourihan, Neary & Ozubko (2010), J. Exp. Psychol.: Learning, Memory, and Cognition 36(3):671–685 — The Production Effect: Delineation of a Phenomenon, Waterloo Üniversitesi (tam metin: 8 deney; giriş bölümünde Conway & Gathercole 1987 ve Gathercole & Conway 1988'de sesli okumanın yüzde 15–25 ve 14–20 avantajı; Deney 6'da uydurma kelimelerde de etki; etki yalnızca bazı kelimelerin sesli okunduğu karışık listelerde, tümü sesli/tümü sessiz karşılaştırmasında görülmedi; dudak oynatmak da etki yarattı; açıklama: ayırt edicilik)",
     "Forrin & MacLeod (2018), Memory 26(4):574–579 — This time it's personal: the memory benefit of hearing oneself, Waterloo Üniversitesi (PubMed özeti: sesli okumak > kendi kaydını dinlemek > başkasını dinlemek)",
     "University of Waterloo haberi (1 Aralık 2017): Study finds reading information aloud to yourself improves memory — 95 katılımcı, dört yöntem"
   ]

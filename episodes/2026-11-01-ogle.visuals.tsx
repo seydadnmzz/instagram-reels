@@ -1,8 +1,9 @@
 // Günün bölümüne özel çizimler. Rutin bu dosyayı her bölüm için yeniden yazar.
 // Her çizim 900×560 birimlik SVG sahnesine çizilir; sahne süresi prop olarak gelir.
-// Bölüm: Üretim etkisi — sesli okuyunca daha iyi hatırlamak (2026-11-01-ogle)
+// Bölüm: Üretim etkisi — sesli okuyunca daha iyi hatırlamak (2026-11-01-ogle, uzun sürüm)
 import { useCurrentFrame } from "remotion";
 import {
+  Arrow,
   BigText,
   Brain,
   Chip,
@@ -267,6 +268,75 @@ const VoiceRanking: Visual = ({ durationInFrames }) => {
   );
 };
 
+const PercentGap: Visual = ({ durationInFrames }) => {
+  const at = (f: number) => Math.round(durationInFrames * f);
+  const g = useProgress(4, at(0.45));
+  return (
+    <g>
+      <Paper />
+      <line x1={120} y1={440} x2={620} y2={440} stroke={OUTLINE} strokeWidth={6} strokeLinecap="round" />
+      <rect x={170} y={440 - 300 * g} width={160} height={300 * g} rx={12} fill={MINT} stroke={OUTLINE} strokeWidth={5} />
+      <rect x={410} y={440 - 230 * g} width={160} height={230 * g} rx={12} fill={GREY} stroke={OUTLINE} strokeWidth={5} />
+      <Chip x={250} y={495} text="SESLİ" delay={6} />
+      <Chip x={490} y={495} text="SESSİZ" dark delay={10} />
+      <Speaker x={250} y={440 - 300 * g + 40} scale={1.2} color="#fff" />
+      <Arrow from={[600, 440 - 230 * g]} to={[600, 440 - 300 * g]} progress={useProgress(at(0.45), at(0.6))} color={RED} />
+      <BigText x={765} y={190} text="+%15–25" size={56} color={YELLOW} delay={at(0.5)} />
+      <Sparkles points={[[690, 110], [820, 290], [640, 300]]} />
+    </g>
+  );
+};
+
+const Nonsense: Visual = () => {
+  const words = ["BLOMUZ", "KİRPAT", "ZÜNGE"];
+  return (
+    <g>
+      <Paper />
+      {words.map((w, i) => (
+        <Card key={w} x={200 + i * 250} y={130} text={w} lit speaker scale={1.15} delay={4 + i * 6} />
+      ))}
+      <QuestionMark x={450} y={240} size={60} delay={14} />
+      <Brain x={450} y={380} scale={0.8} mood="happy" delay={18} />
+      <Chip x={180} y={400} text="ANLAMSIZ" dark delay={24} />
+      <Chip x={720} y={400} text="AMA AKILDA!" delay={30} />
+    </g>
+  );
+};
+
+const TwoPowers: Visual = ({ durationInFrames }) => {
+  const at = (f: number) => Math.round(durationInFrames * f);
+  const lips = Math.abs(useWave(12, 1));
+  const left = useAppear(at(0.35));
+  const right = useAppear(at(0.6));
+  return (
+    <g>
+      <Paper />
+      {/* Konuşma hareketi */}
+      <g transform={place(230, 230, left)}>
+        <circle r={130} fill="#fff" stroke={OUTLINE} strokeWidth={5} />
+        <path d={`M -70 0 C -46 -44 -14 -40 0 -30 C 14 -40 46 -44 70 0 C 46 ${12 + 34 * lips} -46 ${12 + 34 * lips} -70 0 Z`} fill="#e0566e" stroke={OUTLINE} strokeWidth={5} strokeLinejoin="round" />
+        <path d={`M -60 0 Q 0 ${-4 + 28 * lips} 60 0`} fill="#7a2335" stroke={OUTLINE} strokeWidth={4} />
+        <g stroke={PURPLE} strokeWidth={6} strokeLinecap="round">
+          <line x1={-110} y1={-60} x2={-90} y2={-44} />
+          <line x1={110} y1={-60} x2={90} y2={-44} />
+        </g>
+      </g>
+      <Chip x={230} y={420} text="HAREKET" delay={at(0.4)} />
+      <BigText x={450} y={230} text="+" size={110} color={YELLOW} delay={at(0.5)} />
+      {/* Kendi sesini duymak */}
+      <g transform={place(670, 230, right)}>
+        <circle r={130} fill="#fff" stroke={OUTLINE} strokeWidth={5} />
+        <path d="M -30 -70 C 30 -100 70 -40 40 0 C 20 26 30 50 0 70 C -20 84 -44 70 -40 50" fill="#f2c79a" stroke={OUTLINE} strokeWidth={6} strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M -10 -36 C 20 -50 34 -16 14 0" fill="none" stroke={OUTLINE} strokeWidth={5} strokeLinecap="round" />
+      </g>
+      <g opacity={right}>
+        <SoundWaves x={548} y={230} scale={0.75} />
+      </g>
+      <Chip x={670} y={420} text="KENDİ SESİN" delay={at(0.65)} />
+    </g>
+  );
+};
+
 const AllAloud: Visual = () => {
   const frame = useCurrentFrame();
   const pos: [number, number][] = [
@@ -355,8 +425,11 @@ export const visuals: Record<string, Visual> = {
   StudyAloud,
   NameReveal,
   WordCards,
+  PercentGap,
   StandOut,
+  Nonsense,
   VoiceRanking,
+  TwoPowers,
   AllAloud,
   HighlightTip,
   YourTurn,
