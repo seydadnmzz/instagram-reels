@@ -27,7 +27,7 @@ export const THEMES: Record<
 };
 
 // Renkli görünüm: degrade zemin, yüzen şekiller, beyaz kart, başlık etiketi, ilerleme çubuğu
-export const POP_THEMES: Record<"mor" | "turkuaz" | "turuncu" | "pembe" | "gece" | "gri", { top: string; bottom: string; accent: string; ink: string }> = {
+export const POP_THEMES: Record<"mor" | "turkuaz" | "turuncu" | "pembe" | "gece" | "gri" | "kahverengi", { top: string; bottom: string; accent: string; ink: string }> = {
   mor: { top: "#5b3df5", bottom: "#c03bd6", accent: "#5cf2c2", ink: "#4a2ad1" },
   turkuaz: { top: "#0f8fb3", bottom: "#17c3a5", accent: "#ffd43b", ink: "#0b6f8c" },
   turuncu: { top: "#ff6a3d", bottom: "#ffaa33", accent: "#2ee6d6", ink: "#d9451c" },
@@ -36,6 +36,8 @@ export const POP_THEMES: Record<"mor" | "turkuaz" | "turuncu" | "pembe" | "gece"
   gece: { top: "#2a1238", bottom: "#0e0a18", accent: "#fff15c", ink: "#d92e6b" },
   // Gri degrade zemin; vurgular mor temayla aynı
   gri: { top: "#4b4f58", bottom: "#80858f", accent: "#5cf2c2", ink: "#4a2ad1" },
+  // Kahverengi degrade zemin; vurgular turuncu temayla aynı
+  kahverengi: { top: "#5a3520", bottom: "#9a6438", accent: "#2ee6d6", ink: "#d9451c" },
 };
 
 export const isPop = (theme: Theme): theme is keyof typeof POP_THEMES => theme in POP_THEMES;
