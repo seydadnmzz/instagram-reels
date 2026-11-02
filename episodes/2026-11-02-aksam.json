@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-02-aksam",
+  "category": "gundelik",
+  "theme": "turuncu",
+  "scenes": [
+    {
+      "headline": "Şarkı *kafanda* kaldı!",
+      "visual": "StuckSong",
+      "narration": "Sabah bir şarkı duydun… Akşam oldu, hâlâ *kafanda* çalıyor! Sende de oluyor mu?"
+    },
+    {
+      "headline": "Adı: *kulak kurdu*",
+      "visual": "EarWorm",
+      "narration": "Bunun bir adı var: *kulak kurdu*!"
+    },
+    {
+      "headline": "Neredeyse *herkeste*",
+      "tag": "FİNLANDİYA · 2012",
+      "visual": "Survey",
+      "narration": "Finlandiya'da on iki bin kişilik bir ankette, neredeyse *yüzde 90'ı* bunu her hafta yaşıyordu."
+    },
+    {
+      "headline": "Beyin *boşluğu* dolduruyor",
+      "tag": "DARTMOUTH · 2005",
+      "visual": "SilentGap",
+      "narration": "Peki neden? Bir deneyde tanıdık şarkılara sessiz boşluklar eklendi. Beyin, *sessiz* kısımları kendiliğinden doldurdu!"
+    },
+    {
+      "headline": "İçindeki *müzik çalar*",
+      "visual": "InnerPlayer",
+      "narration": "Yani beynin, ses olmadan da şarkı çalabiliyor. Sanki içinde bir *müzik çalar* var!"
+    },
+    {
+      "headline": "Tam nedeni *araştırılıyor*",
+      "visual": "Mystery",
+      "narration": "Neden takıldığı tam bilinmiyor. Ama hangi şarkıların takıldığı biliniyor!"
+    },
+    {
+      "headline": "*Hızlı* ve popüler",
+      "tag": "GOLDSMITHS · 2016",
+      "visual": "FastSongs",
+      "narration": "Üç bin kişinin kulak kurdu incelendi. Öne çıkanlar: *hızlı tempolu*, popüler şarkılar."
+    },
+    {
+      "headline": "Tanıdık ama *sürprizli*",
+      "visual": "MelodyShape",
+      "narration": "Melodileri tanıdık: önce *yükseliyor*, sonra alçalıyor. Arada da sürpriz sıçramalar var."
+    },
+    {
+      "headline": "Çözüm: *sakız*!",
+      "tag": "READING ÜNİV. · 2015",
+      "visual": "GumTip",
+      "narration": "İyi haber: Bir deneyde *sakız çiğneyenler*, şarkıyı kafalarında üçte bir daha az duydu!"
+    },
+    {
+      "headline": "*Bulmaca* da işe yarıyor",
+      "tag": "WESTERN WASHINGTON ÜNİV. · 2012",
+      "visual": "PuzzleTip",
+      "narration": "Kolay bir kelime bulmacası da yardımcı olabilir. Ama dikkat! Fazla *zor* bulmaca ters tepiyor."
+    },
+    {
+      "headline": "Seninki hangisi?",
+      "visual": "YourTurn",
+      "narration": "Senin kafana en son hangi şarkı takıldı? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Kafamdaki *şarkı*!",
+    "visual": "EarWorm"
+  },
+  "caption": "Sabah duyduğun bir şarkı akşama kadar kafanda dönüp duruyor… Sende de oluyor mu? 🎶🐛 Adı kulak kurdu! İnsanların neredeyse yüzde 90'ı bunu her hafta yaşıyor. Beynin, kulağına ses gelmese bile şarkıyı içinden çalmaya devam edebiliyor. İyi haber: bir deneyde sakız çiğneyenler şarkıyı kafalarında çok daha az duydu! Senin kafana en son hangi şarkı takıldı? Yorumlara yaz, aynı şarkıyı sürekli mırıldanan arkadaşını etiketle 👇",
+  "youtubeTitle": "Şarkı kafandan neden çıkmıyor? Kulak kurdu 🎶 #shorts",
+  "hashtags": [
+    "kulakkurdu",
+    "şarkı",
+    "müzik",
+    "beyin",
+    "gündelik",
+    "psikoloji",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Liikkanen (2012), Psychology of Music 40(2):236–256 — Musical activities predispose to involuntary musical imagery, Helsinki Bilgi Teknolojileri Enstitüsü HIIT (12.519 Finli internet kullanıcısı; katılımcıların yüzde 89,2'si en az haftada bir kez kulak kurdu yaşadığını bildirdi; arama özetleri ve atıflar)",
+    "Kraemer, Macrae, Green & Kelley (2005), Nature 434:158 — Sound of silence activates auditory cortex, Dartmouth College (ScienceDaily/Phys.org basın metni: tanıdık şarkılarda 2–5 sn'lik sessiz boşluklarda işitsel çağrışım bölgeleri daha aktifti; katılımcılar şarkının devamını 'duyduklarını' bildirdi)",
+    "Jakubowski, Finkel, Stewart & Müllensiefen (2016), Psychology of Aesthetics, Creativity, and the Arts — Dissecting an earworm, Goldsmiths/Durham (APA basın metni, ScienceDaily: yaklaşık 3.000 kişi, 2010–2013; kulak kurtları daha hızlı tempolu, yaygın yükselip alçalan melodi kalıbı, alışılmadık aralık sıçramaları veya tekrarlar)",
+    "Beaman, Powell & Rapley (2015), Quarterly Journal of Experimental Psychology 68(6):1049–1057 — Want to block earworms from conscious awareness? B(u)y gum!, Reading Üniversitesi (üniversite basın metni: 98 gönüllü; sakız çiğneyenler şarkıyı daha az düşündü ve 'duyma' sıklığı üçte bir azaldı; parmak vurmaktan daha etkili)",
+    "Hyman ve ark. (2013), Applied Cognitive Psychology — Going Gaga: Investigating, creating, and manipulating the song stuck in my head, Western Washington Üniversitesi (BPS Research Digest özeti: 299 öğrenci anketi; fazla zor sudoku/anagram görevleri daha çok kulak kurdu doğurdu) ve basın özetleri (anagram çözmek kulak kurdunu azaltmaya yardım etti)"
+  ]
+}
