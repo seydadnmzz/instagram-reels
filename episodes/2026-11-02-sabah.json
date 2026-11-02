@@ -1,0 +1,95 @@
+{
+  "id": "2026-11-02-sabah",
+  "category": "bilim",
+  "theme": "turkuaz",
+  "scenes": [
+    {
+      "headline": "Sabah daha *net*!",
+      "visual": "NightStudy",
+      "narration": "Akşam çalıştığın konu, sabah uyanınca daha *net* mi geliyor? Tesadüf değil!"
+    },
+    {
+      "headline": "Gizli kahraman: *uyku*",
+      "visual": "SleepHero",
+      "narration": "Gizli kahraman: *uyku*! Sen uyurken beynin mesaide."
+    },
+    {
+      "headline": "Uyuyan *daha az* unuttu",
+      "tag": "CORNELL ÜNİV. · 1924",
+      "visual": "SleepVsAwake",
+      "narration": "1924'teki bir deneyde, öğrendikten sonra *uyuyanlar* uyanık kalanlardan daha az unuttu."
+    },
+    {
+      "headline": "Beyin *yeniden oynatıyor*",
+      "tag": "MIT · 1994",
+      "visual": "RatReplay",
+      "narration": "Peki uykuda ne oluyor? MIT'de farelerin gündüz çalışan beyin hücreleri, uykuda *yeniden* çalıştı!"
+    },
+    {
+      "headline": "Kalıcı *depoya* taşıma",
+      "visual": "MemoryMove",
+      "narration": "En güçlü açıklama: beyin öğrendiklerini uykuda *tekrar* edip kalıcı hafızaya taşıyor."
+    },
+    {
+      "headline": "Sabahçılar ve *akşamcılar*",
+      "tag": "LYON ÜNİV. · 2016",
+      "visual": "TwoTeams",
+      "narration": "Lyon'da bir deneyde yabancı kelimeler öğretildi. Bir grup sabah, diğeri *akşam* çalışıp uyudu."
+    },
+    {
+      "headline": "*Yarı* emekle öğrendiler",
+      "visual": "HalfPractice",
+      "narration": "On iki saat sonra uyuyanlar, unuttuklarını *yarısı kadar* tekrarla yeniden öğrendi!"
+    },
+    {
+      "headline": "Bir hafta sonra *fark*",
+      "visual": "WeekScore",
+      "narration": "Bir hafta sonra uyuyanlar 16 kelimenin 15'ini, uyumayanlar *11'ini* hatırladı!"
+    },
+    {
+      "headline": "Zamanlama *önemli*",
+      "tag": "LÜBECK ÜNİV. · 2006",
+      "visual": "Timing",
+      "narration": "Üstelik başka bir çalışmada, öğrendikten sonraki *birkaç saat* içinde uyumak en çok yaradı."
+    },
+    {
+      "headline": "Yatmadan önce *çalış*",
+      "visual": "BedtimeTip",
+      "narration": "İpucu: Zor konuyu yatmadan önce çalış, sabah kısaca *tekrar et*. Sabahlama, uyu!"
+    },
+    {
+      "headline": "Sen hangisisin?",
+      "visual": "YourTurn",
+      "narration": "Sen sınavdan önceki gece uyur musun, yoksa sabahlar mısın? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Uykuda *hafıza* çalışır!",
+    "visual": "SleepHero"
+  },
+  "caption": "Akşam çalıştığın konu sabah kalkınca daha net geliyor… Sende de oluyor mu? 😴📚 Sebebi uyku! Uyurken beynin gün içinde öğrendiklerini tekrar edip kalıcı hafızaya taşıyor. Bir deneyde akşam çalışıp uyuyanlar unuttuklarını yarı emekle yeniden öğrendi, bir hafta sonra da çok daha fazlasını hatırladı. Zor konuyu yatmadan önce çalış, sabah kısaca tekrar et! Sen sınavdan önce uyur musun, sabahlar mısın? Yorumlara yaz, sınav gecesi hiç uyumayan arkadaşını etiketle 👇",
+  "youtubeTitle": "Uyku hafızanı güçlendiriyor! Akşam çalış, sabah hatırla 😴 #shorts",
+  "hashtags": [
+    "uyku",
+    "hafıza",
+    "dersçalışma",
+    "öğrenme",
+    "sınav",
+    "beyin",
+    "bilim",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Mazza, Gerbier, Gustin, Kasikci, Koenig, Toppino & Magnin (2016), Psychological Science — Relearn Faster and Retain Longer: Along With Practice, Sleep Makes Perfect, Lyon Üniversitesi (APS basın metni 'Sleep Makes Relearning Faster and Longer-Lasting': 40 katılımcı, 16 Fransızca–Svahili kelime çifti, 12 saat arayla iki oturum; yeniden öğrenme için uyuyan grup ≈3, uyanık grup ≈6 deneme; 1 hafta sonra ≈15'e ≈11 çift; avantaj 6 ay sonra da sürdü)",
+    "Gais, Lucas & Born (2006), Learning & Memory 13(3):259–262 — Sleep after learning aids memory recall, Lübeck Üniversitesi (Cornell eCommons özeti: lise öğrencileri, kelime öğrenme; öğrenmeden sonraki birkaç saat içinde uyku hafızayı güçlendirdi; uykusuzluğun zararı telafi uykusundan sonra da sürdü)",
+    "Jenkins & Dallenbach (1924), American Journal of Psychology 35(4):605 — Obliviscence during Sleep and Waking, Cornell Üniversitesi (Taylor & Francis bölüm özeti: uyku aralığında anlamsız hecelerde daha az unutma)",
+    "Wilson & McNaughton (1994), Science 265:676–679 — Reactivation of hippocampal ensemble memories during sleep (PubMed özeti; MIT News 1994: hipokampus hücreleri uykuda yeniden aktive oldu, bilginin neokortekse aktarıldığı düşünülüyor)"
+  ]
+}
