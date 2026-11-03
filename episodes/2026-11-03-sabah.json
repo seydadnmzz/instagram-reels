@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-03-sabah",
+  "category": "ilginc",
+  "theme": "pembe",
+  "scenes": [
+    {
+      "headline": "Anlatırken *netleşti*!",
+      "visual": "ExplainFriend",
+      "narration": "Arkadaşına bir konu anlatırken birden *netleşti* mi?"
+    },
+    {
+      "headline": "Öğreterek *öğrenmek*",
+      "visual": "TeachTitle",
+      "narration": "Bunun bir adı var: *öğreterek öğrenmek*!"
+    },
+    {
+      "headline": "Sınav mı, *ders* mi?",
+      "tag": "WASHINGTON ÜNİV. · 2014",
+      "visual": "TwoGroups",
+      "narration": "Bir deneyde bir gruba sınav var, diğerine *anlatacaksınız* dendi."
+    },
+    {
+      "headline": "Kimse *anlatmadı*!",
+      "visual": "SurpriseTest",
+      "narration": "İşin ilginci, kimse ders anlatmadı. Herkes *sınava* girdi!"
+    },
+    {
+      "headline": "Daha çok, *daha düzenli*",
+      "visual": "RecallBars",
+      "narration": "Ama anlatacağını sanan grup daha çok ve *daha düzenli* hatırladı."
+    },
+    {
+      "headline": "Öğretmen gibi *düşün*",
+      "visual": "SortIdeas",
+      "narration": "Peki neden? Beyin, öğretmen gibi *ana fikirleri* sıraya diziyor."
+    },
+    {
+      "headline": "Kameraya *anlattılar*",
+      "tag": "SİNGAPUR ULUSAL ÜNİV. · 2018",
+      "visual": "CameraTeach",
+      "narration": "Singapur'da kameraya *notsuz* anlatanlar, bir hafta sonra daha iyiydi."
+    },
+    {
+      "headline": "Notla *okumak* yetmedi",
+      "visual": "ScriptReader",
+      "narration": "Dikkat! Metinden okuyarak anlatanlar bu avantajı *yakalayamadı*."
+    },
+    {
+      "headline": "Hafızadan *çekip çıkar*",
+      "visual": "PullMemory",
+      "narration": "Bir açıklama: anlatırken bilgiyi hafızandan *çekip çıkarıyorsun*. Kesin neden tartışmalı."
+    },
+    {
+      "headline": "Kitabı kapat, *anlat*",
+      "visual": "TeddyTip",
+      "narration": "İpucu: Kitabı kapat, konuyu hayali bir arkadaşına *sesli anlat*!"
+    },
+    {
+      "headline": "Sen kime *anlatıyorsun*?",
+      "visual": "YourTurn",
+      "narration": "Sen kime anlatarak öğreniyorsun? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Anlat, *daha iyi* öğren!",
+    "visual": "ExplainFriend"
+  },
+  "caption": "Bir konuyu arkadaşına anlatırken birden her şey kafanda netleşiyor… Sende de oluyor mu? 🗣️📚 Adı öğreterek öğrenmek! Bir deneyde konuyu başkasına anlatacağını sananlar, sınava hazırlananlardan daha fazlasını ve daha düzenli hatırladı. Bir başka çalışmada konuyu notsuz anlatanlar bir hafta sonra daha iyi hatırladı. Çalıştıktan sonra kitabı kapat, konuyu hayali bir arkadaşına sesli anlat! Sen en iyi kime anlatarak öğreniyorsun? Yorumlara yaz, ders çalışma arkadaşını etiketle 👇",
+  "youtubeTitle": "Anlatınca neden daha iyi öğreniyorsun? Öğreterek öğren 🗣️ #shorts",
+  "hashtags": [
+    "öğretereköğrenmek",
+    "dersçalışma",
+    "öğrenme",
+    "hafıza",
+    "sınav",
+    "verimliçalışma",
+    "ilginç",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Nestojko, Bui, Kornell & Bjork (2014), Memory & Cognition 42(7):1038–1048 — Expecting to teach enhances learning and organization of knowledge in free recall of text passages, Washington University in St. Louis (WashU Source basın metni 'Expecting to teach enhances learning, recall', Temmuz 2014: bir gruba sınav, diğerine öğretme beklentisi verildi; aslında kimse öğretmedi, herkes sınava girdi; öğretmeyi bekleyenler daha fazla ve daha düzenli hatırladı, ana fikir sorularında daha başarılı oldu)",
+    "Koh, Lee & Lim (2018), Applied Cognitive Psychology 32(3):401–410 — The learning benefits of teaching: A retrieval practice hypothesis, National University of Singapore (BPS Research Digest özeti: 124 öğrenci, Doppler etkisi metni, 5 dk kameraya notsuz anlatma / metinden okuyarak anlatma / hatırladığını yazma / aritmetik; 1 hafta sonra sürpriz test: notsuz anlatanlar aritmetik ve metinden okuyan gruplardan iyi, hatırlama grubuyla benzer)",
+    "Kobayashi (2022), Frontiers in Psychology — The Retrieval Practice Hypothesis in Research on Learning by Teaching: Current Status and Challenges, Shizuoka Üniversitesi (PMC9130926: başkasına anlatmanın öğrenmeye yardımı genel olarak destekleniyor; mekanizma — geri getirme mi, açıklama üretme mi — hâlâ tartışmalı)"
+  ]
+}
