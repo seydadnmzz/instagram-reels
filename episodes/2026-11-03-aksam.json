@@ -1,0 +1,97 @@
+{
+  "id": "2026-11-03-aksam",
+  "category": "psikoloji",
+  "theme": "mor",
+  "scenes": [
+    {
+      "headline": "Ezberledim… *uçtu*!",
+      "visual": "CramNight",
+      "narration": "Sınavdan önceki gece *her şeyi* ezberledin… Bir hafta sonra? Uçtu!"
+    },
+    {
+      "headline": "Unutma *eğrisi*",
+      "visual": "ForgettingCurve",
+      "narration": "Bunun adı *unutma eğrisi*! En hızlı, ilk saatlerde unutuyoruz."
+    },
+    {
+      "headline": "Kendi üstünde *deney*",
+      "tag": "ALMANYA · 1885",
+      "visual": "Ebbinghaus",
+      "narration": "İlk ölçen Ebbinghaus'tu: kendine *anlamsız heceler* ezberletti!"
+    },
+    {
+      "headline": "Eğri *yine* çıktı",
+      "tag": "AMSTERDAM ÜNİV. · 2015",
+      "visual": "Replication",
+      "narration": "Yüz otuz yıl sonra deney tekrarlandı… eğri *yine* çıktı!"
+    },
+    {
+      "headline": "Çözüm: *ara ver*",
+      "visual": "SpacedCalendar",
+      "narration": "Peki çözüm ne? *Aralıklı tekrar*: tekrarı günlere yay."
+    },
+    {
+      "headline": "68'e karşı *38*",
+      "tag": "EBBINGHAUS · 1885",
+      "visual": "RepCompare",
+      "narration": "Üç güne yayılan *38* tekrar, tek gündeki *68* tekrar kadar işe yaradı!"
+    },
+    {
+      "headline": "Yüzlerce deney *aynı* diyor",
+      "tag": "317 DENEY · 2006",
+      "visual": "MetaStack",
+      "narration": "Üstelik yüzlerce deney de bunu *doğruladı*!"
+    },
+    {
+      "headline": "Hisler *yanıltıyor*",
+      "tag": "UCLA · 2008",
+      "visual": "Illusion",
+      "narration": "İşin tuhafı! Çoğu kişi aralıklıyla daha iyi öğrendi… ama *yığmayı* en az o kadar iyi sandı!"
+    },
+    {
+      "headline": "Akıcı *ama* kalıcı değil",
+      "visual": "FluencyTrap",
+      "narration": "Peki neden? Arka arkaya tekrar *akıcı* gelir… ama bu his yanıltıcı."
+    },
+    {
+      "headline": "Araları *aç*",
+      "visual": "TipSchedule",
+      "narration": "İpucu: Ertesi gün tekrar et, sonra araları *aç*!"
+    },
+    {
+      "headline": "Sen nasıl *çalışıyorsun*?",
+      "visual": "YourTurn",
+      "narration": "Sen son geceye mi bırakırsın? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Ezberledin ama *uçup* gitti!",
+    "visual": "CramNight"
+  },
+  "caption": "Sınavdan önceki gece her şeyi ezberledin, bir hafta sonra neredeyse hiçbir şey kalmadı… Sende de oluyor mu? 📚💨 Adı unutma eğrisi! Ebbinghaus'un deneyinde üç güne yayılan 38 tekrar, tek günde yapılan 68 tekrar kadar işe yaradı. Yüzlerce deney aynı şeyi söylüyor: tekrarı günlere yay, araları aç! Sen son geceye mi bırakırsın, günlere mi yayarsın? Yorumlara yaz, hep son gece çalışan arkadaşını etiketle 👇",
+  "youtubeTitle": "Ezberlediğini neden bir haftada unutuyorsun? 📚 #shorts",
+  "hashtags": [
+    "unutmaeğrisi",
+    "aralıklıtekrar",
+    "hafıza",
+    "dersçalışma",
+    "öğrenme",
+    "sınav",
+    "psikoloji",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Murre & Dros (2015), PLoS ONE 10(7): e0120644 — Replication and Analysis of Ebbinghaus' Forgetting Curve, Amsterdam Üniversitesi (Ebbinghaus 1880 el yazması ve 1885 kitabı; tek denek, anlamsız heceler, yaklaşık yedi ay; Dros ile 70 saatlik tekrar; 20 dk–31 gün aralıkları; replikasyon başarılı, eğri Ebbinghaus'unkine çok benziyor)",
+    "Ebbinghaus (1885), Über das Gedächtnis / Memory, §34 — alıntı SuperMemo Guru 'Hermann Ebbinghaus (1885) and spaced repetition (1985)': 12 heceli dizide üç güne dağılmış 38 tekrar, bir önceki gün yapılan 68 tekrar kadar etkili",
+    "Cepeda, Pashler, Vul, Wixted & Rohrer (2006), Psychological Bulletin 132(3):354–380 — Distributed practice in verbal recall tasks: A review and quantitative synthesis (PubMed/USF kaydı: 184 makalede 317 deney, 839 ölçüm)",
+    "Cepeda, Vul, Rohrer, Wixted & Pashler (2008), Psychological Science 19(11):1095–1102 — Spacing effects in learning: a temporal ridgeline of optimal retention (PubMed özeti: 1350'den fazla katılımcı; sınav ne kadar uzaksa en iyi aralık o kadar uzun)",
+    "Kornell & Bjork (2008), Psychological Science 19(6) — Learning concepts and categories: Is spacing the 'enemy of induction'?, UCLA (tam metin: katılımcıların yüzde 78'i aralıklı sunumla daha iyi, ama yüzde 78'i yığmanın eşit ya da daha iyi olduğunu söyledi; yığma akıcılık hissi yaratıyor)"
+  ]
+}
