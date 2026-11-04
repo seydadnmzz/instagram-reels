@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-04-sabah",
+  "category": "bilim",
+  "theme": "turkuaz",
+  "scenes": [
+    {
+      "headline": "Kendini *gıdıkla*!",
+      "visual": "TickleSelf",
+      "narration": "Kendi koltuk altını gıdıklamayı hiç denedin mi? *Hiçbir şey* olmuyor, değil mi?"
+    },
+    {
+      "headline": "Başkası: *kahkaha*!",
+      "visual": "FriendTickle",
+      "narration": "Ama aynı hareketi bir arkadaşın yapınca… *kahkahayı* basıyorsun!"
+    },
+    {
+      "headline": "Suçlu: *beyincik*",
+      "visual": "Cerebellum",
+      "narration": "Peki neden? Araştırmalara göre suçlu, beyninin arkasındaki *beyincik*."
+    },
+    {
+      "headline": "Hissi *önceden* biliyor",
+      "visual": "Prediction",
+      "narration": "Beyincik, hareketinin nasıl bir his yaratacağını *önceden tahmin* ediyor."
+    },
+    {
+      "headline": "Ses *kısılıyor*",
+      "visual": "VolumeDown",
+      "narration": "Tahmin edilen his kısılıyor. Yani beynin kendi dokunuşunu *neredeyse görmezden* geliyor!"
+    },
+    {
+      "headline": "Gıdıklayan *robot*",
+      "tag": "UCL LONDRA · 1998",
+      "visual": "RobotTickle",
+      "narration": "Londra'da bir deneyde insanlar kendilerini bir *robot* aracılığıyla gıdıkladı."
+    },
+    {
+      "headline": "Gecikince *gıdıkladı*",
+      "visual": "DelayMeter",
+      "narration": "Robot dokunuşu saniyenin beşte biri kadar *geciktirince*, his giderek daha gıdıklayıcı oldu!"
+    },
+    {
+      "headline": "Aynı güçle *bastır*",
+      "tag": "UCL LONDRA · 2003",
+      "visual": "FingerPress",
+      "narration": "Üstelik başka bir deneyde çiftler, birbirinin parmağına *aynı güçle* bastırmaya çalıştı."
+    },
+    {
+      "headline": "Her turda *arttı*",
+      "visual": "Escalation",
+      "narration": "Ama baskı her turda ortalama *yüzde 38* arttı! Çünkü herkes kendi gücünü daha zayıf hissetti."
+    },
+    {
+      "headline": "\"O daha *sert* vurdu!\"",
+      "visual": "KidsArgue",
+      "narration": "Dikkat! Kavgalarda herkesin *o daha sert vurdu* demesinin bir sebebi de bu olabilir!"
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Senin en çok neren gıdıklanıyor? Ayakların mı? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Kendini *gıdıklayamazsın*",
+    "visual": "TickleSelf"
+  },
+  "caption": "Kendini gıdıklamaya çalışınca hiçbir şey olmuyor ama biri sana dokununca kahkahayı basıyorsun… Sende de oluyor mu? 🤭🪶 Suçlu beyincik! Beynin kendi hareketinin yaratacağı hissi önceden tahmin edip kısıyor. Londra'daki bir deneyde dokunuş robotla birazcık geciktirilince his daha gıdıklayıcı oldu. Başka bir deneyde ise birbirinin parmağına aynı güçle bastırmaya çalışan çiftlerde baskı her turda arttı, çünkü herkes kendi gücünü daha zayıf hissetti! Senin en çok neren gıdıklanıyor? Yorumlara yaz, en gıdıklanan arkadaşını etiketle 👇",
+  "youtubeTitle": "Kendini neden gıdıklayamıyorsun? Beynin seni kandırıyor 🤭 #shorts",
+  "hashtags": [
+    "gıdıklanmak",
+    "gıdıklama",
+    "beyincik",
+    "beyin",
+    "bilim",
+    "beden",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Blakemore, Wolpert & Frith (1998), Nature Neuroscience 1(7):635–640 — Central cancellation of self-produced tickle sensation, UCL Wellcome Department of Cognitive Neurology (tam metin: kendi ürettiği dokunuş robotunkinden daha az 'gıdıklayıcı' değerlendirildi; iki robotla 0–200 ms gecikme arttıkça gıdıklanma puanı giderek arttı; fMRI: dışarıdan dokunuşta somatosensoriyel korteks daha aktif; beyincik hareketin duyusal sonuçlarını tahmin edip kendi uyarımına yanıtı iptal eden sinyali sağlıyor olabilir)",
+    "Shergill, Bays, Frith & Wolpert (2003), Science 301:187 — Two Eyes for an Eye: The Neuroscience of Force Escalation, UCL (tam metin: 6 çift, sırayla parmağa aynı kuvveti uygulama talimatı; 8 turda ortalama 3,2 N artış = her turda ortalama yüzde 38 tırmanış; kendi üretilen kuvvet yaklaşık yarı yarıya zayıf algılanıyor; joystick ile eşleştirme çok daha doğru; çocukların 'o daha sert vurdu' örneği)",
+    "Scientific American (2003): Why can't a person tickle himself? — Sarah-Jayne Blakemore, UCL Institute of Cognitive Neuroscience (beyincik kendi hareketinin yarattığı hissi tahmin ediyor ve diğer bölgelerin tepkisini azaltıyor; somatosensoriyel ve ön singulat korteks kendini gıdıklarken daha az aktif; gecikme uzadıkça daha gıdıklayıcı)"
+  ]
+}
