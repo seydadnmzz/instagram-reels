@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-04-aksam",
+  "category": "gundelik",
+  "theme": "turuncu",
+  "scenes": [
+    {
+      "headline": "Telefon *titredi*!",
+      "visual": "PocketBuzz",
+      "narration": "Cebinde telefonun titredi! Hemen çıkardın, ekrana baktın… ama *hiç bildirim* yok!"
+    },
+    {
+      "headline": "Ekran *bomboş*",
+      "visual": "EmptyScreen",
+      "narration": "Hatta telefon masadayken bile bacağında *titreşim* hissediyorsun."
+    },
+    {
+      "headline": "*Hayalet* titreşim",
+      "visual": "PhantomPhone",
+      "narration": "Bunun bir adı var: *hayalet titreşim*! Ve çok yaygın."
+    },
+    {
+      "headline": "Üçte *ikisi*!",
+      "tag": "BAYSTATE HASTANESİ · 2010",
+      "visual": "HospitalSurvey",
+      "narration": "Bir hastanede yapılan ankette, sağlık çalışanlarının *üçte ikisi* bunu yaşamıştı."
+    },
+    {
+      "headline": "Öğrencilerde *yüzde 89*",
+      "tag": "INDIANA–PURDUE ÜNİV. · 2012",
+      "visual": "StudentChart",
+      "narration": "Üniversite öğrencilerinde oran *yüzde 89* çıktı! Ortalama iki haftada bir!"
+    },
+    {
+      "headline": "Beyin *tetikte*",
+      "visual": "AlertBrain",
+      "narration": "Peki neden? Tam bilinmiyor ama en güçlü açıklama şu: beynin, mesajı kaçırmamak için *tetikte*."
+    },
+    {
+      "headline": "*Yanlış* alarm",
+      "visual": "FalseAlarm",
+      "narration": "Bu yüzden kumaşın sürtünmesini ya da küçük bir *kas seğirmesini* titreşim sanıyor."
+    },
+    {
+      "headline": "Kaçırmak *daha kötü*",
+      "visual": "SignalScale",
+      "narration": "Yani beyin, mesajı kaçırmaktansa arada bir *boşuna alarm* vermeyi seçiyor."
+    },
+    {
+      "headline": "Cep *önemli*",
+      "visual": "PocketCompare",
+      "narration": "Üstelik cihazı göğüs cebinde taşıyanlar, kemerde taşıyanlardan *daha sık* yaşadı!"
+    },
+    {
+      "headline": "İyi *haber*",
+      "visual": "GoodNews",
+      "narration": "İyi haber: çoğu kişi rahatsız olmuyor. Durdurmak isteyenler titreşimi kapatıp telefonun *yerini* değiştirdi."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sende en çok nerede oluyor? Cepte mi, çantada mı? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Telefon *titredi* ama mesaj yok!",
+    "visual": "PocketBuzz"
+  },
+  "caption": "Cebinde telefon titredi, hemen baktın… ama hiç bildirim yok! Sende de oluyor mu? 📱👻 Adı hayalet titreşim! Bir hastanedeki ankette sağlık çalışanlarının üçte ikisi, bir üniversite çalışmasında ise öğrencilerin yüzde 89'u bunu yaşadığını söyledi. En güçlü açıklamaya göre beynin mesajı kaçırmamak için tetikte bekliyor ve kumaş sürtünmesini bile titreşim sanabiliyor. Sende en çok nerede oluyor? Yorumlara yaz, telefonu elinden hiç bırakmayan arkadaşını etiketle 👇",
+  "youtubeTitle": "Telefon titredi ama mesaj yok! Hayalet titreşim nedir? 📱 #shorts",
+  "hashtags": [
+    "hayalettitreşim",
+    "telefon",
+    "bildirim",
+    "beyin",
+    "algı",
+    "gündelik",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Rothberg, Arora, Hermann, Kleppel, St Marie & Visintainer (2010), BMJ 341:c6914 — Phantom vibration syndrome among medical staff: a cross sectional survey, Baystate Medical Center (PubMed özeti: 169 yanıtlayandan 115'i, yüzde 68 hayalet titreşim yaşadı; yüzde 13'ü her gün; risk etkenleri: asistan hekim olmak, cihazı göğüs cebinde taşımak (kemere göre), taşıma süresi, titreşim modunu sık kullanmak; yaşayanların yüzde 39'u durdurabildi: titreşimi kapatmak, cihazın yerini değiştirmek, başka cihaz kullanmak)",
+    "Drouin, Kaiser & Miller (2012), Computers in Human Behavior 28(4) — Phantom vibrations among undergraduates: Prevalence and associated psychological characteristics, Indiana University–Purdue University Fort Wayne (özet: 290 üniversite öğrencisinin yüzde 89'u yaşamış, ortalama iki haftada bir; azı rahatsız olmuş)",
+    "Kruger & Djerf (2016), Cyberpsychology, Behavior, and Social Networking 19(1):56–59 — High Ringxiety: Attachment Anxiety Predicts Experiences of Phantom Cell Phone Ringing, Michigan Üniversitesi (PubMed özeti: olgu bir 'sinyal algılama' sorunu olarak açıklanıyor; bağlanma kaygısı daha sık hayalet zil/bildirimi yordadı)",
+    "Wikipedia: Phantom vibration syndrome — nedeni bilinmiyor; beklenti hâlinde korteksin kas kasılması, kıyafet basıncı gibi duyumları titreşim olarak yorumlayabileceği önerisi; sinyal algılama açıklaması"
+  ]
+}
