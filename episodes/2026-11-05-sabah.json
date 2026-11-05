@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-05-sabah",
+  "category": "ilginc",
+  "theme": "pembe",
+  "scenes": [
+    {
+      "headline": "Bu ne *ya*?",
+      "visual": "FirstListen",
+      "narration": "Yeni bir şarkıyı ilk duyunca “Bu ne ya?” dedin… Birkaç gün sonra *dilinden düşmüyor*!"
+    },
+    {
+      "headline": "Fotoda *ben miyim*?",
+      "visual": "MirrorPhoto",
+      "narration": "Ya da aynada kendini beğeniyorsun, fotoğrafta “Bu ben miyim?” diyorsun."
+    },
+    {
+      "headline": "*Maruz kalma* etkisi",
+      "visual": "NameIt",
+      "narration": "İkisinin suçlusu aynı: *sadece maruz kalma etkisi*! Sık gördüğümüzü daha çok seviyoruz."
+    },
+    {
+      "headline": "*Uydurma* kelimeler",
+      "tag": "ZAJONC · 1968",
+      "visual": "NonsenseWords",
+      "narration": "Psikolog Robert Zajonc, insanlara anlamsız *uydurma kelimeler* gösterdi."
+    },
+    {
+      "headline": "Sık gördün, *sevdin*",
+      "visual": "MoreIsBetter",
+      "narration": "Sonuç? Bir kelimeyi ne kadar sık gördülerse, anlamını o kadar *olumlu* tahmin ettiler!"
+    },
+    {
+      "headline": "*208* deney",
+      "tag": "BORNSTEIN · 1989",
+      "visual": "MetaStack",
+      "narration": "Üstelik iki yüz sekiz deneyi inceleyen bir analiz, etkiyi *güvenilir* buldu."
+    },
+    {
+      "headline": "*Ayna* mı, gerçek mi?",
+      "tag": "ABD · 1977",
+      "visual": "MirrorStudy",
+      "narration": "Ya fotoğraflar? Bir deneyde insanlar yüzlerinin *ayna görüntüsünü* daha çok beğendi…"
+    },
+    {
+      "headline": "Arkadaş *gerçeği* seçti",
+      "visual": "FriendsChoice",
+      "narration": "Arkadaşları ise *gerçek* fotoğrafı! Sen kendini hep aynada görüyorsun, onlar karşıdan."
+    },
+    {
+      "headline": "Tanıdık = *kolay*",
+      "visual": "EasyBrain",
+      "narration": "Peki neden? Güçlü bir açıklama: beyin tanıdık şeyi *daha kolay* işliyor, bu da hoşa gidiyor."
+    },
+    {
+      "headline": "Fazlası *bıktırır*",
+      "tag": "TORONTO ÜNİV. · 2004",
+      "visual": "TooMuch",
+      "narration": "Ama dikkat! Bir deneyde müzik *fazla tekrarlanınca* beğeni düşmeye başladı."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen hangi şarkıyı önce sevmeyip sonra *bağımlısı* oldun? Yorumlara yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Önce *sevmedin*, sonra bağımlı!",
+    "visual": "FirstListen"
+  },
+  "caption": "Bir şarkıyı ilk duyduğunda “bu ne ya” dedin, birkaç gün sonra dilinden düşmüyor… Sende de oluyor mu? 🎧😅 Adı sadece maruz kalma etkisi: sık karşılaştığımız şeyi daha çok seviyoruz! Bu yüzden aynadaki yüzünü fotoğraftakinden daha çok beğeniyorsun; bir deneyde arkadaşlar ise gerçek fotoğrafı seçti. Ama fazlası bıktırıyor! Sen hangi şarkıya önce burun kıvırıp sonra bağımlısı oldun? Yorumlara yaz, aynı şarkıyı günlerce dinleyen arkadaşını etiketle 👇",
+  "youtubeTitle": "Önce sevmedin, sonra bağımlı oldun! Neden? 🎧 #shorts",
+  "hashtags": [
+    "maruzkalmaetkisi",
+    "şarkı",
+    "müzik",
+    "selfie",
+    "psikoloji",
+    "beyin",
+    "ilginç",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Wikipedia: Mere-exposure effect — Zajonc (1968), Attitudinal Effects of Mere Exposure, JPSP Monograph Supplement 9(2, Pt. 2): uydurma kelimeler, çokgenler, yüz fotoğrafları vb.; Bornstein (1989) meta-analizi: 208 deney, etki 'sağlam ve güvenilir', r = 0,26; çok sayıda tekrardan sonra beğeni düşebilir; algısal akıcılık açıklaması",
+    "Szpunar, Schellenberg & Pliner (2004), J. Exp. Psychol.: Learning, Memory, and Cognition 30(2):370–381 — Liking and Memory for Musical Stimuli as a Function of Exposure, Toronto Üniversitesi (tam metin özeti: dikkatle dinlemede beğeni ters U eğrisi izledi — önce arttı, sonra azaldı; arka planda dinlemede tekrar arttıkça beğeni arttı; giriş bölümünde Bornstein 1989 meta-analizi ve algısal akıcılık modeli)",
+    "Amestoy, Bouvard & Cazalets (2010), Frontiers in Psychology 1:39 — Left-Right Facial Orientation of Familiar Faces: Developmental Aspects of the Mere Exposure Hypothesis (Mita, Dermer & Knight 1977, JPSP 35(8):597–601 özeti: katılımcılar kendi yüzlerinin ayna görüntüsünü, arkadaşları ise normal görüntüyü tercih etti; yazarların kendi yetişkin verisinde de 38 kişiden 27'si kendi ayna görüntüsünü seçti)"
+  ]
+}
