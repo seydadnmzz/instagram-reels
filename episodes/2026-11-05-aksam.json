@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-05-aksam",
+  "category": "psikoloji",
+  "theme": "mor",
+  "scenes": [
+    {
+      "headline": "Dün *öğrendim*…",
+      "visual": "NewWord",
+      "narration": "Yeni bir kelime öğrendin… ve ertesi gün o kelime *her yerde* karşına çıkıyor!"
+    },
+    {
+      "headline": "Her yer *kırmızı*!",
+      "visual": "RedCars",
+      "narration": "Ya da kırmızı bir araba aldın; bir anda yollar *kırmızı arabayla* doldu!"
+    },
+    {
+      "headline": "*Sıklık* yanılsaması",
+      "tag": "ARNOLD ZWICKY · 2005",
+      "visual": "NameIt",
+      "narration": "Bunun bir adı var: *sıklık yanılsaması*! Dilbilimci Arnold Zwicky böyle adlandırdı."
+    },
+    {
+      "headline": "Değişen *sensin*",
+      "visual": "Spotlight",
+      "narration": "Peki neden? O şey aslında çoğalmadı. Değişen, senin *dikkatin*!"
+    },
+    {
+      "headline": "Beynin *filtresi*",
+      "visual": "Filter",
+      "narration": "Beyin, gördüğün şeylerin çoğunu fark ettirmeden *eliyor*. Yeni öğrendiğin şey ise artık filtreden geçiyor."
+    },
+    {
+      "headline": "Pasları *say*!",
+      "tag": "HARVARD · 1999",
+      "visual": "PassCount",
+      "narration": "Ünlü bir deneyde insanlar basketbol paslarını saydı… Bu sırada sahneden *goril kostümlü* biri geçti."
+    },
+    {
+      "headline": "Goril *görünmez*",
+      "visual": "NoGorilla",
+      "narration": "Sonuç? İzleyicilerin *yaklaşık yarısı* gorili hiç fark etmedi!"
+    },
+    {
+      "headline": "Uzmanlar da *kaçırdı*",
+      "tag": "BOSTON · 2013",
+      "visual": "LungScan",
+      "narration": "Üstelik akciğer taramasına bir goril gizlendi; radyologların *yüzde seksen üçü* onu görmedi!"
+    },
+    {
+      "headline": "Baktı ama *görmedi*",
+      "visual": "EyeTrack",
+      "narration": "Göz takibi gösterdi ki çoğu, gorilin olduğu yere *doğrudan bakmıştı*!"
+    },
+    {
+      "headline": "Hep *oradaydı*",
+      "visual": "AlwaysThere",
+      "narration": "Bir tuzak daha: yeni fark ettiğin şeyi *yeni çıktı* sanıyorsun. Oysa çoğu zaman hep oradaydı!"
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen en son neyi birden her yerde görmeye başladın? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Birden *her yerde*!",
+    "visual": "NewWord"
+  },
+  "caption": "Yeni bir kelime öğreniyorsun, ertesi gün her yerde karşına çıkıyor… Sende de oluyor mu? 👀🧠 Adı sıklık yanılsaması! O şey çoğalmadı, senin dikkatin değişti: beyin gördüklerinin çoğunu eliyor, yeni öğrendiğini ise artık yakalıyor. Ünlü bir deneyde izleyicilerin yaklaşık yarısı ekrandan geçen gorili fark etmedi; akciğer taramasına gizlenen gorili radyologların yüzde 83'ü görmedi! Sen en son neyi birden her yerde görmeye başladın? Yorumlara yaz, araba aldıktan sonra her yerde aynısını gören arkadaşını etiketle 👇",
+  "youtubeTitle": "Yeni öğrendiğin şeyi neden her yerde görüyorsun? 👀 #shorts",
+  "hashtags": [
+    "sıklıkyanılsaması",
+    "görünmezgoril",
+    "dikkat",
+    "seçicidikkat",
+    "psikoloji",
+    "beyin",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Language Log (Pennsylvania Üniv.): \"Frequency illusion\" in the OED — terim ilk kez Arnold Zwicky'nin 2005 Language Log yazısında ('Just Between Dr. Language and I'); OED tanımı: 'yeni fark edilen bir olgunun birden her yerde gibi görünmesi'; Zwicky: 'bir seçici dikkat etkisi'; aynı yazıda 'yenilik yanılsaması' (recency illusion): yeni fark ettiğin şeyin gerçekten yeni olduğunu sanmak",
+    "Simons & Chabris (1999), Perception 28:1059–1074 — Gorillas in our midst: Sustained inattentional blindness for dynamic events, Harvard Üniversitesi (Open University OpenLearn özeti: pas sayan izleyicilerin yüzde 44'ü gorili fark etti; Simons 2010, i-Perception 1(1):3–6, PMC3563049: gözlemcilerin yaklaşık yüzde 50'si 9 sn ekranda kalan gorili fark etti)",
+    "Drew, Võ & Wolfe (2013), Psychological Science 24(9) — The Invisible Gorilla Strikes Again: Sustained Inattentional Blindness in Expert Observers, Brigham and Women's Hospital, Boston (ScienceDaily haberi 19 Temmuz 2013: 24 radyolog, yüzde 83'ü gorili görmedi; goril ortalama nodülden 48 kat büyük; göz takibine göre görmeyenlerin çoğu gorile doğrudan baktı)"
+  ]
+}
