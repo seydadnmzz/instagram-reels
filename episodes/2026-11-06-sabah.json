@@ -1,0 +1,89 @@
+{
+  "id": "2026-11-06-sabah",
+  "category": "bilim",
+  "theme": "turkuaz",
+  "scenes": [
+    {
+      "headline": "Tam uyurken… *HOP!*",
+      "visual": "BedJolt",
+      "narration": "Tam uykuya dalıyorsun… ve birden *düşüyormuş* gibi sıçrıyorsun! Tanıdık mı?"
+    },
+    {
+      "headline": "Adı: *hipnik sıçrama*",
+      "visual": "NameCard",
+      "narration": "Bunun bir adı var: *hipnik sıçrama*. Uykuya geçerken kasların aniden kasılıyor."
+    },
+    {
+      "headline": "10 kişiden *7'si*",
+      "visual": "SevenOfTen",
+      "narration": "Üstelik yalnız değilsin! İnsanların *yüzde 70* kadarı bunu yaşıyor."
+    },
+    {
+      "headline": "Beden *yavaşlıyor*",
+      "visual": "SlowDown",
+      "narration": "Peki neden? Uykuya dalarken kasların *gevşiyor*, nefesin yavaşlıyor, tansiyonun düşüyor."
+    },
+    {
+      "headline": "\"Düşüyoruz!\" *alarmı*",
+      "visual": "BrainAlarm",
+      "narration": "Güçlü bir açıklamaya göre beyin bu ani gevşemeyi *düşmek* sanıyor!"
+    },
+    {
+      "headline": "Kaslar: *kasıl!*",
+      "visual": "Catch",
+      "narration": "Ve seni yakalamak için kaslarını bir anda *kasıyor*. Hop! Uyandın."
+    },
+    {
+      "headline": "Işık ve *çat!*",
+      "visual": "FlashBang",
+      "narration": "Bazen buna rüyada bir *düşüş*, parlak bir ışık ya da çat diye bir ses eşlik ediyor."
+    },
+    {
+      "headline": "Ağaçtan *miras*?",
+      "visual": "TreeApe",
+      "narration": "Bir teoriye göre bu, ağaçta uyuyan *atalarımızdan* kalma bir refleks. Ama kanıtı zayıf, kesin neden bilinmiyor."
+    },
+    {
+      "headline": "Neler *artırıyor*?",
+      "visual": "Triggers",
+      "narration": "Peki ne tetikliyor? *Kafein*, stres, uykusuzluk ve gece yapılan ağır spor."
+    },
+    {
+      "headline": "Zararsız! *İpucu*",
+      "visual": "Tips",
+      "narration": "İyi haber: genellikle *zararsız*! Son kahveni yatmadan saatler önce iç ve düzenli uyu."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen en son ne zaman sıçradın? Rüyanda nereden düşüyordun? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Uyurken neden *sıçrıyorsun*?",
+    "visual": "BedJolt"
+  },
+  "caption": "Tam uykuya dalarken birden düşüyormuş gibi sıçrıyorsun… Sende de oluyor mu? 😴⚡ Adı hipnik sıçrama! İnsanların yüzde 70 kadarı bunu yaşıyor. Güçlü bir açıklamaya göre beyin, uykuya geçerken kasların aniden gevşemesini düşmek sanıyor ve seni “yakalamak” için kasları kasıyor. Kafein, stres ve uykusuzluk sıklaştırabiliyor ama genellikle zararsız. Sen en son ne zaman sıçradın? Yorumlara yaz, gece hep sıçrayan arkadaşını etiketle 👇",
+  "youtubeTitle": "Uykuya dalarken neden düşüyormuş gibi sıçrıyorsun? 😴 #shorts",
+  "hashtags": [
+    "hipniksıçrama",
+    "uyku",
+    "uykuyadalmak",
+    "düşmehissi",
+    "beyin",
+    "bilim",
+    "beden",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Sleep Foundation: Hypnic Jerks — What Are They and What Causes Them? (insanların 'yüzde 70'e kadarı' yaşıyor; düşme hissi, parlak ışık, çat/patlama sesi, rüya imgeleri; olası nedenler: retiküler beyin sapında sinir ateşlemesi hatası, kas gevşemesinin düşme sanılması; tetikleyiciler: kafein/nikotin, geç saatte yoğun egzersiz, uykusuzluk, stres; öneriler: son kahveyi yatmadan en az 8 saat önce içmek, düzenli uyku saati; 'tamamen normal ve genellikle zararsız')",
+    "Wikipedia: Hypnic jerk (yaklaşık yüzde 70 en az bir kez, yüzde 10 her gün; uykuya geçişte tansiyon düşmesi ve kas gevşemesi; gevşemenin düşme sanılması; Colorado Üniversitesi'nden bir araştırmacının ağaçta uyuyan primatlardan kalma 'arkaik refleks' önerisi, kanıt yetersiz; AASM'ye göre kaygı, kafein, nikotin, stres, akşam yoğun aktivite, uykusuzluk tetikleyiciler)"
+  ]
+}
