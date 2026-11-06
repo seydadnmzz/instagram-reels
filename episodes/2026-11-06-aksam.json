@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-06-aksam",
+  "category": "gundelik",
+  "theme": "turuncu",
+  "scenes": [
+    {
+      "headline": "Duşta… *BAM!*",
+      "visual": "ShowerIdea",
+      "narration": "Duşta saçını köpürtüyorsun… ve *bam!* Aradığın fikir birden aklına geliyor! Tanıdık mı?"
+    },
+    {
+      "headline": "Adı: *duş etkisi*",
+      "visual": "NameCard",
+      "narration": "Buna *duş etkisi* deniyor. Peki neden masada değil de duşta?"
+    },
+    {
+      "headline": "Odaklanınca *tıkanma*",
+      "visual": "FocusStuck",
+      "narration": "Bir soruna fazla *odaklanınca* zihnin aynı yollarda dönüp duruyor."
+    },
+    {
+      "headline": "Zihin *geziniyor*",
+      "visual": "WanderMind",
+      "narration": "Duşta ise zihnin *serbestçe geziniyor*. Uzak fikirler birbirine bağlanıyor!"
+    },
+    {
+      "headline": "Bir *deney*",
+      "tag": "KALİFORNİYA ÜNİV. · 2012",
+      "visual": "UsesTask",
+      "narration": "Kaliforniya'daki bir deneyde öğrencilerden bir eşyanın *sıra dışı* kullanımlarını bulmaları istendi."
+    },
+    {
+      "headline": "12 dakika *mola*",
+      "visual": "FourGroups",
+      "narration": "Sonra 12 dakikalık mola: kimi *zor* bir iş yaptı, kimi *basit* bir iş, kimi sadece dinlendi."
+    },
+    {
+      "headline": "Kazanan: *basit iş*",
+      "visual": "Winner",
+      "narration": "Sonuç şaşırtıcı! Sadece basit iş yapanlar daha yaratıcı oldu. Boş boş *dinlenmek* işe yaramadı!"
+    },
+    {
+      "headline": "Ne çok sıkıcı, ne çok *zor*",
+      "tag": "VIRGINIA ÜNİV. · 2022",
+      "visual": "Dial",
+      "narration": "Virginia Üniversitesi'ne göre zihin gezinmesi en çok *orta derecede* ilgi çeken işlerde yardım ediyor."
+    },
+    {
+      "headline": "Duş, yürüyüş, *bulaşık*",
+      "visual": "Activities",
+      "narration": "Yani duş, yürüyüş, *bulaşık*… Tam kıvamında! Ama mekanizma hâlâ araştırılıyor."
+    },
+    {
+      "headline": "İpucu: önce *düşün*",
+      "visual": "Tip",
+      "narration": "İpucu: önce soruna kafa yor, sonra *yürüyüşe* çık. Etki, zaten düşündüğün sorunlarda görüldü."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Senin en iyi fikirlerin nerede geliyor? Duşta mı, yolda mı? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "En iyi fikirler neden *duşta* gelir?",
+    "visual": "ShowerIdea"
+  },
+  "caption": "Duşta saçını köpürtürken günlerdir aradığın fikir birden aklına geliyor… Sende de oluyor mu? 🚿💡 Buna duş etkisi deniyor! Bir soruna fazla odaklanınca zihin hep aynı yollarda dönüyor; duş, yürüyüş ya da bulaşık gibi basit işlerde ise serbestçe geziniyor ve uzak fikirleri birleştiriyor. Bir deneyde molada basit bir iş yapanlar daha yaratıcı oldu, boş boş dinlenenler ise olmadı! Senin en iyi fikirlerin nerede geliyor? Yorumlara yaz, duşta şarkı söylerken dahice fikir bulan arkadaşını etiketle 👇",
+  "youtubeTitle": "En iyi fikirler neden hep duşta aklına geliyor? 🚿💡 #shorts",
+  "hashtags": [
+    "duşetkisi",
+    "yaratıcılık",
+    "fikir",
+    "zihingezinmesi",
+    "beyin",
+    "psikoloji",
+    "gündelik",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Baird, Smallwood, Mrazek, Kam, Franklin & Schooler (2012), Psychological Science 23(10):1117–1122 — Inspired by Distraction: Mind Wandering Facilitates Creative Incubation, University of California, Santa Barbara (tam metin: 145 katılımcı; Sıra Dışı Kullanımlar Görevi; 12 dakikalık kuluçka aralığında zor görev (1-back), kolay görev (0-back), dinlenme ya da molasız; yalnızca kolay görev grubu daha önce görülen problemlerde daha yaratıcı yanıtlar verdi, dinlenme ve zor görev etkisizdi; yeni problemlerde fark yok; kolay görev daha fazla zihin gezinmesiyle ilişkili)",
+    "ScienceDaily / APS (11 Ekim 2012): Mind wandering and creative incubation haberi (yalnızca kolay görev yapanlar ikinci testte gelişti; dinlenme grubu 12 dakika dinlendi)",
+    "Irving, Mills ve ark. (2022), Psychology of Aesthetics, Creativity, and the Arts — The Shower Effect: Mind Wandering Facilitates Creative Incubation During Moderately Engaging Activities, Virginia Üniversitesi (ScienceAlert haberi: 222 ve 118 katılımcı, tuğla/ataç alternatif kullanım görevi, ilgi çekici film sahnesi vs. çamaşır katlama videosu; zihin gezinmesi yalnızca orta derecede ilgi çekici etkinlikte daha yaratıcı fikirlerle ilişkili; duş doğrudan test edilmedi) · EurekAlert / UVA basın metni (2024): yürüyüş, bulaşık yıkama, duş gibi orta derecede ilgi çekici etkinlikler"
+  ]
+}
