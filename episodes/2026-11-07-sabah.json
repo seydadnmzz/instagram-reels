@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-07-sabah",
+  "category": "ilginc",
+  "theme": "pembe",
+  "scenes": [
+    {
+      "headline": "Priz bana *bakıyor*!",
+      "visual": "PlugFace",
+      "narration": "Duvardaki prize baktın… ve priz sana *bakıyor*! İki göz, bir ağız. Tanıdık mı?"
+    },
+    {
+      "headline": "Adı: *paredoli*",
+      "visual": "NameCard",
+      "narration": "Bunun bir adı var: *yüz paredolisi*. Yani aslında olmayan yerde yüz görmek."
+    },
+    {
+      "headline": "Yüzler *her yerde*",
+      "visual": "Everywhere",
+      "narration": "Arabanın önü, bulutlar, kahve köpüğü, bir dilim ekmek… Yüzler *her yerde*!"
+    },
+    {
+      "headline": "Beyindeki *yüz dedektörü*",
+      "visual": "Detector",
+      "narration": "Peki neden? Beyninde yüzleri yakalamakla görevli *özel bölgeler* var. Ve çok aceleciler!"
+    },
+    {
+      "headline": "Önce *yüz*…",
+      "tag": "BEYİN TARAMASI · 2020",
+      "visual": "FastScan",
+      "narration": "Beyin taramaları gösterdi: Beyin, yüzlü eşyayı ilk anda *gerçek bir yüz* gibi işliyor…"
+    },
+    {
+      "headline": "…sonra *priz*",
+      "visual": "Correction",
+      "narration": "Ama saniyenin *dörtte biri* geçmeden düzeltiyor: Yok, bu sadece bir priz!"
+    },
+    {
+      "headline": "Kaçırmaktansa *yanlış alarm*",
+      "visual": "Alarm",
+      "narration": "En güçlü açıklama şu: Sistem *çok hassas* ayarlı. Yüzü kaçırmaktansa yanlış alarm veriyor."
+    },
+    {
+      "headline": "Maymunlar da *görüyor*",
+      "tag": "ABD · 2017",
+      "visual": "Monkey",
+      "narration": "Üstelik sadece biz değiliz! Bir deneyde maymunlar da yüze benzeyen eşyalara *daha uzun* baktı."
+    },
+    {
+      "headline": "Hep *erkek* yüzü?",
+      "tag": "ABD · 2022",
+      "visual": "MaleBias",
+      "narration": "En tuhafı: Binlerce kişiye soruldu ve bu hayalî yüzlerin çoğu *erkek* sanıldı!"
+    },
+    {
+      "headline": "Mutlu mu, *şaşkın* mı?",
+      "visual": "Moods",
+      "narration": "İnsanlar bu yüzlere duygu bile yüklüyor! En çok *mutlu* ya da şaşkın görünüyorlar."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen en son nerede bir yüz gördün? Prizde mi, bulutta mı? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Priz bana *bakıyor*!",
+    "visual": "PlugFace"
+  },
+  "caption": "Prize, arabanın önüne ya da buluta bakınca bir yüz görüyorsun… Sende de oluyor mu? 🔌😳 Buna yüz paredolisi deniyor! Beynindeki yüz bölgeleri o kadar hassas ki, yüze benzeyen eşyayı ilk anda gerçek bir yüz gibi işliyor, saniyenin dörtte biri içinde de düzeltiyor. Üstelik maymunlar da aynı yanılsamayı yaşıyor ve insanlar bu hayalî yüzlerin çoğunu erkek sanıyor! Sen en son nerede bir yüz gördün? Yorumlara yaz, her yerde yüz gören arkadaşını etiketle 👇",
+  "youtubeTitle": "Prizde neden yüz görüyorsun? Beynin seni kandırıyor 🔌😳 #shorts",
+  "hashtags": [
+    "paredoli",
+    "yüzparedolisi",
+    "beyin",
+    "algı",
+    "illüzyon",
+    "ilginç",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Wardle, Taubert, Teichmann & Baker (2020), Nature Communications 11:4518 — Rapid and dynamic processing of face pareidolia in the human brain (PMC7481186 tam metin: MEG 22, fMRI 21 katılımcı; yanılsamalı yüzler ilk birkaç yüz milisaniyede gerçek yüzlere benzer temsil ediliyor, yaklaşık 250 ms içinde sıradan nesnelere benzer hâle geliyor; yalnızca yüze duyarlı bölgeler (FFA, OFA) ayırt etti; yüz algılama sistemi seçicilik yerine duyarlılığa öncelik veren geniş ayarlı bir sistem)",
+    "Wardle, Paranjape, Taubert & Baker (2022), PNAS 119(5): e2117413119 — Illusory faces are more likely to be perceived as male than female, ABD Ulusal Ruh Sağlığı Enstitüsü (PMC8812520 tam metin: 3815 yetişkin; görüntülerin yaklaşık yüzde 90'ı erkek, yüzde 9'u kadın ortalama puan aldı; modal ifade: mutluluk yüzde 34, şaşkınlık yüzde 19, öfke yüzde 14)",
+    "Taubert ve ark. (2017), Current Biology 27(16):2505–2509 — Face Pareidolia in the Rhesus Monkey (Phys.org haberi, NIMH: 5 rhesus maymunu, yüze benzeyen eşyalara benzer eşyalardan daha uzun baktı)"
+  ]
+}
