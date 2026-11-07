@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-07-aksam",
+  "category": "psikoloji",
+  "theme": "mor",
+  "scenes": [
+    {
+      "headline": "Çalışırken *süper*…",
+      "visual": "AllCorrect",
+      "narration": "Aynı tip soruları art arda çözdün, hepsi doğru! Ama sınavda… *kafan karıştı*. Tanıdık mı?"
+    },
+    {
+      "headline": "Suçlu: *blok* çalışma",
+      "visual": "Blocked",
+      "narration": "Suçlu çalışma şeklin olabilir! Konuyu bitirip ötekine geçmek: *blok çalışma*."
+    },
+    {
+      "headline": "Ya *karıştırsan*?",
+      "visual": "Shuffle",
+      "narration": "Peki ya konuları *karıştırsan*? Adı: karışık çalışma."
+    },
+    {
+      "headline": "Geometri *deneyi*",
+      "tag": "GÜNEY FLORİDA ÜNİV. · 2007",
+      "visual": "Experiment",
+      "narration": "Bir deneyde öğrenciler geometri sorularını ya sırayla ya da *karışık* çözdü."
+    },
+    {
+      "headline": "Çalışırken *blok* önde",
+      "visual": "PracticeScore",
+      "narration": "Çalışırken *blok grup* çok daha iyiydi: yüzde 89'a yüzde 60!"
+    },
+    {
+      "headline": "Bir hafta *sonra*…",
+      "visual": "TestScore",
+      "narration": "Ama bir hafta sonraki sınavda tablo *tersine döndü*! Karışıklar yüzde 63, bloklar yüzde 20!"
+    },
+    {
+      "headline": "Ressamı *bil*!",
+      "tag": "UCLA · 2008",
+      "visual": "Paintings",
+      "narration": "Başka bir deneyde tabloları *karışık* görenler, ressamları daha iyi tanıdı."
+    },
+    {
+      "headline": "Ama *inanmadılar*!",
+      "visual": "Belief",
+      "narration": "En tuhafı: Çoğu karışıkta daha başarılıydı… ama yine çoğu blok çalışmayı *daha iyi* sandı!"
+    },
+    {
+      "headline": "Peki *neden*?",
+      "visual": "Choose",
+      "narration": "Peki neden? En güçlü açıklama: Karışıkta beynin her soruda *hangi yöntem* diye seçiyor. Sınavda da bunu yapıyorsun!"
+    },
+    {
+      "headline": "Zorlanmak *iyi*!",
+      "visual": "Tip",
+      "narration": "Dikkat! Zorlanman iyiye işaret. En çok, birbirine karışan *benzer konularda* işe yarıyor."
+    },
+    {
+      "headline": "Sen *nasıl* çalışıyorsun?",
+      "visual": "YourTurn",
+      "narration": "Sen nasıl çalışıyorsun? Blok mu, *karışık* mı? Yorumlara yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Sınavda kafam *boş*!",
+    "visual": "AllCorrect"
+  },
+  "caption": "Aynı tip soruları art arda çözerken her şey yolunda, ama sınavda kafan karışıyor… Sende de oluyor mu? 📚😵 Sebebi blok çalışma olabilir! Bir deneyde konuları karışık çalışan öğrenciler bir hafta sonraki sınavda yüzde 63 aldı, sırayla çalışanlar ise sadece yüzde 20. Üstelik insanlar karışık çalışmada daha başarılı olduğu hâlde blok çalışmayı daha iyi sandı! Bir dahakine benzer konuları karıştırarak çalış. Sen nasıl çalışıyorsun? Yorumlara yaz, sınava hazırlanan arkadaşını etiketle 👇",
+  "youtubeTitle": "Çalışırken süper, sınavda boş? Sebebi çalışma şeklin 📚 #shorts",
+  "hashtags": [
+    "karışıkçalışma",
+    "dersçalışma",
+    "sınav",
+    "öğrenme",
+    "hafıza",
+    "verimliçalışma",
+    "psikoloji",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Rohrer & Taylor (2007), Instructional Science 35:481–498 — The shuffling of mathematics problems improves learning, University of South Florida (tam metin: Deney 2, 18 lisans öğrencisi, dört cismin hacmi; uygulama oturumunda blok grup yüzde 89, karışık grup yüzde 60; 1 hafta sonraki testte karışık grup yüzde 63, blok grup yüzde 20)",
+    "Kornell & Bjork (2008), Psychological Science 19(6):585–592 — Learning concepts and categories: Is spacing the 'enemy of induction'?, UCLA (tam metin: 12 ressam, ressam başına 6 tablo; ilk test bloğunda karışık yüzde 61, blok yüzde 35 (Deney 1a, 120 katılımcı); katılımcıların yüzde 78'i karışıkta daha iyi yaptı, ama yüzde 78'i blok çalışmanın eşit ya da daha iyi olduğunu söyledi)",
+    "Brunmair & Richter (2019), Psychological Bulletin 145(11):1029–1052 — Similarity matters: A meta-analysis of interleaved learning and its moderators (PubMed özeti: 59 çalışma; kategoriler arası benzerlik yüksek olduğunda etki daha güçlü; açıklayıcı metin ve kelime öğreniminde dikkatli kullanılmalı)"
+  ]
+}
