@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-08-aksam",
+  "category": "gundelik",
+  "theme": "turuncu",
+  "scenes": [
+    {
+      "headline": "Alarmdan *önce*!",
+      "visual": "AlarmBeat",
+      "narration": "Alarmı yediye kurdun… ama gözlerin yediye iki kala *kendiliğinden* açıldı! Tanıdık mı?"
+    },
+    {
+      "headline": "Tesadüf *değil*",
+      "visual": "MasterClock",
+      "narration": "Bu tesadüf değil! Beyninin derinlerinde küçük bir *ana saat* var."
+    },
+    {
+      "headline": "*24 saatlik* ritim",
+      "visual": "Rhythm",
+      "narration": "Bu saat uykunu, vücut ısını, hatta açlığını *yirmi dört saatlik* bir ritimle yönetiyor."
+    },
+    {
+      "headline": "6'da mı, *9'da* mı?",
+      "tag": "LÜBECK ÜNİV. · 1999",
+      "visual": "Experiment",
+      "narration": "Peki alarmı nasıl biliyor? Almanya'da gönüllülere sabah *altıda* mı, dokuzda mı kalkacakları söylendi."
+    },
+    {
+      "headline": "Hormon *alarmı*",
+      "tag": "NATURE · 1999",
+      "visual": "HormoneRise",
+      "narration": "Altıda kalkacağını bilenlerde *ACTH* hormonu, uyanmadan yaklaşık bir saat önce yükseldi!"
+    },
+    {
+      "headline": "Uyurken bile *bekliyor*",
+      "visual": "Expectation",
+      "narration": "Yani uyurken bile beynin kalkış saatini *bekliyor* ve bedenini hazırlıyor."
+    },
+    {
+      "headline": "Beden *hazırlanıyor*",
+      "tag": "SUNSHINE COAST ÜNİV. · UYKU",
+      "visual": "WarmUp",
+      "narration": "Uyanmadan önce vücudun ısınıyor, uyku hormonu *melatonin* düşüyor, kortizol yükseliyor."
+    },
+    {
+      "headline": "Alarm *sersemliği*",
+      "visual": "DeepSleep",
+      "narration": "Peki alarm neden bazen berbat hissettirir? Çünkü seni *derin uykunun* ortasında yakalayabilir!"
+    },
+    {
+      "headline": "Saati *eğit*",
+      "visual": "Routine",
+      "narration": "İyi haber: her gün *aynı saatte* yatıp kalkarsan, iç saatin bunu daha iyi öğreniyor."
+    },
+    {
+      "headline": "Dikkat! *Yorgunsan*",
+      "visual": "Tired",
+      "narration": "Dikkat! Erken uyanıp hâlâ *yorgunsan*, uykun kalitesiz olabilir."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen alarmdan kaç dakika önce uyanıyorsun? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Alarmdan *önce* uyanıyorum!",
+    "visual": "AlarmBeat"
+  },
+  "caption": "Alarmı kurdun ama gözlerin alarmdan birkaç dakika önce kendiliğinden açıldı… Sende de oluyor mu? ⏰😳 Bu tesadüf değil! Beynindeki ana saat uykunu yaklaşık 24 saatlik bir ritimle yönetiyor. Lübeck Üniversitesi'nin deneyinde erken kalkacağını bilen gönüllülerde ACTH hormonu uyanmadan yaklaşık bir saat önce yükselmeye başladı. Yani beynin uyurken bile kalkış saatini bekliyor! Her gün aynı saatte yatıp kalkarsan iç saatin daha iyi öğreniyor. Sen alarmdan kaç dakika önce uyanıyorsun? Yorumlara yaz, alarmı hiç duymayan arkadaşını etiketle 👇",
+  "youtubeTitle": "Alarmdan hemen önce neden uyanıyorsun? ⏰ #shorts",
+  "hashtags": [
+    "alarm",
+    "uyku",
+    "biyolojiksaat",
+    "sirkadiyenritim",
+    "uyanmak",
+    "gündelik",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Born, Hansen, Marshall, Mölle & Fehm (1999), Nature 397:29–30 — Timing the end of nocturnal sleep, Lübeck Üniversitesi (RePEc/Europe PMC özeti: belirli bir saatte uyanma beklentisi, uyanmadan yaklaşık bir saat önce kanda ACTH'de belirgin artışa yol açtı; Irish Times 7 Ocak 1999: 15 genç sağlıklı gönüllü; Science News 'Rude Awakenings' özetine göre gönüllülere 06:00'da uyandırılacakları ya da 09:00'a kadar uyuyabilecekleri söylendi)",
+    "Fatima, Metse & Wilson (2025), The Conversation — Why do we wake up shortly before our alarm goes off? It's not by chance, University of the Sunshine Coast (1News yeniden yayını: suprakiazmatik çekirdek 'ana saat', uyku, vücut ısısı, açlık ritmi; uyanmadan önce vücut ısısı artar, melatonin düşer, kortizol yükselir; düzensiz programda alarm derin uykuda uyandırıp sersemlik yaratabilir; düzenli yatıp kalkma iç saati eğitir; erken uyanıp yorgun hissetmek kötü uyku kalitesine işaret edebilir)"
+  ]
+}
