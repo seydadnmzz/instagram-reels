@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-08-sabah",
+  "category": "bilim",
+  "theme": "turkuaz",
+  "scenes": [
+    {
+      "headline": "Ayağım *yok* sanki!",
+      "visual": "CrossLegged",
+      "narration": "Bağdaş kurup uzun süre oturdun, kalktın… ve ayağın sanki *yok*! Tanıdık mı?"
+    },
+    {
+      "headline": "Adı: *parestezi*",
+      "visual": "NameCard",
+      "narration": "Bunun bir adı var: geçici *parestezi*. Yani bildiğimiz ayak uyuşması."
+    },
+    {
+      "headline": "Kan mı? *Hayır!*",
+      "visual": "Myth",
+      "narration": "Çoğumuz kan gitmediği için sanırız. Ama nörologlara göre asıl suçlu *sinirler*!"
+    },
+    {
+      "headline": "Katlanan *hortum*",
+      "tag": "UT SOUTHWESTERN · NÖROLOJİ",
+      "visual": "Hose",
+      "narration": "Bacağın bükülünce sinir sıkışıyor. Tıpkı *katlanan* bir hortum gibi, mesajlar beyne ulaşamıyor."
+    },
+    {
+      "headline": "Dizin *yanında*",
+      "visual": "KneeNerve",
+      "narration": "En sık yer dizin dış yanı! Bacak bacak üstüne atınca oradaki *sinir* eziliyor."
+    },
+    {
+      "headline": "Karışık *sinyaller*",
+      "tag": "CASE WESTERN ÜNİV. · NÖROLOJİ",
+      "visual": "MixedSignals",
+      "narration": "Peki ya o iğne batması? Sıkışan sinirlerin bazısı susuyor, bazısı *çılgınca* sinyal yolluyor."
+    },
+    {
+      "headline": "Karınca *ordusu*",
+      "visual": "Ants",
+      "narration": "Beyin bu karmaşayı *karıncalanma* diye hissediyor. Sanki bacağında karıncalar yürüyor!"
+    },
+    {
+      "headline": "Kalkınca *daha kötü*?",
+      "visual": "WakeUp",
+      "narration": "Kalkınca neden artıyor? Çünkü baskı kalkınca sinirler *yeniden* çalışmaya başlıyor."
+    },
+    {
+      "headline": "Akıllı *alarm*",
+      "visual": "Alarm",
+      "narration": "Üstelik bu his işe yarıyor! Seni *kımıldamaya* zorluyor, sinirin uzun süre ezilmiyor."
+    },
+    {
+      "headline": "Dikkat! *Fırlama*",
+      "visual": "Tips",
+      "narration": "Dikkat! Uyuşuk ayakla hemen ayağa *fırlama*. Önce bileğini yavaşça oynat."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sende en çok nerede oluyor? Bağdaşta mı, otobüste mi? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Ayağın neden *uyuşuyor*?",
+    "visual": "CrossLegged"
+  },
+  "caption": "Bağdaş kurup uzun süre oturdun, kalkınca ayağın sanki yok… Sende de oluyor mu? 🦶⚡ Adı geçici parestezi! Nörologlara göre asıl suçlu kan değil, sıkışan sinirler: mesajlar beyne ulaşamıyor, bazı sinirler susarken bazıları çılgınca sinyal yolluyor ve beyin bunu karıncalanma diye hissediyor. Baskı kalkınca sinirler yeniden çalışmaya başlıyor. Uyuşuk ayakla hemen ayağa fırlama, önce bileğini oynat! Sende en çok nerede oluyor? Yorumlara yaz, bağdaştan kalkamayan arkadaşını etiketle 👇",
+  "youtubeTitle": "Ayağın neden uyuşur ve karıncalanır? 🦶⚡ #shorts",
+  "hashtags": [
+    "ayakuyuşması",
+    "karıncalanma",
+    "parestezi",
+    "sinir",
+    "beden",
+    "bilim",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "ScienceAlert / Business Insider: Here's What Happens When Your Foot Falls Asleep — Rebecca Traub (UNC School of Medicine, nöroloji) ve Steven Vernino (UT Southwestern, nöroloji): sinirlerin geçici sıkışması; kıvrılan hortum benzetmesi; uyuşmanın kan eksikliğinden olduğu 'yaygın bir yanılgı'; karıncalanma sinirler işlevini geri kazanırken oluşur (parestezi); dizin yan tarafından geçen fibular sinir sık bir örnek; kımıldayamayan/sedasyon altındaki kişilerde kalıcı sinir hasarı olabilir",
+    "NBC News (1999): What makes our feet fall asleep? — Robert Daroff (Case Western Reserve Üniv., nöroloji): süren baskı sinir yollarını tıkar ya da damarları sıkıştırır; bazı sinirler susar, bazıları aşırı ateşler, beyin karışık sinyalleri yanma/karıncalanma olarak yorumlar; ayağa kalkınca baskı kalkar, sinirler yeniden düzenli ateşler ve karıncalanma geçici olarak artar; rahatsızlık kımıldamaya zorlar, saatlerce süren baskı kalıcı hasar yapabilir; bağdaş sonrası ayağın adım atamaması",
+    "Wikipedia: Paresthesia — 'uyuyan uzuv' (obdormition) en bilinen parestezi; baskıya bağlı paresteziler çoğunlukla bağdaş gibi uygunsuz duruşlardan; baskı kalkınca geçer; çoğu insan geçici parestezi yaşamıştır"
+  ]
+}
