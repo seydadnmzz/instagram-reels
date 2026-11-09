@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-09-sabah",
+  "category": "ilginc",
+  "theme": "pembe",
+  "scenes": [
+    {
+      "headline": "Açım, *sinirliyim*!",
+      "visual": "LateLunch",
+      "narration": "Yemek gecikti… ve birden *herkese* sinir olmaya başladın! Tanıdık geldi mi?"
+    },
+    {
+      "headline": "Adı: *hangry*",
+      "visual": "HangryWord",
+      "narration": "Bunun bir adı bile var: *hangry*! Yani hem aç, hem kızgın."
+    },
+    {
+      "headline": "Sözlüğe *girdi*",
+      "tag": "OXFORD İNGİLİZCE SÖZLÜĞÜ · 2018",
+      "visual": "Dictionary",
+      "narration": "Bu kelime o kadar yayıldı ki, Oxford İngilizce Sözlüğü'ne *resmen* girdi!"
+    },
+    {
+      "headline": "Üç hafta *takip*",
+      "tag": "ANGLIA RUSKIN ÜNİV. · 2022",
+      "visual": "PhoneSurvey",
+      "narration": "Peki gerçekten öyle mi? Bilim insanları altmış dört kişiye üç hafta, günde beş kez *ne kadar açsın* diye sordu."
+    },
+    {
+      "headline": "Aç olan *huysuz*",
+      "visual": "MoodMeter",
+      "narration": "Sonuç? Açlık arttıkça *öfke* ve huysuzluk da arttı, keyif ise düştü!"
+    },
+    {
+      "headline": "Beyin *karıştırıyor*",
+      "visual": "Misread",
+      "narration": "Peki neden? En güçlü açıklama şu: Beyin, açlığın verdiği kötü hissi *etrafındakilere* kızgınlık sanıyor."
+    },
+    {
+      "headline": "Sadece şeker *değil*",
+      "visual": "NotJustSugar",
+      "narration": "Yani mesele sadece *kan şekeri* değil; ortam ve ruh hâlin de işin içinde."
+    },
+    {
+      "headline": "Kötü ortam, *kötü* yorum",
+      "tag": "UNC CHAPEL HILL · 2018",
+      "visual": "BadContext",
+      "narration": "Bir deneyde aç kişiler, ancak önce *kötü* bir resim görünce anlamsız şekilleri daha olumsuz buldu."
+    },
+    {
+      "headline": "Fark eden *sakin*",
+      "tag": "UNC CHAPEL HILL · 2018",
+      "visual": "AwareCalm",
+      "narration": "Üstelik bilgisayarı bozulan aç öğrencilerden, önce duygularını düşünenler *huysuzlaşmadı*!"
+    },
+    {
+      "headline": "Önce *kendine sor*",
+      "visual": "AskSelf",
+      "narration": "İyi haber: Sinirlendiğinde dur ve kendine sor… Yoksa sadece *aç mıyım*?"
+    },
+    {
+      "headline": "Sen de *hangry* misin?",
+      "visual": "YourTurn",
+      "narration": "Sen açken en çok kime *sinirleniyorsun*? Yorumlara yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Açken neden *sinirleniyorsun*?",
+    "visual": "LateLunch"
+  },
+  "caption": "Yemek gecikince birden herkese sinir oluyorsun… Sende de oluyor mu? 🍽️😤 Adı hangry, yani aç ve kızgın! Üç haftalık bir araştırmada açlık arttıkça öfke ve huysuzluk da arttı, keyif düştü. Mesele sadece kan şekeri değil: beyin açlığın kötü hissini etrafındakilere kızgınlık sanıyor. Bir deneyde duygularını önce fark eden aç kişiler huysuzlaşmadı. Sen açken en çok kime sinirleniyorsun? Yorumlara yaz, acıkınca çekilmez olan arkadaşını etiketle 👇",
+  "youtubeTitle": "Açken neden herkese sinirleniyorsun? 😤 #shorts",
+  "hashtags": [
+    "hangry",
+    "açlık",
+    "sinir",
+    "öfke",
+    "ruhhali",
+    "ilginç",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Swami, Hochstöger, Kargl & Stieger (2022), PLOS ONE 17(7): e0269629 — Hangry in the field: An experience sampling study on the impact of hunger on anger, irritability, and affect, Anglia Ruskin Üniversitesi & Karl Landsteiner Üniversitesi (makale tam metni: 64 katılımcı, 21 gün, günde 5 ölçüm, 9.142 yanıt; açlık daha fazla öfke/huysuzluk ve daha az keyifle ilişkili; glikoz ölçülmedi; yazarlar ego tükenmesi açıklamasının zayıf olduğunu, MacCormack & Lindquist'in kavramsallaştırma açıklamasını öne çıkarıyor)",
+    "UNC Chapel Hill haberi (2018): Are you “hangry?” Hunger can lead to anger, but it’s more complicated than a drop in blood sugar — MacCormack & Lindquist (2018), Emotion: Feeling hangry? When hunger is conceptualized as emotion (400+ kişilik iki çevrim içi deney: aç kişiler belirsiz Çin piktogramlarını yalnızca olumsuz resimden sonra daha olumsuz değerlendirdi; 200+ öğrencilik laboratuvar deneyi: bilgisayar çökmesi ve suçlama; önce duygularına odaklanan aç öğrencilerde stres/düşmanlık artışı görülmedi)",
+    "NPR (12 Şubat 2018): Oxford English Dictionary Adds New Entries, Including 'Hangry' (arama sonucu özetleri: OED'nin Ocak 2018 güncellemesi; tanım 'bad tempered or irritable as a result of hunger')"
+  ]
+}
