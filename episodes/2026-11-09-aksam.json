@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-09-aksam",
+  "category": "psikoloji",
+  "theme": "mor",
+  "scenes": [
+    {
+      "headline": "Saat *durdu*?",
+      "visual": "ClockGlance",
+      "narration": "Saate bir baktın… ve saniye ibresi bir an *donmuş* gibi kaldı! Tanıdık mı?"
+    },
+    {
+      "headline": "Adı: *kronostaz*",
+      "visual": "StoppedClock",
+      "narration": "Saat bozuk değil! Bunun bir adı var: *kronostaz*, yani durmuş saat yanılsaması."
+    },
+    {
+      "headline": "Göz *zıplıyor*",
+      "visual": "EyeJumps",
+      "narration": "Peki neden? Gözlerin saniyede yaklaşık *üç kez* bir noktadan diğerine sıçrar."
+    },
+    {
+      "headline": "Kısa bir *boşluk*",
+      "visual": "BlurGap",
+      "narration": "Sıçrama sırasında görüntü bulanıklaşır, beyin onu *görmezden gelir*."
+    },
+    {
+      "headline": "Beyin *dolduruyor*",
+      "visual": "Backfill",
+      "narration": "Oluşan boşluğu ise gözünün vardığı *yeni görüntüyle* doldurur."
+    },
+    {
+      "headline": "Sayaç *deneyi*",
+      "tag": "UCL NÖROLOJİ ENSTİTÜSÜ · 2001",
+      "visual": "CounterTest",
+      "narration": "Londra'daki bir deneyde, gözünü sayaca çevirenler ilk rakamı *olduğundan uzun* gördü."
+    },
+    {
+      "headline": "Kısa ama *uzun*",
+      "tag": "NATURE · 2001",
+      "visual": "Stopwatch",
+      "narration": "Rakam saniyenin yaklaşık *onda dokuzu* kadar kaldı… ama tam bir saniye gibi geldi!"
+    },
+    {
+      "headline": "Uzun yol, *uzun* donma",
+      "visual": "LongerJump",
+      "narration": "Üstelik göz ne kadar *uzun* sıçradıysa, saat o kadar uzun donmuş göründü."
+    },
+    {
+      "headline": "Her an *oluyor*",
+      "visual": "Everywhere",
+      "narration": "Dikkat! Bu her göz hareketinde oluyor; sadece *saat* gibi bir ölçü olunca fark ediyorsun."
+    },
+    {
+      "headline": "Kulakta da *var*",
+      "visual": "EarSwitch",
+      "narration": "Benzeri seslerde de var: Dikkatini bir kulaktan *diğerine* geçirince, ilk sessizlik uzun geliyor."
+    },
+    {
+      "headline": "Sen de *gördün* mü?",
+      "visual": "YourTurn",
+      "narration": "Sen bunu en çok nerede fark ediyorsun? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Saat neden bir an *duruyor*?",
+    "visual": "StoppedClock"
+  },
+  "caption": "Saate bakınca saniye ibresi bir an donmuş gibi kalıyor… Sende de oluyor mu? ⏰👀 Adı kronostaz! Gözlerin saniyede birkaç kez sıçrıyor, beyin bu kısa boşluğu gözünün vardığı görüntüyle dolduruyor ve o ilk saniye daha uzun geliyor. Londra'daki bir deneyde ekranda saniyenin onda dokuzu kadar kalan rakam, tam bir saniye gibi göründü! Sen bunu en çok nerede fark ediyorsun? Yorumlara yaz, saate bakıp \"bozuk mu bu?\" diyen arkadaşını etiketle 👇",
+  "youtubeTitle": "Saate bakınca saniye neden bir an donuyor? ⏰ #shorts",
+  "hashtags": [
+    "kronostaz",
+    "saat",
+    "zamanalgısı",
+    "göz",
+    "algı",
+    "yanılsama",
+    "psikoloji",
+    "beyin",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "keşfet",
+    "shorts"
+  ],
+  "sources": [
+    "Yarrow, Haggard, Heal, Brown & Rothwell (2001), Nature 414(6861):302–305 — Illusory perceptions of space and time preserve cross-saccadic perceptual continuity, Institute of Neurology / UCL (City Research Online makale metni: 22° ve 55° sakkadlar, ortalama 72 ve 139 ms; ilk rakam 880 ve 811 ms ekrandayken 1 sn gibi algılandı; 67 ms sakkad farkı ≈ 69 ms algı farkı; beyin hedefin algısını sakkad başlangıcından ≈50 ms öncesine uzatıyor; 'her göz hareketinde oluyor ama yalnızca dışsal bir zaman ölçüsü olunca fark ediliyor'; hedef sakkad sırasında fark edilir biçimde kaydırılınca yanılsama kayboluyor)",
+    "HealthDay (14 Kasım 2001): Why a Watched Clock Won't Tick — Institute of Neurology, Londra; gözler saniyede yaklaşık üç kez hareket ediyor; sakkadik baskılama; Bruce Bridgeman (UC Santa Cruz) yorumu",
+    "Hodinott-Hill, Thilo, Cowey & Walsh (2002), Current Biology 12(20):1779–1781 — Auditory chronostasis: hanging on the telephone (PubMed özeti ve Oxford Neuroscience kaydı: dikkat kulaklar arasında değiştirilince sessiz aralık daha uzun algılandı)",
+    "Wikipedia: Chronostasis — sakkadik maskeleme, geriye tarihleme; işitsel ve dokunsal türleri"
+  ]
+}
