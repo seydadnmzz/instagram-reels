@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-10-aksam",
+  "category": "gundelik",
+  "theme": "turuncu",
+  "scenes": [
+    {
+      "headline": "Kaşık, kaşık, *kaşık*…",
+      "visual": "RepeatWord",
+      "narration": "Kaşık, kaşık, kaşık, kaşık… Bir kelimeyi üst üste söyle; birden *anlamsız* bir sese dönüşüyor!"
+    },
+    {
+      "headline": "Beynin *doydu*!",
+      "visual": "NameIt",
+      "narration": "Bunun bir adı var: *anlamsal doygunluk*! Beynin o kelimeye adeta doyuyor."
+    },
+    {
+      "headline": "Adını *koyan* kim?",
+      "tag": "McGILL ÜNİV. · 1962",
+      "visual": "Thesis",
+      "narration": "Terimi 1962'de McGill Üniversitesi'nde *Leon Jakobovits James* ortaya attı."
+    },
+    {
+      "headline": "Üç dakika *bakış*",
+      "tag": "WASHBURN · 1907",
+      "visual": "Stare",
+      "narration": "Ama 1907'de bile, *üç dakika* bakılan kelimeler tuhaflaşıp anlamını yitirdi."
+    },
+    {
+      "headline": "Yorulan *köprü*",
+      "tag": "MARYLAND · SAN DIEGO ÜNİV.",
+      "visual": "Bridge",
+      "narration": "Peki neden? Güçlü bir açıklamaya göre kelimeyle anlamı arasındaki *bağlantı* yoruluyor."
+    },
+    {
+      "headline": "Hepsi *yerinde*",
+      "visual": "WeakBridge",
+      "narration": "Kelime de anlam da yerinde; sadece aradaki köprü bir süre *zayıflıyor*."
+    },
+    {
+      "headline": "Yazınca da *oluyor*",
+      "tag": "ST ANDREWS · GRENOBLE ALPES",
+      "visual": "WritingTest",
+      "narration": "Üstelik yazarken de oluyor! Bir deneyde *94 öğrenci* aynı kelimeyi defalarca yazdı."
+    },
+    {
+      "headline": "Yüzde *70* durdu",
+      "visual": "Seventy",
+      "narration": "Yaklaşık *yüzde yetmişi* durdu: kelime birden yanlış yazılmış gibi geldi!"
+    },
+    {
+      "headline": "Dejavunun *tersi*",
+      "tag": "IG NOBEL · 2023",
+      "visual": "Reverse",
+      "narration": "Bu his dejavunun tersi: tanıdık şey birden *yabancı* geliyor! Çalışma Ig Nobel ödülü bile aldı."
+    },
+    {
+      "headline": "Bir *uyarı* sinyali",
+      "visual": "Alert",
+      "narration": "Araştırmacılara göre bu bir uyarı: “Fazla *otomatiğe* bağladın!” Tekrarı bırakınca anlam geri geliyor."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sende en çok hangi kelimede oldu? Hemen dene ve *yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Kelime birden *anlamsız*!",
+    "visual": "RepeatWord"
+  },
+  "caption": "Bir kelimeyi üst üste söyleyince ya da yazınca birden anlamsız, tuhaf bir sese dönüşüyor… Sende de oluyor mu? 🥄😵‍💫 Bunun adı anlamsal doygunluk! Güçlü bir açıklamaya göre kelimeyle anlamı arasındaki bağlantı, art arda kullanılınca geçici olarak yoruluyor. Bir deneyde aynı kelimeyi defalarca yazan öğrencilerin yaklaşık yüzde 70'i en az bir kez durdu; kelime birden yanlış yazılmış gibi geldi! Bu his dejavunun tersi sayılıyor ve araştırma 2023'te Ig Nobel ödülü aldı. Sende en çok hangi kelimede oldu? Yorumlara yaz, bunu şimdi deneyecek arkadaşını etiketle 👇",
+  "youtubeTitle": "Bir kelimeyi tekrarlayınca neden anlamsızlaşıyor? 🥄 #shorts",
+  "hashtags": [
+    "anlamsaldoygunluk",
+    "kelime",
+    "dil",
+    "beyin",
+    "jamaisvu",
+    "gündelik",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Wikipedia: Semantic satiation — terimi Leon Jakobovits James 1962'de McGill Üniversitesi'ndeki doktora tezinde ortaya attı; tekrarın kelimeyi dinleyen için geçici olarak anlamsızlaştırması; reaktif ketlenme açıklaması",
+    "Tian & Huber (2010), Cognitive Psychology 60(4):267–290 — Testing an associative account of semantic satiation, University of Maryland · UC San Diego (PMC2882703: Severance & Washburn 1907 uzun süre bakılan yazılı kelimelerde anlam kaybı; kelime biçimi ve anlam sağlam kalırken aralarındaki bağlantının zayıfladığı 'ilişkisel doygunluk' açıklaması; lexical/semantic hesaplar tartışmalı)",
+    "O'Connor (St Andrews) & Moulin (Université Grenoble Alpes), The Conversation — Jamais vu: the science behind the eerie opposite of déjà vu (94 lisans öğrencisi aynı kelimeyi defalarca yazdı; yaklaşık yüzde 70'i en az bir kez jamais vu nedeniyle durdu; genellikle yaklaşık bir dakika / 33 tekrar sonra; Washburn 1907: üç dakika bakılan kelimelerde 'çağrışım gücü kaybı'; araştırma Ig Nobel edebiyat ödülü aldı; jamais vu bir şeyin fazla otomatik/tekrarlı hâle geldiğinin sinyali)"
+  ]
+}
