@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-10-sabah",
+  "category": "bilim",
+  "theme": "turkuaz",
+  "scenes": [
+    {
+      "headline": "Sessizlikte… *HIK!*",
+      "visual": "Hic",
+      "narration": "Tam herkes sustu… ve *hık!* Bir daha, bir daha… Tanıdık mı?"
+    },
+    {
+      "headline": "Adı: *singultus*",
+      "visual": "NameCard",
+      "narration": "Bunun tıptaki adı *singultus*. Yani bildiğimiz hıçkırık!"
+    },
+    {
+      "headline": "Suçlu: *diyafram*",
+      "visual": "Diaphragm",
+      "narration": "Peki ne oluyor? Ciğerlerinin altındaki kubbe kası, *diyafram*, bir anda istemsizce kasılıyor."
+    },
+    {
+      "headline": "Ses telleri *kapanıyor*",
+      "visual": "Glottis",
+      "narration": "Hava içeri dolarken ses tellerin *şak* diye kapanıyor. İşte o hık sesi bu!"
+    },
+    {
+      "headline": "Ne *tetikliyor*?",
+      "tag": "MEDLINEPLUS · ABD ULUSAL TIP KÜTÜPHANESİ",
+      "visual": "Triggers",
+      "narration": "Ne tetikliyor? Hızlı yemek, *gazlı içecek*, heyecan… Bazen hiçbir sebep yok!"
+    },
+    {
+      "headline": "Doğmadan *önce*!",
+      "visual": "Womb",
+      "narration": "Üstelik doğmadan önce de hıçkırıyordun! Bebekler *anne karnında* da hıçkırır."
+    },
+    {
+      "headline": "Beyinde *dalga*",
+      "tag": "UCL · LONDRA · 2019",
+      "visual": "BrainWave",
+      "narration": "Londra'daki bir araştırmada her hıçkırık, yenidoğanın beyninde *güçlü bir dalga* yarattı."
+    },
+    {
+      "headline": "Nefes *dersi*?",
+      "visual": "Lesson",
+      "narration": "Araştırmacılara göre bu, bebeğin *nefes kaslarını* tanımasına yardım ediyor olabilir."
+    },
+    {
+      "headline": "Atalardan *miras*?",
+      "tag": "BIOESSAYS · 2003",
+      "visual": "Tadpole",
+      "narration": "Bir başka hipotez: hıçkırık, kurbağa yavrularının *solungaçla* nefes almasına benzeyen eski bir refleks olabilir!"
+    },
+    {
+      "headline": "Hâlâ bir *gizem*",
+      "visual": "Mystery",
+      "narration": "Yani nedeni hâlâ tam bilinmiyor. İyi haber: çoğu birkaç dakikada *kendiliğinden* geçiyor."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen hıçkırığı nasıl durduruyorsun? Su mu, nefes tutmak mı? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Durmayan *hıçkırık*!",
+    "visual": "Hic"
+  },
+  "caption": "Tam herkes susmuşken… hık! Sende de oluyor mu? 😳🫁 Suçlu diyafram: bu kubbe şeklindeki kas bir anda istemsizce kasılıyor, ses tellerin de şak diye kapanıyor ve o meşhur ses çıkıyor. Üstelik daha anne karnındayken hıçkırıyorduk! Bir araştırmaya göre hıçkırık, yenidoğanın beyninin nefes kaslarını tanımasına yardım ediyor olabilir. Bir hipoteze göre ise solungaçla nefes alan atalarımızdan kalma bir refleks. Sen hıçkırığı nasıl durduruyorsun? Yorumlara yaz, hıçkırığı hiç geçmeyen arkadaşını etiketle 👇",
+  "youtubeTitle": "Neden hıçkırıyoruz? Cevap anne karnında başlıyor 😳 #shorts",
+  "hashtags": [
+    "hıçkırık",
+    "diyafram",
+    "nefes",
+    "beden",
+    "vücut",
+    "bilim",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "MedlinePlus (ABD Ulusal Tıp Kütüphanesi): Hiccups — akciğerlerin tabanındaki ana solunum kası diyaframın istemsiz hareketi ve ardından ses tellerinin hızla kapanmasıyla 'hık' sesi; tetikleyiciler: çok hızlı/çok yemek, sıcak-baharatlı yiyecek, alkol, gazlı içecek, şişkin mide, sinirlilik/heyecan; bazen belirgin sebep olmadan başlayıp biter; çoğu birkaç dakikada kendiliğinden geçer",
+    "EurekAlert / UCL basın bülteni (2019): Newborn baby hiccups could be key to brain development — Whitehead, Fabrizi ve ark., Clinical Neurophysiology; 13 yenidoğan (30–42 hafta), EEG; her hıçkırıkta diyafram kasılması korteksde belirgin beyin dalgaları uyandırdı; bebeğin solunum kaslarını izlemeyi öğrenmesine yardım edebilir (önerilen yorum); hıçkırık anne karnında yaklaşık 9. haftada başlar; erişkin hıçkırığı bebeklikten kalma (vestigial) bir refleks olabilir; 'neden hıçkırdığımız tam olarak açık değil'",
+    "Straus, Vasilakos, Wilson ve ark. (2003), BioEssays 25:182–188 — A phylogenetic hypothesis for the origin of hiccough (özet ve Dartmouth Undergraduate Journal of Science 'Why Do We Hiccup?' yazısı): hıçkırık, kurbağa yavrularındaki solungaç ventilasyonuna benzeyen arkaik bir motor örüntünün ifadesi olabilir; her ikisinde de glottis kapanır; solunan havada CO2 artınca baskılanır; bir hipotez olarak sunuluyor"
+  ]
+}
