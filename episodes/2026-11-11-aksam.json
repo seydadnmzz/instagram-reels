@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-11-aksam",
+  "category": "psikoloji",
+  "theme": "mor",
+  "scenes": [
+    {
+      "headline": "Ne *okudum* ben?",
+      "visual": "BlankPage",
+      "narration": "Bir sayfayı baştan sona okudun… ve tek kelime *hatırlamıyorsun*! Tanıdık mı?"
+    },
+    {
+      "headline": "Adı: *zihin gezinmesi*",
+      "visual": "MindAway",
+      "narration": "Bunun bir adı var: *zihin gezinmesi*. Gözün satırda, aklın ise bambaşka yerde!"
+    },
+    {
+      "headline": "Çok *sık* oluyor",
+      "tag": "COLORADO & NEW HAMPSHIRE ÜNİV. · 2021",
+      "visual": "ReadingPie",
+      "narration": "Peki ne kadar sık? Bir derlemeye göre okurken zamanın yaklaşık *beşte biri ile üçte biri* böyle geçiyor."
+    },
+    {
+      "headline": "Fark etmiyorsun *bile*",
+      "visual": "WakeUp",
+      "narration": "Üstelik çoğu zaman *fark etmiyorsun* bile. Birkaç paragraf sonra uyanıyorsun!"
+    },
+    {
+      "headline": "Gözler *izlendi*",
+      "tag": "PITTSBURGH ÜNİV. · 2010",
+      "visual": "EyeTracker",
+      "narration": "Pittsburgh'daki bir deneyde, roman okuyan öğrencilerin *gözleri* kamerayla izlendi."
+    },
+    {
+      "headline": "Göz *devam* ediyor",
+      "visual": "RobotEyes",
+      "narration": "Şaşırtıcı! Akılları dalınca bile gözleri satırlarda *kaymaya* devam etti."
+    },
+    {
+      "headline": "Zor kelime *fark etmedi*",
+      "visual": "WordPause",
+      "narration": "Normalde göz, nadir bir kelimede biraz daha uzun durur. Dalgınken bu fark *kayboldu*."
+    },
+    {
+      "headline": "Otomatik *pilot*",
+      "visual": "AutoPilot",
+      "narration": "Yani gözler mekanik olarak ilerliyor ama beyin metni *işlemeyi* bırakıyor. Anlama da düşüyor!"
+    },
+    {
+      "headline": "İkinci okuma *tuzağı*",
+      "visual": "Reread",
+      "narration": "Dikkat! Aynı metni *ikinci kez* okurken akıl daha da çok dalıyor."
+    },
+    {
+      "headline": "Ara ara *soru sor*",
+      "tag": "HARVARD ÜNİV. · 2013",
+      "visual": "QuizBreak",
+      "narration": "İyi haber: Harvard'da bir video derse ara ara *mini sınavlar* eklenince, dalıp gitmek yarıya indi."
+    },
+    {
+      "headline": "Sen de *daldın* mı?",
+      "visual": "YourTurn",
+      "narration": "Sen en çok neyi okurken dalıp gidiyorsun? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Okudun ama *aklında yok*!",
+    "visual": "BlankPage"
+  },
+  "caption": "Bir sayfayı baştan sona okudun ama tek kelime aklında yok… Sende de oluyor mu? 📖😶‍🌫️ Adı zihin gezinmesi! Okurken zamanın yaklaşık beşte biri ile üçte biri böyle geçiyor ve çoğu zaman fark etmiyoruz bile. Pittsburgh'daki bir deneyde akıl dalınca bile gözler satırlarda kaymaya devam etti, ama beyin metni işlemeyi bırakmıştı. İyi haber: Harvard'daki bir deneyde derse ara ara mini sınavlar eklenince dalıp gitmek yarıya indi! Sen en çok neyi okurken dalıp gidiyorsun? Yorumlara yaz, kitabı açınca uyuyakalan arkadaşını etiketle 👇",
+  "youtubeTitle": "Okudun ama hiçbir şey hatırlamıyorsun! Neden? 📖 #shorts",
+  "hashtags": [
+    "zihingezinmesi",
+    "okuma",
+    "dikkat",
+    "dersçalışma",
+    "odaklanma",
+    "psikoloji",
+    "beyin",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "keşfet",
+    "shorts"
+  ],
+  "sources": [
+    "D'Mello & Mills (2021), Language and Linguistics Compass 15(4):e12412 — Mind wandering during reading: An interdisciplinary and integrative review, Colorado Boulder Üniversitesi & New Hampshire Üniversitesi (NSF kamu erişimli tam metin: okurken zihin gezinmesi zamanın kabaca yüzde 20–30'unda; anlamayla tutarlı olarak negatif ilişkili, r ≈ −0,31; farkındalık olmadan da oluyor — 'gözlerin birkaç paragraf ilerlemiş ama ne okuduğunu bilmiyorsun'; Phillips ve ark. 2016: yeniden okumada daha fazla zihin gezinmesi; Szpunar ve ark. 2013: araya sınav eklemek video derste yüzde 40'tan 20'ye düşürdü)",
+    "Reichle, Reineberg & Schooler (2010), Psychological Science 21(9):1300–1310 — Eye Movements During Mindless Reading, Pittsburgh Üniversitesi / UC Santa Barbara (APS basın metni ve ScienceDaily haberi: 4 lisans öğrencisi, her biri bir düzineden fazla birer saatlik oturumda Sense and Sensibility okudu; dalgınken gözler hareket etmeye devam etti, kelimelerde daha uzun duraksadı, nadir kelimelerde daha uzun durma örüntüsü kayboldu; 'mekanik olarak ilerliyorlardı')",
+    "Bonifacci, Viroli, Vassura, Colombini & Desideri (2023), Psychonomic Bulletin & Review 30(1):40–59 — The relationship between mind wandering and reading comprehension: A meta-analysis (PMC9971160: 25 makale, 73 etki, 3926 katılımcı; birleşik r = −0,21)",
+    "Szpunar, Khan & Schacter (2013), PNAS 110(16):6313–6317 — Interpolated memory tests reduce mind wandering and improve learning of online lectures, Harvard Üniversitesi (21 dakikalık istatistik dersi; test edilen grup yarı yarıya daha az zihin gezinmesi; tek ders/tek konu sınırlılığı)",
+    "Sayette, Reichle & Schooler (2009), Psychological Science 20(6):747–752 — Lost in the sauce (PMC2724753: sondaj ve kendiliğinden fark edilen dalgınlık ayrımı; farkında olunmadan dalma)"
+  ]
+}
