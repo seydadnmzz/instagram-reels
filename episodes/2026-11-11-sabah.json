@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-11-sabah",
+  "category": "ilginc",
+  "theme": "pembe",
+  "scenes": [
+    {
+      "headline": "Tüylerim *diken diken*!",
+      "visual": "ChillsSong",
+      "narration": "Sevdiğin şarkının o kısmı geldi… ve birden tüylerin *diken diken* oldu! Tanıdık mı?"
+    },
+    {
+      "headline": "Adı: *frisson*",
+      "visual": "FrissonWord",
+      "narration": "Bunun bir adı var: *frisson*, yani müzik ürpertisi."
+    },
+    {
+      "headline": "Yalnız *değilsin*",
+      "visual": "HowMany",
+      "narration": "Yalnız değilsin! Araştırmalara göre insanların *yarısından fazlası* bunu yaşıyor."
+    },
+    {
+      "headline": "Beyin *tarandı*",
+      "tag": "MCGILL ÜNİV. · 2011",
+      "visual": "BrainScan",
+      "narration": "Peki neden? McGill Üniversitesi'nde, ürperten şarkıları dinleyenlerin beyni *tarandı*."
+    },
+    {
+      "headline": "Ödül *sistemi*",
+      "tag": "MCGILL ÜNİV. · 2011",
+      "visual": "RewardSystem",
+      "narration": "Sonuç? Beyin, lezzetli yemekte de çalışan *ödül sistemini* açtı ve dopamin salgıladı!"
+    },
+    {
+      "headline": "Zirveden *önce*",
+      "tag": "MCGILL ÜNİV. · 2011",
+      "visual": "Anticipation",
+      "narration": "Üstelik dopamin, en güzel an gelmeden *önce* yükseldi! Beynin o anı sabırsızlıkla bekliyor."
+    },
+    {
+      "headline": "Dopamin *engellenince*",
+      "tag": "BARSELONA ÜNİV. · 2019",
+      "visual": "PillBlock",
+      "narration": "Bir başka deneyde dopamini engelleyen bir ilaç verildi… ve insanların ürpermesi *zorlaştı*!"
+    },
+    {
+      "headline": "Ne *tetikliyor*?",
+      "visual": "Triggers",
+      "narration": "Peki ne tetikliyor? Beklenmedik bir nota, sesin aniden yükselmesi ya da bir solistin *girişi*!"
+    },
+    {
+      "headline": "Neden *tüyler*?",
+      "visual": "FurAncestor",
+      "narration": "Ama neden tüyler? Tüylü atalarımızı ısıtan bu refleks, bizde *ürperti* olarak kalmış olabilir."
+    },
+    {
+      "headline": "Yeniliğe *açık* olanlar",
+      "visual": "Openness",
+      "narration": "İlginç ayrıntı: Bunu sık yaşayanlar, genelde *yeniliğe açık* kişiler çıkıyor."
+    },
+    {
+      "headline": "Senin *şarkın* hangisi?",
+      "visual": "YourTurn",
+      "narration": "Seni en çok hangi şarkı *ürpertiyor*? Yorumlara yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Tüylerin neden *diken diken*?",
+    "visual": "ChillsSong"
+  },
+  "caption": "Sevdiğin şarkının o kısmı gelince tüylerin diken diken oluyor… Sende de oluyor mu? 🎧✨ Adı frisson, yani müzik ürpertisi! McGill Üniversitesi'nin araştırmasında beyin, lezzetli yemekte de çalışan ödül sistemini açıp dopamin salgıladı; üstelik en güzel an gelmeden önce! Dopamini engelleyen bir ilaç verilince ise ürpermek zorlaştı. Seni en çok hangi şarkı ürpertiyor? Yorumlara yaz, aynı şarkıda tüyleri diken diken olan arkadaşını etiketle 👇",
+  "youtubeTitle": "Müzik dinlerken tüylerin neden diken diken oluyor? 🎧 #shorts",
+  "hashtags": [
+    "frisson",
+    "müzik",
+    "tüylerimdikendiken",
+    "dopamin",
+    "beyin",
+    "ilginç",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Salimpoor, Benovoy, Larcher, Dagher & Zatorre (2011), Nature Neuroscience — Anatomically distinct dopamine release during anticipation and experience of peak emotion to music, McGill Üniversitesi / Montreal Nöroloji Enstitüsü (ScienceDaily'deki McGill basın metni 'Musical chills: Why they give us thrills', 12 Ocak 2011: PET + fMRI, ürperti veren müzikte dopamin salınımı; yalnızca beklenti bile dopamin salgılatıyor, yemek/ilaç/cinsellik ipuçlarındaki gibi · AIP Inside Science 'The Chill of Music': 8 katılımcı, dorsal striatumda beklenti sırasında, ventral striatumda zirvede dopamin)",
+    "Ferreri ve ark. (2019), PNAS — Dopamine modulates the reward experiences elicited by music, Barselona Üniversitesi / IDIBELL (ScienceDaily haberi, 24 Ocak 2019: 27 katılımcı, levodopa / risperidon / plasebo; levodopa zevki artırdı, risperidon azalttı ve ürperti yaşamayı bozdu)",
+    "Mitchell Colver, The Conversation (NeuroscienceNews yeniden yayını, 2018): Why Do Only Some People Get 'Skin Orgasms' From Listening to Music? — Eastern Washington Üniversitesi, Psychology of Music (2016): frisson yaygınlığı çalışmalara göre yüzde 55–86; deneyime açıklık ile ilişki; tetikleyiciler: beklenmedik armoniler, ani ses değişimi, solistin girişi; tüy kabarması tüylü atalardan kalma olabilir",
+    "Harvard Gazette (20 Temmuz 2020), Hsu laboratuvarı, Cell — tüy kabarmasının tüylü memelilerde hava tutarak ısı yalıtımı sağladığı geleneksel açıklaması (arama özetleri)"
+  ]
+}
