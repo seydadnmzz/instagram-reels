@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-12-sabah",
+  "category": "bilim",
+  "theme": "turkuaz",
+  "scenes": [
+    {
+      "headline": "Güneş… *HAPŞU!*",
+      "visual": "SunSneeze",
+      "narration": "Karanlık bir yerden güneşe çıktın… ve birden *hapşırdın*! Sende de oluyor mu?"
+    },
+    {
+      "headline": "Adı: *fotik hapşırma*",
+      "visual": "NameTag",
+      "narration": "Bunun bir adı var: *fotik hapşırma refleksi*. Yani ışıkla gelen hapşırık!"
+    },
+    {
+      "headline": "Dörtte *bir*",
+      "visual": "OneInFour",
+      "narration": "Yalnız değilsin! Tahminlere göre her dört kişiden *biri* bunu yaşıyor."
+    },
+    {
+      "headline": "Güneşin *sıcağı* mı?",
+      "tag": "ARİSTOTELES · ANTİK YUNAN",
+      "visual": "AristotleHeat",
+      "narration": "Peki neden? Aristoteles bunu güneşin *sıcaklığına* bağlamıştı."
+    },
+    {
+      "headline": "Gözler *kapalı*",
+      "tag": "FRANCIS BACON · 17. YÜZYIL",
+      "visual": "BaconEyes",
+      "narration": "Ama Francis Bacon gözlerini kapatıp güneşe döndü… ve *hapşırmadı*! Suçlu ışıktı."
+    },
+    {
+      "headline": "Kablolar *karışıyor*",
+      "visual": "NerveCross",
+      "narration": "En güçlü açıklama: Gözden gelen güçlü ışık sinyali, burnu hisseden *sinire* sıçrıyor."
+    },
+    {
+      "headline": "Beyin *ölçüldü*",
+      "tag": "ZÜRİH ÜNİV. · 2010",
+      "visual": "ZurichEEG",
+      "narration": "Zürih Üniversitesi'nde ölçüldü: Hapşıranların beyninde *görme merkezi* ışığa daha güçlü tepki verdi."
+    },
+    {
+      "headline": "Ailede *geçiyor*",
+      "visual": "FamilyTree",
+      "narration": "Üstelik bu genetik! Ailede kuşaktan kuşağa geçiyor. Hapşırık sayısı bile genelde *hep aynı*: çoğu kişide iki ya da üç."
+    },
+    {
+      "headline": "Renk değil, *ani ışık*",
+      "visual": "SuddenLight",
+      "narration": "İşin ilginci: Tetikleyen şey ışığın rengi değil, *aniden* parlaması."
+    },
+    {
+      "headline": "Tünel *çıkışı*",
+      "visual": "TunnelCar",
+      "narration": "Dikkat! Bu yüzden tünelden güneşe çıkan bir *sürücü* için tehlikeli olabilir."
+    },
+    {
+      "headline": "Sen kaç *kez*?",
+      "visual": "YourCount",
+      "narration": "Sen güneşe çıkınca kaç kez hapşırıyorsun? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Güneşte neden *hapşırıyorsun*?",
+    "visual": "SunSneeze"
+  },
+  "caption": "Karanlıktan güneşe çıkınca birden hapşırıyorsun… Sende de oluyor mu? ☀️🤧 Adı fotik hapşırma refleksi ve her dört kişiden biri bunu yaşıyor! En güçlü açıklamaya göre gözden gelen güçlü ışık sinyali burnu hisseden sinire sıçrıyor; Zürih Üniversitesi'nin araştırmasında hapşıranların beyninde görme merkezi ışığa daha güçlü tepki verdi. Üstelik ailede geçiyor! Sen güneşe çıkınca kaç kez hapşırıyorsun? Yorumlara yaz, güneşte hapşıran arkadaşını etiketle 👇",
+  "youtubeTitle": "Güneşe bakınca neden hapşırıyorsun? ☀️🤧 #shorts",
+  "hashtags": [
+    "hapşırık",
+    "güneş",
+    "fotikhapşırma",
+    "achoo",
+    "beden",
+    "bilim",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Langer, Beeli & Jäncke (2010), PLoS ONE 5(2): e9208 — When the sun prickles your nose: an EEG study identifying neural bases of photic sneezing, Zürih Üniversitesi (PubMed özeti ve PMC2821404 tam metni: parlak ışık yaklaşık her dört kişiden birinde hapşırık/burun karıncalanması; 10 fotik hapşıran + 10 kontrol; hapşıranlarda görme korteksinde (cuneus) artmış uyarılabilirlik; giriş bölümünde Everett'in optik–trigeminal toplama (crosstalk) kuramı; refleks karanlığa alışmış kişinin aniden parlak ışığa maruz kalmasıyla ortaya çıkıyor)",
+    "Roberta A. Pagon (Washington Üniversitesi), Scientific American, 18 Kasım 2002: Why does bright light cause some people to sneeze? — nüfusun yüzde 18–35'i; ACHOO sendromu; genetik, hapşırık sayısı ailede öngörülebilir ve nöbetten nöbete sabit, genelde iki ya da üç; tünelden güneşe çıkan sürücüler ve pilotlar için risk; belirli dalga boyları değil ışık şiddetindeki değişim tetikliyor; kesin mekanizma bilinmiyor",
+    "Wikipedia: Photic sneeze reflex — Aristoteles'in Problemata'da güneşin sıcaklığı açıklaması; Francis Bacon'ın (17. yüzyıl) gözleri kapalı güneşe dönünce hapşırmaması; Henry Everett (1964); trigeminal sinir hipotezleri; otozomal dominant kalıtım"
+  ]
+}
