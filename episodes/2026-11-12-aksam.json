@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-12-aksam",
+  "category": "gundelik",
+  "theme": "turuncu",
+  "scenes": [
+    {
+      "headline": "Yine mi *ağlıyorum*?",
+      "visual": "OnionCry",
+      "narration": "Soğan doğruyorsun… ve gözlerin yanıp *yaşarmaya* başlıyor! Peki neden?"
+    },
+    {
+      "headline": "Suçlu *bıçak*!",
+      "visual": "CutCells",
+      "narration": "Suçlu aslında soğan değil, onu *kesmen*! Bıçak, soğanın küçük hücrelerini patlatıyor."
+    },
+    {
+      "headline": "Gizli *tuzak*",
+      "visual": "MixTrap",
+      "narration": "Hücrelerde ayrı duran maddeler birden karışıyor ve *enzimler* hemen işe koyuluyor."
+    },
+    {
+      "headline": "Enzimin *adı* var",
+      "tag": "NATURE DERGİSİ · 2002",
+      "visual": "EnzymeFound",
+      "narration": "Japon araştırmacılar 2002'de asıl suçluyu buldu: *gözyaşı faktörü sentazı* adlı bir enzim!"
+    },
+    {
+      "headline": "Havaya *uçan* gaz",
+      "visual": "GasRise",
+      "narration": "Bu enzim, uçucu bir *gaz* üretiyor. Gaz havaya karışıp doğruca gözlerine süzülüyor."
+    },
+    {
+      "headline": "Gözyaşı *alarmı*",
+      "visual": "EyeAlarm",
+      "narration": "Gaz gözündeki sinirleri uyarıyor ve gözün onu yıkayıp atmak için *gözyaşı* üretiyor."
+    },
+    {
+      "headline": "Yüksek hızlı *kamera*",
+      "tag": "CORNELL ÜNİV. · PNAS 2025",
+      "visual": "HighSpeedCam",
+      "narration": "Peki kesme şeklin fark eder mi? Cornell'de soğan kesimi *yüksek hızlı* kamerayla çekildi."
+    },
+    {
+      "headline": "Kör bıçak *fışkırtır*",
+      "visual": "DullKnife",
+      "narration": "Sonuç: *kör bıçak* ve hızlı kesiş, havaya çok daha fazla damlacık fırlatıyor!"
+    },
+    {
+      "headline": "Buzdolabı *efsanesi*",
+      "visual": "FridgeMyth",
+      "narration": "Şaşırtıcı ayrıntı: soğanı *buzdolabında* soğutmak işe yaramadı, damlacıklar arttı bile!"
+    },
+    {
+      "headline": "Keskin ve *yavaş*",
+      "visual": "SharpSlow",
+      "narration": "İyi haber: bıçağını *keskin* tut ve yavaş kes. Daha az damlacık, daha az gözyaşı!"
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sende en çok hangi yemeği yaparken oluyor? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Soğan neden *ağlatıyor*?",
+    "visual": "OnionCry"
+  },
+  "caption": "Soğan doğrarken gözlerin yanıp yaşarmaya başlıyor… Sende de oluyor mu? 🧅😭 Suçlu bıçağın patlattığı hücreler! Hücrelerdeki maddeler karışınca bir enzim uçucu bir gaz üretiyor; gaz gözündeki sinirleri uyarıyor ve gözün onu yıkamak için gözyaşı akıtıyor. Cornell'deki bir araştırmaya göre kör bıçak ve hızlı kesiş çok daha fazla damlacık fırlatıyor, soğanı buzdolabında soğutmak ise işe yaramadı. Bıçağını keskin tut, yavaş kes! Sende en çok hangi yemekte oluyor? Yorumlara yaz, mutfakta hep ağlayan arkadaşını etiketle 👇",
+  "youtubeTitle": "Soğan doğrarken neden ağlıyorsun? 🧅😭 #shorts",
+  "hashtags": [
+    "soğan",
+    "soğandoğramak",
+    "gözyaşı",
+    "mutfak",
+    "mutfakipuçları",
+    "gündelik",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Eady, Kamoi, Kato, Porter, Davis, Shaw, Kamoi & Imai (2008), Plant Physiology 147(4):2096–2106 — Silencing Onion Lachrymatory Factor Synthase Causes a Significant Change in the Sulfur Secondary Metabolite Profile (PMC2492635: Imai ve ark. 2002, Nature 419:685 'An onion enzyme that makes the eyes water' — 1-propenil sülfenik asidin gözyaşı faktörüne dönüşümünü yöneten enzimi keşfetti ve 'lachrymatory factor synthase' adını verdi; önce alliinaz öncülü parçalıyor; gen susturulunca LFS etkinliği 1544 kata kadar azaldı; yazarlardan House Foods Corporation, Japonya)",
+    "Wikipedia: Syn-Propanethial-S-oxide — hücreler parçalanınca alliinaz enzimleri açığa çıkıyor; ürün LFS ile yeniden düzenlenip uçucu sıvı syn-propanetial-S-oksite dönüşüyor; buharı gözyaşına yol açıyor",
+    "ScienceDaily (27 Haziran 2017), Texas A&M University: Why do onions make you cry? — kesmek bileşikleri ve enzimleri açığa çıkarıyor; syn-propanetial-S-oksit gazı yükseliyor; gözdeki duyu sinirleri gazı algılıyor, göz onu yıkamak için gözyaşı üretiyor; beyaz/sarı/kırmızı soğanlarda enzim daha fazla",
+    "Physics World (Michael Banks): The physics behind why cutting onions makes us cry — Sunghwan Jung ve ark., Cornell Üniversitesi, PNAS; giyotin benzeri düzenek ve yüksek hızlı video; kör bıçaklar ve hızlı kesişler (40 m/s'ye kadar) çok daha fazla ve daha enerjik damlacık üretti; buzdolabında soğutulmuş soğanlar daha fazla damlacık çıkardı; öneri: bıçağı bile, yavaş kes",
+    "Science News: These simple knife tricks stop onion tears — Wu ve ark., 'Droplet outburst from onion cutting', PNAS 122 (21 Ekim 2025); keskin bıçak ve yavaş kesiş damlacık sayısını azaltıyor; damlacıklar gözdeki duyu sinirlerini tahriş ediyor"
+  ]
+}
