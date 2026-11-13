@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-13-sabah",
+  "category": "ilginc",
+  "theme": "pembe",
+  "scenes": [
+    {
+      "headline": "Herkes *bakıyor*!",
+      "visual": "SpillPanic",
+      "narration": "Kahveni üstüne döktün… ve herkesin sana baktığından *eminsin*! Peki gerçekten öyle mi?"
+    },
+    {
+      "headline": "Spot *ışığı*",
+      "visual": "Spotlight",
+      "narration": "Bunun bir adı var: *spot ışığı etkisi*! Üstünde dev bir projektör varmış gibi hissediyorsun."
+    },
+    {
+      "headline": "Utanç *tişörtü*",
+      "tag": "CORNELL ÜNİV. · 2000",
+      "visual": "ShirtRoom",
+      "narration": "Cornell Üniversitesi'nde öğrencilere *utanç verici* bir tişört giydirip kalabalık bir odaya gönderdiler."
+    },
+    {
+      "headline": "Tahmin: *yarısı*",
+      "visual": "GuessHalf",
+      "narration": "Sonra sordular: Kaç kişi fark etti? Tahminleri: odanın neredeyse *yarısı*!"
+    },
+    {
+      "headline": "Gerçek: *çok az*",
+      "visual": "RealityQuarter",
+      "narration": "Gerçekte ise tişörtü fark edenler, *dörtte birden* bile azdı!"
+    },
+    {
+      "headline": "Peki *neden*?",
+      "visual": "SelfAnchor",
+      "narration": "Peki neden? Kendi utancını o kadar güçlü hissediyorsun ki, herkes de *görüyor* sanıyorsun."
+    },
+    {
+      "headline": "Utanmasan *bile*",
+      "visual": "CoolShirt",
+      "narration": "Üstelik bu sadece utanınca olmuyor! Utanç vermeyen tişörtlerde de fark edilmeyi *abarttılar*."
+    },
+    {
+      "headline": "15 dakika *sonra*",
+      "visual": "WaitClock",
+      "narration": "İlginç ayrıntı: On beş dakika bekleyip tişörte *alışanlar*, artık bu kadar abartmadı."
+    },
+    {
+      "headline": "Hatalar *küçük*",
+      "tag": "SAVITSKY VE ARK. · 2001",
+      "visual": "MildJudge",
+      "narration": "Başka deneyler de gösterdi: İnsanlar hatalarımızı *sandığımızdan* çok daha hafif yargılıyor."
+    },
+    {
+      "headline": "Rahatla *biraz*",
+      "visual": "EveryoneSpot",
+      "narration": "Yani rahatla! Çoğu insan, *kendi* spot ışığıyla meşgul."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sende en çok ne zaman oluyor? Düşünce mi, tökezleyince mi? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Herkes sana mı *bakıyor*?",
+    "visual": "Spotlight"
+  },
+  "caption": "Bir şey döktün, tökezledin ya da yanlış kelime söyledin… ve herkesin sana baktığından eminsin. Sende de oluyor mu? 🔦😳 Adı spot ışığı etkisi! Cornell'deki bir deneyde utanç verici tişört giyen öğrenciler, odadakilerin yaklaşık yarısının kendilerini fark ettiğini sandı; gerçekte fark edenler dörtte birden bile azdı. Başka deneylere göre insanlar hatalarımızı da sandığımızdan çok daha hafif yargılıyor. Yani rahatla, herkes kendi spot ışığıyla meşgul! Sende en çok ne zaman oluyor? Yorumlara yaz, en ufak şeyde utanan arkadaşını etiketle 👇",
+  "youtubeTitle": "Herkes sana bakıyor sanıyorsun ama… Spot ışığı etkisi 🔦 #shorts",
+  "hashtags": [
+    "spotışığıetkisi",
+    "utanmak",
+    "özgüven",
+    "sosyalpsikoloji",
+    "ilginç",
+    "psikoloji",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Gilovich, Medvec & Savitsky (2000), Journal of Personality and Social Psychology 78(2):211–222 — The Spotlight Effect in Social Judgment: An Egocentric Bias in Estimates of the Salience of One's Own Actions and Appearance (künye ve kavram tanımı arama kayıtlarından)",
+    "Cornell Alumni Magazine: Things That Make You Go Hmm — Tom Gilovich ve öğrencileri, Cornell; Barry Manilow tişörtü giyen öğrenciler fark edenleri kabaca yarı tahmin etti, gerçekte dörtte birden azı fark etti; 2000'de JPSP'de yayımlandı",
+    "Psychology Today (2013): Have You Fallen Prey to the Spotlight Effect? — utanç vermeyen yüzlerle (Bob Marley, Martin Luther King Jr., Jerry Seinfeld) de abartılı tahmin; 15 dakika bekleyip tişörte alışanlar artık fark edilmeyi abartmadı; kendi deneyimine demir atma ve yetersiz düzeltme açıklaması",
+    "Wikipedia: Spotlight effect — kendi kaygı ve öz imajını çapa olarak kullanıp yetersiz düzeltme",
+    "Savitsky, Epley & Gilovich (2001), Journal of Personality and Social Psychology 81(1):44–56 — Do Others Judge Us as Harshly as We Think? Overestimating the Impact of Our Failures, Shortcomings, and Mishaps (özet: sosyal gaflar, herkesin önünde başarısızlık ve utandırıcı betimlemelerde insanlar başkalarından gerçekte olduğundan daha sert yargı bekledi)"
+  ]
+}
