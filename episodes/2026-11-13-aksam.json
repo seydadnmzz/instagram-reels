@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-13-aksam",
+  "category": "psikoloji",
+  "theme": "mor",
+  "scenes": [
+    {
+      "headline": "Adı *neydi*?",
+      "visual": "Handshake",
+      "narration": "Biriyle tanıştın, el sıkıştın… ve *iki saniye* sonra adı uçup gitti!"
+    },
+    {
+      "headline": "Yüz var, *ad* yok",
+      "visual": "FaceNoName",
+      "narration": "Yüzü aklında, mesleği bile aklında. Ama *adı*? Koca bir boşluk!"
+    },
+    {
+      "headline": "İsimler *kaygan*",
+      "visual": "SlipperyName",
+      "narration": "Peki neden? İyi haber: Hafızan bozuk değil! İsimler beynin en *kaygan* bilgisi."
+    },
+    {
+      "headline": "Terzi mi, *Bay Terzi*?",
+      "visual": "TailorCards",
+      "narration": "\"Bu bir terzi\" dersen aklında kalıyor. Ama \"Bu Bay Terzi\" dersen? Büyük ihtimalle *unutuyorsun*!"
+    },
+    {
+      "headline": "Meslek *çağrıştırır*",
+      "visual": "Associations",
+      "narration": "Çünkü \"terzi\" kelimesi makasa, iğneye, kumaşa *bağlı*. Soyadı ise sadece birkaç hece."
+    },
+    {
+      "headline": "İsim = *anlamsız*",
+      "tag": "BRİT. PSİKOLOJİ DERGİSİ · 1990",
+      "visual": "RecallBars",
+      "narration": "Bir deneyde isimler, *uydurma* kelimeler kadar zor hatırlandı. Meslekler ise çok daha kolay!"
+    },
+    {
+      "headline": "Anlam *kurtarır*",
+      "visual": "MeaningRescue",
+      "narration": "Üstelik isimler anlamlı kelimeler olunca, o zorluk *kayboldu*!"
+    },
+    {
+      "headline": "Sıra *sende*…",
+      "tag": "BRENNER · 1973",
+      "visual": "CircleIntro",
+      "narration": "Bir tuzak daha: Sırayla tanışırken, sıran gelmeden *hemen önce* söylenenleri kaçırıyorsun."
+    },
+    {
+      "headline": "Aklın *kendinde*",
+      "visual": "NextInLine",
+      "narration": "Adı: *sıradaki kişi etkisi*. Aklın kendi konuşmanda, o saniyeler hafızaya kaydolmuyor."
+    },
+    {
+      "headline": "Dikkat + *anlam*",
+      "visual": "TipLink",
+      "narration": "İpucu: Adı duyunca dikkatini ver ve onu *anlamlı* bir şeye bağla. Deniz… dalgalar!"
+    },
+    {
+      "headline": "Kimdi *o*?",
+      "visual": "YourTurn",
+      "narration": "Sen en son kimin adını unuttun? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Adı *neydi* ya?",
+    "visual": "Handshake"
+  },
+  "caption": "Biriyle tanıştın, el sıkıştın… ve adı daha o an uçup gitti. Sende de oluyor mu? 🤝😅 Hafızan bozuk değil: Deneylerde isimler, uydurma kelimeler kadar zor hatırlandı; çünkü bir isim çoğu zaman hiçbir anlama bağlı değil. \"Bu bir terzi\" aklında kalıyor, \"Bu Bay Terzi\" kalmıyor! Üstelik sırayla tanışırken kendi sıran gelmeden hemen önce söylenenleri de kaçırıyorsun. Bir dahakine adı duyunca dikkatini ona ver ve anlamlı bir şeye bağla. Sen en son kimin adını unuttun? Yorumlara yaz, isimleri hiç aklında tutamayan arkadaşını etiketle 👇",
+  "youtubeTitle": "Tanıştığın kişinin adını neden hemen unutuyorsun? 🤝 #shorts",
+  "hashtags": [
+    "isimunutmak",
+    "hafıza",
+    "unutkanlık",
+    "tanışma",
+    "beyin",
+    "psikoloji",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Cohen (1990), British Journal of Psychology 81(3):287–297 — Why is it difficult to put names to faces? (özet: isimler anlamsız uydurma kelimeler kadar zor ve anlamlı meslek/eşyalardan daha zor hatırlandı; isimler anlamlı, meslekler anlamsız yapılınca isimdeki dezavantaj kayboldu)",
+    "The American Scholar: When Rosemary Should Be Rosy and Merry — Baker-baker paradoksu: bir yüzün fırıncı olduğunu öğrenmek, Bay Baker olduğunu öğrenmekten daha kolay (McWeeny ve ark. 1987'ye dayanarak)",
+    "Gizmodo: The Baker/Baker Effect Explains Why You're Awkward at Parties — meslek kelimelerinin çağrışım ağı, soyadının 'sadece bir grup hece' olması",
+    "Wikipedia: Next-in-line effect — Brenner (1973) sırayla sesli kelime okuma deneyi, kendi sırasından önceki ~9 saniyedeki kelimelerin daha kötü hatırlanması; Bond (1985): kodlama eksikliği, önceden dikkat talimatı verilince etki kayboldu"
+  ]
+}
