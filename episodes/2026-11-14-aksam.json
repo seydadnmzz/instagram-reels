@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-14-aksam",
+  "category": "gundelik",
+  "theme": "turuncu",
+  "scenes": [
+    {
+      "headline": "Yan şerit *akıyor*!",
+      "visual": "TrafficJam",
+      "narration": "Trafikte sıkıştın… ve yan şerit yine *akıp gidiyor*! Sende de oluyor mu?"
+    },
+    {
+      "headline": "Kasada da *aynısı*",
+      "visual": "MarketQueue",
+      "narration": "Markette de aynısı! Hangi kasaya girsen, *yan sıra* daha hızlı."
+    },
+    {
+      "headline": "Bilim *inceledi*",
+      "tag": "TORONTO & STANFORD · 1999",
+      "visual": "Researchers",
+      "narration": "Peki gerçekten öyle mi? İki araştırmacı bunu inceledi, sonuç *Nature* dergisinde çıktı."
+    },
+    {
+      "headline": "Bir *video* testi",
+      "visual": "VideoTest",
+      "narration": "120 sürücü adayına, trafikte çekilmiş bir *video* izlettiler."
+    },
+    {
+      "headline": "Yüzde *70* yanıldı",
+      "visual": "SeventyPercent",
+      "narration": "Sonuç? *Yüzde 70'i* yan şeridi daha hızlı sandı. Oysa yan şerit aslında biraz daha *yavaştı*!"
+    },
+    {
+      "headline": "Yavaşken *sıkışıyor*",
+      "visual": "Bunching",
+      "narration": "Peki neden? Arabalar yavaşken *sıkışıyor*. Onları hızla geçiyorsun, onlar ise seni *uzun uzun* geçiyor."
+    },
+    {
+      "headline": "Hep *önüne* bakıyorsun",
+      "visual": "LookAhead",
+      "narration": "Üstelik hep *önüne* bakıyorsun: Geçtiğin arabalar gözden kayboluyor, seni geçenler gözünün önünde!"
+    },
+    {
+      "headline": "Boşta göz *kayıyor*",
+      "visual": "IdleGlance",
+      "narration": "Bir de yavaşken boştasın… ve gözün hep *yan şeride* kayıyor."
+    },
+    {
+      "headline": "Şansın: *üçte bir*",
+      "visual": "ThreeLines",
+      "narration": "Kasada da matematik var: Üç sıra varsa, seninkinin en hızlı olma şansı sadece *üçte bir*!"
+    },
+    {
+      "headline": "Şeridinde *kal*",
+      "visual": "StayLane",
+      "narration": "İpucu: Sık şerit değiştirmek pek *kazandırmıyor*, ama riski artırıyor. Şeridinde kal!"
+    },
+    {
+      "headline": "Sende *nerede*?",
+      "visual": "YourTurn",
+      "narration": "Sende en çok nerede oluyor? Trafikte mi, kasada mı? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Yan şerit neden hep *hızlı*?",
+    "visual": "TrafficJam"
+  },
+  "caption": "Trafikte sıkıştın, yan şerit akıp gidiyor; markette hangi kasaya girsen yan sıra daha hızlı… Sende de oluyor mu? 🚗🛒 Bir araştırmada 120 sürücü adayının yüzde 70'i yan şeridi daha hızlı sandı, oysa o şerit aslında biraz daha yavaştı! Sebebi: arabalar yavaşken sıkışıyor, seni geçenleri uzun uzun izliyorsun, geçtiklerin ise hemen gözden kayboluyor. Sık sık şerit değiştirmek çoğu zaman pek kazandırmıyor. Sende en çok nerede oluyor? Yorumlara yaz, sürekli şerit değiştiren arkadaşını etiketle 👇",
+  "youtubeTitle": "Yan şerit neden hep daha hızlı gidiyor? 🚗 #shorts",
+  "hashtags": [
+    "trafik",
+    "yanşerit",
+    "kasasırası",
+    "market",
+    "algı",
+    "yanılsama",
+    "gündelik",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Redelmeier & Tibshirani (1999), Nature 401:35 — Why cars in the next lane seem to go faster (ScienceDaily, 30 Ağustos 1999 basın metni: Toronto Üniversitesi/Sunnybrook; bilgisayar modellerinde tüm şeritlerin ortalama hızı aynıyken bile yan şerit daha hızlı görünüyor; arabalar hızlıyken açılıyor, yavaşken sıkışıyor; sürücüler arkadan çok öne bakıyor, geçilen arabalar akıldan çıkıyor; trafikte boşta kalınca yan şeride daha sık bakılıyor)",
+    "Stanford Magazine, Kasım/Aralık 1999: A Case of Lane Envy — Robert Tibshirani (Stanford) ve Donald Redelmeier (Toronto); 120 sürücü kursu öğrencisi video izledi; yüzde 70'i yan şeridi daha hızlı sandı, oysa ortalamada biraz daha yavaştı; yüzde 65'i fırsat olsa şerit değiştireceğini söyledi; riskli şerit değiştirmekten kaçınma önerisi",
+    "U of T Magazine (27 Aralık 1999): Perceptions of Speed Study — sürücü kursu öğrencilerinin yaklaşık yüzde 70'i, aslında biraz daha yavaş olan yan şeridi daha hızlı sandı; Redelmeier: yanılsamayı bilmek şerit değiştirme isteğine direnmeye yardımcı olabilir",
+    "Science News: Highway Relativity — Redelmeier & Tibshirani simülasyonunda sürücüler geçmekten çok geçilmekle zaman geçiriyor; Bostrom'un eleştirisi (yavaş şerit daha kalabalık olduğundan yan şerit bazen gerçekten daha hızlı olabiliyor)"
+  ]
+}
