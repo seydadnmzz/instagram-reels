@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-14-sabah",
+  "category": "bilim",
+  "theme": "turkuaz",
+  "scenes": [
+    {
+      "headline": "Kalktım… *karardı!*",
+      "visual": "StandUpBlackout",
+      "narration": "Uzun süre oturdun, birden kalktın… ve gözlerin *karardı*! Sende de oluyor mu?"
+    },
+    {
+      "headline": "Adı: *ortostatik hipotansiyon*",
+      "visual": "NameTag",
+      "narration": "Bunun bir adı var: *ortostatik hipotansiyon*. Yani tansiyonun bir anlık düşüşü."
+    },
+    {
+      "headline": "Suçlu: *yerçekimi*",
+      "visual": "GravityPull",
+      "narration": "Peki neden? Ayağa kalktığın an, yerçekimi kanını *bacaklarına* çekiyor."
+    },
+    {
+      "headline": "Koca bir *sürahi* kan",
+      "visual": "BloodBottles",
+      "narration": "Üstelik az değil! Ortalama *800 mililitre* kan bacaklarında birikiyor."
+    },
+    {
+      "headline": "Beyne kan *azalıyor*",
+      "visual": "BrainLowFlow",
+      "narration": "Kalbe dönen kan azalınca tansiyon düşüyor, beynine giden kan da *azalıyor*."
+    },
+    {
+      "headline": "En dip: *saniyeler*",
+      "visual": "DipTimer",
+      "narration": "Görüşün bulanıklaşıyor, başın dönüyor. En dip an, kalktıktan *8 ila 15 saniye* sonra."
+    },
+    {
+      "headline": "Vücut *alarmda*",
+      "visual": "BodyAlarm",
+      "narration": "Neyse ki vücudun önlem alıyor: Kalbin hızlanıyor, damarların *daralıyor*. Çoğu zaman yarım dakikada geçiyor."
+    },
+    {
+      "headline": "Gençlerin *yarısı*",
+      "tag": "STEWART & CLARKE · 2011",
+      "visual": "HalfTeens",
+      "narration": "İşin ilginci: Bir tahmine göre gençlerin *yarısı* bunu yaşıyor! Çoğu zaman normal bir tepki."
+    },
+    {
+      "headline": "Kaslarını *sık*!",
+      "tag": "CLINICAL SCIENCE · 2007",
+      "visual": "MuscleTense",
+      "narration": "İpucu: Yavaş kalk, kalkarken bacak kaslarını *sık*. Bir deneyde bu, düşüşü belirgin azalttı."
+    },
+    {
+      "headline": "Sık oluyorsa: *doktor*",
+      "visual": "DoctorCheck",
+      "narration": "Dikkat! Çok sık oluyorsa ya da bayılıyorsan bir *doktora* danış."
+    },
+    {
+      "headline": "Sende ne *zaman*?",
+      "visual": "YourTurn",
+      "narration": "Sende en çok ne zaman oluyor? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Gözlerim neden *kararıyor*?",
+    "visual": "StandUpBlackout"
+  },
+  "caption": "Oturduğun yerden hızla kalkınca gözlerin kararıyor, başın dönüyor… Sende de oluyor mu? 😵‍💫 Suçlu yerçekimi! Ayağa kalktığın an ortalama 800 mililitre kan bacaklarında birikiyor ve beynine giden kan birkaç saniyeliğine azalıyor. Bir tahmine göre gençlerin yarısı bunu yaşıyor; kalkarken bacak ve karın kaslarını sıkmak işe yarayabiliyor. Çok sık oluyorsa ya da bayılıyorsan doktora danış. Sende en çok ne zaman oluyor? Yorumlara yaz, hep hızla kalkan arkadaşını etiketle 👇",
+  "youtubeTitle": "Ayağa kalkınca gözlerin neden kararıyor? 😵‍💫 #shorts",
+  "hashtags": [
+    "gözkararması",
+    "başdönmesi",
+    "tansiyon",
+    "ortostatikhipotansiyon",
+    "beden",
+    "bilim",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Stewart & Clarke (2011), J Pediatr 158(3):499–504 — \"He's Dizzy when he Stands Up.\" An Introduction to Initial Orthostatic Hypotension (PMC3029466 tam metni: ayağa kalkınca kısa ve belirgin tansiyon düşüşü; en düşük nokta yaklaşık 8–15 sn; belirtiler çoğu zaman 30 sn, genelde 60 sn içinde geçiyor; baş dönmesi, bulanık/kararan görme; ergenlerin tahminen yüzde 50'si yaşıyor; çoğunlukla anormal değil normal fizyoloji; yavaş kalkmak, kalkınca bacak/kalça/karın kaslarını germek önerileri)",
+    "Better Health Channel (Victoria Sağlık Dairesi, Avustralya): Dizziness and orthostatic hypotension — ayağa kalkınca ortalama 800 ml kan geçici olarak bacak damarlarında birikiyor; sağlıklı vücut kalp hızını artırıp bacak ve karın damarlarını daraltarak yanıt veriyor; bulanık görme, baş dönmesi, bayılma; yavaş kalkma önerisi",
+    "Krediet, Go-Schön, Kim, Linzer, van Lieshout & Wieling (2007), Clinical Science 113(9-10):401–407 — Management of initial orthostatic hypotension: lower body muscle tensing attenuates the transient arterial blood pressure decrease upon standing from squatting (özet: alt beden kaslarını germek en düşük tansiyonu hastalarda 19, sağlıklılarda 13 mmHg yüksek tuttu; 10 hastadan 8'i günlük hayatta daha az belirti bildirdi)",
+    "Wieling ve ark. (2007), Clinical Science 112:157–165 — Initial orthostatic hypotension: review of a forgotten condition (arama özeti: yalnızca aktif duruş değişikliğinde görülen yaygın ama ihmal edilen durum; kalp debisi ile damar direnci arasındaki zamanlama uyumsuzluğu)"
+  ]
+}
