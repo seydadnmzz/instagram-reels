@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-15-aksam",
+  "category": "psikoloji",
+  "theme": "mor",
+  "scenes": [
+    {
+      "headline": "Yarım saat *sürer*…",
+      "visual": "ClockRuns",
+      "narration": "Bu iş yarım saat sürer dedin… ve bütün akşamın *gitti*! Tanıdık mı?"
+    },
+    {
+      "headline": "Planlama *yanılgısı*",
+      "visual": "FallacyName",
+      "narration": "Bunun bir adı var: *planlama yanılgısı*! Peki neden hep yanılıyoruz?"
+    },
+    {
+      "headline": "Adını *koydular*",
+      "tag": "KAHNEMAN & TVERSKY · 1979",
+      "visual": "Psychologists",
+      "narration": "Bu yanılgıya adını, ünlü psikologlar Kahneman ve Tversky *koydu*."
+    },
+    {
+      "headline": "Tezin kaç *günde* biter?",
+      "tag": "KANADA · 1994",
+      "visual": "AskStudents",
+      "narration": "Kanada'da bir deneyde öğrencilere sordular: Bitirme tezin kaç günde biter?"
+    },
+    {
+      "headline": "34 değil, *56*",
+      "visual": "CalendarRace",
+      "narration": "Ortalama tahmin yaklaşık *34 gündü*. Gerçekte ise ortalama *56 gün* sürdü!"
+    },
+    {
+      "headline": "En kötüsü bile *az*",
+      "visual": "WorstCase",
+      "narration": "Dahası: Gerçek süre, en kötü senaryo tahminini bile *aştı*! Zamanında bitiren, yüzde 30 kadardı."
+    },
+    {
+      "headline": "Pembe *senaryo*",
+      "visual": "RosyPlan",
+      "narration": "Peki neden? Çünkü plan yaparken her şeyin *yolunda* gideceğini hayal ediyoruz."
+    },
+    {
+      "headline": "Geçmiş *unutuldu*",
+      "visual": "PastIgnored",
+      "narration": "Geçmişte kaç kez geciktiğimizi hatırlıyoruz ama bu sefer *farklı olacak* sanıyoruz."
+    },
+    {
+      "headline": "Başkasına *temkinli*",
+      "visual": "Observer",
+      "narration": "İşin tuhafı: Başkasının işi için çok daha *temkinliyiz*! Süreyi fazla bile tahmin ediyoruz."
+    },
+    {
+      "headline": "Böl ve *karşılaştır*",
+      "visual": "SplitTask",
+      "narration": "İpucu: İşi küçük *adımlara* böl ve benzer bir işin geçen sefer gerçekte ne kadar sürdüğüne bak."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sende en çok hangi işte oluyor? Yorumlara yaz, hep geç kalan arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Her iş neden *uzun* sürüyor?",
+    "visual": "ClockRuns"
+  },
+  "caption": "\"Bu iş yarım saat sürer\" dedin ve bütün akşamın gitti… Sende de oluyor mu? ⏰😅 Adı planlama yanılgısı! Kanada'daki bir deneyde öğrenciler bitirme tezlerini ortalama 34 günde bitireceklerini tahmin etti, gerçekte ortalama 56 gün sürdü; süre en kötü senaryo tahminlerini bile aştı. Sebep: plan yaparken her şeyin yolunda gideceğini hayal ediyoruz. Çözüm: işi küçük adımlara böl, benzer işlerin geçen sefer gerçekte ne kadar sürdüğüne bak. Sende en çok hangi işte oluyor? Yorumlara yaz, hep \"5 dakikaya geliyorum\" diyen arkadaşını etiketle 👇",
+  "youtubeTitle": "Her iş neden düşündüğünden uzun sürüyor? ⏰ #shorts",
+  "hashtags": [
+    "planlamayanılgısı",
+    "zamanyönetimi",
+    "erteleme",
+    "verimlilik",
+    "psikoloji",
+    "beyin",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Buehler, Griffin & Ross (1994), Journal of Personality and Social Psychology 67(3):366–381 — Exploring the 'planning fallacy': Why people underestimate their task completion times, Simon Fraser Üniversitesi (Wikipedia 'Planning fallacy' ve arama özetleri: 37 psikoloji öğrencisi, bitirme tezi; ortalama tahmin 33,9 gün, en iyi senaryo 27,4, en kötü senaryo 48,6, gerçek ortalama 55,5 gün; tahmin edilen sürede bitiren yaklaşık yüzde 30)",
+    "Wikipedia: Planning fallacy — Kahneman & Tversky (1979) kavramı ortaya attı; yanılgı esas olarak kişinin kendi işleri için geçerli, dışarıdan gözlemciler süreyi fazla tahmin etme eğiliminde; çözümler: işi alt görevlere bölme (segmentasyon), referans sınıfı tahmini, uygulama niyetleri",
+    "Society for Personality and Social Psychology (SPSP) blog — Roger Buehler, 'The planning fallacy': insanlar geçmiş sürelerini doğru hatırlayıp yine de bu sefer daha hızlı olacağını düşünüyor; 'iç bakış' ideal senaryoya odaklanıyor; çözümler: dış bakış (benzer geçmiş işler), işi adımlara bölme (unpacking), geriye doğru planlama, uygulama niyetleri",
+    "The Decision Lab: Planning Fallacy — tez çalışmasında yalnızca yüzde 30 zamanında bitirdi; gözlemciler başkasının işinin süresini fazla tahmin ediyor; işi alt görevlere bölme önerisi"
+  ]
+}
