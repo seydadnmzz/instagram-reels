@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-15-sabah",
+  "category": "ilginc",
+  "theme": "pembe",
+  "scenes": [
+    {
+      "headline": "Neye *gülüyoruz*?",
+      "visual": "FriendLaughs",
+      "narration": "Arkadaşın gülmeye başladı… ve sen nedenini bilmeden *kahkahaya* boğuldun! Tanıdık mı?"
+    },
+    {
+      "headline": "Gülme *bulaşıcı*",
+      "visual": "ContagionWave",
+      "narration": "Bunun bir adı var: *bulaşıcı gülme*! Peki neden kendimizi tutamıyoruz?"
+    },
+    {
+      "headline": "Kahkaha *dinlettiler*",
+      "tag": "UCL · 2006",
+      "visual": "BrainScan",
+      "narration": "Londra'daki UCL'de gönüllülere, beyin taraması sırasında *kahkaha* sesleri dinlettiler."
+    },
+    {
+      "headline": "Yüz kasları *hazır*",
+      "visual": "FaceMuscles",
+      "narration": "Sonuç? Beynin, yüz kaslarını hazırlayan bölgesi *çalıştı*. Sanki gülmeye hazırlanıyordu!"
+    },
+    {
+      "headline": "Neşe daha *güçlü*",
+      "visual": "SoundCompare",
+      "narration": "Üstelik bu tepki, neşeli seslerde, çığlık gibi seslere göre *daha güçlüydü*."
+    },
+    {
+      "headline": "Yalnızken *az*",
+      "tag": "PROVINE · GÖZLEM",
+      "visual": "AloneVsTogether",
+      "narration": "Gözlemlere göre, başkalarıyla birlikteyken yalnızken olduğundan *otuz kat* fazla gülüyoruz!"
+    },
+    {
+      "headline": "Espri *şart değil*",
+      "visual": "BanalRemark",
+      "narration": "İşin tuhafı: Kahkahaların çoğu espriden değil, *sıradan* cümlelerden sonra geliyor."
+    },
+    {
+      "headline": "Kötü espri *kurtuldu*",
+      "tag": "UCL · 2019",
+      "visual": "DadJoke",
+      "narration": "Başka bir deneyde *kötü* esprilere kahkaha eklendi. Ve daha komik bulundular!"
+    },
+    {
+      "headline": "Gerçek kahkaha *kazanır*",
+      "visual": "RealVsFake",
+      "narration": "Dikkat! İçten gelen kahkaha, yapmacık olandan daha *etkiliydi*."
+    },
+    {
+      "headline": "Gülmek *bağ kurar*",
+      "visual": "Bonding",
+      "narration": "Bilim insanlarına göre gülmek, insanlar arasında *bağ kuran* sosyal bir yapıştırıcı!"
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sende en çok kiminle oluyor? Seni güldüren arkadaşını *etiketle*, yorumlara yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Kahkaha *bulaşıyor*!",
+    "visual": "ContagionWave"
+  },
+  "caption": "Arkadaşın gülmeye başlıyor ve sen ne olduğunu bilmeden kahkahaya boğuluyorsun… Sende de oluyor mu? 😂 Adı bulaşıcı gülme! UCL'deki bir deneyde kahkaha sesleri, beynin yüz kaslarını gülmeye hazırlayan bölgesini harekete geçirdi. Gözlemlere göre başkalarıyla birlikteyken yalnızken olduğundan yaklaşık 30 kat daha fazla gülüyoruz; kahkahaların çoğu da espriden değil, sıradan cümlelerden sonra geliyor. Gülmek bir sosyal yapıştırıcı! Seni en çok kim güldürüyor? Yorumlara yaz, gülme krizine sokan arkadaşını etiketle 👇",
+  "youtubeTitle": "Biri gülünce neden sen de gülüyorsun? Bulaşıcı kahkaha 😂 #shorts",
+  "hashtags": [
+    "bulaşıcıgülme",
+    "kahkaha",
+    "gülmek",
+    "gülmekrizi",
+    "beyin",
+    "ilginç",
+    "psikoloji",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Warren, Sauter, Eisner, Wiland, Dresner, Wise, Rosen & Scott (2006), Journal of Neuroscience 26(50):13067–13075 — Positive emotions preferentially engage an auditory–motor 'mirror' system, UCL Bilişsel Sinirbilim Enstitüsü ve Imperial College London (ScienceDaily haberi 12 Aralık 2006: fMRI sırasında kahkaha, 'woo hoo' gibi olumlu ve çığlık, öğürme gibi olumsuz sesler; tüm sesler yüz kaslarını hazırlayan premotor korteksi etkinleştirdi, olumlu seslerde tepki daha güçlü; Sophie Scott: 'otomatik olarak gülümsemeye ya da gülmeye hazırlıyor', grup içinde bağ kurmada rol oynayabilir) · Nature News (12 Aralık 2006, arama özeti): olumlu seslerde tepki ortalama iki kat",
+    "Robert Provine, Laughter: A Scientific Investigation (2000) — First Things 'Why Do We Laugh?' yazısındaki alıntılar: öğrencilerin kahkaha günlüklerinde başkalarıyla birlikteyken yaklaşık otuz kat daha fazla gülme; kahkahaların çoğu 'Are you sure?' gibi sıradan cümlelerden sonra; konuşan, dinleyenden yaklaşık yüzde 46 daha sık gülüyor",
+    "Cai, Chen, White & Scott (2019), Current Biology — Modulation of humor ratings of bad jokes by other people's laughter, UCL (ScienceDaily haberi 22 Temmuz 2019: 40 'baba esprisi', 1–7 komiklik puanı; kahkaha eklenince espriler daha komik bulundu, içten kahkaha yapmacık kahkahadan daha etkili; Sophie Scott: 'espri ne kadar komik ya da komik olmasa da kahkaha eklemek mizah değerini artırıyor')"
+  ]
+}
