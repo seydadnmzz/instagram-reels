@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-16-sabah",
+  "category": "bilim",
+  "theme": "turkuaz",
+  "scenes": [
+    {
+      "headline": "Tam şimdi mi? *GURRR!*",
+      "visual": "QuietRoom",
+      "narration": "Sınıf sessiz… ve tam o anda miden *guruldadı*! Sende de oluyor mu?"
+    },
+    {
+      "headline": "Adı: *borborigmus*",
+      "visual": "GreekWord",
+      "narration": "Bunun bir adı var: *borborigmus*! Muhtemelen sesin taklidi."
+    },
+    {
+      "headline": "Kaslar *sıkışıyor*",
+      "visual": "GutSqueeze",
+      "narration": "Peki neden? Bağırsak kasları *sıkışıp* sıvı ve gazı itiyor."
+    },
+    {
+      "headline": "Sadece mide *değil*",
+      "visual": "WhereFrom",
+      "narration": "Üstelik ses çoğu zaman *ince bağırsaktan* da geliyor!"
+    },
+    {
+      "headline": "Boşken *daha gür*",
+      "visual": "EmptyLoud",
+      "narration": "Açken neden daha gür? İçerisi *boş*, sesi boğacak bir şey yok."
+    },
+    {
+      "headline": "Sonra: *temizlik*",
+      "visual": "TwoHours",
+      "narration": "Asıl ilginci: Miden boşaldıktan yaklaşık *iki saat* sonra bir temizlik dalgası başlar."
+    },
+    {
+      "headline": "Kırıntılar *süpürülüyor*",
+      "visual": "Sweeper",
+      "narration": "Bu dalga bağırsakta kalan *kırıntıları* süpürür."
+    },
+    {
+      "headline": "Yiyince *duruyor*",
+      "visual": "RepeatCycle",
+      "narration": "Yemezsen *bir iki saatte* bir tekrarlar; yiyince durur."
+    },
+    {
+      "headline": "Açlık *sinyali*",
+      "tag": "KU LEUVEN · GUT 2016",
+      "visual": "HungerMeter",
+      "narration": "Bir deneyde bu dalga ilaçla başlatılınca *açlık puanı* iki katından fazla arttı!"
+    },
+    {
+      "headline": "Çoğu zaman *normal*",
+      "visual": "NormalCheck",
+      "narration": "Çoğu zaman *normal*! Ama ağrı ya da şişlik varsa doktora danış."
+    },
+    {
+      "headline": "Sende *nerede*?",
+      "visual": "YourTurn",
+      "narration": "Senin miden nerede guruldadı? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Midem neden *guruldıyor*?",
+    "visual": "QuietRoom"
+  },
+  "caption": "Sessiz bir ortamda tam o anda miden guruldadı… Sende de oluyor mu? 😳🔊 Adı borborigmus! Ses, bağırsak kaslarının sıvı ve gazı itmesinden geliyor; çoğu zaman ince bağırsaktan da. Açken daha gürültülü, çünkü sesi boğacak bir şey yok. Üstelik miden boşaldıktan yaklaşık iki saat sonra bir temizlik dalgası başlıyor ve bir deneyde bu dalga açlık hissini de artırdı! Senin miden en kötü anda nerede guruldadı? Yorumlara yaz, karnı hep guruldayan arkadaşını etiketle 👇",
+  "youtubeTitle": "Miden neden guruldar? Sebebi bir temizlik dalgası! 🔊 #shorts",
+  "hashtags": [
+    "mideguruldaması",
+    "mide",
+    "bağırsak",
+    "açlık",
+    "sindirim",
+    "beden",
+    "bilim",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Scientific American — Why does your stomach growl when you are hungry? (yanıtlayan: Mark A. W. Andrews, Lake Erie College of Osteopathic Medicine fizyoloji doçenti): guruldama aç ya da tok olabilir, sıklıkla ince bağırsaktan da gelir; açken içerik sesi boğmadığı için daha gür; ses, peristaltizmle duvar kaslarının içeriği itmesinden; mide ve ince bağırsak boşaldıktan yaklaşık iki saat sonra alt mideden başlayıp ileumun sonuna kadar ilerleyen ve kalan içeriği temizleyen migrating myoelectric complex; her döngü 10–20 dk, yemek yenene kadar her bir-iki saatte tekrar, yemek yiyince duruyor; Antik Yunanca borborygmi, sesi taklit eden kelime",
+    "Wikipedia: Stomach rumble (Borborygmus) — Fransızca borborygme < Latince < Eski Yunanca borborygmós, büyük ihtimalle yansıma (onomatope) kelime; ses esas olarak ince bağırsakta peristaltizmle itilen sıvı ve gazdan; ağrı, şişkinlik, ishal veya kabızlıkla birlikte aşırı ses hastalık belirtisi olabilir",
+    "Tack ve ark. (2016), Gut 65(2):214–224 — Motilin-induced gastric contractions signal hunger in man, KU Leuven (British Library kaydındaki özet ve PubMed 25539673: eritromisinle başlatılan erken mide faz III'ünde açlık puanı yaklaşık 29'dan 62'ye çıktı; oktreotidle başlatılan bağırsak faz III'ünde artış yok; yazarlar mide faz III'ünü insanda bağırsaktan gelen açlık sinyali olarak yorumladı)",
+    "Tack ve ark. (2006), Gut 55(3):327–333 — Influence of ghrelin on interdigestive gastrointestinal motility in humans (PubMed 16216827 özeti: 9 sağlıklı gönüllüde ghrelin faz III'ü erken başlattı)"
+  ]
+}
