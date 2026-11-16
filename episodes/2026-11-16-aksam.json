@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-16-aksam",
+  "category": "gundelik",
+  "theme": "turuncu",
+  "scenes": [
+    {
+      "headline": "Gözlerim *yanıyor*!",
+      "visual": "ScreenStare",
+      "narration": "Saatlerce telefona baktın… ve gözlerin *yanmaya*, kurumaya başladı! Sende de oluyor mu?"
+    },
+    {
+      "headline": "Suçlu *ışık* değil",
+      "visual": "NotBlueLight",
+      "narration": "Çoğumuz ekranın ışığını suçluyoruz. Ama göz doktorlarına göre asıl suçlu bu *değil*!"
+    },
+    {
+      "headline": "Kırpmayı *unutuyorsun*",
+      "visual": "ForgotBlink",
+      "narration": "Peki ne? Ekrana dalınca *göz kırpmayı* unutuyorsun!"
+    },
+    {
+      "headline": "Normalde: *15*",
+      "visual": "BlinkCounter",
+      "narration": "Normalde dakikada yaklaşık *15 kez* göz kırparsın."
+    },
+    {
+      "headline": "Ekranda: *yarısı*",
+      "tag": "AMERİKAN OFTALMOLOJİ AKADEMİSİ",
+      "visual": "HalfBlinks",
+      "narration": "Ama ekrana bakarken bu sayı *yarıya* kadar düşebiliyor!"
+    },
+    {
+      "headline": "Göz kapağı = *silecek*",
+      "visual": "Wiper",
+      "narration": "Bu neden önemli? Her göz kırpışın, gözünün yüzeyine *nem* yayar. Tıpkı bir silecek gibi!"
+    },
+    {
+      "headline": "*Beş kat* azaldı",
+      "tag": "GLASGOW · 1991",
+      "visual": "FiveFold",
+      "narration": "İskoçya'da yapılan bir çalışmada, ekran başında göz kırpma ortalama *beş kat* azaldı!"
+    },
+    {
+      "headline": "Hızlı oyun, *az kırpış*",
+      "tag": "KATALONYA TEKNİK ÜNİV. · 2011",
+      "visual": "FastGame",
+      "narration": "Üstelik ekran ne kadar *hızlıysa* o kadar az kırpıyorsun. Hızlı bir oyunda neredeyse *üçte bire* indi!"
+    },
+    {
+      "headline": "Kırpış *yarım* kalıyor",
+      "visual": "HalfClosed",
+      "narration": "Dikkat! Hızlı ekranlarda *yarım* kırpışlar da artıyor; göz kapağın tam kapanmıyor."
+    },
+    {
+      "headline": "İyi haber: *geçici*",
+      "visual": "LookAway",
+      "narration": "İyi haber: Bu rahatsızlık *geçici*. Arada başını kaldır, uzağa bak ve bilerek göz kırp! Geçmiyorsa göz doktoruna danış."
+    },
+    {
+      "headline": "Sen kaç *saat*?",
+      "visual": "YourTurn",
+      "narration": "Sen günde kaç saat ekrana bakıyorsun? *Yorumlara* yaz!"
+    }
+  ],
+  "cover": {
+    "title": "Gözlerim neden *kuruyor*?",
+    "visual": "ScreenStare"
+  },
+  "caption": "Saatlerce telefona bakınca gözlerin yanıyor, kuruyor… Sende de oluyor mu? 📱👀 Asıl suçlu ekranın ışığı değil: ekrana dalınca göz kırpmayı unutuyorsun! Normalde dakikada yaklaşık 15 kez göz kırparız; ekran başında bu sayı yarıya kadar düşebiliyor. Bir çalışmada göz kırpma ortalama beş kat azaldı, hızlı oyunlarda ise kırpışlar yarım kalıyor. Arada başını kaldır, uzağa bak ve bilerek göz kırp! Sen günde kaç saat ekrana bakıyorsun? Yorumlara yaz, gece yarısı telefondan kalkmayan arkadaşını etiketle 👇",
+  "youtubeTitle": "Ekrana bakınca gözlerin neden kuruyor? Sebebi ışık değil! 👀 #shorts",
+  "hashtags": [
+    "gözkuruluğu",
+    "gözkırpma",
+    "ekransüresi",
+    "telefon",
+    "göz",
+    "gündelik",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "American Academy of Ophthalmology — Digital Devices and Your Eyes (aao.org, Daniel Porter; inceleyen Alejandra G de Alba-Campomanes, MD): dijital göz rahatsızlığı mavi ışıktan değil, aşırı kullanımdan; cihazlar gözlere kalıcı zarar vermez ama geçici rahatsızlık (kuruluk, bulanıklık, sulanma, baş ağrısı) yapabilir; normalde dakikada yaklaşık 15 kez göz kırparız, ekrana ya da yakına bakarken bu sayı yarıya inebilir; öneriler: başını kaldırıp uzağa bak, gerekirse suni gözyaşı, ekranla kol boyu mesafe",
+    "American Academy of Ophthalmology — Computers, Digital Devices and Eye Strain (aao.org): 'Blink!' önerisi; ekran başında dakikada yaklaşık 5–7 kez; göz kırpma gözün yüzeyine ihtiyaç duyduğu nemi sağlar",
+    "Patel, Henderson, Bradley, Galloway & Hunter (1991), Optometry and Vision Science 68(11):888–892 — Effect of visual display unit use on blink rate and tear stability, Glasgow Polytechnic (PubMed 1766652 özeti: sağlıklı katılımcılarda ekran kullanımı sırasında göz kırpma ortalama 5 kat azaldı)",
+    "Cardona, García, Serés, Vilaseca & Gispets (2011), Current Eye Research 36(3):190–197 — Blink rate, blink amplitude, and tear film integrity during dynamic visual display terminal tasks, Technical University of Catalonia (PubMed 21275516 özeti: 25 genç gönüllü; hızlı oyunda göz kırpma neredeyse üçte bire, yavaş oyunda yarıya indi; dinamik görevlerde tamamlanmamış kırpışlar arttı; sık mola önerildi)"
+  ]
+}
