@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-17-aksam",
+  "category": "psikoloji",
+  "theme": "mor",
+  "scenes": [
+    {
+      "headline": "İlk anın *ne*?",
+      "visual": "FirstMemory",
+      "narration": "İlk üç yaşından tek bir anı hatırlıyor musun? Büyük ihtimalle *hayır*!"
+    },
+    {
+      "headline": "Her şeyi *öğrendin*",
+      "visual": "ToddlerLearns",
+      "narration": "Oysa o yıllarda yürümeyi, konuşmayı öğrendin. Anılar *nereye* gitti?"
+    },
+    {
+      "headline": "Bebeklik *amnezisi*",
+      "visual": "AgeLine",
+      "narration": "Adı *bebeklik amnezisi*! İlk anılar genelde üç yaş civarına dayanıyor."
+    },
+    {
+      "headline": "Üç yaşında *sordular*",
+      "tag": "EMORY ÜNİV. · 2014",
+      "visual": "Interview",
+      "narration": "Bir araştırmada üç yaşındaki çocuklara yaşadıkları soruldu… yıllar sonra *tekrar*!"
+    },
+    {
+      "headline": "Yedi yaş *silgisi*",
+      "visual": "Eraser",
+      "narration": "Yedi yaşına kadar çoğunu hatırladılar. Ama dokuz yaşında yarısından *fazlası* silinmişti!"
+    },
+    {
+      "headline": "Bebek *kaydediyor* mu?",
+      "tag": "YALE ÜNİV. · 2025",
+      "visual": "BabyScan",
+      "narration": "Peki bebek beyni kayıt yapmıyor mu? Yale'de bebeklerin beyni *tarandı*."
+    },
+    {
+      "headline": "Kayıt *çalışıyor*!",
+      "visual": "Hippocampus",
+      "narration": "Sonuç: Hafıza merkezi *hipokampus* çalışıyordu! Bebekler de anı kaydediyor."
+    },
+    {
+      "headline": "Kayıp *anahtar*",
+      "visual": "LockedBox",
+      "narration": "En güçlü açıklamalardan biri: Anılar silinmiyor olabilir… ama onlara giden *yol* kayboluyor."
+    },
+    {
+      "headline": "Ya senin *anın*?",
+      "tag": "CITY ÜNİV. LONDRA · 2018",
+      "visual": "Survey",
+      "narration": "Dikkat! Altı bin kişilik bir araştırmada her *on kişiden dördü* iki yaş ve öncesinden anı anlattı."
+    },
+    {
+      "headline": "Anı mı, *fotoğraf* mı?",
+      "visual": "PhotoMemory",
+      "narration": "Araştırmacılara göre bunlar büyük ihtimalle *kurgu*: fotoğraflardan ve aile hikâyelerinden!"
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "En eski anın kaç yaşından? Yorumlara yaz, bebekliğini hatırlayan arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Bebekliğini neden *hatırlamıyorsun*?",
+    "visual": "FirstMemory"
+  },
+  "caption": "Hayatının ilk üç yılından tek bir anı hatırlıyor musun? Sende de yok mu? 👶🧠 Bunun adı bebeklik amnezisi! Bir araştırmada çocuklar üç yaşında yaşadıklarını beş-yedi yaşında hatırladı, ama sekiz-dokuz yaşında çoğu silinmişti. Yale'deki beyin taramaları ise bebeklerin aslında anı kaydettiğini gösterdi; sorun, o anılara geri ulaşamamak. Üstelik iki yaş öncesinden hatırladığını sandığın anı büyük ihtimalle fotoğraflardan ve aile hikâyelerinden kurulmuş! Senin en eski anın kaç yaşından? Yorumlara yaz, bebekliğini hatırladığını iddia eden arkadaşını etiketle 👇",
+  "youtubeTitle": "Bebekliğini neden hatırlamıyorsun? Anılar nereye gitti? 👶 #shorts",
+  "hashtags": [
+    "bebeklikamnezisi",
+    "hafıza",
+    "ilkanı",
+    "çocukluk",
+    "beyin",
+    "psikoloji",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Bauer & Larkina (2014), Memory 22(8):907–924 — The onset of childhood amnesia in childhood: A prospective investigation of the course and determinants of forgetting of early-life events, Emory Üniversitesi (Emory haber metni 'Childhood amnesia kicks in around age 7' ve BPS Research Digest özeti: çocuklarla üç yaşında olaylar konuşuldu, beş-dokuz yaşlarında tekrar soruldu; 5–7 yaşta olayların yüzde 60'tan fazlası, 8–9 yaşta yüzde 40'tan azı hatırlandı)",
+    "Yates, Sherman, Yaffe, Ellis, Turk-Browne ve ark. (2025), Science 387(6740):1316–1320 — Hippocampal encoding of memories in human infants, Yale Üniversitesi (Scientific American haberi 'We Make Memories as Babies—So Why Do We Forget Them?': 4 ay–2 yaş 26 bebek, uyanıkken fMRI; görüntüyü ilk görürken yüksek hipokampus etkinliği sonradan tanımayı öngördü; 12 aydan büyüklerde daha güçlü; yazarlara göre bebeklik amnezisi muhtemelen anı oluşturamamaktan çok geri çağırma sorunu; 2016 sıçan deneyinde bebeklik anıları optogenetikle yeniden etkinleştirildi)",
+    "Akhtar, Justice, Morrison & Conway (2018), Psychological Science 29(10):1612–1619 — Fictional First Memories, City, University of London (Sci.News özeti: 6641 katılımcı; 2487 ilk anı — yaklaşık yüzde 40 — iki yaş ve öncesine, 893'ü bir yaş ve öncesine tarihlendi; yazarlara göre bu anılar erken deneyim parçaları ile fotoğraflardan ve aile konuşmalarından edinilen bilgilerin birleşimi; ilk anıların ortalama yaşı 3,2)"
+  ]
+}
