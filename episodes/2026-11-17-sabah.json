@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-17-sabah",
+  "category": "ilginc",
+  "theme": "pembe",
+  "scenes": [
+    {
+      "headline": "Bu *ben miyim*?",
+      "visual": "SelfieShock",
+      "narration": "Bir fotoğraf çektin, baktın ve… \"Bu ben miyim? Ne kadar *tuhaf*!\" Tanıdık mı?"
+    },
+    {
+      "headline": "Aynada *iyiyim*!",
+      "visual": "MirrorHappy",
+      "narration": "Ama aynada gayet iyi görünüyorsun! Peki fark *nerede*?"
+    },
+    {
+      "headline": "Ayna *ters* gösterir",
+      "visual": "MirrorFlip",
+      "narration": "Suçlu *ayna*! Aynada yüzünü hep ters görüyorsun; sağın solda, solun sağda."
+    },
+    {
+      "headline": "Yüz *simetrik değil*",
+      "visual": "Asymmetry",
+      "narration": "Hiçbir yüz tam simetrik değil. Fotoğraf ise seni *başkalarının gördüğü* gibi gösteriyor."
+    },
+    {
+      "headline": "Tanıdık = *güzel*",
+      "visual": "Exposure",
+      "narration": "Bunun bir adı var: *yalın maruz kalma etkisi*! Sık gördüğümüz şeyi daha çok seviyoruz."
+    },
+    {
+      "headline": "İki *fotoğraf*",
+      "tag": "MITA VE ARK. · 1977",
+      "visual": "TwoPhotos",
+      "narration": "Bir deneyde insanlara kendi yüzlerinin *düz* hâli ve *ayna* hâli gösterildi."
+    },
+    {
+      "headline": "Sen *aynayı* seçtin",
+      "visual": "Choices",
+      "narration": "Sonuç? Çoğu kişi kendi *ayna görüntüsünü* seçti. Arkadaşları ise düz fotoğrafı!"
+    },
+    {
+      "headline": "Yakın çekim *büyütür*",
+      "tag": "RUTGERS ÜNİV. · 2018",
+      "visual": "SelfieNose",
+      "narration": "Üstelik yakından çekilen selfie, burnunu yaklaşık *yüzde otuz* daha geniş gösterebiliyor!"
+    },
+    {
+      "headline": "Zihnimiz *cömert*",
+      "tag": "EPLEY VE WHITCHURCH · 2008",
+      "visual": "Morph",
+      "narration": "İşin tuhafı: Bir deneyde insanlar, yüzlerinin *güzelleştirilmiş* hâlini kendileri sandı!"
+    },
+    {
+      "headline": "Onlar *bunu* tanıyor",
+      "visual": "Friends",
+      "narration": "İyi haber: Senin tuhaf bulduğun o yüz, sevdiklerinin *en iyi tanıdığı* yüz!"
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen fotoğrafta kendini beğeniyor musun? Yorumlara yaz, selfie'yi hep tekrar çeken arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Fotoğrafta neden *tuhafım*?",
+    "visual": "SelfieShock"
+  },
+  "caption": "Fotoğrafına bakıp \"Bu ben miyim?\" dedin mi hiç… Sende de oluyor mu? 🤳😳 Suçlu ayna! Yüzünü hep aynada, yani ters görüyorsun; yalın maruz kalma etkisi yüzünden de en çok gördüğün hâlini seviyorsun. Bir deneyde insanlar kendi ayna görüntülerini, arkadaşları ise düz fotoğraflarını seçti! Üstelik yakın çekim selfie burnu daha geniş gösterebiliyor. Sen fotoğrafta kendini beğeniyor musun? Yorumlara yaz, selfie'yi hep tekrar çeken arkadaşını etiketle 👇",
+  "youtubeTitle": "Fotoğrafta neden kendini beğenmiyorsun? Suçlu ayna! 🤳 #shorts",
+  "hashtags": [
+    "selfie",
+    "ayna",
+    "fotoğraf",
+    "yalınmaruzkalma",
+    "psikoloji",
+    "ilginç",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Amestoy, Bouvard & Cazalets (2010), Frontiers in Psychology 1:39 — Developmental Aspects of the Mere Exposure Effect for Self and Others' Faces, Université de Bordeaux / CNRS (PMC3153757): Mita, Dermer & Knight (1977), J. Pers. Soc. Psychol. 35(8):597–601 'Reversed facial images and the mere-exposure hypothesis' özeti — katılımcılar kendi yüzlerinin ayna görüntüsünü, arkadaşları ise düz görüntüyü tercih etti; Zajonc (1968) yalın maruz kalma; bu çalışmada yetişkinlerin yüzde 71'i kendi ayna görüntüsünü, yüzde 76–84'ü arkadaşının düz görüntüsünü seçti",
+    "Ward ve ark. (2018), JAMA Facial Plastic Surgery — Nasal Distortion in Short-Distance Photographs: The Selfie Effect, Rutgers New Jersey Medical School (ScienceDaily / HealthDay özetleri: yaklaşık 30 cm'den çekilen selfie burun tabanını yaklaşık yüzde 30 daha geniş gösteriyor; 1,5 m'de fark yok; matematiksel model)",
+    "Epley & Whitchurch (2008), Personality and Social Psychology Bulletin 34(9):1159–1170 — Mirror, Mirror on the Wall: Enhancement in Self-Recognition (SAGE kaydı ve UChicago Magazine röportajı: katılımcılar kendi yüzlerinin daha çekici yapılmış hâlini kendileri olarak seçme eğilimindeydi; etki arkadaş yüzünde de vardı, yabancıda yoktu)"
+  ]
+}
