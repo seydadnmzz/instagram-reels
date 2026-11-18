@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-18-aksam",
+  "category": "gundelik",
+  "theme": "turuncu",
+  "scenes": [
+    {
+      "headline": "Bu koku *tanıdık*!",
+      "visual": "StreetSmell",
+      "narration": "Bir koku aldın… ve bir anda kendini *çocukluğunda* buldun! Tanıdık mı?"
+    },
+    {
+      "headline": "Proust *etkisi*",
+      "visual": "ProustName",
+      "narration": "Bunun bir adı var: *Proust etkisi*! Adını, çaya batırılan bir kekle geçmişe dönen bir romandan alıyor."
+    },
+    {
+      "headline": "*Ara durak* var",
+      "visual": "SlowRoute",
+      "narration": "Peki neden koku? Gördüğün ve duyduğun her şey, beyinde önce bir *ara duraktan* geçiyor."
+    },
+    {
+      "headline": "Koku *kestirmeden*",
+      "tag": "HARVARD TIP FAKÜLTESİ",
+      "visual": "DirectRoute",
+      "narration": "Koku ise *doğrudan* duygu ve hafıza merkezlerine gidiyor!"
+    },
+    {
+      "headline": "Duygu + *anı*",
+      "visual": "TwoCenters",
+      "narration": "Biri duyguları üretiyor, öbürü anıları saklıyor. Koku ikisine *birden* dokunuyor."
+    },
+    {
+      "headline": "Beyin *taraması*",
+      "tag": "BROWN ÜNİV. · 2004",
+      "visual": "BrainScan",
+      "narration": "Bir beyin taramasında kişisel bir koku, resmine göre bu bölgeleri daha *güçlü* çalıştırdı."
+    },
+    {
+      "headline": "*Zamanda* yolculuk",
+      "tag": "STOCKHOLM ÜNİV. · 2006",
+      "visual": "TimeTravel",
+      "narration": "İsveç'teki bir deneyde ise kokular, *zamanda geri gitmiş* gibi hissettirdi."
+    },
+    {
+      "headline": "İlk *on yıl*",
+      "visual": "FirstDecade",
+      "narration": "Dikkat! Kokunun getirdiği anılar çoğunlukla hayatının ilk *on yılından*."
+    },
+    {
+      "headline": "Tozlu *çekmece*",
+      "visual": "DustyDrawer",
+      "narration": "Bu anıları yıllarca pek *düşünmemişsin*. Belki de bu yüzden bu kadar taze!"
+    },
+    {
+      "headline": "Yeni *anılar*",
+      "visual": "NewMemory",
+      "narration": "İyi haber: Bugünkü güzel bir anının kokusu da seni yıllar sonra ona *geri götürebilir*."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Seni hangi koku geçmişe götürüyor? Yorumlara yaz, o anıyı paylaştığın kişiyi *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Koku beni *geçmişe* attı!",
+    "visual": "StreetSmell"
+  },
+  "caption": "Bir koku alıyorsun ve bir anda yıllar öncesindesin… Sende de oluyor mu? 👃🕰️ Adı Proust etkisi! Gördüğün ve duyduğun her şey beyinde önce bir ara duraktan geçerken, koku doğrudan duygu ve hafıza merkezlerine gidiyor. Araştırmalar kokunun getirdiği anıların daha duygusal olduğunu ve çoğunlukla hayatının ilk on yılından geldiğini gösteriyor. Seni en çok hangi koku geçmişe götürüyor? Yorumlara yaz, o anıyı paylaştığın kişiyi etiketle 👇",
+  "youtubeTitle": "Bir koku seni neden yıllar öncesine götürür? 👃 #shorts",
+  "hashtags": [
+    "proustetkisi",
+    "koku",
+    "anılar",
+    "çocukluk",
+    "hafıza",
+    "gündelik",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Harvard Medicine Magazine (2024): Connections Between Smell, Memory, and Health — koku sinyalleri koku soğancığında kısa bir duraktan sonra amigdala (duygu) ve hipokampusa (hafıza) ulaşır; görme, işitme ve diğer duyular önce talamustan geçer; Sandeep Datta: koku sistemi bilgiyi bu hafıza ve duygu merkezlerine doğrudan bağlayacak şekilde evrimleşmiş; kokuyla gelen anılar daha duygusal ve hayatın daha erken dönemine ait olma eğiliminde",
+    "Harvard Gazette (Şubat 2020): How scent, emotion, and memory are intertwined — and exploited — Venkatesh Murthy: kokular amigdala ve hipokampusu içeren limbik sisteme doğrudan bir yoldan ulaşır",
+    "Herz, Eliassen, Beland & Souza (2004), Neuropsychologia 42:371–378 — Neuroimaging evidence for the emotional potency of odor-evoked memory, Brown Üniversitesi (Larsson ve ark. 2014 derlemesindeki özet: koku hedefli ilk otobiyografik bellek görüntüleme çalışması, 5 katılımcı; kişisel anlamlı koku, resim ipucuna göre amigdala ve hipokampal bölgelerde daha güçlü aktivasyon)",
+    "Willander & Larsson (2006), Psychonomic Bulletin & Review 13(2):240–244 — Smell your way back to childhood: Autobiographical odor memory, Stockholm Üniversitesi (Scientific American 'Smells Like Old Times' haberi ve Larsson, Willander, Karlsson & Arshamian 2014, Frontiers in Psychology 5:312 derlemesi: yaşlı yetişkinler; kokuyla gelen anılar daha eski, yoğunlukla hayatın ilk on yılından (<10 yaş), sözel/görsel ipuçlarında yığılma 10–30 yaş; daha güçlü 'zamanda geri gitme' hissi; bu anılar daha önce daha az düşünülmüş)",
+    "Marcel Proust, Kayıp Zamanın İzinde: Swann'ların Tarafı (1913) — ıhlamur çayına batırılan madlen keki sahnesi (Proust etkisi adının kaynağı)"
+  ]
+}
