@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-18-sabah",
+  "category": "bilim",
+  "theme": "turkuaz",
+  "scenes": [
+    {
+      "headline": "Hangisi *tıkalı*?",
+      "visual": "SickInBed",
+      "narration": "Nezle oldun, yattın… Bir burun deliğin *tıkalı*. Yan döndün, şimdi de öbürü! Tanıdık mı?"
+    },
+    {
+      "headline": "Burun *döngüsü*",
+      "visual": "CycleName",
+      "narration": "Bunun bir adı var: *burun döngüsü*! Üstelik sağlıklıyken de her gün yaşıyorsun."
+    },
+    {
+      "headline": "*Nöbetleşe* çalışma",
+      "visual": "ShiftWork",
+      "narration": "Burnunun iki tarafı *nöbetleşe* çalışıyor: Biri açık, öbürü yarı kapalı dinleniyor."
+    },
+    {
+      "headline": "İçeride *sünger* var",
+      "visual": "SpongyTissue",
+      "narration": "Peki nasıl? Burnunun içinde kanla dolup şişebilen *süngerimsi* dokular var."
+    },
+    {
+      "headline": "Patron *sinir sistemi*",
+      "visual": "NerveSwitch",
+      "narration": "Onları *sinir sistemin* yönetiyor: Bir taraf kanla dolup şişerken öbürü inip açılıyor."
+    },
+    {
+      "headline": "*24 saat* ölçüm",
+      "tag": "WEIZMANN ENSTİTÜSÜ · 2016",
+      "visual": "NoseLogger",
+      "narration": "Bir araştırmada otuz üç kişinin burnu *yirmi dört saat* ölçüldü. Hepsinde döngü vardı!"
+    },
+    {
+      "headline": "*İki saatte* bir",
+      "visual": "ClockSwap",
+      "narration": "Uyanıkken taraflar ortalama *iki saatte bir* yer değiştirdi. Uykuda ise daha seyrek!"
+    },
+    {
+      "headline": "Toplam *aynı*",
+      "visual": "AirBalance",
+      "narration": "Peki neden fark etmiyorsun? Çünkü toplam hava akışı neredeyse *aynı* kalıyor."
+    },
+    {
+      "headline": "Nezlede *büyür*",
+      "tag": "CARDIFF ÜNİV. · 2021",
+      "visual": "ColdSwell",
+      "narration": "Nezle olunca ise şişme *büyüyor*; o taraf tamamen tıkanabiliyor."
+    },
+    {
+      "headline": "Alttaki *tıkanır*",
+      "visual": "SideLying",
+      "narration": "Dikkat! Yan yatınca alttaki taraf tıkanıyor, üstteki *açılıyor*."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sende en çok hangi taraf tıkanıyor? Yorumlara yaz, nezle olunca uyuyamayan arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Burnun neden *tek taraf* tıkalı?",
+    "visual": "SickInBed"
+  },
+  "caption": "Nezle olunca bir burun deliğin tıkanıyor, yan dönünce de öbürü… Sende de oluyor mu? 👃😮‍💨 Adı burun döngüsü! Burnunun iki tarafı gün boyu nöbetleşe çalışıyor: biri açıkken öbürü kanla dolup şişiyor. Bir araştırmada ölçülen 33 kişinin hepsinde bu döngü vardı; toplam hava akışı aynı kaldığı için çoğu zaman fark etmiyorsun. Nezle olunca ya da yan yatınca ise şişme büyüyor! Sende en çok hangi taraf tıkanıyor? Yorumlara yaz, nezle olunca uyuyamayan arkadaşını etiketle 👇",
+  "youtubeTitle": "Burnun neden hep tek taraftan tıkanır? 👃 #shorts",
+  "hashtags": [
+    "burundöngüsü",
+    "burun",
+    "nezle",
+    "buruntıkanıklığı",
+    "bilim",
+    "beden",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Kahana-Zweig, Geva-Sagiv, Weissbrod, Secundo, Soroker & Sobel (2016), PLoS ONE 11(10): e0162918 — Measuring and Characterizing the Human Nasal Cycle, Weizmann Bilim Enstitüsü (tam metin: 33 sağlıklı yetişkin, 24 saatlik iki kanallı burun hava akışı kaydı; tüm katılımcılarda döngü; ortalama döngü uyanıkken 2,02 ± 1,7 saat, uykuda 4,5 ± 1,7 saat; yan yatınca karşı (üstteki) burun deliğinde akış artışı; işlevi tartışmalı — havayı koşullandırma, mukus temizliği vb. öneriler)",
+    "Eccles (2021), Clinical Otolaryngology 46(1):4–8 — The role of nasal congestion as a defence against respiratory viruses, Cardiff Üniversitesi (PMC7675291: döngü burun kabukları ve septumdaki venöz sinüzoidlerin kendiliğinden dolup boşalmasıyla oluşur, sempatik sinirlerle düzenlenir; toplam direnç görece değişmez; viral enfeksiyonda dolma-boşalma genliği artar, belirgin tek taraflı tıkanıklık; yan yatınca alttaki taraf tıkanır, üstteki açılır)",
+    "Pendolino ve ark. (2018), Rhinology Online 1:67–76 — The nasal cycle: a comprehensive review (özet: sağlıklı yetişkinlerin yaklaşık yüzde 70–80'inde görülen, normal bir fizyolojik olay)"
+  ]
+}
