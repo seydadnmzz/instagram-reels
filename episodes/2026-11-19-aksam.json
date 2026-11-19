@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-19-aksam",
+  "category": "psikoloji",
+  "theme": "mor",
+  "scenes": [
+    {
+      "headline": "Yine *son gece*!",
+      "visual": "LastNight",
+      "narration": "Yarın teslim var… ve sen yine son geceye kaldın! Sende de *oluyor* mu?"
+    },
+    {
+      "headline": "Vakit *vardı* ama…",
+      "visual": "Calendar",
+      "narration": "Oysa haftalardır vaktin vardı. Peki neden hep *erteliyorsun*?"
+    },
+    {
+      "headline": "Tembellik *değil*!",
+      "visual": "NotLazy",
+      "narration": "Şaşıracaksın: Psikologlara göre asıl sorun *tembellik* değil!"
+    },
+    {
+      "headline": "Bir *duygu* sorunu",
+      "tag": "CARLETON ÜNİV. · KANADA",
+      "visual": "Feelings",
+      "narration": "Araştırmacı Tim Pychyl'e göre erteleme bir *duygu* sorunu. Görev seni sıkıyor, geriyor…"
+    },
+    {
+      "headline": "Kaçış *rahatlatıyor*",
+      "visual": "Escape",
+      "narration": "Telefona kaçınca o kötü his anında geçiyor. Bu rahatlama da ertelemeyi *ödüllendiriyor*!"
+    },
+    {
+      "headline": "Fatura *yarına*",
+      "visual": "FutureSelf",
+      "narration": "Ama fatura kime kalıyor? *Gelecekteki* sana!"
+    },
+    {
+      "headline": "Gelecekteki sen: *yabancı*",
+      "tag": "UCLA · BEYİN TARAMASI",
+      "visual": "BrainScan",
+      "narration": "Üstelik beyin taramalarında, gelecekteki kendini düşünmek bir *yabancıyı* düşünmeye benzedi!"
+    },
+    {
+      "headline": "Önce rahat, sonra *bedel*",
+      "tag": "CASE WESTERN · 1997",
+      "visual": "Semester",
+      "narration": "Bir araştırmada erteleyenler dönem başında daha az stresliydi. Dönem sonunda ise daha *stresli* ve hastaydılar!"
+    },
+    {
+      "headline": "Kendini *affet*",
+      "tag": "CARLETON ÜNİV. · 2010",
+      "visual": "Forgive",
+      "narration": "İyi haber: Ertelediği için kendini *affeden* öğrenciler, sonraki sınavda daha az erteledi!"
+    },
+    {
+      "headline": "İlk *küçük adım*",
+      "visual": "FirstStep",
+      "narration": "İpucu: Hevesin gelmesini bekleme. Kendine sor: Başlamak için atacağım *ilk küçük adım* ne?"
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen en çok neyi erteliyorsun? Yorumlara yaz, son gececi arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Hep *son geceye* mi kaldın?",
+    "visual": "LastNight"
+  },
+  "caption": "Haftalarca vaktin vardı ama yine son geceye kaldın… Sende de oluyor mu? 😅⏰ Psikologlara göre erteleme tembellik değil, bir duygu sorunu: Sıkıcı ya da gerici bir görevden kaçınca kötü his anında geçiyor, faturası ise gelecekteki sana kalıyor. Bir araştırmada erteleyen öğrenciler dönem başında daha rahattı ama dönem sonunda daha stresli ve hastaydı. İyi haber: Ertelediği için kendini affeden öğrenciler sonraki sınavda daha az erteledi! Sen en çok neyi erteliyorsun? Yorumlara yaz, her işi son geceye bırakan arkadaşını etiketle 👇",
+  "youtubeTitle": "Neden hep son geceye bırakıyorsun? Sebebi tembellik değil! ⏰ #shorts",
+  "hashtags": [
+    "erteleme",
+    "sondakika",
+    "motivasyon",
+    "dersçalışma",
+    "verimlilik",
+    "psikoloji",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Sirois & Pychyl (2013), Social and Personality Psychology Compass 7(2):115–127 — Procrastination and the Priority of Short-Term Mood Regulation: Consequences for Future Self (White Rose eprints özeti; Carleton Üniversitesi haber metni 'The Procrastination Problem' — Tim Pychyl: 'Procrastination is an emotion-regulation problem'; kısa vadeli rahatlama şimdiki benliğe yarar, bedeli gelecekteki benliğe kalır; öneri: hevesi bekleme, 'bir sonraki adım ne?' diye sor)",
+    "Hershfield ve ark. — Saving for the Future Self: Neural Measures of Future Self-Continuity Predict Temporal Discounting (UCLA Health haber metni 'The stranger within: Connecting with our future selves': fMRI'da gelecekteki benliği düşünmek, başka bir kişiyi düşünmeye en çok benzeyen örüntüyü verdi; farkı en büyük olanlar parasal kararda en sabırsız olanlardı)",
+    "Tice & Baumeister (1997), Psychological Science 8(6):454–458 — Longitudinal Study of Procrastination, Performance, Stress, and Health: The Costs and Benefits of Dawdling, Case Western Reserve Üniversitesi (Le Moyne College ders notu haber metni: erteleyenler dönem başında daha az stres ve belirti, dönem sonunda daha fazla stres, belirti ve sağlık çalışanı ziyareti bildirdi; notları daha düşüktü)",
+    "Wohl, Pychyl & Bennett (2010), Personality and Individual Differences 48(7):803–808 — I forgive myself, now I can study: How self-forgiveness for procrastinating can reduce future procrastination, Carleton Üniversitesi (BPS Research Digest özeti: 134 birinci sınıf öğrencisi; ilk ara sınavlarda ertelediği için kendini affedenler, sınavlar arasında daha az olumsuz duygu yaşadı ve ikinci ara sınavlardan önce daha az erteledi)"
+  ]
+}
