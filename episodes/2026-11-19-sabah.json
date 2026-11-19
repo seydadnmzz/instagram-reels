@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-19-sabah",
+  "category": "ilginc",
+  "theme": "pembe",
+  "scenes": [
+    {
+      "headline": "Ses *inceldi*!",
+      "visual": "BabyMeet",
+      "narration": "Bir bebek gördün… ve sesin birden *inceldi*! Kelimeler uzadı, şarkıya döndü. Tanıdık mı?"
+    },
+    {
+      "headline": "*Bebek* dili",
+      "visual": "BabyTalkName",
+      "narration": "Bunun bir adı var: *bebek dili*! Bilimdeki adıysa bebeğe yönelik konuşma."
+    },
+    {
+      "headline": "Ne *değişiyor*?",
+      "visual": "PitchLine",
+      "narration": "Peki ne değişiyor? Sesin *yükseliyor*, iniş çıkışları büyüyor."
+    },
+    {
+      "headline": "*21* toplum",
+      "tag": "HARVARD · 2022",
+      "visual": "WorldMap",
+      "narration": "Harvard'ın öncülük ettiği bir araştırma, *yirmi bir toplumdan* kayıt topladı."
+    },
+    {
+      "headline": "Dil *bilmeden*",
+      "visual": "Listeners",
+      "narration": "Elli bini aşkın dinleyici, dilini bilmediği kayıtlarda bile bebeğe konuşulanı çoğunlukla *bildi*!"
+    },
+    {
+      "headline": "Bebekler *dinliyor*",
+      "tag": "67 LABORATUVAR · 2020",
+      "visual": "BabyListens",
+      "narration": "Peki neden? Bebekler bu sesi *daha çok dinliyor*. Altmış yedi laboratuvar bunu doğruladı."
+    },
+    {
+      "headline": "Daha çok *kelime*",
+      "tag": "WASHINGTON ÜNİV. · 2014",
+      "visual": "MoreWords",
+      "narration": "Üstelik birebir bebek dili duyan bebekler, iki yaşında *daha çok kelime* biliyordu."
+    },
+    {
+      "headline": "Köpeğe *de*!",
+      "tag": "FRANSA · 2017",
+      "visual": "DogTalk",
+      "narration": "Dikkat! Aynı sesi *köpeklere* de yapıyoruz. En incesini de yavru köpeklere!"
+    },
+    {
+      "headline": "Yavru *koşuyor*",
+      "visual": "PuppyRuns",
+      "narration": "İşin komiği: Yavrular bu sese koşuyor, yetişkin köpekler pek *umursamıyor*!"
+    },
+    {
+      "headline": "Dikkat *çekmek*",
+      "visual": "Attention",
+      "narration": "Araştırmacılara göre bu, konuşamayan birinin *dikkatini* çekmenin kendiliğinden bir yolu."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen kime bu sesle konuşuyorsun? Yorumlara yaz, bebek görünce sesi incelen arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Bebeği görünce *sesim* inceliyor!",
+    "visual": "BabyMeet"
+  },
+  "caption": "Bir bebek ya da yavru köpek görünce sesin birden inceliyor… Sende de oluyor mu? 👶🐶 Adı bebek dili! Sesin yükseliyor, iniş çıkışlar büyüyor; 21 toplumu kapsayan bir araştırma bunun dünyanın her yerinde benzer olduğunu gösterdi. Bebekler bu sesi daha çok dinliyor, yavru köpekler de ona koşuyor! Sen en çok kime bu sesle konuşuyorsun? Yorumlara yaz, bebek görünce sesi incelen arkadaşını etiketle 👇",
+  "youtubeTitle": "Bebek görünce sesin neden inceliyor? 👶 #shorts",
+  "hashtags": [
+    "bebekdili",
+    "bebek",
+    "köpek",
+    "ses",
+    "dil",
+    "ilginç",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Hilton, Moser, Bertolo ve ark. (2022), Nature Human Behaviour 6(11):1545–1556 — Acoustic regularities in infant-directed speech and song across cultures (Harvard Gazette, Temmuz 2022 haberi: 21 toplum, altı kıta, 1.615 kayıt; 187 ülkeden 50.000'den fazla dinleyici dil ve kültürden bağımsız olarak çoğunlukla doğru tahmin etti; bebeğe konuşmada daha yüksek perde ve daha geniş perde aralığı, belirgin ünlüler; her toplumda evrensel olmadığı uyarısı)",
+    "ManyBabies Consortium / Frank ve ark. (2020), Advances in Methods and Practices in Psychological Science 3(1):24–52 — Quantifying sources of variability in infancy research using the infant-directed-speech preference (özet: 67 laboratuvar; bebekler bebeğe yönelik konuşmayı yetişkine yönelik konuşmaya tercih etti, d = 0,35; etki önceki meta-analizden küçük)",
+    "Ramírez-Esparza, García-Sierra & Kuhl (2014), Developmental Science — Look who's talking: speech style and social context in language input to infants are linked to concurrent and future speech, University of Washington (UW haberi 6 Ocak 2014: 26 bebek, ev kayıtları; birebir bebek dili, 24. ayda kelime üretimiyle ilişkili — korelasyonel)",
+    "Ben-Aderet, Gallego-Abenza, Reby & Mathevon (2017), Proceedings of the Royal Society B 284:20162429 — Dog-directed speech: why do we use it and do dogs pay attention to it? (PMC5247504: 30 kadın konuşmacı; perde yavrularda yaklaşık yüzde 21, yetişkin/yaşlı köpeklerde yüzde 11/13 yükseldi; 10 yavrudan 9'u daha güçlü tepki verdi; yetişkin köpeklerde anlamlı fark yok; yazarlar konuşamayan dinleyicinin dikkatini çekmenin kendiliğinden bir yolu olduğunu öne sürüyor)"
+  ]
+}
