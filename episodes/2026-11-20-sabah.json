@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-20-sabah",
+  "category": "bilim",
+  "theme": "turkuaz",
+  "scenes": [
+    {
+      "headline": "Çıt, çıt… *ÇAT!*",
+      "visual": "CrackHook",
+      "narration": "Parmaklarını birleştirdin, ileri ittin… ve *ÇAT!* Sende de oluyor mu?"
+    },
+    {
+      "headline": "Kemik mi *kırıldı*?",
+      "visual": "NotBone",
+      "narration": "Peki o ses nereden geliyor? Merak etme, kemik kırılmıyor! Suçlu *sıvı*."
+    },
+    {
+      "headline": "Eklemin içi *kaygan*",
+      "visual": "JointInside",
+      "narration": "Parmak eklemlerin kaygan bir *eklem sıvısıyla* dolu. İçinde de çözünmüş gazlar var."
+    },
+    {
+      "headline": "Çek, *basınç* düşsün",
+      "visual": "PullApart",
+      "narration": "Eklemi çekince kemikler ayrılıyor ve içerideki *basınç* birden düşüyor."
+    },
+    {
+      "headline": "Parmak *MR'da*",
+      "tag": "ALBERTA ÜNİV. · 2015",
+      "visual": "MriPull",
+      "narration": "Kanadalı bilim insanları bir parmağı *MR cihazında* çekip o anı canlı izledi."
+    },
+    {
+      "headline": "Bir *boşluk* doğdu",
+      "visual": "CavityBorn",
+      "narration": "Şaşırtıcı! Ses çıktığı anda sıvının içinde gazlı bir *boşluk* açılıyordu."
+    },
+    {
+      "headline": "Tartışma *sürüyor*",
+      "tag": "MATEMATİK MODELİ · 2018",
+      "visual": "BubbleDebate",
+      "narration": "Ama tartışma bitmedi… Bir modele göre ses, kabarcığın *kısmen sönmesinden* de çıkabilir."
+    },
+    {
+      "headline": "*Yirmi dakika* bekle",
+      "visual": "WaitTimer",
+      "narration": "Peki neden hemen tekrar çıtlatamıyorsun? Eklemin hazır olması *yirmi dakika* kadar sürüyor."
+    },
+    {
+      "headline": "Tek elle *deney*",
+      "tag": "IG NOBEL ÖDÜLÜ · 2009",
+      "visual": "OneHandDoctor",
+      "narration": "Kireçlenme yapar mı? Bir doktor onlarca yıl sadece *sol elinin* parmaklarını çıtlattı."
+    },
+    {
+      "headline": "İki el de *sağlam*",
+      "tag": "215 KİŞİ · 2011",
+      "visual": "NoArthritis",
+      "narration": "Sonuç? İki elinde de kireçlenme yoktu! İki yüzü aşkın kişilik bir araştırma da *bağlantı* bulmadı."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen günde kaç kez çıtlatıyorsun? Yorumlara yaz, o arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Parmakların neden *çıtlıyor*?",
+    "visual": "CrackHook"
+  },
+  "caption": "Parmaklarını ileri itiyorsun ve ÇAT! Sende de oluyor mu? 🤞💥 O ses kemikten değil, eklemindeki sıvıdan geliyor! Eklemi çekince basınç düşüyor ve sıvının içinde gazlı bir boşluk açılıyor; bilim insanları bunu MR'da canlı izledi. Hemen tekrar çıtlatamamanın sebebi de bu: eklemin yeniden hazır olması yaklaşık yirmi dakika sürüyor. Kireçlenme yapar mı? Araştırmalar bir bağlantı bulamadı! Sen günde kaç kez çıtlatıyorsun? Yorumlara yaz, sürekli parmak çıtlatan arkadaşını etiketle 👇",
+  "youtubeTitle": "Parmakların neden çıtlıyor? Ses kemikten gelmiyor! 💥 #shorts",
+  "hashtags": [
+    "parmakçıtlatmak",
+    "eklem",
+    "parmak",
+    "kireçlenme",
+    "bilim",
+    "beden",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Kawchuk, Fryer, Jaremko, Zeng, Rowe & Prasad (2015), PLoS ONE 10(4): e0119470 — Real-Time Visualization of Joint Cavitation, Alberta Üniversitesi (PMC4398549 ve EurekAlert/ScienceDaily basın metinleri: parmak bir kabloyla çekilirken gerçek zamanlı MR; ses, eklem ayrıldığı anda hızla oluşan boşlukla (kavitasyon, tribonükleasyon) eşzamanlı, var olan kabarcığın patlamasıyla değil; çatlamadan sonra yaklaşık 20 dakikalık tekrar çatlatılamayan dönem)",
+    "Chandran Suja & Barakat (2018), Scientific Reports 8:4600 — A Mathematical Model for the Sounds Produced by Knuckle Cracking (PMC5876406 özeti ve Smithsonian/Discover haberleri: ölçülen sesi açıklamak için kabarcığın kısmen sönmesi yeterli; tartışma sürüyor)",
+    "Unger (1998), Arthritis & Rheumatism — Does knuckle cracking lead to arthritis of the fingers? (Improbable Research / Live Science / The Tech haberleri: yalnızca sol el, onlarca yıl, iki elde de artrit yok; 2009 Ig Nobel Tıp Ödülü; tek kişilik, körleştirilmemiş deney)",
+    "deWeber, Olszewski & Ortolano (2011), Journal of the American Board of Family Medicine 24(2):169–174 — Knuckle Cracking and Hand Osteoarthritis (PubMed 21383216: 215 katılımcı; çıtlatanlarda el osteoartriti yüzde 18,1, çıtlatmayanlarda yüzde 21,5, anlamlı fark yok)"
+  ]
+}
