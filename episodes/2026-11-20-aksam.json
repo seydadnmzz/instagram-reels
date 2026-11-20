@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-20-aksam",
+  "category": "gundelik",
+  "theme": "turuncu",
+  "scenes": [
+    {
+      "headline": "Yatak süper ama… *uyku yok*!",
+      "visual": "HotelNight",
+      "narration": "Tatile gittin, yatak yumuşacık… ama ilk gece bir türlü *uyuyamadın*! Tanıdık mı?"
+    },
+    {
+      "headline": "İlk gece *etkisi*",
+      "visual": "FirstNightName",
+      "narration": "Bunun bir adı var: *ilk gece etkisi*! Yeni yerde ilk gece uyku daha hafif."
+    },
+    {
+      "headline": "İlk gece *sayılmaz*",
+      "visual": "SleepLab",
+      "narration": "O kadar yaygın ki uyku laboratuvarları ilk geceyi çoğu zaman *alışma gecesi* sayıyor."
+    },
+    {
+      "headline": "İki gece *ölçüm*",
+      "tag": "BROWN ÜNİV. · 2016",
+      "visual": "EegNights",
+      "narration": "Peki neden? Amerika'da otuz beş gönüllü *beyin ölçümüyle* iki gece uyudu."
+    },
+    {
+      "headline": "Sol yarı *uyanık*",
+      "visual": "HalfAwake",
+      "narration": "Şaşırtıcı! İlk gece derin uykuda, beynin *sol yarısı* daha uyanık kaldı."
+    },
+    {
+      "headline": "Bip! *Uyan*!",
+      "visual": "BeepEar",
+      "narration": "Sağ kulağa, yani sol yarıya tuhaf sesler çalınınca insanlar *daha hızlı* uyandı."
+    },
+    {
+      "headline": "Gece *nöbeti*",
+      "visual": "NightWatch",
+      "narration": "Araştırmacılara göre beynin yarısı adeta *nöbet tutuyor*: Yabancı yerde tetikte!"
+    },
+    {
+      "headline": "İkinci gece *rahat*",
+      "visual": "SecondNight",
+      "narration": "İyi haber: İkinci gece bu fark *kayboldu*!"
+    },
+    {
+      "headline": "Yarım beyinle *uyku*",
+      "visual": "DolphinSleep",
+      "narration": "Üstelik doğada da var: Yunuslar ve bazı kuşlar beyninin *yarısıyla* uyuyabiliyor."
+    },
+    {
+      "headline": "Kenardaki *ördek*",
+      "visual": "DuckRow",
+      "narration": "Sürünün kenarındaki ördekler bir gözü *açık* uyuyor. O göz de dışarıya bakıyor!"
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen yeni yerde ilk gece uyuyabiliyor musun? Yorumlara yaz, o arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Yeni yerde neden *uyuyamıyorsun*?",
+    "visual": "HotelNight"
+  },
+  "caption": "Tatilde, otelde ya da misafirlikte ilk gece bir türlü uyuyamıyorsun… Sende de oluyor mu? 🛏️🌙 Adı ilk gece etkisi! Brown Üniversitesi'nin araştırmasında yeni bir yerdeki ilk gece, derin uykuda beynin sol yarısı daha uyanık kaldı ve tuhaf seslere karşı adeta nöbet tuttu. İkinci gece ise bu fark kayboldu. Yunuslar ve bazı kuşlar da beyninin yarısıyla uyuyabiliyor! Sen yeni bir yerde ilk gece uyuyabiliyor musun? Yorumlara yaz, misafirlikte hiç uyuyamayan arkadaşını etiketle 👇",
+  "youtubeTitle": "Yeni yerde ilk gece neden uyuyamıyorsun? Beynin nöbette! 🌙 #shorts",
+  "hashtags": [
+    "ilkgeceetkisi",
+    "uyku",
+    "uykusuzluk",
+    "tatil",
+    "beyin",
+    "gündelik",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Tamaki, Bang, Watanabe & Sasaki (2016), Current Biology 26(9):1190–1194 — Night Watch in One Brain Hemisphere during Sleep Associated with the First-Night Effect in Humans, Brown Üniversitesi (PMC4864126: 35 genç sağlıklı gönüllü, yaklaşık bir hafta arayla iki gece; ilk gece yavaş dalga uykusunda sol yarıküre varsayılan mod ağında daha az yavaş dalga etkinliği; sağ kulağa çalınan sapkın seslerde (sol yarıküre) ilk gece daha çok uyanma ve daha hızlı tepki; asimetri ikinci gece yok; Agnew, Webb & Williams 1966 'The first night effect' atfı; bazı kuşlar ve deniz memelilerinde tek yarıküre uykusu)",
+    "Brown University haberi (21 Nisan 2016): 'In unfamiliar surroundings, the brain keeps one hemisphere alert' — 35 gönüllü; uyku araştırmalarında genellikle bir alışma gecesi eklenir; yalnızca ilk derin uyku dönemi ölçüldü",
+    "ScienceDaily (21 Nisan 2016) ve PBS NewsHour: 'Why you slept lousy on vacation' — aynı çalışmanın haberleri",
+    "Wikipedia: Unihemispheric slow-wave sleep — şişe burunlu yunus ve diğer deniz memelileri, yeşilbaş ördek dahil kuşlar; Rattenborg, Lima & Amlaner (1999): sürünün kenarındaki ördekler daha çok tek yarıküre uykusunda, açık göz sürünün dışına bakıyor"
+  ]
+}
