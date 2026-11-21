@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-21-aksam",
+  "category": "psikoloji",
+  "theme": "mor",
+  "scenes": [
+    {
+      "headline": "Tek *yorum*…",
+      "visual": "PhoneComments",
+      "narration": "Yüz kişi seni övdü… ama sen bütün gece o *tek kötü yorumu* düşündün. Tanıdık mı?"
+    },
+    {
+      "headline": "Olumsuzluk *yanlılığı*",
+      "visual": "BiasName",
+      "narration": "Bunun bir adı var: *olumsuzluk yanlılığı*! Beynin kötüyü, iyiden daha ağır tartıyor."
+    },
+    {
+      "headline": "Kötü *daha güçlü*",
+      "tag": "BAUMEISTER VE ARK. · 2001",
+      "visual": "Scale",
+      "narration": "Araştırmaları tarayan psikologların sonucu net: *Kötü, iyiden güçlü!*"
+    },
+    {
+      "headline": "Elli lira *testi*",
+      "tag": "KAHNEMAN & TVERSKY",
+      "visual": "MoneyTest",
+      "narration": "Mesela elli lira kaybetmek, elli lira kazanmanın sevindirdiğinden *daha çok* üzüyor."
+    },
+    {
+      "headline": "Ertesi güne *sarkıyor*",
+      "tag": "GÜNLÜK ARAŞTIRMASI · 1996",
+      "visual": "Calendar",
+      "narration": "Üstelik kötü bir gün *ertesi güne* de sarkıyor; iyi bir günde bu etki görülmedi!"
+    },
+    {
+      "headline": "Beyin *alarmda*",
+      "tag": "BEYİN DALGALARI · 1998",
+      "visual": "BrainWaves",
+      "narration": "Beyin dalgaları da öyle: Olumsuz resimler *daha güçlü* tepki yaratıyor."
+    },
+    {
+      "headline": "Bebekler *bile*",
+      "visual": "Baby",
+      "narration": "Araştırmacılara göre bu eğilim *bebeklikte* bile görülüyor."
+    },
+    {
+      "headline": "Peki *neden*?",
+      "visual": "Ancestor",
+      "narration": "Peki neden? En güçlü açıklama: Atalarımız için tehlikeyi kaçırmak, fırsatı kaçırmaktan çok daha *ölümcüldü*."
+    },
+    {
+      "headline": "Beşe *bir*",
+      "tag": "JOHN GOTTMAN · İLİŞKİLER",
+      "visual": "FiveToOne",
+      "narration": "İlişki uzmanı John Gottman'a göre, iyi bir ilişkide her kötü ana en az *beş iyi an* düşmeli."
+    },
+    {
+      "headline": "İyileri de *say*",
+      "visual": "CountGood",
+      "narration": "İpucu: O tek söz aklına takılınca, beyninin *abarttığını* hatırla ve iyi yorumları da say!"
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen en son hangi sözü günlerce kafana taktın? Yorumlara yaz, arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Tek *kötü yorum* aklımda kaldı!",
+    "visual": "PhoneComments"
+  },
+  "caption": "Yüz güzel yorumun arasında tek bir kötü yorum… ve bütün gece onu düşünüyorsun. Sende de oluyor mu? 📱😩 Adı olumsuzluk yanlılığı! Araştırmalara göre beynimiz kötüyü iyiden daha ağır tartıyor: elli lira kaybetmek, elli lira kazanmanın sevindirdiğinden çok üzüyor; kötü bir gün ertesi güne bile sarkıyor. En güçlü açıklama: atalarımız için tehlikeyi kaçırmak, fırsatı kaçırmaktan çok daha pahalıydı. Sen en son hangi sözü günlerce kafana taktın? Yorumlara yaz, eleştiriyi hiç unutmayan arkadaşını etiketle 👇",
+  "youtubeTitle": "Neden tek kötü yorumu unutamıyorsun? 😩 #shorts",
+  "hashtags": [
+    "olumsuzlukyanlılığı",
+    "eleştiri",
+    "beyin",
+    "psikoloji",
+    "zihin",
+    "duygular",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Baumeister, Bratslavsky, Finkenauer & Vohs (2001), Review of General Psychology 5(4):323–370 — Bad Is Stronger Than Good (UNC'deki tam metin: kötü olaylar, duygular ve geri bildirimin genel ilke olarak iyilerden daha güçlü etkisi; Kahneman & Tversky 1984'e göre aynı miktarı kaybetmenin üzüntüsü kazanmanın sevincinden büyük; Sheldon, Ryan & Reis 1996: kötü gün ertesi günün iyi oluşunu düşürdü, iyi günün ertesi güne belirgin etkisi yok; Gottman 1994: başarılı ilişkide olumlu etkileşimler olumsuzlardan en az beşe bir fazla olmalı; evrimsel açıklama: tehlikeye duyarlı olanlar hayatta kaldı)",
+    "Ito, Larsen, Smith & Cacioppo (1998), Journal of Personality and Social Psychology 75(4):887–900 — Negative information weighs more heavily on the brain: the negativity bias in evaluative categorizations (PubMed 9825526 özeti: olumsuz resimlerde olumluya göre daha büyük geç pozitif beyin potansiyeli)",
+    "Vaish, Grossmann & Woodward (2008), Psychological Bulletin 134(3):383–403 — Not all emotions are created equal: the negativity bias in social-emotional development (PubMed 18444702 / PMC3652533 özeti: olumsuzluk yanlılığının bebeklikte, özellikle sosyal referans araştırmalarında görüldüğü savunuluyor)"
+  ]
+}
