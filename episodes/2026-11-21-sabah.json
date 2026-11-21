@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-21-sabah",
+  "category": "ilginc",
+  "theme": "pembe",
+  "scenes": [
+    {
+      "headline": "Utanan *sensin*!",
+      "visual": "CouchCringe",
+      "narration": "Dizide biri herkesin önünde rezil oldu… ve *sen* yüzünü kapattın! Utanan o değil, sensin. Tanıdık mı?"
+    },
+    {
+      "headline": "İkinci el *utanç*",
+      "visual": "CringeName",
+      "narration": "Bunun bir adı var: *ikinci el utanç*! Yani başkası adına utanmak."
+    },
+    {
+      "headline": "*619* kişi",
+      "tag": "MARBURG ÜNİV. · 2011",
+      "visual": "Survey",
+      "narration": "Marburg Üniversitesi'nde altı yüzü aşkın kişiye *utanç verici* anlar okutuldu."
+    },
+    {
+      "headline": "Farkında *değil*",
+      "visual": "UnawareShirt",
+      "narration": "Şaşırtıcı olan şu: Kişi rezil olduğunun *farkında değilken* bile izleyenler utandı!"
+    },
+    {
+      "headline": "Ondan *çok*!",
+      "visual": "MoreThanHim",
+      "narration": "Hatta bazen izleyenler, o kişinin hissettiği sanılandan *daha çok* utandı."
+    },
+    {
+      "headline": "Beyin *taraması*",
+      "tag": "fMRI · 32 KİŞİ",
+      "visual": "BrainScan",
+      "narration": "Peki beyinde ne oluyor? Taramada *iki bölge* birden harekete geçti."
+    },
+    {
+      "headline": "Sosyal *acı*",
+      "visual": "SocialPain",
+      "narration": "Bu bölgeler, başkasının *acısını* izlerken de çalışıyor. Yani bu bir tür sosyal acı!"
+    },
+    {
+      "headline": "Empati *ölçer*",
+      "visual": "EmpathyMeter",
+      "narration": "Üstelik kendini daha *empatik* tanımlayanlarda bu tepki daha güçlüydü."
+    },
+    {
+      "headline": "Arkadaşsa *daha* çok",
+      "tag": "ALMANYA · 2016",
+      "visual": "FriendFails",
+      "narration": "Dikkat! Rezil olan bir *arkadaşınsa*, beynin tepkisi daha da artıyor."
+    },
+    {
+      "headline": "Zayıflık *değil*",
+      "visual": "Shoes",
+      "narration": "Yani yüzünü buruşturman zayıflık değil; başkasının yerine *kendini koyabildiğinin* işareti."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen en çok hangi sahnede utanıyorsun? Yorumlara yaz, utanç sahnelerini izleyemeyen arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "O rezil oldu, *ben* utandım!",
+    "visual": "CouchCringe"
+  },
+  "caption": "Dizide biri rezil olunca yüzünü kapatıp sahneyi geçiyorsun… Sende de oluyor mu? 🙈📺 Adı ikinci el utanç! Bir araştırmada izleyenler, kişi rezil olduğunun farkında değilken bile utandı; beyin taramasında başkasının acısını izlerken çalışan bölgeler devreye girdi. Rezil olan bir arkadaşsa tepki daha da güçlü! Sen en çok hangi sahnede utanıyorsun? Yorumlara yaz, utanç sahnelerini izleyemeyen arkadaşını etiketle 👇",
+  "youtubeTitle": "Başkası rezil olunca neden SEN utanıyorsun? 🙈 #shorts",
+  "hashtags": [
+    "ikincielutanç",
+    "utanç",
+    "empati",
+    "cringe",
+    "beyin",
+    "psikoloji",
+    "ilginç",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Krach, Cohrs, de Echeverría Loebell, Kircher, Sommer, Jansen & Paulus (2011), PLoS ONE 6(4): e18675 — Your Flaws Are My Pain: Linking Empathy To Vicarious Embarrassment, Philipps-Universität Marburg (PMC3076433 tam metin: Çalışma 1'de 619 Almanca konuşan katılımcı 52 yazılı senaryo değerlendirdi; Çalışma 2'de 32 katılımcı fMRI'da 50 karakalem çizim izledi; ikinci el utanç kişi farkında değilken ya da kasıtlı davranırken de görüldü; bu kategorilerde izleyenin utancı, kişiye atfedilen utançtan yüksekti; ön singulat korteks ve sol ön insula etkinleşti; özellik empatisi tepkiyle pozitif ilişkiliydi)",
+    "ScienceDaily (13 Nisan 2011): Your flaws are my pain — Marburg Üniversitesi ve Queen's University Belfast basın metni (ön singulat ve sol ön insula, acı ağının duygusal kısmı; farkında olan/olmayan kahraman benzer etkinlik)",
+    "Müller-Pinzler, Rademacher, Paulus & Krach (2016), Social Cognitive and Affective Neuroscience 11(3):466–475 — When your friends make you cringe: social closeness modulates vicarious embarrassment-related neural activity (Lübeck Üniversitesi araştırma portalı özeti: ön insula/ön singulat tepkisi arkadaşın başarısızlıklarında yabancıya göre daha güçlü)",
+    "Wikipedia: Vicarious embarrassment — diğer adlar (Almanca Fremdscham), duygusal bulaşmadan farkı"
+  ]
+}
