@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-22-aksam",
+  "category": "gundelik",
+  "theme": "turuncu",
+  "scenes": [
+    {
+      "headline": "Doydum *ama*…",
+      "visual": "FullThenDessert",
+      "narration": "Tıka basa yedin, \"Bir lokma daha yemem!\" dedin… Sonra tatlı geldi ve birden *yer açıldı*! Tanıdık mı?"
+    },
+    {
+      "headline": "Bunun bir *adı* var",
+      "visual": "NameTag",
+      "narration": "Bunun bir adı var: *duyusal özgül tokluk*! Yani damağın da doyuyor."
+    },
+    {
+      "headline": "Tat *sönüyor*",
+      "visual": "FadingBites",
+      "narration": "Bir yemeği yedikçe, o yemeğin tadı sana giderek *sönük* geliyor."
+    },
+    {
+      "headline": "Yenen *sıkıyor*",
+      "tag": "OXFORD ÜNİVERSİTESİ",
+      "visual": "LabRatings",
+      "narration": "Oxford'daki deneylerde yenen yemek, yenmeyenlere göre çok daha *az lezzetli* bulundu."
+    },
+    {
+      "headline": "Sadece *2 dakika*",
+      "visual": "TwoMinutes",
+      "narration": "Üstelik bu düşüş, yemekten sadece *iki dakika* sonra başlıyor!"
+    },
+    {
+      "headline": "Renk *bile* yetiyor",
+      "visual": "ColorCandies",
+      "narration": "En tuhafı: Sadece *rengi farklı* çikolatalarda bile, yenen renk sıkıcı gelmeye başladı!"
+    },
+    {
+      "headline": "Çeşit = *daha çok*",
+      "tag": "SANDVİÇ DENEYİ · 1981",
+      "visual": "Sandwiches",
+      "narration": "Sandviçler dört farklı iç harçla gelince, insanlar *üçte bir* fazla yedi."
+    },
+    {
+      "headline": "Tatlı *yepyeni*",
+      "visual": "NewTaste",
+      "narration": "Peki neden hep tatlı? Çünkü tatlı, sofrada *hiç tatmadığın* bambaşka bir lezzet!"
+    },
+    {
+      "headline": "Atalardan *miras*",
+      "visual": "Ancestors",
+      "narration": "Bilim insanlarına göre bu his, atalarımızın *çeşitli besinler* yemesine yardım etmiş olabilir."
+    },
+    {
+      "headline": "Açık büfe *tuzağı*",
+      "visual": "Buffet",
+      "narration": "Dikkat! Açık büfede çeşit arttıkça daha çok yiyorsun."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sende hangi tatlıya hep yer var? Yorumlara yaz, arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Doydum ama *tatlıya* yer var!",
+    "visual": "FullThenDessert"
+  },
+  "caption": "\"Doydum, bir lokma daha yemem!\" dedin… ama tatlı gelince birden yer açıldı. Sende de oluyor mu? 🍰😋 Adı duyusal özgül tokluk! Bir yemeği yedikçe o yemeğin tadı sana sönük gelmeye başlıyor, ama hiç tatmadığın yeni bir lezzet hâlâ çekici. Oxford'daki deneylerde bu düşüş yemekten sadece iki dakika sonra görüldü; dört çeşit sandviç sunulanlar ise tek çeşide göre üçte bir fazla yedi! Sende hangi tatlıya hep yer var? Yorumlara yaz, \"doydum\" deyip tatlıya koşan arkadaşını etiketle 👇",
+  "youtubeTitle": "Doydun ama tatlıya neden hep yer var? Sebebi damağın! 🍰 #shorts",
+  "hashtags": [
+    "tatlı",
+    "tokluk",
+    "doydum",
+    "yemek",
+    "açıkbüfe",
+    "beslenme",
+    "gündelik",
+    "psikoloji",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "shorts"
+  ],
+  "sources": [
+    "Rolls, Rowe & Rolls (1982), Physiology & Behavior 29(3):409–417 — How Sensory Properties of Foods Affect Human Feeding Behavior, Oxford Üniversitesi Deneysel Psikoloji Bölümü (tam metin: yenen yemeğin hoşluğu yenmeyenlere göre daha çok düşer; değişim yemekten iki dakika sonra, emilime fırsat olmadan görülür; yalnızca rengi farklı çikolatalarda yenen rengin tadının hoşluğu daha çok düştü; dört iç harçlı sandviçlerle yüzde 33 fazla yeme; makarna şekilleriyle yüzde 14, tatlarla yüzde 15 artış)",
+    "Rolls, Rowe, Rolls, Kingston, Megson & Gunary (1981), Physiology & Behavior — Variety in a meal enhances food intake in man (Penn State Pure kaydı / arama özeti: dört farklı iç harçlı sandviç, yaklaşık üçte bir fazla yeme)",
+    "Wikipedia: Sensory-specific satiety — terim 1981'de Barbara J. Rolls ve Edmund T. Rolls tarafından önerildi; ilk tanım Jacques Le Magnen (1956); çeşitli yemeklerde toplam tüketim artışı (Rolls & van Duijvenvoorde 1984, yüzde 44)",
+    "Psychology Today (2016): Why Do You Always Have Room for Dessert? — tokluk ile doyma farkı, tatlının tuzlu yemekten farklı olması, çeşit arayışının atalarımızın farklı besinler almasına yardım etmiş olabileceği (Epstein ve ark. 2009), açık büfede fazla yeme"
+  ]
+}
