@@ -1,0 +1,95 @@
+{
+  "id": "2026-11-22-sabah",
+  "category": "bilim",
+  "theme": "turkuaz",
+  "scenes": [
+    {
+      "headline": "Göz kapağı *seğiriyor*",
+      "visual": "TwitchHook",
+      "narration": "Göz kapağın kendi kendine *seğiriyor*… ve durmuyor! Sanki içinde bir kelebek var. Tanıdık mı?"
+    },
+    {
+      "headline": "Adı: *miyokimi*",
+      "visual": "MyokymiaName",
+      "narration": "Bunun bir adı var: göz kapağı *miyokimisi*! En sık alt kapakta olur."
+    },
+    {
+      "headline": "Halka *kas*",
+      "visual": "RingMuscle",
+      "narration": "Suçlu, gözünü saran halka biçimli bir kas. *Rastgele sinyallerle* kendi kendine kasılıyor."
+    },
+    {
+      "headline": "Stres ve *yorgunluk*",
+      "visual": "Triggers",
+      "narration": "Peki neden şimdi? En sık tetikleyiciler: *stres*, yorgunluk ve uykusuzluk."
+    },
+    {
+      "headline": "Kahve *alarmı*",
+      "visual": "CoffeeCups",
+      "narration": "Üstelik fazla kahve, sigara ve alkol de seğirmeyi *körükleyebiliyor*."
+    },
+    {
+      "headline": "Ekran *süresi*",
+      "tag": "KOCAELİ · 2024",
+      "visual": "ScreenTime",
+      "narration": "Kocaeli'deki bir çalışmada seğirmesi olanlar ekrana günde *iki saat fazla* bakıyordu."
+    },
+    {
+      "headline": "Magnezyum *mu*?",
+      "tag": "KORE 2021 · TÜRKİYE 2024",
+      "visual": "MagnesiumMyth",
+      "narration": "Peki meşhur *magnezyum eksikliği*? İki çalışmada kandaki magnezyumla bağlantı bulunmadı!"
+    },
+    {
+      "headline": "Sana *dev* gibi",
+      "visual": "MirrorCheck",
+      "narration": "Dikkat! Seğirme sana dev gibi gelir… ama dışarıdan *zor fark edilir*."
+    },
+    {
+      "headline": "Genelde *zararsız*",
+      "visual": "Calendar",
+      "narration": "Tam nedeni net değil. İyi haber: Çoğu zaman *zararsız* ve kendiliğinden geçiyor."
+    },
+    {
+      "headline": "Ne zaman *doktor*?",
+      "visual": "DoctorSign",
+      "narration": "Ama haftalarca sürerse ya da yüzüne yayılırsa bir *göz doktoruna* görün."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sende en çok ne zaman seğiriyor? Yorumlara yaz, gözü hep seğiren arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Gözüm neden *seğiriyor*?",
+    "visual": "TwitchHook"
+  },
+  "caption": "Göz kapağın kendi kendine atıp duruyor, sen de aynada kontrol ediyorsun… Sende de oluyor mu? 👁️⚡ Adı göz kapağı miyokimisi! Gözünü saran halka kas rastgele kasılıyor; en sık tetikleyiciler stres, yorgunluk, uykusuzluk ve fazla kahve. Bir çalışmada seğirmesi olanlar ekrana günde yaklaşık iki saat fazla bakıyordu; meşhur magnezyum eksikliği ise iki çalışmada doğrulanmadı! Genelde zararsızdır ve kendiliğinden geçer. Sende en çok ne zaman oluyor? Yorumlara yaz, gözü hep seğiren arkadaşını etiketle 👇",
+  "youtubeTitle": "Gözün neden kendi kendine seğiriyor? Sebebi magnezyum değil! 👁️ #shorts",
+  "hashtags": [
+    "gözseğirmesi",
+    "seğirme",
+    "miyokimi",
+    "göz",
+    "stres",
+    "uykusuzluk",
+    "bilim",
+    "beden",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "shorts"
+  ],
+  "sources": [
+    "Gunes (2024), Cureus 16(9): e69249 — Association Between Eyelid Twitching and Digital Screen Time, Uncorrected Refractive Error, Intraocular Pressure, and Blood Electrolyte Imbalances, Kocaeli Sağlık ve Teknoloji Üniversitesi (PMC11398718 tam metin: 103 hasta, 103 kontrol; günlük ekran süresi 6,88±2,01 sa ve 4,84±1,74 sa, p<0,001; kan magnezyumu 1,95 ve 1,97 mg/dL, p=0,507, anlamlı fark yok; kırma kusuru ve göz içi basıncıyla ilişki yok)",
+    "Kim, Hyung, Han, Lee, Yu & Sunwoo (2021), Korean Journal of Health Promotion 21(4):129–133 — Will Hypomagnesemia Induce Benign Eyelid Myokymia?, Inje Üniv. Sanggye Paik Hastanesi (KoreaMed Synapse özeti: 72 hasta, 197 kontrol; serum magnezyumu 2,14 ve 2,18 mg/dL, p=0,110; yorgunluk hasta grubunda yüzde 84,9'a 69,9, p=0,016)",
+    "Cleveland Clinic: Eye Twitching — miyokimi en yaygın tür, en sık alt kapaklarda; tetikleyiciler stres, uykusuzluk, kafein/nikotin, göz yorgunluğu, parlak ışık; görmede değişiklikte hemen doktora",
+    "Ohio State University Wexner Medical Center (2024): Why is my eye twitching? — J.P. Maszczak, OD: ilgili kas orbicularis oculi; en sık neden yeni bir stres; çoğu vaka 2–3 haftada kendiliğinden geçer; yüze yayılma ya da zorlu kapanmada göz doktoru",
+    "All About Vision: Myokymia — orbicularis oculi kası yüz sinirinden rastgele motor sinyaller alır; seğirme dışarıdan göründüğünden çok daha belirgin hissedilir",
+    "Wikipedia: Myokymia — göz kapağı miyokimisi; ekran, kafein, yorgunluk/kötü uyku; iki kesitsel çalışmada serum magnezyumuyla ilişki bulunmadı"
+  ]
+}
