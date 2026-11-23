@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-23-aksam",
+  "category": "psikoloji",
+  "theme": "mor",
+  "scenes": [
+    {
+      "headline": "Rüya *uçtu*!",
+      "visual": "DreamFade",
+      "narration": "Harika bir rüya gördün… Gözünü açtın ve *her şey* uçup gitti! Tanıdık mı?"
+    },
+    {
+      "headline": "Peki *neden*?",
+      "visual": "WhyDreams",
+      "narration": "Peki neden? Rüyayı hatırlamak beyin için *zor bir iş*."
+    },
+    {
+      "headline": "Uyurken *kayıt yok*",
+      "tag": "INSERM · LYON",
+      "visual": "NoRecording",
+      "narration": "Fransız araştırmacılara göre uyuyan beyin *yeni anı kaydedemiyor*. Bunun için uyanması gerekiyor!"
+    },
+    {
+      "headline": "Beş sabah, *iki rüya*",
+      "tag": "41 GÖNÜLLÜ · 2014",
+      "visual": "TwoGroups",
+      "narration": "Bir deneyde bazı gönüllüler haftada *beş sabah* rüya hatırladı, diğerleri ayda iki kez!"
+    },
+    {
+      "headline": "Gizli *uyanmalar*",
+      "tag": "CEREBRAL CORTEX · 2013",
+      "visual": "NightWakes",
+      "narration": "Fark nerede? Sık hatırlayanlar gece *iki kat daha fazla* uyanık kalıyordu."
+    },
+    {
+      "headline": "Sese *duyarlı*",
+      "visual": "SoundReact",
+      "narration": "Üstelik beyinleri seslere *daha güçlü* tepki veriyordu; bu onları kısa süre uyandırıyor olabilir."
+    },
+    {
+      "headline": "Silgi *hücreler*?",
+      "tag": "SCIENCE · 2019",
+      "visual": "EraserCells",
+      "narration": "Bir de şu var! Farelerde, rüya uykusunda çalışan bazı hücrelerin *unutmaya* yardım ettiği görüldü."
+    },
+    {
+      "headline": "Henüz *farelerde*",
+      "visual": "MouseCaution",
+      "narration": "Bu, rüyaların neden hemen silindiğini açıklayabilir. Ama dikkat: Henüz *farelerde* gösterildi."
+    },
+    {
+      "headline": "Kısacası…",
+      "visual": "Summary",
+      "narration": "Kısacası: Rüyayı hatırlamak için beynin *biraz uyanması* gerekiyor."
+    },
+    {
+      "headline": "Hemen *not al*!",
+      "visual": "DreamDiary",
+      "narration": "İpucu: Uyanınca hemen kalkma! Kıpırdamadan rüyanı düşün ve *not al*."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen en son hangi rüyanı hatırlıyorsun? Yorumlara yaz, arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Rüyamı neden *unutuyorum*?",
+    "visual": "DreamFade"
+  },
+  "caption": "Harika bir rüya görüyorsun, gözünü açıyorsun ve birkaç saniyede her şey siliniyor… Sende de oluyor mu? 😴💭 Araştırmacılara göre uyuyan beyin yeni anı kaydedemiyor; rüyayı kaydetmek için biraz uyanması gerekiyor. Rüyasını sık hatırlayanlar gece uykusunda iki kat daha fazla uyanık kalıyor! İpucu: Uyanınca hemen kalkma, rüyanı düşün ve not al. Sen en son hangi rüyanı hatırlıyorsun? Yorumlara yaz, hiç rüya hatırlamayan arkadaşını etiketle 👇",
+  "youtubeTitle": "Rüyanı neden hemen unutuyorsun? 😴 #shorts",
+  "hashtags": [
+    "rüya",
+    "rüyalar",
+    "uyku",
+    "hafıza",
+    "beyin",
+    "psikoloji",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Eichenlaub, Nicolas, Daltrozzo, Redouté, Costes & Ruby (2014), Neuropsychopharmacology — Resting Brain Activity Varies with Dream Recall Frequency Between Subjects, Inserm / Lyon Nörobilim Araştırma Merkezi (PMC4023156 tam metni ve ScienceDaily 17 Şubat 2014 haberi: 41 gönüllü; 21 sık hatırlayan haftada ortalama 5,2 sabah, 20 az hatırlayan ayda yaklaşık 2 rüya; sık hatırlayanlarda temporo-parietal bileşke ve medial prefrontal korteks etkinliği daha yüksek; Perrine Ruby: 'uyuyan beyin yeni bilgiyi kaydedemez, bunun için uyanması gerekir'; 2013 Cerebral Cortex çalışması: sık hatırlayanlar uykuda yaklaşık iki kat fazla uyanık kaldı ve beyinleri seslere daha güçlü tepki verdi; Koulack & Goodenough 1976 uyanma-geri çağırma modeli)",
+    "Izawa, Chowdhury, Miyazaki, ... Yamanaka & Kilduff (2019), Science 365:1308–1313 — REM sleep-active MCH neurons are involved in forgetting hippocampus-dependent memories (SRI International basın bülteni 'The brain may actively forget during dream sleep': farelerde REM uykusunda etkin MCH hücreleri açılınca hafıza kötüleşti, kapatılınca iyileşti; yalnızca REM'de etkili; rüya bağlantısı araştırmacıların yorumu, farelerde gösterildi; SRI International, Nagoya ve Hokkaido üniversiteleri, NIH/NINDS desteği)",
+    "Vallat, Eichenlaub, Nicolas & Ruby (2018), Frontiers in Psychology 9:1856 — Dream Recall Frequency Is Associated With Medial Prefrontal Cortex White-Matter Density (PMC6171441: rüyalara dikkat/ilgiyi artırmanın, ör. rüya günlüğü, rüya hatırlama sıklığını artırabileceği)"
+  ]
+}
