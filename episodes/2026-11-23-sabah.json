@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-23-sabah",
+  "category": "ilginc",
+  "theme": "pembe",
+  "scenes": [
+    {
+      "headline": "Eller *havada*!",
+      "visual": "PhoneHands",
+      "narration": "Telefonda konuşuyorsun… ve ellerin havada *dans ediyor*! Oysa karşındaki seni görmüyor bile."
+    },
+    {
+      "headline": "Kimin *için*?",
+      "visual": "WhoFor",
+      "narration": "Peki neden? Çünkü el hareketleri sadece karşındaki için değil… *senin için* de!"
+    },
+    {
+      "headline": "Telefonda *bile*",
+      "tag": "VICTORIA ÜNİV. · 2008",
+      "visual": "PhoneTest",
+      "narration": "Kanada'daki bir deneyde insanlar telefonda da *yüz yüze kadar sık* el hareketi yaptı!"
+    },
+    {
+      "headline": "Teybe *küçücük*",
+      "visual": "TapeRecorder",
+      "narration": "Ses kayıt cihazına tek başına konuşanların hareketleri ise *küçücük* kaldı."
+    },
+    {
+      "headline": "Görmeden *de*",
+      "tag": "NATURE · 1998",
+      "visual": "BlindSpeakers",
+      "narration": "Üstelik doğuştan görme engelliler de konuşurken *ellerini kullanıyor*…"
+    },
+    {
+      "headline": "Kimseden *öğrenmedik*",
+      "visual": "NoModel",
+      "narration": "Hem de karşıdaki kişi de görmese bile! Yani bunu *bakarak öğrenmiyoruz*."
+    },
+    {
+      "headline": "Ellerin *Türkçe* konuşuyor",
+      "tag": "PSYCHOLOGICAL SCIENCE · 2016",
+      "visual": "TurkishHands",
+      "narration": "Daha ilginci: Görme engelli Türkler de, gören Türkler gibi *Türkçeye özgü* hareketler yapıyor!"
+    },
+    {
+      "headline": "Hafıza *testi*",
+      "tag": "CHICAGO ÜNİV. · 2001",
+      "visual": "MathMemory",
+      "narration": "Bir deneyde matematik anlatırken elini kullananlar, akılda tutulacak listeyi *daha iyi hatırladı*."
+    },
+    {
+      "headline": "Yük *hafifliyor*",
+      "visual": "LightLoad",
+      "narration": "Araştırmacılara göre el hareketleri beynin *yükünü hafifletiyor*."
+    },
+    {
+      "headline": "Tuhaflık *değil*",
+      "visual": "ToolHands",
+      "narration": "Yani el kol sallamak tuhaflık değil… *beyninin bir aracı*!"
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen de telefonda el kol sallıyor musun? Yorumlara yaz, o arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Neden *el kol* sallıyorsun?",
+    "visual": "PhoneHands"
+  },
+  "caption": "Telefonda konuşurken ellerin havada uçuşuyor, oysa karşındaki seni görmüyor bile… Sende de oluyor mu? 📱🙌 Bir deneyde insanlar telefonda da yüz yüze konuşurken olduğu kadar sık el hareketi yaptı. Doğuştan görme engelliler bile, görme engelli birine anlatırken ellerini kullanıyor! Araştırmalara göre el hareketleri sadece karşındaki için değil, düşünmene de yardım ediyor. Sen de telefonda el kol sallıyor musun? Yorumlara yaz, en çok el kol hareketi yapan arkadaşını etiketle 👇",
+  "youtubeTitle": "Telefonda neden ellerini sallıyorsun? Karşındaki görmüyor! 📱 #shorts",
+  "hashtags": [
+    "elhareketleri",
+    "jest",
+    "bedendili",
+    "iletişim",
+    "telefon",
+    "beyin",
+    "ilginç",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "shorts"
+  ],
+  "sources": [
+    "Bavelas, Gerwing, Sutton & Prevost (2008), Journal of Memory and Language 58(2):495–520 — Gesturing on the telephone: Independent effects of dialogue and visibility, University of Victoria (SIGDIAL 2009 konuşma özeti ve Cambridge Handbook of Gesture Studies bölümü: yüz yüze ve telefon diyaloğunda jest sıklığı farklı değil, ikisi de kayıt cihazına monologdan yüksek; Improbable Research 2010 özeti: telefonda jestler kısa ve çoğunlukla tek elle, kayıt cihazına konuşurken 'küçücük ve tuhaf')",
+    "Iverson & Goldin-Meadow (1998), Nature 396:228 — Why people gesture when they speak (IDEAS/RePEc özeti: doğuştan görme engelli konuşmacılar, görme engelli dinleyicilere konuşurken de jest yaptı; 'jest ne bir modele ne de gören bir dinleyiciye ihtiyaç duyar')",
+    "Özçalışkan, Lucero & Goldin-Meadow (2016), Psychological Science — Is Seeing Gesture Necessary to Gesture Like a Native Speaker? (UChicago News ve APS basın metni: 20 İngilizce ve 20 Türkçe konuşan doğuştan görme engelli yetişkin ve gören akranları; Türkçe konuşanlar hareketin biçimini ve yönünü jestte de ayrı ayrı ifade etti, görme engelli ve gören aynı dili konuşanların jestleri benzerdi)",
+    "Goldin-Meadow, Nusbaum, Kelly & Wagner (2001), Psychological Science 12(6):516–522 — Explaining Math: Gesturing Lightens the Load, University of Chicago (tam metin: 40 çocuk, 36 yetişkin; matematik çözümünü anlatırken harf/kelime listesi akılda tutuldu; jest yaptıklarında hem çocuklar hem yetişkinler anlamlı olarak daha çok öğe hatırladı; yorum: jest bilişsel yükü azaltıyor)"
+  ]
+}
