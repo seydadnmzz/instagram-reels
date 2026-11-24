@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-24-aksam",
+  "category": "gundelik",
+  "theme": "turuncu",
+  "scenes": [
+    {
+      "headline": "Kapı kolu… *ÇIT!*",
+      "visual": "ZapHook",
+      "narration": "Kapı koluna uzandın… ve *çıt!* Parmağına elektrik çarptı. Tanıdık mı?"
+    },
+    {
+      "headline": "Kışın *daha sık*",
+      "visual": "WinterMore",
+      "narration": "Üstelik kışın bu çarpmalar *çok daha sık* oluyor. Peki neden?"
+    },
+    {
+      "headline": "Adı: *statik elektrik*",
+      "visual": "StaticName",
+      "narration": "Bunun adı *statik elektrik*. Ve her şey ayağının altında başlıyor!"
+    },
+    {
+      "headline": "Elektronlar *el değiştiriyor*",
+      "visual": "CarpetElectrons",
+      "narration": "Halıda yürürken ayakkabın halıya değip ayrılıyor. Bu sırada *elektronlar* bir yüzeyden ötekine geçiyor."
+    },
+    {
+      "headline": "Yük *birikiyor*",
+      "visual": "ChargeBuild",
+      "narration": "Her adımda vücudunda biraz daha *yük birikiyor*. Ama sen hiçbir şey hissetmiyorsun."
+    },
+    {
+      "headline": "Kıvılcım *atlıyor*",
+      "visual": "SparkJump",
+      "narration": "Sonra metal kola yaklaşınca, biriken yük bir anda oraya *atlıyor*. İşte o çıt!"
+    },
+    {
+      "headline": "Otuz beş *bin volt*!",
+      "tag": "ESD DERNEĞİ",
+      "visual": "VoltMeter",
+      "narration": "Uzmanlara göre kuru havada halıda yürümek, *otuz beş bin volta* kadar yük biriktirebiliyor!"
+    },
+    {
+      "headline": "Suçlu *kuru hava*",
+      "visual": "DryAir",
+      "narration": "Peki kış neden? Soğuk hava az nem tutuyor, kalorifer de havayı *iyice kurutuyor*."
+    },
+    {
+      "headline": "Nemli havada *az*",
+      "visual": "HumidAir",
+      "narration": "Nemli havada ise yük birikmeden dağılıyor. Aynı yürüyüş, sadece *bin beş yüz volt*!"
+    },
+    {
+      "headline": "Anahtar *taktiği*",
+      "visual": "KeyTrick",
+      "narration": "İyi haber: Kapıya önce elindeki *anahtarla* dokun. Kıvılcım parmağına değil, anahtara atlar!"
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sana en çok nerede çarpıyor? Yorumlara yaz, en çok çarpılan arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Kapı kolu neden *çarpıyor*?",
+    "visual": "ZapHook"
+  },
+  "caption": "Kapı koluna dokundun ve çıt! Parmağına minik bir elektrik çarptı… Sende de oluyor mu? ⚡🚪 Adı statik elektrik! Halıda yürürken elektronlar ayakkabınla halı arasında yer değiştiriyor, vücudunda yük birikiyor ve metale yaklaşınca bir kıvılcımla boşalıyor. Kışın daha sık olmasının sebebi kuru hava: kuru havada halıda yürümek 35 bin volta kadar yük biriktirebiliyor, nemli havada ise yalnızca 1500 volt. İpucu: kapıya önce anahtarla dokun! Sana en çok nerede çarpıyor? Yorumlara yaz, en çok çarpılan arkadaşını etiketle 👇",
+  "youtubeTitle": "Kapı kolu neden çarpıyor? Kışın daha sık olmasının sebebi ⚡ #shorts",
+  "hashtags": [
+    "statikelektrik",
+    "elektrikçarpması",
+    "kapıkolu",
+    "kış",
+    "kuruhava",
+    "fizik",
+    "gündelik",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "ESD Association: Fundamentals of Electrostatic Discharge, Part One: An Introduction to ESD (triboelektrik yüklenme = temas ve ayrılma ile elektron aktarımı; Tablo 1: halıda yürümek yüzde 10–25 bağıl nemde 35.000 V, yüzde 65–90 nemde 1.500 V; yüksek nemde de yük oluşur)",
+    "Larry Gedney (1985), Alaska Science Forum, University of Alaska Fairbanks Geophysical Institute: The Wintertime Static Jump-Start (soğuk kış havası az nem tutar, kuru hava zayıf iletken olduğundan yük kıvılcım atlayana kadar birikir; metal nesnelere önce anahtar ya da bozuk parayla dokunma önerisi)"
+  ]
+}
