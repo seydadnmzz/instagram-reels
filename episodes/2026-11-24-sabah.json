@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-24-sabah",
+  "category": "bilim",
+  "theme": "turkuaz",
+  "scenes": [
+    {
+      "headline": "Ağzın *yanıyor*!",
+      "visual": "PepperHook",
+      "narration": "Bir lokma acı biber… ve ağzın *alev alev*! Gözlerin yaşarıyor. Tanıdık mı?"
+    },
+    {
+      "headline": "Acı bir *tat* değil",
+      "visual": "NotTaste",
+      "narration": "İşin sırrı şu: Acılık aslında bir tat değil! Bir *ağrı ve sıcaklık* sinyali."
+    },
+    {
+      "headline": "Suçlu: *kapsaisin*",
+      "visual": "Capsaicin",
+      "narration": "Suçlu, biberdeki *kapsaisin*. Ağzındaki sinir uçlarında bir alıcıya bağlanıyor."
+    },
+    {
+      "headline": "Sahte *alarm*",
+      "visual": "HeatSensor",
+      "narration": "Bu alıcının asıl işi, seni yakıcı sıcaklığa karşı uyarmak. Kapsaisin onu *kandırıyor*!"
+    },
+    {
+      "headline": "Beyin *kandırıldı*",
+      "visual": "BrainFire",
+      "narration": "Beynine giden mesaj net: Yanıyorsun! Oysa ortada *gerçek bir ateş* yok."
+    },
+    {
+      "headline": "Nobel'lik *keşif*",
+      "tag": "UCSF · NOBEL 2021",
+      "visual": "NobelLab",
+      "narration": "Bu alıcıyı biberin yardımıyla bulan David Julius, 2021'de *Nobel* ödülü aldı!"
+    },
+    {
+      "headline": "Kuşlar *etkilenmez*",
+      "tag": "JORDT & JULIUS · 2002",
+      "visual": "BirdPepper",
+      "narration": "Üstelik kuşların alıcısı kapsaisine *tepki vermiyor*. Yani acı biber onları yakmıyor!"
+    },
+    {
+      "headline": "Ateşi *ne söndürür*?",
+      "tag": "PENN STATE · 2019",
+      "visual": "DrinkTest",
+      "narration": "Peki yangını ne söndürür? Yetmiş iki kişilik bir deneyde en iyi sonucu *süt* verdi."
+    },
+    {
+      "headline": "Sır *yağda* değil",
+      "visual": "SkimMilk",
+      "narration": "Şaşırtıcı olan: Yağsız süt de neredeyse aynı işi gördü. Sır belki de *proteinde*."
+    },
+    {
+      "headline": "Gazlıya *dikkat*",
+      "visual": "FizzyBad",
+      "narration": "Dikkat! Kola ve maden suyu gibi *gazlı içecekler* ise en zayıflar arasındaydı."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen acıya ne kadar dayanıklısın? Yorumlara yaz, acıyı en çok seven arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Acı biber neden *yakıyor*?",
+    "visual": "PepperHook"
+  },
+  "caption": "Bir lokma acı biber ve ağzın alev alev, gözlerin yaşarıyor… Sende de oluyor mu? 🌶️🔥 Acılık aslında bir tat değil! Biberdeki kapsaisin, ağzındaki sıcaklık alıcısını kandırıyor ve beynin \"yanıyorsun\" sanıyor. Bu alıcıyı keşfeden David Julius 2021'de Nobel aldı. Peki yangını ne söndürür? Bir deneyde en iyi sonucu süt verdi, gazlı içecekler ise zayıf kaldı. Sen acıya ne kadar dayanıklısın? Yorumlara yaz, acıyı en çok seven arkadaşını etiketle 👇",
+  "youtubeTitle": "Acı biber ağzını neden yakıyor? Su değil, süt iç! 🌶️ #shorts",
+  "hashtags": [
+    "acıbiber",
+    "kapsaisin",
+    "acı",
+    "biber",
+    "süt",
+    "nobel",
+    "bilim",
+    "beden",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "shorts"
+  ],
+  "sources": [
+    "Penn State News (2019): Milk is the best drink to reduce the burn from chili peppers — Nolden, Lenart & Hayes, Physiology & Behavior; 72 katılımcı (42 kadın, 30 erkek), kapsaisinli domates suyu; su, kola, Kool-Aid, maden suyu, alkolsüz bira, yağsız ve tam yağlı süt; tüm içecekler yanmayı azalttı, en çok süt; yağsız süt tam yağlıya yakın, yağ belirleyici değil, protein önemli olabilir; gazlı içecekler zayıf",
+    "Scientific American (2021): 2021 Nobel Prize in Physiology or Medicine Awarded for Discoveries in Sensing Temperature and Touch — David Julius (UCSF), kapsaisin reseptörü TRPV1, ısıya yanıt veren iyon kanalı",
+    "Julius D. (2021), Annual Review / PMC8670835 — TRPV1: kapsaisin ve ağrı veren sıcaklıkla açılan kanal; biberin 'yanması' ile ateşin yakması arasındaki benzerliği açıkladı; TRPV1'siz fareler kapsaisine tepki vermedi",
+    "Jordt & Julius (2002), Cell 108(3):421–430 — Molecular basis for species-specific sensitivity to 'hot' chili peppers (Duke Scholars özeti: kuşlar kapsaisine yanıt vermez; tavuk reseptörü ısıya ve aside yanıt verir)"
+  ]
+}
