@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-25-aksam",
+  "category": "psikoloji",
+  "theme": "mor",
+  "scenes": [
+    {
+      "headline": "Hâlâ *gelmedi*!",
+      "visual": "BusStop",
+      "narration": "Durakta otobüs bekliyorsun… Saate baktın: Sadece *iki dakika* geçmiş! Tanıdık mı?"
+    },
+    {
+      "headline": "Zaman *durdu* mu?",
+      "visual": "SlowClock",
+      "narration": "Peki neden? Beklerken zaman sanki *ağır çekimde* akıyor."
+    },
+    {
+      "headline": "Beyinde *saat yok*",
+      "visual": "NoClock",
+      "narration": "Çünkü beyninde gerçek bir saat yok. Süreyi, ne kadar *dikkat ettiğine* göre tahmin ediyor."
+    },
+    {
+      "headline": "Dikkat *kapısı*",
+      "tag": "ZAKAY & BLOCK · 1997",
+      "visual": "AttentionGate",
+      "narration": "En güçlü açıklama şu: Zamana odaklandıkça bir *kapı* açılıyor ve beyin daha çok tık sayıyor."
+    },
+    {
+      "headline": "İzlenen *çaydanlık*",
+      "visual": "WatchedKettle",
+      "narration": "Bu yüzden ocaktaki suyu izlersen *kaynamak bilmez*! Bütün dikkatin zamanda."
+    },
+    {
+      "headline": "117 *deney*",
+      "tag": "META-ANALİZ · 2010",
+      "visual": "Experiments",
+      "narration": "Yüz on yedi deneyi inceleyen bir analiz de destekliyor: Aklın *meşgulken* süre daha kısa geliyor."
+    },
+    {
+      "headline": "Eğlence = *uçan* saat",
+      "visual": "TimeFlies",
+      "narration": "Üstelik eğlenirken saatler uçuyor, çünkü zamanı *unutuyorsun*."
+    },
+    {
+      "headline": "Hafızada *tersi*!",
+      "visual": "MemoryFlip",
+      "narration": "Ama işin tuhaf yanı: Geriye bakınca *tersi* olabiliyor! Dolu günler uzun, boş beklemeler kısa hatırlanıyor."
+    },
+    {
+      "headline": "Saate *bakma*!",
+      "visual": "TipBook",
+      "narration": "İpucu: Beklerken saate bakıp durma! Kitap oku, sohbet et, dikkatini *başka yere* ver."
+    },
+    {
+      "headline": "Kısacası…",
+      "visual": "Summary",
+      "narration": "Kısacası: Zaman yavaşlamıyor; beynin onu *fazla izliyor*."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen en çok nerede beklerken sıkılıyorsun? Yorumlara yaz, arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Beklerken zaman *geçmiyor*!",
+    "visual": "SlowClock"
+  },
+  "caption": "Otobüs bekliyorsun, saate bakıyorsun… sadece iki dakika geçmiş! Sende de oluyor mu? ⏳😩 Psikologlara göre beynimizde gerçek bir saat yok; süreyi dikkatimize göre tahmin ediyoruz. Zamana odaklandıkça süre uzuyor, aklımız meşgulken kısalıyor. 117 deneyi inceleyen bir analiz de bunu destekliyor. İpucu: Beklerken saate bakma, dikkatini başka yere ver! Sen en çok nerede beklerken sıkılıyorsun? Yorumlara yaz, hep geç kalan arkadaşını etiketle 👇",
+  "youtubeTitle": "Beklerken zaman neden hiç geçmiyor? ⏳ #shorts",
+  "hashtags": [
+    "zamanalgısı",
+    "bekleme",
+    "zaman",
+    "dikkat",
+    "beyin",
+    "psikoloji",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "reels",
+    "shorts"
+  ],
+  "sources": [
+    "Zakay (2012), The Psychologist (British Psychological Society), 16 Ağustos 2012 — Experiencing time in daily life (Tel Aviv Üniversitesi: zamanın doğrudan algılandığı bir duyu yok; ileriye dönük süre tahmininde zamana ayrılan dikkat arttıkça 'dikkat kapısı' daha çok açılır ve süre daha uzun gelir; eşzamanlı zor bir görev süreyi kısaltır; izlenen tencere örneği; geriye dönük tahminde bellekte saklanan bilgi ve değişim arttıkça süre uzun hatırlanır, bu ileriye dönük örüntüyü tersine çevirebilir)",
+    "Block & Zakay (1997), Psychonomic Bulletin & Review 4(2):184–197 — Prospective and retrospective duration judgments: A meta-analytic review (20 deney; ileriye dönük tahminler daha uzun; ileriye dönük tahminler için dikkat modelleri, geriye dönük için bellek modelleri gerekli)",
+    "Block, Hancock & Zakay (2010), Acta Psychologica 134(3):330–343 — How cognitive load affects duration judgments: A meta-analytic review, UCF STARS özeti (117 deney; bilişsel yük arttıkça ileriye dönük süre oranı azaldı, geriye dönük süre oranı arttı)"
+  ]
+}
