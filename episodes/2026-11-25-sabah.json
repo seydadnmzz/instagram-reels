@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-25-sabah",
+  "category": "ilginc",
+  "theme": "pembe",
+  "scenes": [
+    {
+      "headline": "Herkes *yukarı*!",
+      "visual": "LookUpHook",
+      "narration": "Sokakta biri durup yukarı bakıyor… ve sen de *hemen başını kaldırıyorsun*!"
+    },
+    {
+      "headline": "Orada *ne var*?",
+      "visual": "NothingThere",
+      "narration": "Peki orada ne var? Çoğu zaman *hiçbir şey*! O zaman neden bakıyorsun?"
+    },
+    {
+      "headline": "Bakış *takibi*",
+      "visual": "GazeFollow",
+      "narration": "Adı *bakış takibi*! Beynin, başkasının baktığı yerde önemli bir şey var sanıyor."
+    },
+    {
+      "headline": "Kaldırım *deneyi*",
+      "tag": "NEW YORK · 1969",
+      "visual": "StreetExperiment",
+      "narration": "Ünlü bir deneyde birkaç kişi kaldırımda durup bir binanın *penceresine* baktı."
+    },
+    {
+      "headline": "Kalabalık *büyüdükçe*",
+      "visual": "CrowdGrows",
+      "narration": "Bakan grup büyüdükçe, başını kaldıran yoldan geçenlerin sayısı da *arttı*!"
+    },
+    {
+      "headline": "Dörtte *bir*",
+      "tag": "OXFORD · 2012",
+      "visual": "OneInFour",
+      "narration": "Oxford'da binlerce yayayla tekrarlandı: kabaca *dört kişiden biri* bakışı kaptı."
+    },
+    {
+      "headline": "Arkadakiler *daha çok*",
+      "visual": "BehindMore",
+      "narration": "Üstelik grubun *arkasından* gelenler, önünden geçenlerden daha çok baktı!"
+    },
+    {
+      "headline": "Gözün *beyazı*",
+      "visual": "EyeWhites",
+      "narration": "Peki neden bu kadar kolay? İnsan gözünün *beyazı*, diğer primatlarınkinden çok daha belirgin."
+    },
+    {
+      "headline": "Göz mü, *baş* mı?",
+      "tag": "MAX PLANCK ENST. · 2007",
+      "visual": "BabyVsApe",
+      "narration": "Bir deneyde bebekler *gözlerin* yönünü takip etti; şempanze ve goriller ise daha çok başın yönünü."
+    },
+    {
+      "headline": "İş birliği *gözü*",
+      "visual": "TeamEyes",
+      "narration": "Bir hipoteze göre bu beyaz, *birlikte çalışabilmemiz* için bakışımızı belli etmeye yarıyor."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen de hemen bakıyor musun? Yorumlara yaz, bu şakayı yapan arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Sen de *yukarı* baktın!",
+    "visual": "LookUpHook"
+  },
+  "caption": "Sokakta biri durup yukarı bakınca sen de dayanamayıp başını kaldırıyorsun… Sende de oluyor mu? 👀⬆️ Adı bakış takibi! 1969'da New York'ta yapılan ünlü bir deneyde binaya bakan grup büyüdükçe daha çok yaya başını kaldırdı; Oxford'da binlerce yayayla tekrarlandığında kabaca dört kişiden biri bakışı kaptı. Bunu bu kadar kolay yapmamızın bir sebebi de gözlerimizin belirgin beyazı olabilir! Sen de yukarı bakanları görünce bakıyor musun? Yorumlara yaz, bu şakayı yapmayı seven arkadaşını etiketle 👇",
+  "youtubeTitle": "Biri yukarı bakınca neden sen de bakıyorsun? 👀 #shorts",
+  "hashtags": [
+    "bakıştakibi",
+    "yukarıbak",
+    "sosyalpsikoloji",
+    "kalabalık",
+    "göz",
+    "beyin",
+    "ilginç",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "shorts"
+  ],
+  "sources": [
+    "Milgram, Bickman & Berkowitz (1969), Journal of Personality and Social Psychology 13(2):79–82 — Note on the drawing power of crowds of different size (FIU Discovery kaydı ve özet: New York sokağında 1, 2, 3, 5, 10 ve 15 kişilik 'uyaran kalabalık', 1424 yaya; kalabalık büyüdükçe davranışı kopyalayan yaya oranı arttı)",
+    "Gallup, Hale, Sumpter, Garnier, Kacelnik, Krebs & Couzin (2012), PNAS 109(19):7245–7250 — Visual attention and the acquisition of information in human crowds (PMC3358867 tam metin: Oxford'da alışveriş caddesi, 1–15 kişilik gruplar 60 sn bir binaya baktı, 2822 yaya; yüzde 26,9'u bakışı kopyaladı; oran grup büyüdükçe artıp doygunluğa ulaştı, eşik/kritik kitle yok; grubun arkasından gelenler yüzde 32,7, önünden geçenler yüzde 19,0; Milgram verisinin yeniden uyumlanması)",
+    "Kobayashi & Kohshima (1997), Nature 387:767–768 — Unique morphology of the human eye (arama özetleri: yaklaşık 88 primat türü karşılaştırıldı; insan, göz çevresinde açıkta kalan sklera oranı en yüksek ve tek tip beyaz skleralı tür; Kano ve sonraki çalışmaların bazı itirazları not edildi)",
+    "Tomasello, Hare, Lehmann & Call (2007), Journal of Human Evolution 52:314–320 — Reliance on head versus eyes in the gaze following of great apes and human infants: the cooperative eye hypothesis, Max Planck Evrimsel Antropoloji Enstitüsü (St Andrews araştırma portalı/Wikipedia 'Cooperative eye hypothesis': deneyci yalnız gözle, yalnız başla, ikisiyle ya da hiçbiriyle tavana baktı; insansı maymunlar (goril, bonobo, şempanze) çoğunlukla başın yönünü, bebekler neredeyse yalnızca gözlerin yönünü takip etti; yorum: belirgin gözler iş birliğine dayalı etkileşimler için evrilmiş olabilir)"
+  ]
+}
