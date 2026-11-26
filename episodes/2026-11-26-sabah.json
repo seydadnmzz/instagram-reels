@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-26-sabah",
+  "category": "bilim",
+  "theme": "turkuaz",
+  "scenes": [
+    {
+      "headline": "Karanlıkta *ışıklar*",
+      "visual": "RubHook",
+      "narration": "Gözlerini kapatıp ovuşturdun… ve karanlıkta *renkli ışıklar* belirdi! Tanıdık mı?"
+    },
+    {
+      "headline": "Adı: *fosfen*",
+      "visual": "PhospheneName",
+      "narration": "Bunun bir adı var: *fosfen*. Yani gözüne hiç ışık girmeden ışık görmek!"
+    },
+    {
+      "headline": "Suçlu *basınç*",
+      "visual": "PressEye",
+      "narration": "Peki neden? Ovalarken gözüne bastırıyorsun. Bu *basınç*, retinayı uyarıyor."
+    },
+    {
+      "headline": "Işık *taklidi*",
+      "tag": "GRÜSSER VE EKİBİ",
+      "visual": "RetinaFire",
+      "narration": "Araştırmalara göre basınç, retinadaki sinir hücrelerini tıpkı *ışık gibi* ateşliyor."
+    },
+    {
+      "headline": "Beyin *kandırıldı*",
+      "visual": "BrainReads",
+      "narration": "Beynin ise sinyalin nereden geldiğine bakmıyor. Görme sinirinden geldiyse… cevap hazır: *ışık*!"
+    },
+    {
+      "headline": "Her sinir *bir dil*",
+      "tag": "JOHANNES MÜLLER · 1835",
+      "visual": "NerveLaw",
+      "narration": "Bu fikri 1835'te fizyolog Johannes Müller ortaya koydu: Her duyu siniri *kendi dilinde* konuşur."
+    },
+    {
+      "headline": "Newton da *denedi*",
+      "tag": "ISAAC NEWTON",
+      "visual": "NewtonRing",
+      "narration": "Üstelik Isaac Newton bile göz kenarına bastırıp *renkli bir halka* gördüğünü yazmış!"
+    },
+    {
+      "headline": "Uzayda *çakmalar*",
+      "tag": "APOLLO · 1969",
+      "visual": "SpaceFlash",
+      "narration": "Astronotlar ise uzayda, karanlıkta *ışık çakmaları* gördü. En güçlü şüpheli: kozmik ışınlar!"
+    },
+    {
+      "headline": "Sert ovma, *dikkat*",
+      "visual": "GentleTip",
+      "narration": "Dikkat! Göz doktorları gözü *sert ovmayı* önermiyor. Aşırısı korneaya zarar verebilir."
+    },
+    {
+      "headline": "Sıra *sende*!",
+      "visual": "YourTurn",
+      "narration": "Sen gözünü ovunca hangi şekilleri görüyorsun? Yorumlara yaz, bunu bilmeyen arkadaşını *etiketle*!"
+    }
+  ],
+  "cover": {
+    "title": "Gözünü ovunca *ışıklar*!",
+    "visual": "RubHook"
+  },
+  "caption": "Gözlerini kapatıp ovuşturunca karanlıkta renkli ışıklar, desenler beliriyor… Sende de oluyor mu? 👀✨ Adı fosfen: gözüne hiç ışık girmeden ışık görmek! Ovalarken uyguladığın basınç retinadaki hücreleri uyarıyor, beynin de görme sinirinden gelen her sinyali \"ışık\" diye okuyor. Newton bile bunu denemiş, astronotlar da uzayda ışık çakmaları görmüş. Ama gözünü sert ovma! Sen gözünü ovunca hangi şekilleri görüyorsun? Yorumlara yaz, bunu bilmeyen arkadaşını etiketle 👇",
+  "youtubeTitle": "Gözünü ovunca neden renkli ışıklar görüyorsun? 👀✨ #shorts",
+  "hashtags": [
+    "fosfen",
+    "göz",
+    "gözovmak",
+    "retina",
+    "görme",
+    "beyin",
+    "bilim",
+    "beden",
+    "bendedeoluyor",
+    "neden",
+    "ilginçbilgiler",
+    "bunlarıbiliyormuydun",
+    "bilgi",
+    "keşfet",
+    "shorts"
+  ],
+  "sources": [
+    "Wikipedia: Phosphene — gözüne ışık girmeden ışık görmek; en yaygın tür basınç fosfeni, ovma/bastırma retina hücrelerini mekanik olarak uyarır; Grüsser ve ekibi: göze basınç retina gangliyon hücrelerini ışığa benzer biçimde aktive eder; Newton: göz kenarına bastırınca karşı tarafta renkli halka",
+    "Duke Eye Center: What's Really Happening When We See 'Stars' After Rubbing Our Eyes? — fosfenler normal; hapşırma ve göze darbe de tetikleyebilir; göz doktorları gözü ovmayı/sert bastırmayı önermiyor, aşırı ovma kornea ve lense zarar verebilir",
+    "Wikipedia: Law of specific nerve energies — Johannes Müller, 1835, Handbuch der Physiologie des Menschen; algının niteliği uyarana değil sinir yoluna bağlı; göze basınç ışık çakması olarak algılanır",
+    "Science News: 50 years ago, cosmic rays may have caused Apollo astronauts to see lights — Apollo ekipleri ışık çakmaları gördü; yüksek enerjili kozmik parçacıklar; tam mekanizma bilinmiyor; 2006 anketinde astronotların yaklaşık yüzde 80'i",
+    "Wikipedia: Cosmic ray visual phenomena — ilk rapor Apollo 11 (1969), Buzz Aldrin; karanlığa alışmış gözle ortalama 2,9 dakikada bir çakma"
+  ]
+}
